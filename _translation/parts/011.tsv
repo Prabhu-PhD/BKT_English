@@ -1,0 +1,82 @@
+2624	{} results for »{}«
+2625	Search for similar shapes…
+2626	Change the paragraph spacing after the paragraph to the specified value (either in number of lines or in pt).
+2627	Change the paragraph spacing after the paragraph to the specified value (in pt).
+2628	Change the paragraph spacing before the paragraph to the specified value (either in number of lines or in pt).
+2629	Change the paragraph spacing before the paragraph to the specified value (in pt).
+2630	Change the paragraph indent to the specified value (in cm).
+2631	Change the special indent (first line, hanging) to the specified value (in cm).
+2632	Change the text of the self-defined sticker and insert it immediately.
+2633	Change the line spacing (either in number of lines or in pt).
+2634	Change the horizontal object distance to the specified value (in cm).\n\nIcon click for 0 spacing.\nShift click for 0.2 cm spacing.\nCtrl click to match spacing.
+2635	Change the left paragraph indent to the specified value (in cm).
+2636	Change the left inner margin of the text field to the specified value (in cm).
+2637	Change the left inner margin of the text field to the specified value.
+2638	Change the top inner margin of the text field to the specified value (in cm).
+2639	Change the top inner margin of the text field to the specified value.
+2640	Change the right paragraph indent to the specified value (in cm).
+2641	Change the right inner margin of the text field to the specified value (in cm).
+2642	Change the right inner margin of the text field to the specified value.
+2643	Change the bottom inner margin of the text field to the specified value (in cm).
+2644	Change the bottom inner margin of the text field to the specified value.
+2645	Change the vertical object distance to the specified value (in cm).\n\nIcon click for 0 spacing.\nShift click for 0.2 cm spacing.\nCtrl click to match spacing.
+2646	Change the width of roundings (e.g. rounded rectangle), arrowheads (e.g. directional arrow) or corners (e.g. snipped rectangle) to the specified value (in cm or %, depending on the shape type).
+2647	Change the thickness of the border or line
+2648	Change the rotation of the shape to the specified value (in degrees).\n\nIcon click for rotation=0.\nShift click for rotation=180.\nCtrl click to match rotation.
+2649	Change the transparency of the background
+2650	Change the transparency of the border or line
+2651	Change the inner margin of the text field on all sides to zero.
+2652	Change
+2653	Changes the symbol of the selected bullet points.
+2654	Changes the spacing of the shapes. Depending on the chosen mode, the shapes are moved or enlarged/shrunk.
+2655	Changes the column spacing of the shapes. [ALT] switches between moving and stretch/compress.
+2656	Changes the angle of the shapes to the X axis (in degrees). Measured from the defined reference point of the two first selected shapes.\n\nWith the ALT key, each shape is moved by the same delta angle relative to the first shape.
+2657	Changes the row spacing of the shapes. [ALT] switches between moving and stretch/compress.
+2658	Changes the Euclidean object distance to the specified value (in cm). Measured from the defined reference point of the two first selected shapes.\n\nWith the ALT key, each shape is aligned at the same delta distance relative to the first shape.
+2659	Changes the distance starting from the left shape and pushes all others to the right. Temporary switch to 'To the left' with [ALT].
+2660	Changes the distance starting from the top shape and pushes all others down. Temporary switch to 'Up' with [ALT].
+2661	Changes the distance starting from the right shape and pushes all others to the left. Temporary switch to 'To the right' with [ALT].
+2662	Changes the distance starting from the bottom shape and pushes all others up. Temporary switch to 'Down' with [ALT].
+2663	Changes the color of the selected bullet points.
+2664	Change of width.\n\nWith the CTRL key held, change by 0.1 cm instead of 0.2 cm.\n\nWith the ALT key held, change relative per shape (if multiple shapes are selected).
+2665	Change of height.\n\nWith the CTRL key held, change by 0.1 cm instead of 0.2 cm.\n\nWith the ALT key held, change relative per shape (if multiple shapes are selected).
+2666	Change of position from the left.\n\nWith the CTRL key held, change by 0.1 cm instead of 0.2 cm.\n\nWith the ALT key held, change relative per shape (if multiple shapes are selected).
+2667	Change of position from the top.\n\nWith the CTRL key held, change by 0.1 cm instead of 0.2 cm.\n\nWith the ALT key held, change relative per shape (if multiple shapes are selected).
+2668	Change of position from the bottom.\n\nWith the CTRL key held, change by 0.1 cm instead of 0.2 cm.\n\nWith the ALT key held, change relative per shape (if multiple shapes are selected).
+2669	Change of the Z-order, i.e. the order of the shapes on the slide.
+2670	Open BKT folder
+2671	Open configuration file in the default editor
+2672	Open folder with BKT framework and configuration file
+2673	Open config.txt
+2674	Open a dialog to select the shape properties by which the shapes on the current slide should be selected.
+2675	Open
+2676	Opens a file selection dialog to replace the referenced file. The file must contain the same slide ID.
+2677	Opens a dialog to change the selectable languages.
+2678	Opens the dialog for inserting symbols.\n\nWith the Shift key held, a non-breaking hyphen is inserted directly.\n\nWith the Ctrl key held, a non-breaking space is inserted.
+2679	Opens the help file.
+2680	Opens a menu with various galleries for quickly inserting symbols and special characters.
+2681	Opens a dialog showing the number of selected shapes, numbers, sum of the numbers, number of characters, words, lines and paragraphs.
+2682	Center across selection
+2683	About feature folders
+2684	About {} v{}
+2685	Transfers the text content of each selected shape into a separate text shape.
+2686	Overlapping
+2687	Check whether a new BKT version is available
+2688	Overwrite
+2689	Arrange heading
+2690	Transfers the copied size and position of the image crop to the selected image.
+2691	Transfers the copied size and position of the chart or plot area to the selected chart.
+2692	Transfers the copied table dimensions to the selected table.
+2693	… with Lorem ipsum
+2694	… with numbering
+2695	… with custom text
+2696	… with »tbd«
+2697	…to first shape
+2698	…to last shape
+2699	…to outermost shape (PPT default)
+2700	…with the same background
+2701	…with the same border
+2702	…with the same text
+2703	…with the same form
+2704	…with the same size
+2705	…with the same font color

@@ -1,0 +1,179 @@
+2070	Display thousand amounts clearly
+2071	Split
+2072	Show/hide template shapes
+2073	Insert template slide
+2096	Test group
+2097	Test group 1
+2098	Test group 2
+2100	Text & labels
+2101	Text (without formatting)
+2102	Match text (without formatting)
+2103	Replace the text of all selected shapes with numbering.
+2104	Delete the text of all selected shapes.
+2105	Replace the text of all selected shapes with 'tbd'.
+2106	Replace the text of all selected shapes with text entered in the dialog box.
+2107	Replace the text of all selected shapes with long 'Lorem ipsum' placeholder text.
+2108	Capitalize the text of all linked shapes
+2109	Lowercase the text of all linked shapes
+2110	Set the text of all linked shapes to the size of the selected shape.
+2111	Match text
+2112	Cut text by position…
+2113	Cut text by character…
+2114	Append text…
+2115	Distribute text over selection
+2116	Text onto shape
+2117	Split text onto shapes
+2118	Add or cut text.
+2119	Wrap text in shape
+2120	Text in shape
+2121	Combine text in shape
+2122	Replace text with Lorem ipsum
+2123	Replace text with numbering
+2124	Replace text with custom input
+2125	Replace text with predefined standard placeholders
+2126	Replace text with »tbd«
+2127	Match text without formatting for all linked shapes
+2128	Match text of linked shapes
+2129	Prepend text…
+2130	Text to date/time
+2131	Text to formulas
+2132	Text to numbers
+2133	Change text
+2134	Text/paragraph groups
+2135	Convert text/symbol into shapes
+2136	Text-box format (inner margin, columns, etc.)
+2137	Text boxes in cells
+2138	Texts or symbols are converted into standard shapes
+2139	Text color for selector
+2140	Text-field inner margin
+2141	Draw text field
+2142	Draw text field menu
+2143	Insert text shapes
+2144	Text operations
+2145	Text tools
+2148	Apply theme from file
+2149	Adjust theme settings
+2150	Theme font (default)
+2151	Theme:
+2155	Update thumbnail
+2156	Thumbnail settings
+2157	Update thumbnails on slide(s)
+2158	Update thumbnails in presentation
+2159	Convert thumbnails in presentation
+2162	Tolerance
+2163	Tolerance large 1 cm
+2164	Tolerance small 0.1 cm
+2165	Tolerance medium 0.3 cm
+2166	Change tolerance
+2179	Customize toolbox tabs
+2180	Toolbox: Agenda
+2183	Distribute tracker over slides
+2184	Create tracker from selection
+2185	Create or align tracker
+2186	Transparency
+2187	Transparency background
+2188	Transparency line/border
+2189	Enable transparency
+2190	Transposes (i.e. mirrors) the table.
+2191	Transposes the table, i.e. mirrors the cells along the main diagonal.
+2192	Transposes the table, i.e. mirrors the cells along the main diagonal. The cell size is also changed so as not to change the table size.
+2193	Transposes the table, i.e. mirrors the cells along the main diagonal. The cell size is not changed, only the table size.
+2195	Type/shape
+2196	Typography symbols
+2198	To extend the existing shape link, the internal ID is stored. Via 'Add selected shapes to the link', further shapes can then be added to the link.
+2199	Rename/sort
+2200	Toggle conversion
+2201	Switch between different color modes
+2202	Switch between different master views
+2207	Remove unused slide masters
+2208	Hide unused range
+2209	Select unused range
+2210	Unicode font matches theme font
+2211	Unicode font
+2212	Choose Unicode font
+2213	Unicode characters can be inserted either with the default font or with a special Unicode font. This can be selected here.
+2214	Bottom
+2215	Bottom to center
+2216	Bottom to top
+2217	Bottom to bottom
+2218	Dock bottom
+2219	Align bottom
+2220	Bottom to top
+2221	Fill bottom gap
+2222	Bottom side
+2223	Match bottom side
+2224	Match bottom side for all linked shapes
+2225	Bottom edge
+2226	Bottom paragraph spacing
+2227	Sub-items of an agenda item (indent level > 1) are hidden in the other sections
+2228	Underline
+2229	Underlined
+2230	Underlined text box
+2231	Insert underlined text box
+2233	Vector (EMF)
+2234	Forbids duplicates within the respectively selected ranges via a data validation. Existing data validations are overwritten.
+2235	Recreate connections
+2236	Reconnect connection area
+2237	Connection areas
+2238	Connection points
+2239	Change connection type for all selected connectors
+2240	Connection types
+2241	Unmerge cells and distribute contents
+2242	Replace merged cells with center across selection
+2243	Replace merged cells and use unusual text alignments
+2244	Form union…
+2245	Union of the current selection and the chosen range.
+2246	Behavior when more than 2 shapes are selected
+2247	Behavior for >2 shapes
+2248	Link
+2249	Linked shapes
+2250	Append an updatable slide number to linked shapes
+2251	Match linked shapes
+2252	Replace linked shapes
+2253	Find linked shapes
+2254	Flip linked shapes horizontally
+2255	Send linked shapes to back
+2256	Bring linked shapes to front
+2257	Delete linked shapes
+2258	Flip linked shapes vertically
+2259	Count linked shapes
+2260	Remove link
+2261	Remove the link of the selected shape
+2262	Moving the selection also changes the size
+2263	Moving changes size
+2264	Change various agenda options
+2265	Various BKT functions that are loaded dynamically for the selected shapes.
+2266	Create various lists
+2267	Insert various list symbols
+2268	Insert various math symbols
+2269	Insert various arrows
+2270	Insert various stickers
+2271	Various text manipulations
+2272	Insert various typography symbols
+2273	Position offset
+2274	Update version
+2275	Show version changes
+2276	Hide all selected shapes (visible=False).
+2277	Hide (xlVeryHidden)
+2278	Delete hidden slides
+2279	Swaps width and height and thereby reverses the aspect ratio.
+2280	Distribute the selected trackers over the following slides and align them.
+2281	Distribute vertically at center
+2282	Distribute vertically at top edge
+2283	Distribute vertically at bottom edge
+2284	Toggle flipped vertically
+2285	Align vertically centered
+2286	Flip vertically
+2287	Distribute vertically
+2288	Vertical arrangement
+2289	Vertical connection area
+2290	Vertical object distance
+2291	Vertical spacing
+2292	Multiply
+2293	Visual size
+2294	Use visual size taking rotation into account
+2295	Visual position
+2296	Use visual position taking rotation into account
+2297	Visual distance (with rotation)
+2298	Front to back
+2299	Foreground menu

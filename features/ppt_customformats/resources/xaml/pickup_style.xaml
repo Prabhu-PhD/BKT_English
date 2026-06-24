@@ -1,0 +1,41 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen"
+    Title="Adjust shape style"
+    ShowInTaskbar="False" MinWidth="280">
+
+    <StackPanel x:Name="DataPanel" Orientation="Vertical" Margin="5">
+
+        <Label Content="{Binding title_text}" FontWeight="Bold" FontSize="14"/>
+
+        <Label Content="Details to be applied by default:"/>
+        <StackPanel Orientation="Vertical" Margin="15,0,15,5">
+            <CheckBox Content="All values" IsChecked="{Binding settings_all, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" FontStyle="Italic" Margin="5" />
+            <Separator />
+            <CheckBox Content="Form/shape type" IsChecked="{Binding settings_type, Mode=TwoWay}" Margin="5" />
+            <CheckBox Content="Background" IsChecked="{Binding settings_fill, Mode=TwoWay}" Margin="5" />
+            <CheckBox Content="Border/line" IsChecked="{Binding settings_line, Mode=TwoWay}" Margin="5" />
+            <CheckBox Content="Text-box format (inner margin, columns, etc.)" IsChecked="{Binding settings_textframe, Mode=TwoWay}" Margin="5" />
+            <CheckBox Content="Paragraph format (alignment, indent, lists, etc.)" IsChecked="{Binding settings_paragraphformat, Mode=TwoWay}" Margin="5" />
+            <CheckBox Content="Font format (font, color, etc.)" IsChecked="{Binding settings_font, Mode=TwoWay}" Margin="5" />
+            <CheckBox Content="Shadow/glow effect/etc. (without 3D)" IsChecked="{Binding settings_shadow, Mode=TwoWay}" Margin="5" />
+            <CheckBox Content="Size" IsChecked="{Binding settings_size, Mode=TwoWay}" Margin="5" />
+            <CheckBox Content="Position/rotation" IsChecked="{Binding settings_position, Mode=TwoWay}" Margin="5" />
+        </StackPanel>
+        <TextBlock TextWrapping="WrapWithOverflow" Width="250" FontStyle="Italic" Margin="5,0,5,15">
+            Hinweis: Bei Klick auf die Buttons mit gedrückter STRG-Taste können diese Einstellungen nachträglich geändert werden.
+        </TextBlock>
+        
+        <Grid Margin="0">
+          <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*" />
+              <ColumnDefinition Width="Auto" />
+          </Grid.ColumnDefinitions>
+          <StackPanel Orientation="Horizontal" Grid.Column="1">
+              <Button Margin="5" MinWidth="80" Padding="5,4" Content="Okay"      IsDefault="True" Click="pickup_style"/>
+              <Button Margin="5" MinWidth="80" Padding="5,4" Content="Delete"                    Click="delete_style" Visibility="{Binding show_delete}"/>
+              <Button Margin="5" MinWidth="80" Padding="5,4" Content="Cancel" IsCancel="True"  Click="cancel"/>
+          </StackPanel>
+      </Grid>
+    </StackPanel>
+</Window>

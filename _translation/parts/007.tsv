@@ -1,0 +1,217 @@
+1610	Match rotation for all linked shapes
+1611	Rotation and flip menu
+1612	Round/point
+1613	Round./points
+1614	Roundings/points/corners
+1616	Shadow
+1617	Shadow/glow effect/etc. (without 3D)
+1618	Close
+1619	Closes all QuickEdit panels for all PowerPoint windows.
+1620	Closes the QuickEdit panel for the current PowerPoint window.
+1621	Narrow non-breaking space
+1622	Quick select:
+1623	Intersection of the current selection and the chosen range.
+1624	Form intersection…
+1625	Font
+1626	Font and text
+1627	Font format (font, color, etc.)
+1628	Font
+1629	Font (PPT default)
+1630	Font compact (BKT)
+1631	Select the font for rendering the Unicode symbols. The default is Segoe Emoji.
+1632	Font color
+1633	Font size
+1634	Set font-size options for stickers
+1635	Step 1: Fill the text box with the agenda and "Recreate agenda"
+1636	Step 2: After every further change, "Update agenda"
+1637	Black-and-white mode
+1638	Match black-and-white mode
+1639	Match black-and-white mode for all linked shapes
+1640	Black/white
+1641	Adjust the threshold for the edge auto-fixer.
+1643	Segments
+1646	Page 1
+1647	Page 1 ({})
+1648	Page 2
+1649	Page 2 ({})
+1650	Page 3 ({})
+1651	Page 4 ({})
+1652	Page {} ({}..-{}..)
+1653	Aspect r.
+1654	Aspect ratio
+1655	Aspect ratio locked
+1656	Match aspect-ratio lock
+1657	Lock aspect ratio
+1658	Toggle lock aspect ratio
+1659	Match toggle lock aspect ratio for all linked shapes
+1660	Swap aspect ratio
+1661	Reset aspect ratio
+1662	Edit self-defined sticker
+1663	Insert self-defined sticker
+1664	Select all shapes on the current slide that have the same background (color) as one of the selected shapes
+1665	Select all shapes on the current slide that have the same border (color, line style) as one of the selected shapes
+1666	Select all shapes on the current slide that have the same text as one of the selected shapes
+1667	Select all shapes on the current slide that have the same form as one of the selected shapes
+1668	Select all shapes on the current slide that have the same size as one of the selected shapes
+1669	Select all shapes on the current slide that have the same font color as one of the selected shapes
+1670	Select all shapes on the current slide that overlap with one of the selected shapes.
+1671	Select all shapes on the current slide that are completely within one of the selected shapes.
+1672	Select all shapes on the current slide that are completely within and above (i.e. higher Z-order) one of the selected shapes.
+1673	Select all shapes on the current slide that are completely within and below (i.e. lower Z-order) one of the selected shapes.
+1674	Split or multiply selected shapes:
+1675	Selected shapes...
+1676	Selection
+1677	Load selection
+1678	Move selection to the left
+1679	Move selection up
+1680	Save selection
+1681	Expand selection by rows
+1682	Expand selection by columns
+1683	Reset selector background to default
+1684	Change selector background to transparent
+1685	Reset selector background
+1686	Selector height 20%
+1687	Selector height 40%
+1688	Selector height 60%
+1689	Selector height 80%
+1690	Reset selector border to default
+1691	Change selector border to transparent
+1692	Reset selector border
+1693	Reset selector text to default
+1694	Selector text bold
+1695	Toggle selector text bold
+1696	Selector text italic
+1697	Toggle selector text italic
+1698	Selector text underlined
+1699	Toggle selector text underlined
+1700	Reset selector text
+1701	Selector overhang equals 20% of the font size
+1702	Selector overhang equals 40% of the font size
+1703	Selector overhang equals 60% of the font size
+1704	Selector overhang equals 80% of the font size
+1705	Send
+1706	Sends the selected slides as an e-mail attachment.
+1707	Sends the selected slides as an e-mail attachment, optionally also as a PDF file.
+1711	Set the language for the selected text or all selected shapes.\nIf multiple slides are selected, all shapes of the selected slides are changed.\nIf nothing is selected, all shapes in the presentation as well as the default language are changed.
+1712	Set to {}:{} ({:.4n})
+1713	Sets the edge auto-fixer tolerance to large = 1 cm
+1714	Sets the edge auto-fixer tolerance to small = 0.1 cm
+1715	Sets the edge auto-fixer tolerance to medium = 0.3 cm
+1716	Resets all toggle shapes to the first state, i.e. the first shape of the group.
+1717	Sets all selected Harvey balls to 0%
+1718	Sets all selected Harvey balls to 100%
+1719	Sets all selected Harvey balls to 25%
+1720	Sets all selected Harvey balls to 33%
+1721	Sets all selected Harvey balls to 50%
+1722	Sets all selected Harvey balls to 66%
+1723	Sets all selected Harvey balls to 75%
+1724	Resets the aspect ratio to its original state.
+1725	Places the last selected shape in the weighted center of all other selected shapes.
+1726	Sets the width equal to the height, taking the fixed point into account. If the aspect ratio is locked, this is temporarily released.
+1727	Sets the size of the shapes to the size of the table cells
+1728	Sets the size of the shapes to the size of the table cells and keeps the current table size
+1729	Sets the size of the shapes to the size of the table cells and changes the current table size
+1730	Sets the size of the shapes to the size of the table cells.
+1731	Sets the background transparency to the chosen value.
+1732	Sets the height equal to the width, taking the fixed point into account. If the aspect ratio is locked, this is temporarily released.
+1733	Sets the line transparency to the chosen value.
+1734	Sets the position for inserting the stickers to left.
+1735	Sets the position for inserting the stickers to center.
+1736	Sets the position for inserting the stickers to right.
+1737	Sets the font size for inserting the stickers to 10
+1738	Sets the font size for inserting the stickers to 11
+1739	Sets the font size for inserting the stickers to 12
+1740	Sets the font size for inserting the stickers to 14
+1741	Sets the shape size to the size of the table cell. The shapes are enlarged or shrunk so as not to change the current table size.
+1742	Sets the shape size to the size of the table cell. The shapes are moved, thereby changing the current table size.
+1743	Sets the shape size to the size of the table cell. Depending on the chosen mode, the shapes are moved or enlarged/shrunk.
+1744	Resets the ShapeSheet properties GlueType, ObjType and IsSnapTarget (groups only) to default.
+1745	Sets the left edge equal to the top edge, taking the fixed point into account
+1746	Sets the top edge equal to the left edge, taking the fixed point into account
+1747	Sets or selects shapes without fill for background, line or text, depending on whether CTRL, SHIFT and ALT are held.\n\nIf the button is active, the color in the current selection is used as background and/or line.
+1748	Sets or selects the chosen color for background, line or text, depending on whether CTRL, SHIFT and ALT are held.\n\nIf the button is active, the color in the current selection is used as background and/or line.
+1754	Copy shape as thumbnail
+1755	Duplicate shape on following slides
+1756	Copy and link shape on following slides…
+1757	Search for shape on following slides
+1758	Search and link shape on following slides…
+1759	Insert shape from shape library
+1760	Split or multiply a shape horizontally/vertically into several shapes.
+1761	Select shape in the center
+1762	Position shape in the center
+1763	Shape is flipped horizontally
+1764	Shape is flipped vertically
+1765	Shape sticky
+1766	Make shape sticky
+1767	Add line to shape
+1768	Shape non-sticky
+1769	Make shape non-sticky
+1770	Modify shape
+1771	Reset shape
+1772	Shape spacing (default)
+1773	Reset the shape handle values for all selected shapes to the original values
+1774	Match the shape handle values for all selected shapes to the first selected shape
+1775	Shape alignment
+1776	Shape data
+1777	Shape design
+1778	Show shape details
+1779	Swap shape formatting
+1780	Round shape size to whole numbers
+1781	Change the shape size including all elements/properties (font size, outlines, etc.) uniformly.
+1782	Round shape coordinates to whole numbers
+1783	Shape name
+1784	Arrange shape objects in tables/paragraphs/shapes
+1785	Arrange shape objects in table cells
+1786	Arrange shape objects in table cells/paragraphs/shapes
+1787	Arrange shape objects in text paragraphs
+1788	Arrange shape objects in subordinate shapes
+1789	Select shape objects within the chosen shapes
+1790	Select shape objects within and above the chosen shapes
+1791	Select shape objects within and below the chosen shapes
+1792	Select shape objects with the same background
+1793	Select shape objects with the same border
+1794	Select shape objects with the same text
+1795	Select shape objects with the same form
+1796	Select shape objects with the same size
+1797	Select shape objects with the same font color
+1798	Select shape objects by custom selection
+1799	Select shape objects overlapping with the chosen shapes
+1800	Shape position
+1801	Shape position automatic
+1802	Set the shape position when arranging.
+1803	Do not change shape position
+1804	Swap shape position
+1805	Swap shape position and size
+1806	Set the shape rotation of all selected shapes to 0 degrees
+1807	Set the shape rotation of all selected shapes to 180 degrees
+1808	Toggle match shape rotation to angle
+1809	Toggle shape rotation
+1810	Match shape rotation
+1811	Set shape rotation to 0 degrees
+1812	Set shape rotation to 180 degrees
+1813	Insert shape checkerboard
+1814	Adjust shape style
+1815	Shape table
+1816	Adjust shape table to the size of the chosen area
+1817	Adjust or transpose shape table in various ways
+1818	Insert shape table
+1819	Align shape table with various spacing options
+1820	Transpose shape table (i.e. mirror)
+1821	Transpose shape table without changing the table size
+1822	Transpose shape table without changing the cell sizes
+1823	Shape tags
+1824	Copy shape text
+1825	Split shape text
+1826	Merge shape text
+1827	Replace shape texts menu
+1828	Replace shape texts…
+1829	Delete shape texts
+1830	Shape type and size
+1831	Remove shape animations
+1833	Align shapes as a table with 0.35 cm spacing
+1834	Align shapes as a table with median spacing
+1835	Align shapes as a table without spacing.
+1836	Arrange shapes
+1837	Copy shapes to following slides
+1838	Detach shapes from group
+1839	Shapes get the same size as the reference shape.

@@ -1,0 +1,209 @@
+690	Removes the link ID from the current shape as well as all linked shapes with the same ID.
+691	Removes the link ID from the current shape. All other shapes with the same ID remain linked.
+692	Enables inserting editing notes on slides. The `ppt_notes` feature must be installed.
+693	Enables inserting updatable slide thumbnails. The `ppt_thumbnails` feature must be installed.
+694	Enables displaying simple statistics for a quick check of number-heavy slides. The `ppt_statistics` feature must be installed.
+695	Enables saving custom formats/styles in galleries for later reuse. The `ppt_customformats` feature must be installed.
+696	Enables the circular arrangement of shapes. The `ppt_circlify` feature must be installed.
+697	Enables the table-shaped arrangement of shapes. The `ppt_shapetables` feature must be installed.
+698	Search again for shapes by position and size to add more shapes to this link.
+699	Replace the black/white mode 'Automatic' with 'Grayscale'.
+700	Replace and keep size
+701	Replaces the image with a shape with image fill that can be made natively transparent. The existing image is exported and then deleted, i.e. any cropped areas are lost and image formats cannot be undone.
+702	Replaces the text of a text box in shapes. This can be used e.g. to convert an icon font into real icons.
+703	Replaces the current slide master (templates and design) in the presentation with the slide master from the selected file.
+704	Replaces merged cells within the current selection with the horizontal alignment 'Center across selection', provided the merged cells consist of one row and were previously centered.
+705	Create a circle with segments or chevrons.
+706	Create standard process arrows.
+707	Create a tracker from the selected shapes.\nThe shape style for highlights is determined from the first selected shape (usually top left). The shape style for all other shapes is determined from the second selected shape.
+708	Create a horizontal connection area between the vertical sides (left/right) of two shapes.
+709	Create a vertical connection area between the horizontal sides (top/bottom) of two shapes.
+710	Create a process arrow with header shape. The header shape can be arranged appropriately within the process arrow via the context menu of the header shape.
+711	Create
+712	Creates a list of all sheets of this workbook in a new sheet.
+713	Creates a list of all data validations of the current sheet in a new sheet.
+714	Creates a list of all document properties of this workbook in a new sheet.
+715	Creates a list of all comments of the current sheet in a new sheet.
+716	Creates a list of all names of this workbook in a new sheet.
+717	Creates a list of all conditional formats of the current sheet in a new sheet.
+718	Creates a list of all open workbooks incl. path in a new sheet.
+719	Capitalize First Letter Of Each Word
+720	Capitalize the first letter of the sentence for all linked shapes
+721	Capitalize the first letter of the sentence
+722	Capitalize the first letter of the word for all linked shapes
+723	First shape in the slide deck
+724	First shape
+725	First shape in the center
+726	Find first linked shape
+727	Adv. arrange
+728	Adv. pos.
+729	Set advanced settings
+730	Show extended version information
+731	Advanced arranging
+732	Advanced arranging (simplified)
+733	Advanced arranging mini group
+734	Advanced trim/shorten (trim)
+735	No special Unicode font is used, but the theme's default font.
+736	An attempt is made to approximately determine the current radius, start angle and options of the selected shapes
+737	Euclidean distance and angle
+738	Euclidean object distance
+739	Toggle exact search
+742	Select Excel files
+745	Export the workbook's color scheme as an XML file.
+746	Export the workbook's font scheme as an XML file.
+747	Remove external links
+748	FOR DISCUSSION sticker
+749	Insert FOR DISCUSSION sticker
+751	Color
+752	Change color 1 (background)
+753	Change color 2 (foreground)
+754	Pick up color
+755	Change the color of a Harvey ball
+756	Change color
+757	Color/grayscale
+758	Toggle change colors
+759	Color scheme export
+760	Color scheme import
+761	Feature folders
+762	Add feature folder
+763	Add or remove feature folder
+764	Remove feature folder »{}« from BKT configuration
+765	Error binding the callbacks
+766	Window
+767	Window with color picker
+768	Define which reference object the shapes should be aligned to
+769	Set the page per group and hide groups.
+770	Bold
+771	Bold/underline/italic
+772	Find next shape
+774	Fine-tuning (handle values)
+775	Slide
+776	Copy slide as HQ image
+777	Save slide as PNG
+778	Insert slide from slide library
+779	Copy slide(s) as thumbnail
+780	Slides
+781	Show slides
+782	Create slides from images
+783	Append slides from files
+784	Slides up to slide no.
+785	Save slides individually
+786	Export slides
+787	Save slides into individual PowerPoint files.
+788	Synchronize slides
+789	Slide notes
+790	Slide reference
+791	Delete the slide reference of all thumbnails in the presentation and convert thumbnails into images
+792	Delete the slide reference and thereby convert the thumbnail into a normal image.
+793	Insert slide thumbnail as bitmap
+794	Insert slide thumbnail as PNG
+795	Insert slide thumbnail as vector (EMF)
+796	Insert slide thumbnail
+797	Slide thumbnails
+798	Slide selection
+799	Slide master
+800	Apply slide master to the selected slides.
+801	Apply slide master to the entire presentation.
+802	Replace slide master from file…
+803	Add slide master to the current presentation.
+804	Insert slide number
+805	Show/hide slide numbering
+806	Open slide reference
+807	Remove slide transitions
+811	Font for Unicode symbols
+812	Font not installed
+813	Font scheme export
+814	Font scheme import
+815	Shape
+816	Shape from selection
+817	Shape rotation
+818	Form/shape type
+819	Shape types
+822	Match format
+823	Apply format
+824	Pick up format
+825	Pick up format from the selected shape into the clipboard.
+826	Clean up format
+827	Select format for inserting the thumbnail
+828	Format group
+829	Hide format tab
+830	The format tab is hidden to prevent automatic switching to the tab when creating shapes.
+831	Formatting
+832	Set the formatting of all linked shapes to the size of the selected shape.
+833	Match formatting
+834	Match formatting of linked shapes
+836	Styles
+837	Apply formula…
+838	Formulas
+839	Formulas $A$1 to A1
+840	Formulas A1 to $A$1
+841	Insert formulas into visible cells
+842	Replace formulas in all selected cells with their respective values. Cells without formulas remain unchanged.
+843	Formulas to text
+844	Formulas to values
+845	Formulas to English formulas
+846	Shapes
+847	Manipulate shapes
+848	Scale shapes
+849	Split or multiply shapes
+850	Merge shapes
+851	Functions
+852	Select functions:
+853	Select functions…
+854	Functions to manipulate shape points, duplicate shapes, and convert text into symbol/graphic
+855	Functions to send shapes to the back
+856	Functions to bring shapes to the front
+857	Functions like positioning, linked shapes, ...
+858	Functions to clean up all slides of the presentation
+859	Functions to swap shape position, size or formatting
+860	Functions:
+861	Insert slide numbering that does not change when slides are reordered.\n\nHelpful for capturing notes when reordering during a discussion of the slide deck.
+862	Insert a checkbox symbol as a toggle shape that can be changed interactively.
+863	Insert a Harvey ball that can be configured for color/fill level.\n\nColor and fill level can be configured via the context menu and context tab; in the tab, percentage values are also possible.\n\nA Harvey ball shape is a group of a circle and a pie shape.
+864	Insert a checkerboard of standard shapes
+865	Insert a sticker shape in the top right of the current slide with the text BACKUP.
+866	Insert a sticker shape in the top right of the current slide with the text CONFIDENTIAL.
+867	Insert a sticker shape in the top right of the current slide with the text DRAFT.
+868	Insert a sticker shape in the top right of the current slide with the text FOR DISCUSSION.
+869	Insert a sticker shape in the top right of the current slide with the text ILLUSTRATIVE.
+870	Insert a sticker shape in the top right of the current slide with a self-defined text.
+871	Insert a status traffic light. The status color of the traffic light can be configured via the context dialog.
+872	Insert a table of standard shapes
+873	Insert a text box with a line at the bottom of the shape on the current slide.
+874	Inserts a standard header (file name and worksheet name) and footer (page x of y) for all selected sheets.
+875	Inserts all columns (per selection range) into the first column, separated by commas
+876	Inserts all rows (per selection range) into the first row, separated by line breaks
+877	Inserts all cells into the active cell, separated by line breaks
+878	Automatically appends an updatable slide number at the end of the text to all linked shapes
+879	Inserts the clipboard content as formulas only into visible cells. Hidden or filtered-out cells are skipped.
+880	Inserts the clipboard content as values only into visible cells. Hidden or filtered-out cells are skipped.
+881	Inserts the clipboard content only into visible cells. Hidden or filtered-out cells are skipped.
+882	Inserts an editing note in the top right of the slide incl. author and date.
+883	Inserts a numbering shape for each selected shape. Numbering and styling according to the selection. Selected shapes are numbered according to the selection order.
+884	Adds 3 additional shape points to each side that can be used for connectors. Works only with rectangles.
+885	Merges the selected shapes into one shape. The text of all shapes is taken over and concatenated.
+886	Change the fill level of a Harvey ball
+887	Fill level in %
+888	Change fill level
+889	Fill level:
+890	Agenda slides are created for sub-items of an agenda item (indent level > 1)
+891	Show for this window
+892	Close for this window
+893	UPPERCASE
+898	Select entire columns
+899	Select entire rows
+900	Counterclockwise
+901	Go to
+902	Go to tab
+903	Curved connection
+906	Select used range
+907	Straight connector
+908	Entire slide
+909	Dissolve entire shape link
+910	Non-breaking hyphen
+911	Non-breaking space
+912	Locked
+916	Angled connection
+917	Copy selected slide as an updatable thumbnail
+918	Swap selected shapes
+919	The desired shape arrangement is achieved by positioning shapes

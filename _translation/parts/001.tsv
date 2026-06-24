@@ -1,0 +1,205 @@
+230	Instructions
+231	Arrange
+232	Arrange groups
+233	Adjust arrangement
+236	Adjust
+237	View
+238	Apply to:
+239	Number of steps
+240	Number of segments
+241	Number of columns
+242	Number of characters
+243	Number of rows
+244	Number of selected rows
+245	Number of selected columns
+246	Number of linked shapes
+247	Toggle display of the QuickEdit panel at PowerPoint startup.
+248	Show…
+249	Workbook
+250	Consolidate workbooks…
+251	Type/line style
+253	Set to 0 degrees
+254	Set to 180 degrees
+255	Arrange on background shapes
+256	Arrange on table/paragraph/shapes
+257	Arrange on table/paragraph/shapes menu
+258	Arrange on table cells
+259	Arrange on text paragraphs
+260	Copy to _all following slides
+261	Search on all following slides
+262	Insert on selected slides
+263	Reset to first shape
+264	Check for new version
+265	Check for new version options
+266	Which slides to search?
+267	Clean up
+268	Bullets
+269	Fix bullets
+270	Bullets are corrected. The style is taken from the text placeholder on the master slide. Affects: symbol, symbol/text color, paragraph indent/spacing
+271	Detach from group
+272	A shape from the stored shape templates can be inserted on the current slide.
+273	A template from the stored slide templates can be inserted as a new slide.
+274	Hide
+275	Fill (repeat text to the end)
+276	Remove hidden slides
+277	Delete hidden columns
+278	Delete hidden rows
+279	Export selected slides as a separate presentation or send as e-mail
+280	Match selected slides
+281	Export selected slides
+282	Send selected slides
+283	Save selected slides
+284	Apply selected formats from the clipboard to the selected shapes.\n\nWith CTRL the selection of formats can be edited again.
+285	Edit and adjust selected circle segments
+286	Edit and adjust selected process group
+287	Convert selected process shapes into an interactive process group to easily add process steps
+288	Convert selected shapes individually into a link
+289	Link selected shapes together
+290	Selected shapes are arranged in a circle according to the set width/height.\nThe order of the shapes depends on the selection order: the first selected shape is positioned at 12 o'clock, the other shapes follow clockwise.
+291	Add selected shapes to the link
+292	Add selected shapes to the stored ID. A new link must be created first, or an existing one extended.
+293	Add selected slides/shapes to the default favorites library. If this library does not yet exist, it is created.
+294	'Fill' selected cells, i.e. cell content is visually repeated across the entire cell width.
+295	Align selected cells 'Center across selection', i.e. merged cells are simulated.
+296	Justify selected cells.
+297	Align selected cells horizontally distributed (extreme justification).
+298	Update selected slide thumbnail
+299	Selected shape (default)
+300	Align
+301	Align (position, size, rotation) of all trackers (on all slides) based on the selected tracker.
+302	Align to shape selection
+303	Alignment
+304	Align center to left edge
+305	Align shape center to shape center
+306	Align shape center to top edge
+307	Align shape center to right edge
+308	Align shape center to bottom edge
+309	Alignment to the first shape within the selection
+310	Alignment to the last shape within the selection
+311	Alignment to the selected shape (reference shape)
+312	Alignment to the outermost shape within the selection
+313	Align to
+314	Alignment to content area
+315	Alignment to reference
+316	Toggle alignment to reference (shape/slide)
+317	Alignment to custom area
+318	Alignment to the slide
+319	Alignment of the shape center to the shape center of the reference shape.
+320	Alignment of the shape center to the shape center of the reference shape.\n(no spacing)\n\nWith the SHIFT key it switches to stretch/compress.
+321	Alignment of the shape center to the left edge of the reference shape.\n(spacing is added)\n\nWith the SHIFT key it switches to stretch/compress.
+322	Alignment of the shape center to the top edge of the reference shape.\n(spacing is added)\n\nWith the SHIFT key it switches to stretch/compress.
+323	Alignment of the shape center to the right edge of the reference shape.\n(spacing is subtracted)\n\nWith the SHIFT key it switches to stretch/compress.
+324	Alignment of the shape center to the bottom edge of the reference shape.\n(spacing is subtracted)\n\nWith the SHIFT key it switches to stretch/compress.
+325	Alignment of the left edge to the shape center of the reference shape.\n(spacing is added)\n\nWith the SHIFT key it switches to stretch/compress.
+326	Alignment of the left edge to the left edge of the reference shape.
+327	Alignment of the left edge to the left edge of the reference shape.\n(spacing is added)\n\nWith the SHIFT key it switches to stretch/compress.
+328	Alignment of the left edge to the right edge of the reference shape.
+329	Alignment of the left edge to the right edge of the reference shape.\n(spacing is added)\n\nWith the SHIFT key it switches to stretch/compress.
+330	Alignment of the top edge to the shape center of the reference shape.\n(spacing is added)\n\nWith the SHIFT key it switches to stretch/compress.
+331	Alignment of the top edge to the top edge of the reference shape.
+332	Alignment of the top edge to the top edge of the reference shape.\n(spacing is added)\n\nWith the SHIFT key it switches to stretch/compress.
+333	Alignment of the top edge to the bottom edge of the reference shape.
+334	Alignment of the top edge to the bottom edge of the reference shape.\n(spacing is added)\n\nWith the SHIFT key it switches to stretch/compress.
+335	Alignment of the right edge to the shape center of the reference shape.\n(spacing is subtracted)\n\nWith the SHIFT key it switches to stretch/compress.
+336	Alignment of the right edge to the left edge of the reference shape.
+337	Alignment of the right edge to the left edge of the reference shape.\n(spacing is subtracted)\n\nWith the SHIFT key it switches to stretch/compress.
+338	Alignment of the right edge to the right edge of the reference shape.
+339	Alignment of the right edge to the right edge of the reference shape.\n(spacing is subtracted)\n\nWith the SHIFT key it switches to stretch/compress.
+340	Alignment of the bottom edge to the shape center of the reference shape.\n(spacing is subtracted)\n\nWith the SHIFT key it switches to stretch/compress.
+341	Alignment of the bottom edge to the top edge of the reference shape.
+342	Alignment of the bottom edge to the top edge of the reference shape.\n(spacing is subtracted)\n\nWith the SHIFT key it switches to stretch/compress.
+343	Alignment of the bottom edge to the bottom edge of the reference shape.
+344	Alignment of the bottom edge to the bottom edge of the reference shape.\n(spacing is subtracted)\n\nWith the SHIFT key it switches to stretch/compress.
+345	Alignment within selection…
+346	Align left edge to shape center
+347	Align left edge to left edge
+348	Align left edge to right edge
+349	Align top edge to shape center
+350	Align top edge to top edge
+351	Align top edge to bottom edge
+352	Align right edge to shape center
+353	Align right edge to left edge
+354	Align right edge to right edge
+355	Align bottom edge to shape center
+356	Align bottom edge to top edge
+357	Align bottom edge to bottom edge
+358	Alignment spacing
+359	Set alignment options for stickers
+360	Selection
+361	Selection of alignment
+362	Selection of horizontal and vertical arrangement.
+363	Invert selection
+364	Selection of shapes
+365	Selection of shapes with the same background
+366	Selection of shapes with the same border
+367	Selection of shapes that resemble the current shape in type/background/border
+368	Selection of shapes…
+369	Selection of connection points
+370	Select
+371	Select whether the selected, first or last shape should be used as the reference for all matching functions. The default is the currently selected shape.
+372	Auto grouping
+374	Automatic
+375	Arrange automatically
+376	Automatic selection of the arrange functions (table cells/paragraphs/shapes)
+377	Automatic reference selection
+378	Disable automatic search for a new BKT version
+379	Search automatically for a new version
+380	Disable automatic black/white mode
+381	Remove author from document properties
+382	Remove author from the document properties.
+383	Remove author
+384	Toggle autostart
+386	BACKUP sticker
+387	Insert BACKUP sticker
+388	BKT - Consolidate & split files
+400	BKT functions
+401	Show/hide BKT task pane (sidebar)
+405	Quit and reload BKT add-in (similar to a PowerPoint restart)
+406	Manage BKT settings, reload BKT, open website, etc.
+407	BKT version
+408	Open BKT website in browser
+409	BKT: Critical startup error
+410	Create base list
+411	Edit
+413	When activated, all shapes are then aligned to the selected shape (reference shape). If no shape is selected on activation, alignment is done to the content area.
+414	When more than 2 shapes are selected, different options can be chosen for the calculation between the center shape and all other shapes.
+415	In the file list, also insert folders as rows
+416	Clicking a custom style while holding the SHIFT key always creates a new shape in the chosen style.
+417	Clicking a custom style while holding the CTRL key opens a window to edit and delete this style.
+418	When tables and shapes are selected:\nArrange each shape that lies over a (also selected) table within the nearest table cell. The cell is determined by the shape center.\n\nWhen shapes are selected:\nArrange each shape that lies completely over another (also selected) shape (=reference shape) in the nearest text paragraph within the reference shape. If fewer than 2 text paragraphs are present, arrangement is done within the entire shape.
+419	When the height changes, the width is also changed and vice versa
+420	When the row spacing changes, the column spacing is also changed and vice versa
+421	For grouped shapes (toggle shapes), you can switch between the shapes within the group, i.e. only one shape of the group is ever visible. This is useful e.g. for traffic lights, scales, etc.
+422	When the text-box inner margin of one side is changed, the inner margin of all sides is changed.
+423	Show automatically at startup
+424	Select any Excel file and apply its theme (color and font scheme) to the current file.
+425	Custom area
+426	Set custom area
+427	Choose custom area
+428	Custom selection…
+429	Description text bla bla
+430	Update existing agenda (based on the first agenda slide) or create agenda slides from the current slide.
+431	Extend existing shape link
+432	Do not show certain icon fonts and exclude them from the search.
+433	Move
+434	Direction of movement
+435	Reference pos. center/left
+436	Reference pos. center/center
+437	Reference pos. center/right
+438	Reference pos. top/left
+439	Reference pos. top/center
+440	Reference pos. top/right
+441	Reference pos. bottom/left
+442	Reference pos. bottom/center
+443	Reference pos. bottom/right
+444	Select image files
+445	Insert image crop
+446	Copy image crop
+447	Images and objects
+448	Calculates the average of all recognizable numbers in the current selection. Depending on the spell-check language, a period or comma is used as the decimal separator. Negative numbers are subtracted.
+449	Slide show
+453	Please enter file name:
+455	Hide sheet
+456	Make sheet very hidden (xlVeryHidden)
+457	Shows the QuickEdit panel with the interactive color picker.
+458	Justified

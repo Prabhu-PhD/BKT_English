@@ -1,0 +1,200 @@
+1840	Shapes get the same position as the reference shape.
+1841	Distribute shapes horizontally at shape center
+1842	Distribute shapes horizontally at left edge
+1843	Distribute shapes horizontally at right edge
+1844	Distribute shapes horizontally
+1845	Insert shapes into group
+1846	Fit shapes into cells
+1847	Arrange shapes left
+1848	Align shapes left
+1849	Shapes with tags
+1850	Arrange shapes centered
+1851	Align shapes centered
+1852	Arrange shapes centered on the first row
+1853	Arrange shapes top
+1854	Align shapes top
+1855	Position shapes
+1856	Arrange shapes right
+1857	Align shapes right
+1858	Rotate shapes and show flip
+1859	Select shapes
+1860	Scale shapes
+1861	Scale shapes…
+1862	Split or multiply shapes
+1863	Split/multiply shapes…
+1864	Arrange shapes bottom
+1865	Align shapes bottom
+1866	Hide shapes
+1867	Hide/show shapes
+1868	Distribute shapes vertically at shape center
+1869	Distribute shapes vertically at top edge
+1870	Distribute shapes vertically at bottom edge
+1871	Distribute shapes vertically
+1872	Shapes are aligned to the content area.\n\nThe content area corresponds to the area of the text placeholder on the reference slide.\n\nWith the CTRL key, this master is temporarily activated.
+1873	Shapes are aligned to the first selected shape in the selection.
+1874	Shapes are aligned to the last selected shape in the selection.
+1875	Shapes are aligned to the outermost selected shape in the selection.
+1876	Shapes are aligned to the slide.
+1877	Shapes are aligned to a fixed area that is previously defined by the user.
+1878	Shapes are inserted at their original coordinate positions
+1879	Shapes are not arranged horizontally when arranging shapes in table cells/text paragraphs/shapes.
+1880	Shapes are arranged horizontally centered when arranging shapes in table cells/text paragraphs/shapes.
+1881	Shapes are arranged left when arranging shapes in table cells/text paragraphs/shapes.
+1882	Shapes are arranged top when arranging shapes in table cells/text paragraphs/shapes.
+1883	Shapes are arranged right when arranging shapes in table cells/text paragraphs/shapes.
+1884	Shapes are arranged bottom when arranging shapes in table cells/text paragraphs/shapes.
+1885	Shapes are not arranged vertically when arranging shapes in table cells/text paragraphs/shapes.
+1886	Shapes are arranged vertically centered when arranging shapes in table cells/text paragraphs/shapes.
+1887	Shapes are arranged vertically centered on the text in the first row when arranging shapes in table cells/text paragraphs/shapes.
+1888	When arranging shapes, shapes are:\n\n- arranged horizontally centered in table cells,\n- centered horizontally in shapes if the shape is taller than wide,\n- not arranged in text paragraphs.
+1889	When arranging shapes, shapes are:\n\n- arranged vertically centered in table cells,\n- centered vertically in shapes if the shape is wider than tall,\n- arranged vertically centered on the first row in text paragraphs.
+1890	Shapes are copied with their original coordinate positions
+1891	Arrange shapes centered
+1892	Align shapes centered
+1893	Count shapes
+1894	Shapes:
+1902	Delete repeating cell values so that only the topmost cell remains filled.
+1905	Scale
+1906	Scales all selected sheets so that each is printed on exactly one page. The page size and orientation are not changed.
+1907	Scaling:
+1911	Slide tags
+1912	Clean up slide deck
+1913	Clean up slide deck…
+1914	If the first or last selected shape is a group, all other shapes are inserted into this group. Otherwise all shapes are grouped.
+1915	Synchronize immediately?
+1919	Special indent
+1920	Special characters
+1921	Other
+1922	Other groups
+1923	Sort
+1924	Sorts the Z-order from left to right so that the right shape becomes the frontmost
+1925	Sorts the Z-order from top to bottom so that the bottom shape becomes the frontmost
+1926	Sorts the Z-order from right to left so that the left shape becomes the frontmost
+1927	Sorts the Z-order from bottom to top so that the top shape becomes the frontmost
+1928	Columns
+1929	Show/hide columns
+1930	Columns left of the selection
+1931	Column spacing
+1932	Distribute column width
+1933	Merge column-wise with comma
+1934	Save
+1935	Saves the selected slides in a new presentation, as a PDF file or in PNG images.
+1936	Saves the selected slides in a new presentation.
+1937	Lock
+1938	Special shapes
+1939	Special and interactive shapes
+1940	Specified shape
+1941	Flip
+1946	Language
+1947	Language to
+1948	Adjust the spell-check language for the selected shape(s)/text
+1949	Adjust the spell-check language for multiple shapes, slides or the entire presentation
+1950	Change the language of shapes or slides
+1951	Change language
+1952	Change language…
+1953	Language:
+1954	Jump to the next page for the handle values.
+1955	Jump to the previous page for the handle values.
+1956	Standard (3-sided)
+1957	Insert a standard agenda text box to generate an updatable agenda from it.
+1959	Standard groups
+1960	Default color
+1961	Details to be applied by default:
+1962	By default, numbering shapes are aligned exactly at the edge of the associated shape.\n\nIf 'Position offset' is enabled, the numbering shapes are placed a bit further outside the associated shape, so that the center of the numbering shape lies on the corner.
+1963	Insert standard objects (images, SmartArt, etc.), hide and show shapes again, adjust header and footer
+1964	Default positions
+1965	Starts a slide show in a window beginning with the current slide and the laser pointer activated.
+1966	Starts a slide show in full screen beginning with the current slide and the laser pointer activated.
+1967	Statistics
+1968	Load statistics
+1969	Statistics
+1970	Switch status   «
+1971	Create simple status traffic light
+1972	Create status traffic light
+1973	Create horizontal status traffic light
+1974	Create vertical status traffic light
+1975	Create status overlays
+1976	Sticker menu
+1977	Insert stickers, match bullet points, as well as further text-related functions
+1978	Sticker alignment left
+1979	Sticker alignment center
+1980	Sticker alignment right
+1981	Sticker font size 10
+1982	Sticker font size 11
+1983	Sticker font size 12
+1984	Sticker font size 14
+1985	Change sticker text
+1986	Style
+1987	Styles
+1988	Style chart
+1989	Style classic
+1990	Style modern
+1991	Transfer style
+1992	Load style gallery or create a new gallery.
+1993	Manage style galleries
+1995	Show styles
+1996	Styles configuration
+1997	Search on
+1998	Search results
+1999	Automatically checks once per month at PowerPoint startup for a new BKT version
+2000	Automatically checks once per week at PowerPoint startup for a new BKT version
+2001	Automatically checks every Friday, but at the latest after 31 days, at PowerPoint startup for a new BKT version
+2002	Searches for the current shape on all slides after the current slide by position and size and links them together.
+2003	Searches for the first linked shape.
+2004	Searches for the last linked shape.
+2005	Searches for the next linked shape. If there is no further shape on the following slides, the first linked shape of the presentation is searched for.
+2006	Searches for the previous linked shape. If there is no further shape on the previous slides, the last linked shape of the presentation is searched for.
+2007	Searches for related shapes/shape groups and groups them automatically.
+2008	Search term
+2009	Enter search term and press ENTER
+2010	Search term:
+2011	Sum:
+2012	Sums all recognizable numbers in the current selection. Depending on the spell-check language, a period or comma is used as the decimal separator. Negative numbers are subtracted.
+2013	Symbol
+2014	Change symbol
+2015	Symbol menu
+2016	Symbols
+2017	Symmetric difference (union minus intersection) of the current selection and the chosen range.
+2018	Form symmetric difference…
+2019	Synchronize formatting
+2020	Synchronize position and size
+2021	Synchronize text
+2022	Synchronize
+2023	Clean/clean up (clean)
+2025	Adjust table
+2026	Table from shapes
+2027	Align table (auto)
+2028	Insert table
+2029	Format table
+2030	Fit table into area
+2031	Fit table into content area
+2032	Transpose table with adjusted table size
+2033	Transpose table with equal table size
+2034	Transpose table
+2035	Insert table sizes
+2036	Copy table sizes
+2037	Show table info
+2038	Table information
+2040	Adjust tabs and groups of the PowerPoint toolbox to individual needs
+2048	Toggle keyboard/mouse events for the current session
+2049	Swap formatting
+2050	Swap position
+2051	Swap position and size
+2052	Swap position and size [Shift]
+2053	Swap Z-order
+2054	Swap Z-order position
+2055	Swap the formatting (color, border, font, ...) of the selected shapes.
+2056	Swap the position (left/top) of the selected shapes.
+2057	Swap the position (left/top) and size of the selected shapes.
+2058	Swap the Z-order position of the selected shapes.
+2059	Swap the x position (distance from the left slide edge) of the selected shapes.
+2060	Swap the y position (distance from the top slide edge) of the selected shapes.
+2061	Swap x position
+2062	Swap y position
+2063	Swap
+2064	Swap menu
+2065	Swaps the width with the height, taking the fixed point into account
+2066	Swaps the height with the width, taking the fixed point into account
+2067	Swaps the left edge with the top edge, taking the fixed point into account
+2068	Swaps the top edge with the left edge, taking the fixed point into account
+2069	Thousands to 0.0 k

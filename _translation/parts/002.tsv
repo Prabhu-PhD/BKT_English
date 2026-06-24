@@ -1,0 +1,162 @@
+460	Sheets
+461	Show/hide sheets (xlVeryHidden)
+462	Show sheets…
+463	Scale sheets to 1 page each
+464	Copy sheets from the current workbook separately and save individually
+465	Copy sheets of the workbook
+466	Consolidate sheets of this workbook into one sheet
+467	Show/hide sheets
+468	Create sheets according to the current selection
+469	Sort sheets according to the current selection
+470	Rename sheets according to the current selection
+471	Consolidate sheets into one sheet…
+472	Save sheets each into its own file…
+473	Copy sheets
+480	Width
+481	Width (in % of radius)
+482	Width = Height
+483	Set width = height
+484	Width of the ellipse (diagonal) for the circular arrangement
+485	Uniform shape width (aligned to reference shape)
+486	Uniform shape width (aligned to widest shape)
+487	Uniform shape width (aligned to narrowest shape)
+488	Match width for all linked shapes
+489	Swap width and height
+490	Width of rounding/arrowheads/corners/etc.
+491	Width ⇄ Height
+492	Insert width/height of table columns/rows
+493	Copy width/height of table columns/rows
+494	Brings all back shapes exactly in front of the frontmost shape
+495	Brings all front shapes exactly behind the backmost shape
+496	Determine bullet point color automatically
+497	The bullet point color is determined automatically based on the text color.
+498	Change bullet point color
+499	Change bullet point symbol
+514	CONFIDENTIAL sticker
+515	Insert CONFIDENTIAL sticker
+526	Create checkbox
+532	Disable COM release
+544	Custom bold
+545	Custom styles gallery
+548	DRAFT sticker
+549	Insert DRAFT sticker
+550	The selected shape is set as the reference shape. Shapes are aligned to the current position of the reference shape.
+551	The first selected shape is placed at the circle center
+552	Reset the file to its last saved state. The file is closed without saving and reopened.
+553	Re-index file
+554	Replace file…
+555	Re-index file and update thumbnails
+556	Add file to library
+557	Reset file
+558	Open file and edit library
+559	Open file and edit
+560	Select files to consolidate…
+561	File format
+562	Create file list (recursive)…
+563	Create file list…
+564	File lists
+565	File list settings
+566	Data tools
+567	Disables the auto COM release mechanism that is meant to prevent PowerPoint from slowing down during prolonged use.
+568	Disables the popup dialogs of BKT shapes such as Harvey balls, linked shapes, etc.
+570	Defines the position and size of the selected shape as the content area to fit tables into this area. The selected shape is then deleted.
+571	Defined names
+572	Stretch/compress
+573	Stretch/compress [SHIFT]
+582	The center of the shapes must lie within the table cell for automatic arrangement.
+583	The center of the shapes must lie within the underlying shapes for automatic arrangement.
+584	The center of the shapes must lie within the text shape and the respective paragraph for automatic arrangement.
+585	The custom area is defined based on the selected shape. This area can then be chosen via the gallery and is kept permanently in the current presentation.
+586	Deselect…
+587	Apply design to the entire presentation
+588	Apply design to selected slides
+589	Add design to presentation
+590	Insert chart dimensions
+591	Copy chart dimensions
+594	Thick line/border
+595	Write the number of results/groups of a regular expression for selected cells into the respective cell.
+596	Change the reference position of selected shapes to the lower-left corner
+597	Distribute the column widths evenly
+598	Adjust the colors of toggle shapes
+599	Distribute the row heights evenly
+600	The selected slide is duplicated for each image file and the file name is set as the title.
+601	The selected shapes each get an internal link ID. The link is preserved when the shapes are copied.
+602	Link the selected shapes for future operations. The link is preserved when the shapes are copied.
+603	The entire presentation is scanned for linked shapes and the first associated shape in the slide deck is set as the reference.
+604	The entire presentation is scanned for linked shapes and the last associated shape in the slide deck is set as the reference.
+605	The selected shapes are detached from the current group without changing the group.
+606	This operation can take some time for large files and many slides!
+607	Copy this shape…
+608	Copy dimensions of charts, image crops and tables from one object to another
+609	Transfer dimensions/sizes
+610	Misc.
+611	Perform various actions on all linked shapes
+612	Remove double spaces
+614	Rotation
+615	Three tabs for the toolbox with all advanced features on a separate page 3
+617	Print
+618	Dark theme
+619	Forbid duplicates
+620	Duplicates the current shape onto all slides after the current slide and links them for future operations.
+621	Duplicates the currently selected Harvey ball.
+622	Searchable fonts: {}
+628	Edit controls
+630	Reset custom colors
+631	Match property
+632	Select properties for selection:
+633	An optional (conditional) hyphen is a symbol for optional hyphenation. The hyphen appears only at the line end and otherwise stays invisible.
+634	A non-breaking space does not allow a line break.
+635	A narrow non-breaking space does not allow a line break and is used e.g. between letters of abbreviations.
+636	Show/hide
+637	Show
+638	Apply a formula to all selected cells.
+639	Insert a Likert scale as a toggle shape. The fill level and the colors can be changed via the toggle-shape functions.
+640	Transfer a single property to all linked shapes
+641	Select and add a BKT feature folder
+642	Append a text to all selected cells.
+643	Prepend a text to all selected cells.
+644	Truncate a text at the front or back at a given character.
+645	Truncate a text at the front or back at a given position.
+646	Create, distribute and align a tracker from a selection as an image.
+647	Begin a new section per agenda slide.
+648	Apply a regular expression to all selected cells.
+649	Simple arranging
+650	Solid/gradient/pattern
+651	Insert options for updatable slide thumbnails
+652	Insert helpers
+653	Insert at coordinates
+654	Insert into visible cells
+655	Insert standard or shape tables
+656	Insert menu
+657	Paste special
+658	The set spacing is taken into account when aligning shapes left/right.\n\nThe spacing is added: when aligning the left/top edge (of the shape to be moved) and when aligning the shape center to the left/top edge of the reference shape.\n\nThe spacing is subtracted: when aligning the right/bottom edge (of the shape to be moved) and when aligning the shape center to the right/bottom edge of the reference shape.
+659	Uniform inner margin
+660	Fit with adjusted table size
+661	Fit with equal table size
+662	Indent
+663	Limitations due to PowerPoint bugs
+664	Settings
+665	Settings
+666	Icon search settings
+667	Change settings of the selected slide thumbnail
+668	Settings for arranging on tables, paragraphs or shapes
+669	Change settings for the text box
+670	Save settings and reload BKT
+671	Settings for automatic check for new versions
+672	Settings for the circular alignment of shapes
+673	Setting options when aligning shape tables
+674	Setting options for the edge auto-fixer
+675	Individual libraries
+676	Remove single shape link
+677	Indent first line
+678	Indent left
+679	Indent right
+681	Select elements of the group
+682	End (arrow type)
+683	English formulas to formulas
+684	Remove non-printable characters in all selected cells (like the Excel function CLEAN).
+685	Remove superfluous spaces at the start or end of all selected cells (like the Excel function TRIM).
+686	Remove superfluous spaces at the start or end of all selected cells using Python's strip function.
+687	Removes agenda slides of the selected agenda; all meta information is deleted.
+688	Removes all agenda slides in the entire presentation; all meta information is deleted.
+689	Removes all agenda slides belonging to the current agenda except the main slide. All meta information is deleted.

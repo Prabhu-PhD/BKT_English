@@ -1,0 +1,2706 @@
+0	         \\u200b
+1	       Abstand
+2	   \\u200b
+3	   mit ALT: Delta je Harvey Ball
+4	   mit SHIFT: Schrittweite +/-25
+5	  [ALT]: Text
+6	 [STRG]: Linie
+7	 value 
+8	#ff33cc
+9	%s%%
+10	* Theme-Standardwert
+11	... teilen
+12	... vervielfachen
+13	0 ein-/ausblenden
+14	0-Werte verstecken
+15	1x je Seite
+16	2. Prozessschritt mit Kopfzeile
+17	20% (Standard)
+18	2x je Seite
+19	3 zusätzliche Punkte je Rechtecktseite
+20	3x je Seite
+21	80% (sehr groß)
+22	=\\u202F0
+23	Abbrechen
+24	Ablage
+25	Ablage und Selektion
+26	Absatz
+27	Absatz (PPT-Standard)
+28	Absatz kompakt (BKT)
+29	Absatz-Format (Ausrichtung, Einzug, Listen, etc.)
+30	Absatzabstand oben
+31	Absatzabstand unten
+32	Absatzeinzug
+33	Absatzeinzug links
+34	Absatzeinzug rechts
+35	Absatzformat
+36	Abschnitte einzeln speichern
+37	Abschnitte für Agenda-Punkte erstellen
+38	Abstand
+39	Abstand bei Ausrichtung
+40	Abstand bei Shape-Tabelle auf groß setzen
+41	Abstand bei Shape-Tabelle auf klein setzen
+42	Abstand bei Shape-Tabelle deaktivieren
+43	Abstand einstellen durch:
+44	Abstand gleichstellen:
+45	Abstand und Rotation
+46	Abstand von den jeweiligen Mittelpunkten anzeigen.
+47	Abstand von linker Kante zu linker Kante anzeigen.
+48	Abstand von oberer Kante zu oberer Kante anzeigen.
+49	Abstand von rechter Kante zu linker Kante anzeigen.
+50	Abstand von rechter Kante zu rechter Kante anzeigen.
+51	Abstand von unterer Kante zu oberer Kante anzeigen.
+52	Abstand von unterer Kante zu unterer Kante anzeigen.
+53	Abstand von visueller rechter Kante zu visueller linker Kante. Hilfreich bei rotierten Shapes.
+54	Abstand von visueller unterer Kante zu visueller oberer Kante anzeigen. Hilfreich bei rotierten Shapes.
+55	Abstand zu Mittelpunkten
+56	Abstand zu linken Kanten
+57	Abstand zu oberen Kanten
+58	Abstand zu rechten Kanten
+59	Abstand zu unteren Kanten
+60	Abstand/Rotation
+61	Abstand/Winkel einzeln vom Zentrum zu Shapes (Standard)
+62	Abstände/Winkel gleichmäßig zwischen Shapes verteilen
+63	Abstände/Winkel immer um gleiche Differenz ändern [ALT]
+64	Absätze:
+65	Addin neu laden
+66	Adresse selektieren…
+67	Advanced Menu
+68	Agenda
+69	Agenda Selektor
+70	Agenda aktualisieren
+71	Agenda aktualisieren und durch Agenda auf dem Agenda-Hauptfolie ersetzen; Folien werden dabei neu erstellt.
+72	Agenda neu erstellen
+73	Agenda, Foliennummerierung, Slidedeck aufräumen, und viele weitere Folien-bezogene Funktionen
+74	Agenda-Einstellungen
+75	Agenda-Folie entfernen
+76	Agenda-Folien entfernen
+77	Agenda-Optionen
+78	Agenda-Slides für Unterpunkte
+79	Agenda-Textbox einfügen
+80	Aktion ausführen
+81	Aktiviere die Verknüpfung der Eingabefelder. Horizontale bzw. vertikale Abstände zwischen Zeilen und Spalten bleiben gleich.
+82	Aktiviert eine kleine freischwebende Mini-Toolbar mit einer interaktiven Farbauswahl. Das Feature `ppt_quickedit` muss installiert sein.
+83	Aktiviert, wenn das erste gewählte Shape horizontal gespiegelt ist
+84	Aktiviert, wenn das erste gewählte Shape vertikal gespiegelt ist
+85	Aktualisiere die Verbindungsfläche nachdem sich die verbundenen Shapes geändert haben.
+86	Aktualisieren-Menü
+87	Aktualisierung der Folien-Thumbnails auf dieser Folie oder in der ganzen Präsentation
+88	Aktuelle Auswahl zu Favoriten-Library hinzufügen
+89	Aktuelle Folie zum Erstellen vom aktualisierbaren Folien-Thumbnails kopieren.
+90	Aktuelle Folien-Referenz ersetzen mit kopierter Folie aus Zwischenablage.
+91	Aktuelle Parameter interpolieren
+92	Aktuelle Selektion um gewählten Bereich reduzieren (Komplement).
+93	Aktuelle Selektion zwischenspeichern, um diese später wiederherzustellen.
+94	Aktuelles Blatt bzw. ausgewählte Blätter ausblenden.
+95	Aktuelles Blatt bzw. ausgewählte Blätter verstecken (xlVeryHidden), sodass diese nur über die Toolbox oder ein Makro wieder sichtbar gemacht werden können.
+96	All Brands ({})
+97	All Categories
+98	All Regular ({})
+99	All Solid 1/2 ({})
+100	All Solid 2/2 ({})
+101	Alle Abschnitte entfernen
+102	Alle Agenden aus Präsentation entfernen
+103	Alle Anderen schließen
+104	Alle Arbeitsmappen außer der aktuellen Mappe schließen. Gibt es ungespeicherte Änderungen, kommt vorab eine Meldung.
+105	Alle Bild-Dateien zum Einfügen einzeln auswählen.
+106	Alle Blätter (inkl. xlVeryHidden) einblenden
+107	Alle Blätter gemäß der Auswahl sortieren. Die Auswahl muss aus genau einer Spalten mit den Blattnamen in der gewünschten Reihenfolge bestehen.
+108	Alle Blätter gemäß der Auswahl umbenennen. Die Auswahl muss aus genau 2 Spalten bestehen, wobei die erste Spalten den alten Namen und die zweite Spalte den neuen Namen enthält. Leere Namen werden übersprungen.
+109	Alle Cashes werden zurückgesetzt. Library-Order und -Dateien werden jeweils beim nächsten Öffnen erneut indiziert.\\n\\nEs werden nur Thumbnails bereits geöffneter Libraries aktualisiert. Eine Neugenerierung der Thumbnails kann auch für jede Shape-Library-Datei separat angestoßen werden (im jeweiligen Menü).
+110	Alle Eigenschaften aller verknüpfter Shapes wie ausgewähltes Shape setzen.
+111	Alle Eigenschaften verknüpfter Shapes angleichen
+112	Alle Einstellungen löschen und BKT neu laden
+113	Alle Elemente der Gruppe markieren
+114	Alle Ergebnisse/Gruppen eines regulären Ausdrucks für ausgewählte Zellen in Spalten aufteilen.
+115	Alle Farben neu laden
+116	Alle Folien aus mehreren PowerPoint-Dateien an diese Präsentation anfügen
+117	Alle Folien aus mehreren PowerPoint-Dateien an diese Präsentation anfügen.
+118	Alle Folien in einzelne PowerPoint-Dateien im gewählten Ordner speichern
+119	Alle Folien in einzelne PowerPoint-Dateien im gewählten Ordner speichern.
+120	Alle Folien-Thumbnails auf den ausgewählten Folien aktualisieren. Das Thumbnail muss vorher mit dieser Funktion eingefügt worden sein. Stammt die Folie aus einer anderen Datei, wird diese automatisch kurzzeitig geöffnet.
+121	Alle Folien-Thumbnails in der Präsentation aktualisieren. Das Thumbnail muss vorher mit dieser Funktion eingefügt worden sein. Stammt die Folie aus einer anderen Datei, wird diese automatisch kurzzeitig geöffnet.
+122	Alle Folien-Thumbnails in der Präsentation in normale Bilder konvertieren, die sich nicht mehr aktualisieren lassen.
+123	Alle Foliennummern mit verknüpften Shapes anzeigen
+124	Alle Icons
+125	Alle Notizen auf allen Folien entfernen.
+126	Alle Notizen auf allen Folien temporär ausblenden und wieder einblenden.
+127	Alle Notizen der aktuellen Folie entfernen.
+128	Alle Notizen der aktuellen Folie temporär ausblenden und wieder einblenden.
+129	Alle Notizen ein-/ausblenden
+130	Alle Notizen löschen
+131	Alle Shape-Verknüpfungen entfernen
+132	Alle Shapes angleichen
+133	Alle Shapes im Folienmaster ein- und ausblenden, um ungestört und vertraulich an Folien arbeiten zu können.
+134	Alle Shapes sichtbar machen
+135	Alle Shapes so formatieren wie das Shape, welches beim Öffnen des Kontextmenüs unter dem Cursor ist
+136	Alle Shapes so formatieren wie das zuerst ausgewählte Shape
+137	Alle Shapes wieder anzeigen
+138	Alle Shapes zurücksetzen
+139	Alle Spalten der aktuell markierten Zellen markieren.
+140	Alle Spalten und Zeilen des nicht genutzten Bereichs ausblenden.
+141	Alle Spalten und Zeilen einblenden
+142	Alle Sprachen anzeigen…
+143	Alle Thumbnails aktualisieren
+144	Alle Thumbnails auf aktueller bzw. ausgewählten Folie/n aktualisieren
+145	Alle Thumbnails in der gesamten Präsentation aktualisieren
+146	Alle Tracker ausrichten
+147	Alle Tracker löschen
+148	Alle Tracker verteilen
+149	Alle Verbindungspunkte der gewählten Shapes entfernen
+150	Alle Verbindungspunkte des Master-Shapes (dicker Rahmen) auf andere Shapes kopieren
+151	Alle Verbindungspunkte des gewählten Shapes kopieren
+152	Alle Werte
+153	Alle Zeilen der aktuell markierten Zellen markieren.
+154	Alle Zell-Inhalte zusammenführen
+155	Alle Zellen mit der gleichen Hintergrundfarbe wie die ausgewählten Zellen markieren.
+156	Alle an/aus
+157	Alle ausgeblendeten Blätter einblenden
+158	Alle ausgeblendeten Blätter wieder einblenden.
+159	Alle ausgeblendeten Blätter zwischen ein- und ausblenden umschalten.\\n\\nSind keine Blätter ausgeblendet, werden die ausgewählten Blätter bzw. das aktuelle Blatt ausgeblendet.
+160	Alle ausgeblendeten Spalten löschen.
+161	Alle ausgeblendeten Spalten und Zeilen wieder einblenden.
+162	Alle ausgeblendeten Spalten zwischen aus- und einblenden umschalten.\\n\\nWenn keine ausgeblendeten Spalten zwischengespeichert bzw. im Blatt vorhanden sind, und Spalten markiert sind, werden diese ausgeblendet.
+163	Alle ausgeblendeten Zeilen löschen.
+164	Alle ausgeblendeten Zeilen zwischen aus- und einblenden umschalten.\\n\\nWenn keine ausgeblendeten Zeilen zwischengespeichert bzw. im Blatt vorhanden sind, und Zeilen markiert sind, werden diese ausgeblendet.
+165	Alle ausgeblendeten oder versteckten (xlVeryHidden) Blätter wieder einblenden.
+166	Alle ausgewählte Shapes einzeln verknüpfen
+167	Alle ausgewählte Shapes miteinander verknüpfen
+168	Alle ausgewählten Verbinder neu erstellen
+169	Alle leeren Spalten innerhalb der benutzen Zellen (UsedRange) markieren.
+170	Alle leeren Zeilen innerhalb der benutzen Zellen (UsedRange) markieren.
+171	Alle löschen
+172	Alle schließen
+173	Alle verknüpften Shapes auf allen Folien löschen.
+174	Alle verknüpften Shapes auf allen Folien mit Referenz-Shape (standardmäßig das ausgwählte Shape) ersetzen.
+175	Alle verknüpften Shapes auf allen Folien mit ausgewähltem Shape ersetzen.
+176	Alle verknüpften Shapes horizontal spiegeln
+177	Alle verknüpften Shapes in den Hintergrund bringen
+178	Alle verknüpften Shapes in den Vordergrund bringen
+179	Alle verknüpften Shapes löschen oder ausrichten. Optionen stehen auch im Kontextmenü von verknüpften Shapes zur Verfügung.
+180	Alle verknüpften Shapes vertikal spiegeln
+181	Alle verknüpften Shapes zählen
+182	Alle versteckten (xlVeryHidden) Blätter zwischen anzeigen und verstecken umschalten. \\n\\nind keine Blätter versteckt, werden die ausgewählten Blätter bzw. das aktuelle Blatt versteckt.
+183	Alle versteckten Blätter (nur xlVeryHidden) einblenden
+184	Alle versteckten Shapes einblenden
+185	Alle zugehörigen Agenda-Folien entfernen
+186	Alles angleichen
+187	Als Bild einfügen [Strg]
+188	Als Bild einfügen ein/aus
+189	Als Bitmap einfügen
+190	Als Folien-Thumbnail einfügen
+191	Als Folien-Thumbnail einfügen Menü
+192	Als Folien-Thumbnail kopieren
+193	Als PNG einfügen (Standard)
+194	Als Shape einfügen ein/aus
+195	Als Shapes einfügen [Shift]
+196	Als Tabelle ausrichten
+197	Als Tabelle ausrichten (Median-Abstand)
+198	Als Tabelle ausrichten (Standardabstand)
+199	Als Tabelle ausrichten ohne Abstand [Shift]
+200	Als Text einfügen (Standard)
+201	Als Text einfügen ein/aus
+202	Als Vektor (EMF) einfügen
+203	Als Verknüpfung einfügen
+204	Als aktualisierbares Folien-Thumbnail im PNG-Format einfügen
+205	Alte Shapes löschen
+206	Ampel
+207	Ampel Punkt
+208	Ampel horizontal
+209	Ampel vertikal
+210	An Folie andocken
+211	An/Aus
+212	Andere Agenda-Unterpunkte ausblenden
+213	Andere Shapes löschen
+214	Andere löschen
+215	Andere mit diesem ersetzen
+216	Anfang (Pfeiltyp)
+217	Anfasser 1
+218	Anfasser 2
+219	Anfasser beeinflussen die Shape-Form, bspw. die Rundung an Ecken oder die Spitze von Pfeilen. Je nach Shape-Typ kann es bis zu 8 Anfasser-Werte geben, die manuell gesetzt werden können. Hier kann paarweise zwischen den Werten umgeschaltet werden.
+220	Anfasser-Werte Nr. 1 und 2 in Spinner-Boxen anpassen
+221	Anfasser-Werte Nr. 3 und 4 in Spinner-Boxen anpassen
+222	Anfasser-Werte Nr. 5 und 6 in Spinner-Boxen anpassen
+223	Anfasser-Werte Nr. 7 und 8 in Spinner-Boxen anpassen
+224	Anfasser-Werte wechseln
+225	Animationen
+226	Ankerpunkt beim Rotieren
+227	Ankerpunkt beim Rotieren festlegen
+228	Ankerpunkt beim Tauschen
+229	Ankerpunkt beim Tauschen festlegen
+230	Anleitung
+231	Anordnen
+232	Anordnen-Gruppen
+233	Anordnung anpassen
+234	Another element
+235	Another group inserted before
+236	Anpassen
+237	Ansicht
+238	Anwenden auf:
+239	Anzahl Schritte
+240	Anzahl Segmente
+241	Anzahl Spalten
+242	Anzahl Zeichen
+243	Anzahl Zeilen
+244	Anzahl der selektierten Reihen
+245	Anzahl der selektierten Spalten
+246	Anzahl verknüpfter Shapes
+247	Anzeige des QuickEdit Panels bei PowerPoint-Start ein- und ausschalten.
+248	Anzeigen…
+249	Arbeitsmappe
+250	Arbeitsmappen konsolidieren…
+251	Art/Strichtyp
+252	At least one open presentation in protected view detected. Unexpected PowerPoint behavior may occur.
+253	Auf 0 Grad setzen
+254	Auf 180 Grad setzen
+255	Auf Hintergrund-Shapes anordnen
+256	Auf Tabelle/Absatz/Shapes anordnen
+257	Auf Tabelle/Absatz/Shapes anordnen Menü
+258	Auf Tabellenzellen anordnen
+259	Auf Text-Absätzen anordnen
+260	Auf _alle Folgefolien kopieren
+261	Auf allen Folgefolien suchen
+262	Auf ausgewählte Folien einfügen
+263	Auf erstes Shape zurücksetzen
+264	Auf neue Version prüfen
+265	Auf neue Version prüfen Optionen
+266	Auf welchen Folien suchen?
+267	Aufräumen
+268	Aufzählungszeichen
+269	Aufzählungszeichen korrigieren
+270	Aufzählungszeichen werden korrigiert. Der Stil wird vom Textplatzhalter auf dem Masterslide übernommen. Betrifft: Symbol, Symbol-/Textfarbe, Absatzeinzug/-abstand
+271	Aus Gruppe lösen
+272	Aus den hinterlegten Shape-Templates kann ein Shape auf die aktuelle Folie eingefügt werden.
+273	Aus den hinterlegten Slide-Templates kann ein Template als neue Folie eingefügt werden.
+274	Ausblenden
+275	Ausfüllen (Text bis Ende wiederholen)
+276	Ausgeblendete Slides entfernen
+277	Ausgeblendete Spalten löschen
+278	Ausgeblendete Zeilen löschen
+279	Ausgewählte Folien als eigene Präsentation exportieren oder als E-Mail versenden
+280	Ausgewählte Folien angleichen
+281	Ausgewählte Folien exportieren
+282	Ausgewählte Folien senden
+283	Ausgewählte Folien speichern
+284	Ausgewählte Formate aus Zwischenspeicher auf selektierte Shapes anwenden.\\n\\nMit STRG kann die Auswahl der Formate erneut bearbeitet werden.
+285	Ausgewählte Kreissegmente bearbeiten und anpassen
+286	Ausgewählte Prozess-Gruppe bearbeiten und anpassen
+287	Ausgewählte Prozess-Shapes in eine interaktive Prozess-Gruppe umwandeln, um einfach Prozesschritte hinzuzufügen
+288	Ausgewählte Shapes einzeln in Verknüpfung umwandeln
+289	Ausgewählte Shapes miteinander verknüpfen
+290	Ausgewählte Shapes werden Kreis-förmig angeordnet, entsprechend der eingestellten Breite/Höhe.\\nDie Reihenfolge der Shapes ist abhängig von der Selektionsreihenfolge: das zuerst selektierte Shape wird auf 12 Uhr positioniert, die weiteren Shapes folgen im Urzeigersinn.
+291	Ausgewählte Shapes zur Verknüpfung hinzufügen
+292	Ausgewählte Shapes zur zwischengespeicherten ID hinzufügen. Vorher muss eine neue Verknüpfung angelegt oder eine bestehende erweitert werden.
+293	Ausgewählte Slides/Shapes zu Standard-Favoriten-Library hinzufügen. Falls diese Library noch nicht existiert, wird diese neu angelegt.
+294	Ausgewählte zellen 'Ausfüllen', d.h. Zelleninhalt wird optisch wiederholt über die gesamte Zellenbreite.
+295	Ausgewählte zellen 'Über Auswahl zentriert' ausrichten, d.h es werden verbundene Zellen simuliert.
+296	Ausgewählte zellen als Blocksatz ausrichten.
+297	Ausgewählte zellen horizontal verteilt ausrichten (extremer Blocksatz).
+298	Ausgewähltes Folien-Thumbnail aktualisieren
+299	Ausgewähltes Shapes (Standard)
+300	Ausrichten
+301	Ausrichten (Position, Größe, Rotation) aller Tracker (auf allen Folien) anhand des ausgewählten Tracker.
+302	Ausrichten an Shape-Auswahl
+303	Ausrichtung
+304	Ausrichtung Mitte an linke Kante
+305	Ausrichtung Shapemitte an Shapemitte
+306	Ausrichtung Shapemitte an obere Kante
+307	Ausrichtung Shapemitte an rechte Kante
+308	Ausrichtung Shapemitte an untere Kante
+309	Ausrichtung am ersten Shape innerhalb der Selektion
+310	Ausrichtung am letzten Shape innerhalb der Selektion
+311	Ausrichtung am selektierten Shape (Referenzshape)
+312	Ausrichtung am äußerstem Shape innerhalb der Selektion
+313	Ausrichtung an
+314	Ausrichtung an Inhaltsbereich
+315	Ausrichtung an Referenz
+316	Ausrichtung an Referenz (Shape/Slide) ein-/ausschalten
+317	Ausrichtung an benutzerdefiniertem Bereich
+318	Ausrichtung an der Folie
+319	Ausrichtung der Shapemitte an der Shapemitte des Referenzshapes.
+320	Ausrichtung der Shapemitte an der Shapemitte des Referenzshapes.\\n(kein Abstand)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+321	Ausrichtung der Shapemitte an der linken Kante des Referenzshapes.\\n(Abstand wird addiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+322	Ausrichtung der Shapemitte an der oberen Kante des Referenzshapes.\\n(Abstand wird addiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+323	Ausrichtung der Shapemitte an der rechten Kante des Referenzshapes.\\n(Abstand wird subtrahiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+324	Ausrichtung der Shapemitte an der unteren Kante des Referenzshapes.\\n(Abstand wird subtrahiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+325	Ausrichtung der linken Kante an der Shapemitte des Referenzshapes.\\n(Abstand wird addiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+326	Ausrichtung der linken Kante an der linken Kante des Referenzshapes.
+327	Ausrichtung der linken Kante an der linken Kante des Referenzshapes.\\n(Abstand wird addiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+328	Ausrichtung der linken Kante an der rechten Kante des Referenzshapes.
+329	Ausrichtung der linken Kante an der rechten Kante des Referenzshapes.\\n(Abstand wird addiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+330	Ausrichtung der oberen Kante an der Shapemitte des Referenzshapes.\\n(Abstand wird addiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+331	Ausrichtung der oberen Kante an der oberen Kante des Referenzshapes.
+332	Ausrichtung der oberen Kante an der oberen Kante des Referenzshapes.\\n(Abstand wird addiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+333	Ausrichtung der oberen Kante an der unteren Kante des Referenzshapes.
+334	Ausrichtung der oberen Kante an der unteren Kante des Referenzshapes.\\n(Abstand wird addiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+335	Ausrichtung der rechten Kante an der Shapemitte des Referenzshapes.\\n(Abstand wird subtrahiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+336	Ausrichtung der rechten Kante an der linken Kante des Referenzshapes.
+337	Ausrichtung der rechten Kante an der linken Kante des Referenzshapes.\\n(Abstand wird subtrahiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+338	Ausrichtung der rechten Kante an der rechten Kante des Referenzshapes.
+339	Ausrichtung der rechten Kante an der rechten Kante des Referenzshapes.\\n(Abstand wird subtrahiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+340	Ausrichtung der unteren Kante an der Shapemitte des Referenzshapes.\\n(Abstand wird subtrahiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+341	Ausrichtung der unteren Kante an der oberen Kante des Referenzshapes.
+342	Ausrichtung der unteren Kante an der oberen Kante des Referenzshapes.\\n(Abstand wird subtrahiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+343	Ausrichtung der unteren Kante an der unteren Kante des Referenzshapes.
+344	Ausrichtung der unteren Kante an der unteren Kante des Referenzshapes.\\n(Abstand wird subtrahiert)\\n\\nMit SHIFT-Taste wird auf Dehnen/Stauchen umgestellt.
+345	Ausrichtung innerhalb Selektion…
+346	Ausrichtung linke Kante an Shapemitte
+347	Ausrichtung linke Kante an linke Kante
+348	Ausrichtung linke Kante an rechte Kante
+349	Ausrichtung obere Kante an Shapemitte
+350	Ausrichtung obere Kante an obere Kante
+351	Ausrichtung obere Kante an untere Kante
+352	Ausrichtung rechte Kante an Shapemitte
+353	Ausrichtung rechte Kante an linke Kante
+354	Ausrichtung rechte Kante an rechte Kante
+355	Ausrichtung untere Kante an Shapemitte
+356	Ausrichtung untere Kante an obere Kante
+357	Ausrichtung untere Kante an untere Kante
+358	Ausrichtungsabstand
+359	Ausrichtungsoptionen für Sticker einstellen
+360	Auswahl
+361	Auswahl der Ausrichtung
+362	Auswahl der horizontalen und vertikalen Anordnung.
+363	Auswahl invertieren
+364	Auswahl von Shapes
+365	Auswahl von Shapes mit gleichem Hintergrund
+366	Auswahl von Shapes mit gleichem Rahmen
+367	Auswahl von Shapes, die dem aktuellem Shape bzgl. Typ/Hintergrund/Rahmen ähneln
+368	Auswahl von Shapes…
+369	Auswahl von Verbindungspunkten
+370	Auswählen
+371	Auswählen, ob selektiertes, erstes oder letztes Shape als Referenz für alle Angleichungsfunktionen verwendet werden soll. Standard ist das aktuell ausgewählte Shape.
+372	Auto-Gruppierung
+373	AutoSize
+374	Automatisch
+375	Automatisch anordnen
+376	Automatische Auswahl der Anordnungsfunktionen (Tabellenzellen/Absätzen/Shapes)
+377	Automatische Referenzwahl
+378	Automatische Suche nach einer neuen BKT-Version deaktivieren
+379	Automatische nach neuer Version suchen
+380	Automatischen Schwarz-/Weiß-Modus deaktivieren
+381	Autor aus Dokumenteneigenschaften entfernen
+382	Autor aus den Dokumenteneigenschaften entfernen.
+383	Autor entfernen
+384	Autostart ein/aus
+385	BACKGROUND
+386	BACKUP-Sticker
+387	BACKUP-Sticker einfügen
+388	BKT - Dateien Konsolidieren & Teilen
+389	BKT DEMO
+390	BKT DEVKIT
+391	BKT Demo 1
+392	BKT Demo 1 of backstage area
+393	BKT Demo 2
+394	BKT Demo 2 of backstage area
+395	BKT Dev
+396	BKT Flo 1
+397	BKT Flo 2
+398	BKT Florian Test 1
+399	BKT Florian Test 2
+400	BKT Funktionen
+401	BKT Task Pane (Seitenleiste) anzeigen/verstecken
+402	BKT Test Window
+403	BKT Warning
+404	BKT Window
+405	BKT-Addin beenden und neu laden (ähnlich PowerPoint-Neustart)
+406	BKT-Einstellungen verwalten, BKT neu laden, Website aufrufen, etc.
+407	BKT-Version
+408	BKT-Webseite im Browser öffnen
+409	BKT: Kritischer Startfehler
+410	Basisliste erstellen
+411	Bearbeiten
+412	Begin
+413	Bei Aktivierung werden anschließend alle Shapes am selektierten Shape (Referenzshape) ausgerichtet. Ist bei Aktivierung kein Shape selektiert, erfolgt die Ausrichtung am Inhaltsbereich.
+414	Bei Auswahl von mehr als 2 Shapes können unterschiedliche Optionen zur Berechnung zwischen Zentrum-Shape und allen weitere Shapes gewählt werden.
+415	Bei Dateiliste auch Ordner als Zeilen einfügen
+416	Bei Klick auf ein Custom-Style mit gedrückter SHIFT-Taste wird immer ein neues Shapes in gewähltem Style angelegt.
+417	Bei Klick auf ein Custom-Style mit gedrückter STRG-Taste öffnet sich ein Fenster zur Bearbeitung und Löschung dieses Styles.
+418	Bei Markierung von Tabellen und Shapes:\\nOrdne jedes Shape, das über einer (ebenfalls selektierten) Tabelle liegt, innerhalb der nächst-liegenden Tabellenzelle an. Die Zelle wird anhand des Shape-Mittelpunkts bestimmt.\\n\\nBei Markierung von Shapes:\\nOrdne jedes Shape, das vollständig über einem anderen (ebenfalls selektierten) Shapes (=Referenzshape) liegt, in dem nächstliegenden Textabsatz im Referenzshape an. Sind weniger as 2 Textabsätze vorhanden, wird innerhalb des gesamten Shapes angeordnet.
+419	Bei Veränderung der Höhe wird auch die Breite geändert und umgekehrt
+420	Bei Veränderung des Zeilenabstands wird auch der Spaltenabstand geändert und umgekehrt
+421	Bei gruppierten Shapes (Wechsel-Shapes) kann zwischen den Shapes innerhalb der Gruppe gewechselt werden, d.h. es ist immer nur ein Shape der Gruppe sichtbar. Dies ist bspw. nützlich für Ampeln, Skalen, etc.
+422	Bei Änderung des Textfeld-Innenabstand einer Seite wird der Innenabstand aller Seiten geändert.
+423	Beim Start automatisch anzeigen
+424	Beliebige Excel-Datei auswählen und dessen Theme (Farb- und Fontschema) auf aktuelle Datei anwenden.
+425	Benutzerdef. Bereich
+426	Benutzerdef. Bereich festlegen
+427	Benutzerdef. Bereich wählen
+428	Benutzerdefinierte Auswahl…
+429	Beschreibungstext bla bla
+430	Bestehende Agenda aktualisieren (auf Basis erstes Agenda-Slide) oder Agenda-Slides aus aktueller Folie erstellen.
+431	Bestehende Shape-Verknüpfung erweitern
+432	Bestimmte Icon-Fonts nicht anzeigen und nicht in der Suche berücksichtigen.
+433	Bewegen
+434	Bewegungsrichtung
+435	Bezugspos. mitte/links
+436	Bezugspos. mitte/mitte
+437	Bezugspos. mitte/rechts
+438	Bezugspos. oben/links
+439	Bezugspos. oben/mitte
+440	Bezugspos. oben/rechts
+441	Bezugspos. unten/links
+442	Bezugspos. unten/mitte
+443	Bezugspos. unten/rechts
+444	Bild-Dateien auswählen
+445	Bild-Zuschnitt einfügen
+446	Bild-Zuschnitt kopieren
+447	Bilder und Objekte
+448	Bildet den Mittelwert aller erkennbaren Zahlen in der aktuellen Auswahl. Je nach Sprache der Rechtschreibkorrektur wird Punkt oder Komma als Dezimaltrenner genommen. Negative Zahlen werden abgezogen.
+449	Bildschirmpräsentation
+450	Binding Images:
+451	Binding Text:
+452	Bitmap
+453	Bitte Dateiname eingeben:
+454	Black
+455	Blatt ausblenden
+456	Blatt verstecken (xlVeryHidden)
+457	Blendet das QuickEdit Panel mit der interaktiven Farbauswahl ein.
+458	Blocksatz
+459	Blue
+460	Blätter
+461	Blätter anzeigen/verstecken (xlVeryHidden)
+462	Blätter anzeigen…
+463	Blätter auf je 1 Seite skalieren
+464	Blätter aus der aktuellen Arbeitsmappe getrennt kopieren und einzeln speichern
+465	Blätter der Arbeitsmappe kopieren
+466	Blätter dieser Arbeitsmappe in ein Blatt konsolidieren
+467	Blätter ein/ausblenden
+468	Blätter gemäß aktueller Auswahl erstellen
+469	Blätter gemäß aktueller Auswahl sortieren
+470	Blätter gemäß aktueller Auswahl umbenennen
+471	Blätter in ein Blatt konsolidieren…
+472	Blätter in jeweils eigene Datei speichern…
+473	Blätter kopieren
+474	Bottom item button
+475	Bottom middle
+476	Bottom right
+477	Bounding Nodes
+478	BoundingBox
+479	Boxes
+480	Breite
+481	Breite (in % vom Radius)
+482	Breite = Höhe
+483	Breite = Höhe setzen
+484	Breite der Ellipse (Diagonale) für die Kreisanordnung
+485	Breite der Shapes einheitlich (Ausrichtung am Referenzshape)
+486	Breite der Shapes einheitlich (Ausrichtung am breitesten Shape)
+487	Breite der Shapes einheitlich (Ausrichtung am schmalsten Shape)
+488	Breite für alle verknüpften Shapes angleichen
+489	Breite und Höhe tauschen
+490	Breite von Rundung/Pfeilspitzen/Ecken/etc.
+491	Breite ⇄ Höhe
+492	Breite/Höhe der Tabellenspalten/-zeilen einfügen
+493	Breite/Höhe der Tabellenspalten/-zeilen kopieren
+494	Bringt alle hinteren Shapes genau vor das vorderste Shape
+495	Bringt alle vordere Shapes genau hinter das hinterste Shape
+496	Bullet Point Farbe automatisch bestimmen
+497	Bullet Point Farbe wird automatisch anhand der Textfarbe bestimmt.
+498	Bullet Point Farbe ändern
+499	Bullet Point Symbol ändern
+500	Business Kasper Toolbox
+501	Button #1
+502	Button #1 Screentip Title
+503	Button #2
+504	Button #3
+505	Button 1
+506	Button 2
+507	Button 3
+508	Button left
+509	Button with is_definitive to close backstage
+510	Button1
+511	Button2
+512	Button3
+513	Buttons
+514	CONFIDENTIAL-Sticker
+515	CONFIDENTIAL-Sticker einfügen
+516	CRITICAL
+517	Calculate LocPin distance for rotated shapes
+518	Category Label
+519	Category Label 1
+520	Category Label 2
+521	Change log-level
+522	Check Box 1
+523	Check Box 2
+524	Check box
+525	Checkbox
+526	Checkbox erstellen
+527	Chevron
+528	Clipboard Analysis
+529	Color Scheme
+530	Color-Gallery
+531	Colordialog Tests
+532	Com-Release deaktivieren
+533	Combo Box
+534	ComboBox
+535	ComboBox editable
+536	Combobox
+537	Common development tools
+538	Config
+539	Container
+540	Control pos
+541	Copy Style
+542	CurrentText
+543	Custom Action
+544	Custom Fett
+545	Custom-Styles Gallerie
+546	DEBUG
+547	DEV FST
+548	DRAFT-Sticker
+549	DRAFT-Sticker einfügen
+550	Das selektierte Shape wird als Referenzshape festgelegt. Shapes werden an der jeweils aktuellen Position des Referenzshape ausgerichtet.
+551	Das zuerst selektierte Shape wird in den Kreis-Mittelpunkt gesetzt
+552	Datei auf den zuletzt gespeicherten Zustand zurücksetzen. Die Datei wird dazu geschlossen ohne zu speichern und neu geöffnet.
+553	Datei erneut indizieren
+554	Datei ersetzen…
+555	Datei neu indizieren und Thumbnails aktualisieren
+556	Datei zu Library hinzufügen
+557	Datei zurücksetzen
+558	Datei öffnen und Library bearbeiten
+559	Datei öffnen und bearbeiten
+560	Dateien zum Konsolidieren auswählen…
+561	Dateiformat
+562	Dateiliste erstellen (rekursiv)…
+563	Dateiliste erstellen…
+564	Dateilisten
+565	Dateilisten-Einstellungen
+566	Datentools
+567	Deaktiviert den Auto-Com-Release Mechanismus, der eine Verlangsamung von PowerPoint bei längerer Nutzung verhindern soll.
+568	Deaktiviert die Popup-Dialoge von BKT-Shapes wie Harvey-Balls, verknüpfte Shapes, etc.
+569	Debug
+570	Definiert die Position und Größe des ausgewählten Shapes als Inhaltsbereich, um Tabellen in diesem Bereich einzupassen. Das ausgewählte Shape wird dann gelöscht.
+571	Definierte Namen
+572	Dehnen/Stauchen
+573	Dehnen/Stauchen [SHIFT]
+574	Demo BKT-Controls
+575	Demo MS-CustomUI
+576	Demo WPF dialog
+577	Demo imageMso
+578	Demo of all callbacks
+579	Demo: idQ-Group
+580	Demo: idQ-Tab
+581	Demo: idQ-Tab (2)
+582	Der Mittelpunkt der Shapes muss innerhalb der Tabellenzelle liegen für die automatische Anordnung.
+583	Der Mittelpunkt der Shapes muss innerhalb der darunterliegenden Shapes liegen für die automatische Anordnung.
+584	Der Mittelpunkt der Shapes muss innerhalb des Text-Shapes und des jeweiligen Absatzes liegen für die automatische Anordnung.
+585	Der benutzerdefinierte Bereich wird anhand des gewählten Shapes festgelegt. Dieser Bereich ist anschließend über die Gallery wählbar und wird dauerhaft in der aktuellen Prästentation vorgehalten.
+586	Deselektieren…
+587	Design auf ganze Präsentation anwenden
+588	Design auf markierte Folien anwenden
+589	Design zu Präsentation hinzufügen
+590	Diagramm-Dimensionen einfügen
+591	Diagramm-Dimensionen kopieren
+592	Dialog Launcher
+593	Dialog-Box Button
+594	Dicke Linie/Rahmen
+595	Die Anzahl der Ergebnisse/Gruppen eines regulären Ausdrucks für ausgewählte Zellen in jeweilige Zelle schreiben.
+596	Die Bezugs-Position gewählter Shapes auf linke untere Ecke ändern
+597	Die Breite der Spalten gleichmäßig verteilen
+598	Die Farben von Wechselshapes anpassen
+599	Die Höhe der Zeilen gleichmäßig verteilen
+600	Die ausgewählte Folie wird für jede Bild-Datei dupliziert und der Dateiname als Titel gesetzt.
+601	Die ausgewählten Shapes bekommen jeweils eine interne Verknüpfungs-ID. Die Verknüpfung bleibt beim Kopieren der Shapes erhalten.
+602	Die ausgewählten Shapes für zukünftige Operationen verknüpfen. Die Verknüpfung bleibt beim Kopieren der Shapes erhalten.
+603	Die gesamte Präsentation wird nach verknüpften Shapes gescannt und das erste zugehörige Shape im Foliensatz wird als Referenz gesetzt.
+604	Die gesamte Präsentation wird nach verknüpften Shapes gescannt und das letzte zugehörige Shape im Foliensatz wird als Referenz gesetzt.
+605	Die markierten Shapes werden aus der aktuelle Gruppe herausgelöst, ohne die Gruppe dabei zu verändern.
+606	Dieser Vorgang kann bei großen Dateien und vielen Folien einige Zeit in Anspruch nehmen!
+607	Dieses Shape kopieren…
+608	Dimensionen von Diagrammen, Bild-Ausschnitten und Tabellen von einem Objekt auf ein anderes kopieren
+609	Dimensionen/Größen übertragen
+610	Div.
+611	Diverse Aktionen auf alle verknüpften Shapes ausführen
+612	Doppelte Leerzeichen entfernen
+613	Draw the bounding box
+614	Drehung
+615	Drei Tabs für die Toolbox mit allen erweiterten Features auf einer separaten Seite 3
+616	Drop-down
+617	Drucken
+618	Dunkles Theme
+619	Duplikate verbieten
+620	Dupliziert das aktuelle Shapes auf alle Folien hinter der aktuellen Folie und verknüpft diese für zukünftige Operationen.
+621	Dupliziert den aktuell ausgewählten Harvey-Ball.
+622	Durchsuchbare Fonts: {}
+623	Dynamic Drawing Image
+624	Dynamic Menu
+625	Dynamic Rect Image
+626	ERROR
+627	Edit Box
+628	Edit-Controls
+629	Editbox
+630	Eigene Farben zurücksetzen
+631	Eigenschaft angleichen
+632	Eigenschaften für Selektion auswählen:
+633	Ein geschützter Trennstrich ist ein Symbol zur optionalen Silbentrennung. Der Trennstrich erscheint nur am Zeilenende und bleibt sonst unsichtbar.
+634	Ein geschütztes Leerzeichen erlaubt keinen Zeilenumbruch.
+635	Ein schmales geschütztes Leerzeichen erlaubt keinen Zeilenumbruch und ist bspw. zwischen Buchstaben von Abkürzungen zu verwenden.
+636	Ein-/Ausblenden
+637	Einblenden
+638	Eine Formel auf alle ausgewählten Zellen anwenden.
+639	Eine Likert-Scale als Wechselshape einfügen. Über die Wechselshape-Funktionen kann der Füllstand, sowie die Farben verändert werden.
+640	Eine einzelne Eigenschaft auf alle verknüpften Shapes übertragen
+641	Einen BKT Feature-Ordner auswählen und hinzufügen
+642	Einen Text allen ausgewählten Zellen anhängen.
+643	Einen Text allen ausgewählten Zellen voranstellen.
+644	Einen Text vorne oder hinten nach gegebenem Zeichen abschneiden.
+645	Einen Text vorne oder hinten nach gegebener Position abschneiden.
+646	Einen Tracker aus einer Auswahl als Bild erstellen, verteilen und ausrichten.
+647	Einen neuen Abschnitt je Agenda-Folie beginnen.
+648	Einen regulären Ausdruck auf alle ausgewählten Zellen anwenden.
+649	Einfaches Anordnen
+650	Einfarbig/Verlauf/Muster
+651	Einfüge-Optionen für aktualisierbare Folien-Thumbnails
+652	Einfügehilfen
+653	Einfügen auf Koordinaten
+654	Einfügen auf sichtbare Zellen
+655	Einfügen von Standard- oder Shape-Tabellen
+656	Einfügen-Menü
+657	Einfügen-Spezial
+658	Eingestellter Abstand wird bei der Ausrichtung von Shapes links/rechts berücksichtigt.\\n\\nDer Abstand wird addiert: bei Ausrichtung der linken/oberen Kante (des zu verschiebenden Shapes) und bei Ausrichtung der Shape-Mitte an der linken/oberen Kante des Referenzshapes.\\n\\nDer Abstand wird subtrahiert: bei Ausrichtung der rechten/unteren Kante (des zu verschiebenden Shapes) und bei Ausrichtung der Shape-Mitte an der rechten/unteren Kante des Referenzshapes.
+659	Einheitlicher Innenabstand
+660	Einpassen mit angepasster Tabellengröße
+661	Einpassen mit gleicher Tabellengröße
+662	Einrücken
+663	Einschränkungen durch PowerPoint-Bugs
+664	Einst.
+665	Einstellungen
+666	Einstellungen der Icon-Suche
+667	Einstellungen des gewählten Folien-Thumbnails ändern
+668	Einstellungen für das Anordnen auf Tabellen, Absätzen oder Shapes
+669	Einstellungen für die Textbox ändern
+670	Einstellungen speichern und BKT neu laden
+671	Einstellungen zur automatischen Überprüfung auf neue Versionen
+672	Einstellungen zur kreisförmigen Ausrichtung von Shapes
+673	Einstellungsmöglichkeiten beim Ausrichten der Shape-Tabellen
+674	Einstellungsmöglichkeiten für den Kanten-Autofixer
+675	Einzel-Libraries
+676	Einzelne Shape-Verknüpfung entfernen
+677	Einzug 1. Zeile
+678	Einzug links
+679	Einzug rechts
+680	Element in another group
+681	Elemente der Gruppe markieren
+682	Ende (Pfeiltyp)
+683	Englische Formeln zu Formeln
+684	Entferne nicht-druckbare Zeichen in allen selektierten Zellen (wie Excel-Funktion SÄUBERN).
+685	Entferne überflüssige Leerzeichen am Anfang oder Ende aller selektierten Zellen (wie Excel-Funktion GLÄTTEN).
+686	Entferne überflüssige Leerzeichen am Anfang oder Ende aller selektierten Zellen mit Pythons Strip-Funktion.
+687	Entfernt Agenda-Folien der gewählten Agenda, alle Meta-Informationen werden gelöscht.
+688	Entfernt alle Agenda-Folien in der ganzen Präsentation, alle Meta-Informationen werden gelöscht.
+689	Entfernt alle Agenda-Folien, die zur aktuellen Agenda gehören, außer der Hauptfolie. Alle Meta-Informationen werden gelöscht.
+690	Entfernt die ID zur Verknüpfung vom aktuellen Shape sowie allen verknüpften Shapes mit der gleichen ID.
+691	Entfernt die ID zur Verknüpfung vom aktuellen Shape. Alle anderen Shapes mit der gleichen ID bleiben verknüpft.
+692	Ermöglicht das Einfügen von Bearbeitungsnotizen auf Folien. Das Feature `ppt_notes` muss installiert sein.
+693	Ermöglicht das Einfügen von aktualisierbaren Folien-Thumbnails. Das Feature `ppt_thumbnails` muss installiert sein.
+694	Ermöglicht die Anzeige einfacher Statistiken zur schnellen Überprüfung von zahlenlastigen Folien. Das Feature `ppt_statistics` muss installiert sein.
+695	Ermöglicht die Speicherung von eigenen Formatierungen/Styles in Katalogen zur späteren Wiederverwendung. Das Feature `ppt_customformats` muss installiert sein.
+696	Ermöglicht die kreisförmige Anordnung von Shapes. Das Feature `ppt_circlify` muss installiert sein.
+697	Ermöglicht die tabellenförmige Anordnung von Shapes. Das Feature `ppt_shapetables` muss installiert sein.
+698	Erneut nach Shapes anhand Position und Größe suche, um weitere Shapes zu dieser Verknüpfung hinzuzufügen.
+699	Ersetze den Schwarz-/Weiß-Modus 'Automatisch' durch 'Graustufen'.
+700	Ersetzen und Größe erhalten
+701	Ersetzt das Bild durch ein Shape mit Bildfüllung, welches nativ transparent gemacht werden kann. Dabei wird das bestehende Bild exportiert und dann gelöscht, d.h. etwaige zugeschnittene Bereiche gehen verloren und Bildformate können nicht rückgängig gemacht werden.
+702	Ersetzt den Text einer Textbox in Shapes. Damit kann man bspw. einen Icon-Font in echte Icons umwandeln.
+703	Ersetzt den aktuellen Folienmaster (Templates und Design) in der Präsentation durch den Folienmaster aus der gewählten Datei.
+704	Ersetzt verbundene Zellen innerhalb der aktuellen Auswahl durch die horizontale Ausrichtung 'Über Auswahl zentrieren', sofern die verbundenen Zellen aus einer Zeile bestehen und bisher zentriert formatiert waren.
+705	Erstelle Kreis mit Segmenten oder Chevrons.
+706	Erstelle Standard Prozess-Pfeile.
+707	Erstelle aus den markierten Shapes einen Tracker.\\nDer Shape-Stil für Highlights wird aus dem zuerst markierten Shape (in der Regel oben links) bestimmt. Der Shape-Stil für alle anderen Shapes wird aus dem als zweites markierten Shape bestimmt.
+708	Erstelle eine horizontale Verbindungsfläche zwischen den vertikalen Seiten (links/rechts) von zwei Shapes.
+709	Erstelle eine vertikale Verbindungsfläche zwischen den horizontalen Seiten (oben/unten) von zwei Shapes.
+710	Erstelle einen Prozess-Pfeil mit Header-Shape. Das Header-Shape kann im Prozess-Pfeil über Kontext-Menü des Header-Shapes passend angeordnet werden.
+711	Erstellen
+712	Erstellt Liste aller Blätter dieser Arbeitsmappe in einem neuen Blatt.
+713	Erstellt Liste aller Datenüberprüfungen des aktuellen Blatts in neuem Blatt.
+714	Erstellt Liste aller Dokumenteneigenschaften dieser Arbeitsmappe in neuem Blatt.
+715	Erstellt Liste aller Kommentare des aktuellen Blatts in neuem Blatt.
+716	Erstellt Liste aller Namen dieser Arbeitsmappe in neuem Blatt.
+717	Erstellt Liste aller bedingten Formatierungen des aktuellen Blatts in neuem Blatt.
+718	Erstellt Liste aller geöffneten Arbeitsmappen inkl. Pfad in einem neuen Blatt.
+719	Ersten Buchstaben Im Wort Großschreiben
+720	Ersten Buchstaben im Satz aller verknüpften Shapes großschreiben
+721	Ersten Buchstaben im Satz großschreiben
+722	Ersten Buchstaben im Wort aller verknüpften Shapes großschreiben
+723	Erstes Shape im Foliensatz
+724	Erstes Shapes
+725	Erstes Shapes in Mitte
+726	Erstes verknüpfte Shape finden
+727	Erw. Anordnen
+728	Erw. Pos.
+729	Erweiterte Einstellungen festlegen
+730	Erweiterte Versionsinformationen anzeigen
+731	Erweitertes Anordnen
+732	Erweitertes Anordnen (vereinfacht)
+733	Erweitertes Anordnen Mini-Gruppe
+734	Erweitertes Glätten/Kürzen (Trim)
+735	Es wird keine spezielle Unicode-Schriftart verwendet, sondern die Standard-Schriftart des Themes.
+736	Es wird versucht den aktuellen Radius, Anfangswinkel und die Optionen der ausgewählten Shapes näherungsweise zu bestimmen
+737	Euklidischer Abstand und Winkel
+738	Euklidischer Objektabstand
+739	Exakte Suche ein/aus
+740	Example WPF dialog
+741	Example WPF dialog with FluentRibbon controls
+742	Excel-Dateien auswählen
+743	Experimental
+744	Export
+745	Exportiere Farbschema der Arbeitsmappe als XML-Datei.
+746	Exportiere Fontschema der Arbeitsmappe als XML-Datei.
+747	Externe Verknüpfungen entfernen
+748	FOR DISCUSSION-Sticker
+749	FOR DISCUSSION-Sticker einfügen
+750	Fabric MDL2 Assets Mono ({})
+751	Farbe
+752	Farbe 1 (Hintergrund) ändern
+753	Farbe 2 (Vordergrund) ändern
+754	Farbe aufnehmen
+755	Farbe eines Harvey-Balls ändern
+756	Farbe ändern
+757	Farbe/Graustufen
+758	Farben ändern an/aus
+759	Farbschema Export
+760	Farbschema Import
+761	Feature-Ordner
+762	Feature-Ordner hinzufügen
+763	Feature-Ordner hinzufügen oder entfernen
+764	Feature-Ordner »{}« aus BKT-Konfiguration entfernen
+765	Fehler beim Binden der Callbacks
+766	Fenster
+767	Fenster mit Farbauswahl
+768	Festlegen an welchem Referenz-Objekt die Shapes ausgerichtet werden wollen
+769	Festlegung der Seite je Gruppe und Ausblenden von Gruppen.
+770	Fett
+771	Fett/Unterstrichen/Kursiv
+772	Finde nächstes Shape
+773	Fine-Tuning
+774	Fine-Tuning (Anfasserwerte)
+775	Folie
+776	Folie als HQ-Bild kopieren
+777	Folie als PNG speichern
+778	Folie aus Slide-Library einfügen
+779	Folie(n) als Thumbnail kopieren
+780	Folien
+781	Folien anzeigen
+782	Folien aus Bildern erstellen
+783	Folien aus Dateien anfügen
+784	Folien bis zur Folie Nr.
+785	Folien einzeln speichern
+786	Folien exportieren
+787	Folien in einzelne PowerPoint-Dateien speichern.
+788	Folien synchronisieren
+789	Folien-Notizen
+790	Folien-Referenz
+791	Folien-Referenz aller Thumbnails in der Präsentation löschen und Thumbnails in Bilder konvertieren
+792	Folien-Referenz löschen und Thumbnail damit in normales Bild umwandeln.
+793	Folien-Thumbnail als Bitmap einfügen
+794	Folien-Thumbnail als PNG einfügen
+795	Folien-Thumbnail als Vektor (EMF) einfügen
+796	Folien-Thumbnail einfügen
+797	Folien-Thumbnails
+798	Folienauswahl
+799	Folienmaster
+800	Folienmaster auf die ausgewählten Folien anwenden.
+801	Folienmaster auf die ganze Präsentation anwenden.
+802	Folienmaster aus Datei ersetzen…
+803	Folienmaster zu der aktuellen Präsentation hinzufügen.
+804	Foliennummer einfügen
+805	Foliennummerierung ein-/ausblenden
+806	Folienreferenz öffnen
+807	Folienübergänge entfernen
+808	Font Awesome 4 > {}
+809	Font Awesome 4 > {}\\n{}
+810	Font Scheme
+811	Font für Unicode Symbols
+812	Font nicht installiert
+813	Fontschema Export
+814	Fontschema Import
+815	Form
+816	Form aus Selektion
+817	Form-Rotation
+818	Form/Shape-Typ
+819	Formarten
+820	Format
+821	Format Syncer
+822	Format angleichen
+823	Format anwenden
+824	Format aufnehmen
+825	Format aus selektiertem Shape in Zwischenspeicher aufnehmen.
+826	Format bereinigen
+827	Format zum Einfügen des Thumbnails auswählen
+828	Format-Gruppe
+829	Format-Tab ausblenden
+830	Format-Tab wird ausgeblendet, um automatischen Wechsel zum Tab beim Anlegen von Shapes zu verhindern.
+831	Formatierung
+832	Formatierung aller verknüpfter Shapes auf Größe wie ausgewähltes Shape setzen.
+833	Formatierung angleichen
+834	Formatierung verknüpfter Shapes angleichen
+835	Formatting Tests
+836	Formatvorlagen
+837	Formel anwenden…
+838	Formeln
+839	Formeln $A$1 zu A1
+840	Formeln A1 zu $A$1
+841	Formeln einfügen auf sichtbare Zellen
+842	Formeln in allen ausgewählten Zellen durch jeweilige Werte ersetzen. Zellen ohne Formeln bleiben unverändert.
+843	Formeln zu Text
+844	Formeln zu Werten
+845	Formeln zu englischen Formeln
+846	Formen
+847	Formen manipulieren
+848	Formen skalieren
+849	Formen teilen oder vervielfachen
+850	Formen zusammenführen
+851	Funktionen
+852	Funktionen auswählen:
+853	Funktionen auswählen…
+854	Funktionen um Shape-Punkte zu manipulieren, Shapes zu duplizieren, und Text in Symbol/Grafik umzuwandeln
+855	Funktionen um Shapes in den Hintergrund zu setzen
+856	Funktionen um Shapes in den Vordergrund zu holen
+857	Funktionen wie Positionierung, Verlinkte Shapes, ...
+858	Funktionen zum Aufräumen aller Folien der Präsentation
+859	Funktionen zum Tauschen von Shape-Position, -Größe oder Formatierung
+860	Funktionen:
+861	Füge Foliennummerierungen ein, welche sich bei Umsortierung der Folien nicht ändern.\\n\\nHilfreich bei der Erfassung von Anmerkungen, wenn man während einer Diskussion des Foliensatzes Umsortierungen durchführt.
+862	Füge ein Checkbox-Symbol als Wechselshape ein, welches interaktiv geändert werden kann.
+863	Füge ein Harvey-Ball ein, welcher sich bzgl. Farbe/Füllstand konfigurieren lässt.\\n\\nFarbe und Füllstand lassen sich über Kontext-Menü und Kontext-Tab konfigurieren, im Tab auch Prozent-Angaben möglich.\\n\\nEin Harvey-Ball-Shape ist eine Gruppe aus Kreis- und Torten-Shape.
+864	Füge ein Schachbrett aus Standard-Shapes ein
+865	Füge ein Sticker-Shape oben rechts auf dem aktuellen Slide mit Text BACKUP ein.
+866	Füge ein Sticker-Shape oben rechts auf dem aktuellen Slide mit Text CONFIDENTIAL ein.
+867	Füge ein Sticker-Shape oben rechts auf dem aktuellen Slide mit Text DRAFT ein.
+868	Füge ein Sticker-Shape oben rechts auf dem aktuellen Slide mit Text FOR DISCUSSION ein.
+869	Füge ein Sticker-Shape oben rechts auf dem aktuellen Slide mit Text ILLUSTRATIVE ein.
+870	Füge ein Sticker-Shape oben rechts auf dem aktuellen Slide mit selbst definiertem ein.
+871	Füge eine Status-Ampel ein. Die Status-Farbe der Ampel kann per Kontext-Dialog konfiguriert werden.
+872	Füge eine Tabelle aus Standard-Shapes ein
+873	Füge eine Textbox mit Linie unten am Shape auf dem aktuellen Slide ein.
+874	Fügt Standard Kopfzeile (Dateiname und Tabellenblattname) und Fußzeile (Seite x von y) für alle ausgewählten Blätter ein.
+875	Fügt alle Spalten (je Selektionsbereich) in die erste Spalte getrennt mit Kommas ein
+876	Fügt alle Zeilen (je Selektionsbereich) in erste Zeile getrennt mit Zeilenumbruch ein
+877	Fügt alle Zellen in aktive Zelle getrennt mit Zeilenumbruch ein
+878	Fügt allen verknüpften Shapes am Ende vom Text automatisch aktualisierbare Foliennummer an
+879	Fügt den Inhalt der Zwischenablage als Formeln nur auf sichtbare Zellen ein. Ausgeblendete bzw. herausgefilterte Zellen werden übersprungen.
+880	Fügt den Inhalt der Zwischenablage als Werte nur auf sichtbare Zellen ein. Ausgeblendete bzw. herausgefilterte Zellen werden übersprungen.
+881	Fügt den Inhalt der Zwischenablage nur auf sichtbare Zellen ein. Ausgeblendete bzw. herausgefilterte Zellen werden übersprungen.
+882	Fügt eine Bearbeitungsnotiz oben rechts auf der Folie ein inkl. Autor und Datum.
+883	Fügt für jedes markierte Shape ein Nummerierungs-Shape ein. Nummerierung und Styling entsprechend der Auswahl. Markierte Shapes werden entsprechend der Selektions-Reihenfolge durchnummeriert.
+884	Fügt jeder Seite 3 zusätzliche Shape-Punkte hinzu, die für Konntektoren genutzt werden können. Funktioniert nur mit Rechtecken.
+885	Führe die markierten Shapes in ein Shape zusammen. Der Text aller Shapes wird übernommen und aneinandergehängt.
+886	Füllstand eines Harvey-Balls ändern
+887	Füllstand in %
+888	Füllstand ändern
+889	Füllstand:
+890	Für Unterpunkte eines Agendapunkts (Indent-Level>1) werden Agenda-Slides erstellt
+891	Für dieses Fenster anzeigen
+892	Für dieses Fenster schließen
+893	GROẞBUCHSTABEN
+894	Galleries
+895	Gallery
+896	Gallery Menu
+897	Gallery Menu (with groups)
+898	Ganze Spalten markieren
+899	Ganze Zeilen markieren
+900	Gegen Uhrzeigersinn
+901	Gehe zu
+902	Gehe zu Tab
+903	Gekrümmte Verbindung
+904	Generate Image
+905	Generate controls overview
+906	Genutzten Bereich markieren
+907	Gerader Verbinder
+908	Gesamte Folie
+909	Gesamte Shape-Verknüpfung auflösen
+910	Geschützter Trennstrich
+911	Geschütztes Leerzeichen
+912	Gesperrt
+913	Get all shape data
+914	Get info about clipboard contents
+915	Get rect
+916	Gewinkelte Verbindung
+917	Gewählte Folie als aktualisierbares Thumbnail kopieren
+918	Gewählte Shapes tauschen
+919	Gewünschte Shape-Anordnung wird durch Positionierung von Shapes erreicht
+920	Gewünschte Shape-Anordnung wird durch Verkleinerung/Vergrößerung (anstatt Positionierung) von Shapes erreicht
+921	Gewünschte Shape-Anordnung wird durch Verkleinerung/Vergrößerung von Shapes erreicht
+922	Gewünschter Shape-Abstand wird durch Positionierung von Shapes erreicht
+923	Gewünschter Shape-Abstand wird durch Verkleinerung/Vergrößerung von Shapes erreicht
+924	Geöffnete Arbeitsmappen konsolidieren
+925	Geöffnete Arbeitsmappen konsolidieren…
+926	Gibt an ob Elemente einer Gruppe einzeln betrachtet werden, oder die gesamte Gruppe als Ganzes.
+927	Gleiche Abstände
+928	Gleiche Breite
+929	Gleiche Breite Menü
+930	Gleiche Breite wie Median der Shape-Breiten
+931	Gleiche Breite wie Mittelwert der Shape-Breiten
+932	Gleiche Breite wie Referenzshape
+933	Gleiche Breite wie Referenzshape [Strg]
+934	Gleiche Breite wie breitestes Shape
+935	Gleiche Breite wie schmalstes Shape
+936	Gleiche Breite wie schmalstes Shape [Shift]
+937	Gleiche Farbe
+938	Gleiche Größe wie Referenz
+939	Gleiche Höhe
+940	Gleiche Höhe Menü
+941	Gleiche Höhe wie Median der Shape-Höhen
+942	Gleiche Höhe wie Mittelwert der Shape-Höhen
+943	Gleiche Höhe wie Referenzshape
+944	Gleiche Höhe wie Referenzshape [Strg]
+945	Gleiche Höhe wie höchstes Shape
+946	Gleiche Höhe wie niedrigstes Shape
+947	Gleiche Höhe wie niedrigstes Shape [Shift]
+948	Gleiche Position wie Referenz
+949	Gleiches Shape auf Folgefolien suchen und verknüpfen
+950	Gleichmäßig verteilt
+951	Gleicht alle Shapes auf den Folien der ersten selektierten Folie an anhand des Shape-Namens. Die Funktion ist nützlich wenn man ein Template erstellt, die mehrfach dupliziert und Änderungen danach synchronisieren möchte
+952	Gleicht minimale Verschiebungen der Kanten der gewählten Shapes aus durch Vergrößerung auf Shapes links der anzupassenden Shapes.
+953	Gleicht minimale Verschiebungen der Kanten der gewählten Shapes aus durch Vergrößerung auf Shapes links-oberhalb der anzupassenden Shapes.
+954	Gleicht minimale Verschiebungen der Kanten der gewählten Shapes aus durch Vergrößerung auf Shapes oberhalb der anzupassenden Shapes.
+955	Gleicht minimale Verschiebungen der Kanten der gewählten Shapes aus.
+956	Gliederung
+957	Glätten (Trim)
+958	Glätten/Kürzen (Trim)
+959	Grafik-Tracker
+960	Green
+961	Group Box
+962	Group Centered Style
+963	Group1
+964	Group2
+965	Groß 1 cm
+966	Groß-/Kleinschreibung aller verknüpften Shapes umkehren
+967	Groß-/Kleinschreibung für alle verknüpften Shapes anpassen
+968	Groß-/Kleinschreibung ändern
+969	Großer Abstand
+970	Gruppe
+971	Gruppe aufheben rekursiv ausführen
+972	Gruppen-Elemente einzeln anpassen
+973	Gruppieren
+974	Gruppierte Shapes in ein Wechselshape konvertieren
+975	Gruppierung
+976	Größe
+977	Größe (PPT-Standard)
+978	Größe aller verknüpfter Shapes auf Größe wie ausgewähltes Shape setzen.
+979	Größe angleichen
+980	Größe anp.
+981	Größe der Form anpassen
+982	Größe runden
+983	Größe und Position (BKT-Version)
+984	Größe und Position des Bildausschnitts einfügen
+985	Größe und Position des Bildausschnitts kopieren
+986	Größe und Position vom Diagrammbereich einfügen
+987	Größe und Position vom Diagrammbereich kopieren
+988	Größe verknüpfter Shapes angleichen
+989	Größen-Gruppen
+990	Harvey Ball
+991	Harvey Ball duplizieren
+992	Harvey Ball erstellen
+993	Harvey Balls
+994	Harvey-Ball Hintergrund auf transparent setzen
+995	Harvey-Ball Linie ausblenden
+996	Harvey-Ball Linie wird nur entweder um den ganzen Kuchen oder nur um den äußeren Kreis angezeigt
+997	Harvey-Ball auf 0%
+998	Harvey-Ball auf 100%
+999	Harvey-Ball auf 25%
+1000	Harvey-Ball auf 33%
+1001	Harvey-Ball auf 50%
+1002	Harvey-Ball auf 66%
+1003	Harvey-Ball auf 75%
+1004	Harvey-Ball auf neuste Version aktualisieren
+1005	Harvey-Ball im Diagramm-Style mit hervorgehobenem Füllstand.
+1006	Harvey-Ball im klassischen Style ohne zusätzlichem Rand darstellen.
+1007	Harvey-Ball im modernen Style mit weißem Rand darstellen.
+1008	Harvey-Ball spiegel, um Füllstand mit oder gegen den Uhrzeigersinn anzuzeigen.
+1009	Harvey-Ball wird auf die neueste Version aktualisiert, wodurch er optisch etwas besser aussieht und die Linienfarbe angepasst werden kann. Allerdings ist er dann nicht mehr mit älteren Versionen kompatibel.
+1010	Hebt den Link von verknüpften Objekten (bspw. Bilder und OLE-Objekten) auf.
+1011	Hebt verbundene Zellen innerhalb der aktuellen Auswahl auf und fügt den ursprünglichen Zelleninhalt in alle Zellen ein.
+1012	Hello World!
+1013	Highlight Colors
+1014	Hilfe
+1015	Hilfe anzeigen
+1016	Hilfe öffnen
+1017	Hintere nach vorne
+1018	Hintergrund
+1019	Hintergrund aus
+1020	Hintergrund eines Harvey-Balls ändern
+1021	Hintergrund ändern
+1022	Hintergrund-Menü
+1023	Hintergrund/Füllung
+1024	Hintergrundfarbe des ausgewählten Shapes zu eigenen Farben hinzufügen.
+1025	Hintergrundfarbe des ausgewählten Shapes zu zuletzt verwendeten Farben hinzufügen.
+1026	Hintergrundfarbe eines Wechsel-Shapes ändern
+1027	Hintergrundfarbe für Bearbeitungsnotizen auf Standard zurücksetzen.
+1028	Hintergrundfarbe für Selektor
+1029	Hintergrundfarbe für neue Bearbeitungsnotizen ändern.
+1030	Hinweis: Agenda-Hauptfolie sollte nicht gelöscht werden!
+1031	Hinzufügen
+1032	Horizontal an Mittelpunkt verteilen
+1033	Horizontal an linker Kante verteilen
+1034	Horizontal an rechter Kante verteilen
+1035	Horizontal gespiegelt an/aus
+1036	Horizontal spiegeln
+1037	Horizontal verteilen
+1038	Horizontal zentriert ausrichten
+1039	Horizontale Anordnung
+1040	Horizontale Verbindungsfläche
+1041	Horizontalen Objektabstand
+1042	Horizontaler Abstand
+1043	Hyperlinks für Agenda-Punkte erstellen
+1044	Höhe
+1045	Höhe = Breite
+1046	Höhe = Breite setzen
+1047	Höhe der Ellipse (Diagonale) für die Kreisanordnung
+1048	Höhe der Shapes einheitlich (Ausrichtung am Referenzshape)
+1049	Höhe der Shapes einheitlich (Ausrichtung am höchsten Shape)
+1050	Höhe der Shapes einheitlich (Ausrichtung am niedrigsten Shape)
+1051	Höhe für Selektor
+1052	Höhe für alle verknüpften Shapes angleichen
+1053	Höhe und Breite tauschen
+1054	Höhe ändern
+1055	Höhe ⇄ Breite
+1056	ILLUSTRATIVE-Sticker
+1057	ILLUSTRATIVE-Sticker einfügen
+1058	INFO
+1059	Icon-Fonts
+1060	Icon-Suche
+1061	Icons-Fonts ausschließen
+1062	Im Explorer öffnen
+1063	Im Fenster starten
+1064	Im Vollbild starten
+1065	ImageMso
+1066	Import
+1067	Importiere Farbschema aus einer XML-Datei in die Arbeitsmappe.
+1068	Importiere Fontschema aus einer XML-Datei in die Arbeitsmappe.
+1069	In Gruppe einfügen
+1070	In Prozess konvertieren
+1071	In Wechselshape konvertieren
+1072	In Wechselshapes konvertieren oder wieder alle Shapes sichtbar machen
+1073	In den 4 Ecken
+1074	In den Hintergrund
+1075	In den Vordergrund
+1076	In-Place Table Operations
+1077	Indikator an Referenzshape
+1078	Indikator an dem Referenzshape innerhalb der Selektion anzeigen
+1079	Indizierte Icons: {}
+1080	Indizierte Keywords: {}
+1081	Informationen
+1082	Informationen über erkannte Tabelle anzeigen
+1083	Inhalt
+1084	Inhalte
+1085	Inhaltsbereich [STRG]
+1086	Inhaltsbereich definieren
+1087	Inhaltsbereich zurücksetzen
+1088	Inkl. Sub-Shapes:
+1089	Innenabstand auf Null
+1090	Innenabstand links
+1091	Innenabstand oben
+1092	Innenabstand rechts
+1093	Innenabstand unten
+1094	Inner- & oberhalb
+1095	Inner- & unterhalb
+1096	Innerhalb
+1097	Innerhalb Zentrum-Shape
+1098	Innerhalb weiterer Shapes
+1099	Input
+1100	Interactive Console
+1101	Interaktive BKT-Shapes und spezielle zusammengesetzte Shapes einfügen, die sonst nur umständlich zu erstellen sind.
+1102	Interaktive Formen
+1103	Invertiert die aktuelle Auswahl. Es werden alle Shapes (auch Platzhalter) markiert, die vorher nicht markiert waren.
+1104	IronPythonWPF
+1105	Item 1
+1106	Item 2
+1107	Item 3
+1108	Item 4
+1109	Jede Folie als einzelne Datei im gewählten Ordner speichern. Die Dateien werden mit Foliennummer nummeriert und nach Folientitel benannt.
+1110	Jede Folie einzeln speichern. Die Dateien werden mit Foliennummer nummeriert und nach Folientitel benannt.
+1111	Jede Hierachieebene einrücken (nur rekursiv)
+1112	Jede Hierachieebene gruppieren (nur rekursiv)
+1113	Jeden Abschnitt als einzelne Datei im gewählten Ordner speichern. Die Dateien werden nummeriert und nach Abschnittstitel benannt.
+1114	Jeden Abschnitt einzeln speichern. Die Dateien werden nummeriert und nach Abschnittstitel benannt.
+1115	Jeden Agenda-Punkt mit der zugehörigen Agenda-Folie verlinken.
+1116	Jeden Paragraphen (bzw. Zelle) aus der Zwischenablage einzeln auf die markierten Shapes verteilen (von links nach rechts, und von oben nach unten). Überflüssige Paragraphen werden verworfen.
+1117	Jeder Rechteck-Seite 3 zusätzliche Punkte für Konnektoren hinzufügen
+1118	Jetzt auf neue Version prüfen
+1119	Kanten-Autofixer
+1120	Kanten-Autofixer Menü
+1121	Kanten-Autofixer Toleranz
+1122	Kanten-Autofixer diagonal von links-oben
+1123	Kanten-Autofixer von links nach rechts
+1124	Kanten-Autofixer von oben nach unten
+1125	Katalog für eigene Farben
+1126	Kein Hintergrund
+1127	Kein Rahmen
+1128	Keine Ergebnisse für »{}«
+1129	Keine Farbe / Transparenz
+1130	Keine Füllung
+1131	Keine Linie
+1132	Keine Änderung
+1133	Key-/Mouse-Hooks an/aus
+1134	Kleben/Ausrichten
+1135	Klein 0,1cm
+1136	Kleiner Abstand
+1137	Komma-getrennt in Spalten trennen
+1138	Kommentare
+1139	Kommentare entfernen
+1140	Konfig.
+1141	Konfiguriere die Textoption auf 'Größe der Form dem Text anpassen' bzw. 'Größe nicht automatisch anpassen'.
+1142	Konfiguriere die Textoption auf 'Text in Form umbrechen'.
+1143	Konsol./Teilen
+1144	Konsolidieren & Teilen
+1145	Konsolidiert alle ausgewählten Blätter dieser Arbeitsmappe in einem neuen Blatt.
+1146	Konsolidiert die Blätter der ausgewählten Dateien in einer neuen Arbeitsmappe. Die aktuelle Arbeitsmappe wird nicht verändert.
+1147	Konsolidiert die ausgewählten geöffneten Arbeitsmappen in einer neuen Arbeitsmappe, d.h. kopiert alle Blätter in eine Arbeitsmappe. Die aktuelle Arbeitsmappe wird nicht verändert.
+1148	Konturstärke
+1149	Konvertieren
+1150	Konvertiert Formeln in als Text gespeicherte Formeln. Dabei wird das Zellenformat auf 'Text' geändert. Zellen ohne Formeln bleiben unverändert.
+1151	Konvertiert Formeln in als Text gespeicherte englische Formeln. Dabei wird das Zellenformat auf 'Text' geändert. Zellen ohne Formeln bleiben unverändert.
+1152	Konvertiert Referenzen in Formeln zu absoluten Referenzen.
+1153	Konvertiert Referenzen in Formeln zu relativen Referenzen.
+1154	Konvertiert als Text gespeicherte Datum- und Zeitwerte in ein echtes Datum ggf. mit Uhrzeit. Dabei wird das Zellenformat auf 'Standard' geändert.
+1155	Konvertiert als Text gespeicherte Formeln in echte Formeln. Dabei wird das Zellenformat auf 'Standard' geändert.
+1156	Konvertiert als Text gespeicherte Zahlen in echte Zahlen. Dabei wird das Zellenformat auf 'Standard' geändert.
+1157	Konvertiert als Text gespeicherte englische Formeln in echte Formeln. Dabei wird das Zellenformat auf 'Standard' geändert.
+1158	Konvertiert numerische Werte (Zahlen, Datum, Zeit) in als Text gespeicherte Zahlen. Dabei wird das Zellenformat auf 'Text' geändert.
+1159	Kopf-/Fußzeilen einfügen
+1160	Kopfzeile (Überschrift) wieder richtig auf dem Prozessschritt-Shape positionieren
+1161	Kopiere
+1162	Kopiere Maximum markierter Zellen
+1163	Kopiere Minimum markierter Zellen
+1164	Kopiere Mittelwert markierter Zellen
+1165	Kopiere Summe markierter Zellen
+1166	Kopiere das Maximum über die selektierten sichtbaren Zellen in die Zwischenablage.
+1167	Kopiere das Minimum über die selektierten sichtbaren Zellen in die Zwischenablage.
+1168	Kopiere den Mittelwert über die selektierten sichtbaren Zellen in die Zwischenablage.
+1169	Kopiere den Text eines Text-Shapes in das zweite markierte Shape und löscht das Text-Shape.
+1170	Kopiere die Summe über die selektierten sichtbaren Zellen in die Zwischenablage.
+1171	Kopieren
+1172	Kopieren mit Koordinaten
+1173	Kopieren-Menü
+1174	Kopiert Höhe und Breite der Tabellenzeilen bzw. Tabellenspalten, um diese mit einer anderen Tabelle anzugleichen.
+1175	Kopiert Höhe und Breite des Ausschnitts bei einem zugeschnittenen Bild, um den Ausschnitt mit einem anderen Bild anzugleichen.
+1176	Kopiert Höhe und Breite des Diagramms sowie Größe und Position der Zeichnungsfläche, um ein anderes Diagramm anzugleichen.
+1177	Kopiert alle sichtbaren Blätter jeweils in eine neue Arbeitsmappe und speichert diese im gleichen Verzeichnis wie die aktuelle Arbeitsmappe. Die aktuelle Arbeitsmappe wird nicht verändert.
+1178	Kopiert den Text aller markierten Shapes in die Zwischenablage.
+1179	Kopiert die aktuelle Folie in hoher Qualität in die Zwischenablage.
+1180	Kopiert die markierten Arbeitsblätter in eine neue Arbeitsmappe. Dies funktioniert auch, wenn mehrere Blätter Listen und Tabellen enthalten. Die aktuelle Arbeitsmappe wird nicht verändert.
+1181	Kopierte Folie als aktualisierbares Thumbnail im Bitmap-Format mit Referenz auf Originalfolie einfügen.
+1182	Kopierte Folie als aktualisierbares Thumbnail im PNG-Format mit Referenz auf Originalfolie einfügen.
+1183	Kopierte Folie als aktualisierbares Thumbnail im Vektor-Format (Enhanced Metafile) mit Referenz auf Originalfolie einfügen.
+1184	Kopierte Folie als aktualisierbares Thumbnail mit Referenz auf Originalfolie einfügen.\\n\\nIst die Originalfolie aus einer anderen Datei im gleichen Verzeichnis, wird nur der Dateiname hinterlegt, anderenfalls wird der absolute Pfad hinterlegt und die Originaldatei darf nicht verschoben werden.
+1185	Kopierte Verbindungspunkte in gewählte Shapes einfügen
+1186	Kreis (Breite = Höhe) an/aus
+1187	Kreisanordnung
+1188	Kreisanordnung Optionen
+1189	Kreisförmig anordnen
+1190	Kreissegmente bearbeiten
+1191	Kreissegmente einfügen
+1192	Kreissegmente erstellen
+1193	Kreissegmente…
+1194	Kreuzung
+1195	Kursiv
+1196	Label
+1197	Label 1 Lorem Ipsum
+1198	Label 2 with bullet Lorem Ipsum
+1199	Label 3 with bullet Lorem Ipsum
+1200	Lade 
+1201	Lade Custom-Styles aus dieser Katalog-Datei.
+1202	Layout
+1203	Layout wechseln
+1204	Leere Abschnitte entfernen
+1205	Leere Platzhalter entfernen
+1206	Leere Spalten
+1207	Leere Spalten markieren
+1208	Leere Zeilen
+1209	Leere Zeilen markieren
+1210	Leere Zellen im selektierten Bereich mit jeweils gefüllter Zelle darüber füllen.
+1211	Leere Zellen nach unten füllen
+1212	Legt Ausrichtung der Shapes innerhalb der Tabellenzellen fest.
+1213	Legt den Punkt fest, der beim Rotieren der Shapes fixiert sein soll.
+1214	Legt den Punkt fest, der beim Tauschen der Shapes fixiert sein soll.
+1215	Legt den Punkt innerhalb aller weiteren Shapes fest, von dem der Abstand bzw. Winkel der Shapes gemessen werden soll.
+1216	Legt den Punkt innerhalb des Zentrum-Shapes fest, von dem der Abstand bzw. Winkel der Shapes gemessen werden soll.
+1217	Legt fest welches Shape innerhalb der Selektion im Zentrum stehen sollen.
+1218	Legt fest, dass Abstand bzw. Winkel für jedes Shape einzeln vom Zentrum zum jeweiligen Shape berechnet wird.\\n\\nDiese Funktion ist nützlich, um den Winkel einer Diagonalen von Shapes zu ändern oder eine sternförmige Anordnung von Shapes zu erreichen.
+1219	Legt fest, dass Abstand bzw. Winkel gleichmäßig von Zentrum und zwischen jedem Shape verteilt wird.\\n\\nDiese Funktion ist nützlich, um mehrere Shapes entlang einer Diagonalen oder um ein Zentrum herum zu verteilen.
+1220	Legt fest, dass Abstand bzw. Winkel immer um die gleiche Differenz von Zentrum zum jeweiligen Shape geändert wird.\\n\\nTemporäre Umschaltung mit ALT-Taste möglich.
+1221	Legt fest, dass das zuerst selektierte Shape innerhalb der Selektion im Zentrum stehen soll.
+1222	Legt fest, dass das zuletzt selektierte Shape innerhalb der Selektion im Zentrum stehen soll.
+1223	Legt über das markierte Shape ein Ampelstatus-Overlay welches anzeigt, ob die Operation erfolgreich war und Shapes aktualisiert wurden. Funktioniert für Größe, Position, Formatierung und Text angleichen.
+1224	Letztes Shape im Foliensatz
+1225	Letztes Shape in Mittelpunkt positionieren
+1226	Letztes verknüpfte Shape finden
+1227	Library
+1228	Library erneut indizieren
+1229	Library verwalten
+1230	Library-Dateien auswählen und zur Konfiguration dauerhaft hinzufügen.
+1231	Library-Dateien oder Ordner hinzufügen oder entfernen.
+1232	Library-Ordner auswählen und zur Konfiguration dauerhaft hinzufügen.
+1233	Likert-Scale
+1234	Likert-Scale als Wechselshape einfügen
+1235	Linie aus
+1236	Linie eines Wechsel-Shapes ändern
+1237	Linie nur außen ein/aus
+1238	Linie ändern
+1239	Linie/Rahmen
+1240	Linienfarbe eines Harvey-Balls ändern
+1241	Linienfarbe für Selektor
+1242	Linienfarbe ändern
+1243	Linke Kante
+1244	Linke Lücke füllen
+1245	Linke Seite
+1246	Linke Seite angleichen
+1247	Linke Seite für alle verknüpften Shapes angleichen
+1248	Links
+1249	Links = Oben
+1250	Links = Oben setzen
+1251	Links an Links
+1252	Links an Mitte
+1253	Links an Rechts
+1254	Links andocken
+1255	Links ausrichten
+1256	Links nach rechts
+1257	Links und Oben tauschen
+1258	Links ⇄ Oben
+1259	Liste aller Arbeitsblätter
+1260	Liste aller Blätter, Arbeitsmappen, Dateliste, ...
+1261	Liste aller Datenüberprüfungen
+1262	Liste aller Dokumenteneigenschaften
+1263	Liste aller Kommentare
+1264	Liste aller Namen
+1265	Liste aller bedingten Formatierungen
+1266	Liste aller geöffneten Arbeitsmappen
+1267	Liste von funktionalen Einschränkungen durch interne PowerPoint-Bugs anzeigen
+1268	Listen erstellen
+1269	Listen zum Blatt
+1270	Listen zur Mappe
+1271	Listensymbole
+1272	Locpin Distance
+1273	Locpin Nodes
+1274	Lorem ipsum
+1275	Lorem ipsum dolor sit amet.
+1276	Lösche alle Kommentare im gesamten Foliensatz.
+1277	Lösche alle Notizen im gesamten Foliensatz.
+1278	Lösche alle Shape-Animationen im gesamten Foliensatz.
+1279	Lösche alle ausgeblendeten Slides im gesamten Foliensatz.
+1280	Lösche alle doppelten Leerzeichen im gesamten Foliensatz.
+1281	Lösche alle nicht verwendeten Folienmaster (Designs).
+1282	Lösche alle nicht verwendeten Folienmaster-Layouts sowie leere Folienmaster (Designs).
+1283	Lösche alle Übergänge zwischen Folien.
+1284	Lösche leere Platzhalter-Textboxen im gesamten Foliensatz.
+1285	Löschen
+1286	Löschen aller Tracker (auf allen Folien) anhand des ausgewählten Tracker.
+1287	Löscht den definierten Inhaltsbereich, d.h. es wird wieder der Standard Inhaltsbereich der Folie verwendet.
+1288	MASTER
+1289	MSOffice Controls
+1290	Mache alle versteckten Shapes (visible=False) wieder sichtbar.
+1291	Macht das zuerst ausgewählte Shape zum Referenzshape. Ist kein Shape markiert, wird der Inhaltsbereich als Referenz verwendet.
+1292	Macht ein Shape klebend für Verbinder über die ShapeSheet-Eigenschaten GlueType, ObjType und IsSnapTarget (nur Gruppen).
+1293	Macht ein Shape unklebend für Verbinder und andere Shapes über die ShapeSheet-Eigenschaten GlueType, ObjType und IsSnapTarget (nur Gruppen).
+1294	MahApps.Metro dialog
+1295	MainWindow
+1296	Manuelle Auswahl
+1297	Markieren
+1298	Markiert alle Elemente innerhalb der Gruppe.
+1299	Markiert alle Shapes auf der Folie mit Tags (Meta-Daten), die u.A. für diverse BKT-Funktionen verwendet werden.
+1300	Markiert den genutzten Bereich (UsedRange).
+1301	Markiert den nicht markierten Bereich innerhalb des gewählten Bereichs.
+1302	Markiert den ungenutzten Bereich.
+1303	Markierte Blätter in neue Arbeitsmappe kopieren
+1304	Markierte Folien per E-Mail senden
+1305	Markierte Shapes mit dem Inhalt der Zwischenablage ersetzen und dabei Größe und Position erhalten.
+1306	Markierte Shapes zu Datei hinzufügen
+1307	Markierte Shapes zu Favoriten
+1308	Markiertes Shape mit dem Inhalt der Zwischenablage ersetzen und dabei Größe und Position erhalten.
+1309	Markierung umkehren…
+1310	Master Styles
+1311	Master-V.pkt. auf alle kopieren
+1312	Masteransichten
+1313	Mathesymbole
+1314	Max. {} Icons pro Seite
+1315	Mehr
+1316	Mehrere Arbeitsblätter gemäß einer Auswahl umbenennen oder erstellen aus Vorlage
+1317	Mehrere Bild-Dateien (jpg, png, emf) auf jeweils eine Folie einfügen
+1318	Mehrere Bild-Dateien (jpg, png, emf) auf jeweils eine Folie einfügen.
+1319	Mehrere Blätter umbennen, sortieren oder neu erstellen
+1320	Mehrere Dateien konsolidieren
+1321	Mehrere Shapes auf verschiedene Weise auf die gleiche Breite setzen
+1322	Mehrere Shapes auf verschiedene Weise auf die gleiche Höhe setzen
+1323	Menu
+1324	Menu Item #1
+1325	Menu Item #2
+1326	Menu group large
+1327	Menu group small
+1328	Menu item 1
+1329	Menu item 2
+1330	Menus
+1331	Menü mit verschiedenen Einfüge-Operationen
+1332	Menü mit verschiedenen Kopier-Operationen
+1333	Menü zum Ausrichten als Tabelle
+1334	Messageboxes
+1335	Millionenbeträge übersichtlich darstellen
+1336	Mini-Rechner
+1337	Mio.-Werte zu 0,0 M
+1338	Misc
+1339	Mit Referenz ersetzen
+1340	Mit RegEx in Spalten aufteilen
+1341	Mit RegEx suchen und ersetzen
+1342	Mit RegEx zählen/filtern
+1343	Mit Text:
+1344	Mit Zwischenablage ersetzen
+1345	Mit diesem Button können die Shapes innerhalb der Wechselshape-Gruppe eingeblendet werden.
+1346	Mit einem regulären Ausdruck in ausgewählten Zellen suchen und ersetzen.
+1347	Mitte
+1348	Mitte an Links
+1349	Mitte an Mitte
+1350	Mitte an Oben
+1351	Mitte an Rechts
+1352	Mitte an Unten
+1353	Mitte von 1. Zeile
+1354	Mittel 0,3cm
+1355	Mittelpunkt
+1356	Mittelpunkt links
+1357	Mittelpunkt links angleichen
+1358	Mittelpunkt links für alle verknüpften Shapes angleichen
+1359	Mittelpunkt oben
+1360	Mittelpunkt oben angleichen
+1361	Mittelpunkt oben für alle verknüpften Shapes angleichen
+1362	Mittelwert:
+1363	Modus: 
+1364	Monatlich
+1365	My first group
+1366	My-Toolbox 1/3
+1367	My-Toolbox 2/3
+1368	Nach links
+1369	Nach links strecken
+1370	Nach oben
+1371	Nach oben strecken
+1372	Nach rechts
+1373	Nach rechts strecken
+1374	Nach unten
+1375	Nach unten gefüllte Zellen wieder leeren
+1376	Nach unten strecken
+1377	Name
+1378	Neue Agenda auf Basis der aktuellen Folie erstellen. Aktuelle Folien wird Hauptfolie der Agenda.
+1379	Neue Agenda auf Basis des aktuellen Slides erstellen. Aktuelles Slide wird Hauptfolie der Agenda.
+1380	Neue Blätter gemäß der aktuellen Auswahl erstellen. Die Auswahl muss aus genauer einer Spalte mit den anzulegenden Blattnamen bestehen.
+1381	Neue Library-Datei erstellen
+1382	Neue Präsentation mit Design erstellen
+1383	Neue Punkte anlegen
+1384	Neue Shapes hinzufügen
+1385	Neue leere Präsentation auf Basis des Folienmasters erstellen.
+1386	Neuen Katalog mit definierbarem Namen anlegen.
+1387	Neuen Style aufnehmen
+1388	Neuen Style-Katalog anlegen
+1389	Neuer Harvey Ball
+1390	Neuer Mini-Rechner
+1391	Next group
+1392	Nicht genutzte Folienlayouts entfernen
+1393	Nicht genutzte Folienmaster entfernen
+1394	Nimmt Format vom gewählten Shape neu in die Gallerie auf.
+1395	Nodes
+1396	Normalisiert die Breite aller Spalten ohne dabei die Tabellengröße zu verändern.
+1397	Normalisiert die Breite bzw. Höhe der Zellen.
+1398	Normalisiert die Höhe aller Zeilen ohne dabei die Tabellengröße zu verändern.
+1399	Normiere die Breite der markierten Shapes, entsprechend der Breite des Referenzshapes (also zuletzt bzw. zuerst markiertes Shape).
+1400	Normiere die Breite der markierten Shapes, entsprechend der Breite des breitesten Shapes.
+1401	Normiere die Breite der markierten Shapes, entsprechend der Breite des breitesten Shapes.\\nBei gedrückter Shift-Taste entsprechend des schmalsten Shapes.\\nBei gedrückter Strg-Taste entsprechend des zuletzt markierten Shapes.
+1402	Normiere die Breite der markierten Shapes, entsprechend der Breite des schmalsten Shapes.
+1403	Normiere die Breite der markierten Shapes, entsprechend des Medians der Breiten der Shapes.
+1404	Normiere die Breite der markierten Shapes, entsprechend des Mittelwerts der Breiten der Shapes.
+1405	Normiere die Höhe der markierten Shapes, entsprechend der Höhe des Referenzshapes (also zuletzt bzw. zuerst markiertes Shape).
+1406	Normiere die Höhe der markierten Shapes, entsprechend der Höhe des höchsten Shapes.
+1407	Normiere die Höhe der markierten Shapes, entsprechend der Höhe des höchsten Shapes.\\nBei gedrückter Shift-Taste entsprechend des niedrigsten Shapes.\\nBei gedrückter Strg-Taste entsprechend des zuletzt markierten Shapes.
+1408	Normiere die Höhe der markierten Shapes, entsprechend der Höhe des niedrigsten Shapes.
+1409	Normiere die Höhe der markierten Shapes, entsprechend des Medians der Höhen der Shapes.
+1410	Normiere die Höhe der markierten Shapes, entsprechend des Mittelwers der Höhen der Shapes.
+1411	Notiz hinzufügen
+1412	Notizen auf Folie ein-/ausblenden
+1413	Notizen auf Folie löschen
+1414	Notizen entfernen
+1415	Notizen-Farbe ändern
+1416	Nullwerte verstecken
+1417	Nummerierung
+1418	Nummerierungs-Shapes einfügen
+1419	Nummerierungs-Shapes links oben auf dem zugehörigen Shape platzieren
+1420	Nummerierungs-Shapes links-oben
+1421	Nummerierungs-Shapes rechts oben auf dem zugehörigen Shape platzieren
+1422	Nummerierungs-Shapes rechts-oben
+1423	Nummerierungs-Shapes versetzt positionieren
+1424	Nur Folieninhalt
+1425	Nur PDF
+1426	Nur PowerPoint
+1427	Nächste Anfasser-Werte anzeigen
+1428	Nächstes
+1429	Nächstes Shape
+1430	Nächstes verknüpfte Shape finden
+1431	Oben
+1432	Oben = Links
+1433	Oben = Links setzen
+1434	Oben an Mitte
+1435	Oben an Oben
+1436	Oben an Unten
+1437	Oben an oben
+1438	Oben andocken
+1439	Oben ausrichten
+1440	Oben nach unten
+1441	Oben und Links tauschen
+1442	Oben ⇄ Links
+1443	Obere Kante
+1444	Obere Lücke füllen
+1445	Obere Seite
+1446	Obere Seite angleichen
+1447	Obere Seite für alle verknüpften Shapes angleichen
+1448	Oberen Absatzabstand
+1449	Oberfläche aktualisieren und alle Werte neu laden (sog. Invalidate ausführen)
+1450	Objektabstand euklidisch
+1451	Objektabstand horizontal
+1452	Objektabstand horizontal Menü
+1453	Objektabstand vertikal
+1454	Objektabstand vertikal Menü
+1455	Objekte in der Kreisanordnung entsprechend ihrer Position im Kreis rotieren
+1456	Offen
+1457	Ohne Abstand
+1458	Okay
+1459	Open .NET-Log-File
+1460	Open BKT folder
+1461	Open Cache folder
+1462	Open Favorites folder
+1463	Open Python-Log-File
+1464	Open Settings folder
+1465	Open config.txt
+1466	Operationen
+1467	Operationen auf verknüpfte Shapes
+1468	Optionen
+1469	Optionen zur Berechnung des horizontalen Abstands zwischen Shapes
+1470	Optionen zur Berechnung des vertikalen Abstands zwischen Shapes
+1471	Optionen:
+1472	Ordner der aktuellen Präsentation im Explorer öffnen.
+1473	Ordner für Dateiliste auswählen
+1474	Ordner mit Bild-Dateien zum Einfügen auswählen.
+1475	Ordner mit Bildern auswählen
+1476	Ordner zu Library hinzufügen
+1477	Ordner zum Speichern auswählen
+1478	Ordner-Libraries
+1479	Ordnerliste erstellen (rekursiv)…
+1480	Ordnerzeilen
+1481	Own: 
+1482	PNG (Standard)
+1483	Passe den Füllstand eines Harvey-Balls entsprechend der Auswahl an.\\n\\nEin Harvey-Ball-Shape ist eine Gruppe aus Kreis- und Torten-Shape.
+1484	Passe die Farbe eines Harvey-Balls entsprechend der Auswahl an.\\n\\nEin Harvey-Ball-Shape ist eine Gruppe aus Kreis- und Torten-Shape.
+1485	Passe die Hintergrund-Farbe eines Harvey-Balls entsprechend der Auswahl an.\\n\\nEin Harvey-Ball-Shape ist eine Gruppe aus Kreis- und Torten-Shape.
+1486	Passe die Hintergrundfarbe für den Selektor, der den aktiven Agendapunkt hervorhebt, an.
+1487	Passe die Linienfarbe eines Harvey-Balls entsprechend der Auswahl an.\\n\\nEin Harvey-Ball-Shape ist eine Gruppe aus Kreis- und Torten-Shape.
+1488	Passe die Linienfarbe für den Selektor, der den aktiven Agendapunkt hervorhebt, an.
+1489	Passe die Textfarbe für den Selektor, der den aktiven Agendapunkt hervorhebt, an.
+1490	Passt die Hintergrundfarbe aller Shapes im Wechsel-Shape an. Die Hintergrundfarbe ist die Farbe des zuerst gefundenen Shapes.
+1491	Passt die Höhe des Selektors relativ zur Schriftgröße an.
+1492	Passt die Linienfarbe aller Shapes im Wechsel-Shape an, die der ersten gefundenen Linienfarbe entsprechen.
+1493	Passt die Shape-Rotation an den Abstandsvektor bzw. den Winkel an.
+1494	Passt die Vordergrundfarbe aller Shapes im Wechsel-Shape an. Die Vordergrundfarbe ist jede Farbe ungleich der Hintergrundfarbe.
+1495	Passt die ausgewählten Shapes als Tabelle in die Dimensionen des Inhaltsbereichs ein. Der Inhaltsbereich kann vorher definiert werden, anderenfalls wird der Standard Inhaltsbereich der Folie verwendet.
+1496	Pentagon
+1497	Per Zellen-Format ('0;;;@') 0-Werte ausblenden. Bestehendes Zellen-Format wird überschrieben.
+1498	Per Zellen-Format 0-Werte ausblenden und wieder einblenden. Dabei wird versucht, dass bestehende Zellen-Format zu erkennen und entsprechend anzupassen.
+1499	Per Zellen-Format Millionenbeträge als x,x Mio. anzeigen. Bestehendes Zellen-Format wird überschrieben.
+1500	Per Zellen-Format Tausenderbeträge als x,x k. anzeigen. Bestehendes Zellen-Format wird überschrieben.
+1501	Personal Shape Library
+1502	Pfeile
+1503	Pfeilrichtung des Verbinders umkehren
+1504	Pfeilrichtung umdrehen
+1505	Platzhalter in Textbox umwandeln
+1506	Platzhalter überspringen
+1507	Popup-Dialog deaktivieren
+1508	Pos. runden
+1509	Position
+1510	Position angleichen
+1511	Position links oben
+1512	Position rechts oben
+1513	Position und Rotation aller verknüpfter Shapes auf Position wie ausgewähltes Shape setzen.
+1514	Position verknüpfter Shapes angleichen
+1515	Position von links
+1516	Position von oben
+1517	Position von unten
+1518	Position/Größe
+1519	Position/Rotation
+1520	Positioniere die ausgewählten Shapes auf eine Standardposition.
+1521	Positionieren
+1522	PowerPoint + PDF
+1523	PowerPoint-Dateien auswählen
+1524	PowerPoint-Tabelle
+1525	Presentation-Tags
+1526	Primary Item Menu
+1527	Primary button and Close
+1528	Properties
+1529	Protected window warning
+1530	Prozent
+1531	Prozess bearbeiten
+1532	Prozess einfügen
+1533	Prozess neu ausrichten
+1534	Prozess und Kreissegmente
+1535	Prozess-Pfeile einfügen
+1536	Prozess-Schritt-Shape mit Kopfzeile erstellen
+1537	Prozesspfeile…
+1538	Prozessschritt hinzufügen
+1539	Prozessschritt löschen
+1540	Prozessschritt mit Kopfzeile
+1541	Präsentation
+1542	Präsentation mit den Versionsänderungen anzeigen
+1543	Punkte einfügen
+1544	Punkte kopieren
+1545	Punkte löschen
+1546	Qualität
+1547	QuickEdit
+1548	QuickEdit %s
+1549	QuickEdit Add Own Color
+1550	QuickEdit Add Recent Color
+1551	QuickEdit No Fill
+1552	QuickEdit Panel
+1553	QuickEdit Panel Menü
+1554	Quickedit
+1555	Radio 1
+1556	Radio 2
+1557	Radio Button 1
+1558	Radio Button 2
+1559	Radio Group
+1560	Radius
+1561	Rahmen
+1562	Rahmen ändern
+1563	Rahmen/Linie
+1564	Recent: 
+1565	Rechte Kante
+1566	Rechte Lücke füllen
+1567	Rechte Seite
+1568	Rechte Seite angleichen
+1569	Rechte Seite für alle verknüpften Shapes angleichen
+1570	Rechts
+1571	Rechts an Links
+1572	Rechts an Mitte
+1573	Rechts an Rechts
+1574	Rechts andocken
+1575	Rechts ausrichten
+1576	Rechts nach links
+1577	Ref.pkt.
+1578	Referenz
+1579	Referenz des gewählten Folien-Thumbnails öffnen oder ändern
+1580	Referenz für alle verknüpften Shapes ist das aktuell gewählte Shape
+1581	Referenz wählen
+1582	Referenz- bzw. Ankerpunkt für Distanz und Winkel
+1583	Referenz- bzw. Ankerpunkte für Distanz und Winkel für erstes Shape und die weitere Shapes festlegen
+1584	Referenz-Menü
+1585	Referenzierte Datei öffnen und Thumbnail-Folie auswählen.
+1586	Referenzpunkte festlegen
+1587	Referenzshape auswählen
+1588	RegEx anwenden…
+1589	Regular Tooltip
+1590	Reihen
+1591	Reihen oberhalb der Selektion
+1592	Reihenfolge
+1593	Rekursives Gruppe aufheben
+1594	Relative Shape-Anfasser-Werte in absolute Werte umrechnen, oder Original-Werte anzeigen.
+1595	Reload BKT
+1596	Remove all bounding nodes
+1597	Remove all locpin nodes
+1598	Remove all presentation tags
+1599	Remove all shape nodes
+1600	Remove all shape tags
+1601	Remove all slide tags
+1602	Replace by emf-image
+1603	Ribbon aktualisieren
+1604	Richtet die ausgewählten Shapes als Tabelle aus mit dem Median-Abstand der Shapes.
+1605	Richtet die ausgewählten Shapes als Tabelle aus mit einem Standardabstand von 0,35cm (10pt)
+1606	Richtet die ausgewählten Shapes als Tabelle aus mit errechnetem Zeilen- und Spaltenabstand. Mit SHIFT-Taste wird Abstand=0 gesetzt.
+1607	Richtet die ausgewählten Shapes als Tabelle ohne Abstand aus.
+1608	Rotation
+1609	Rotation angleichen
+1610	Rotation für alle verknüpften Shapes angleichen
+1611	Rotation und Spiegelung Menü
+1612	Rund./Spitz.
+1613	Rund./Spitzen
+1614	Rundungen/Spitzen/Ecken
+1615	SIZE
+1616	Schatten
+1617	Schatten/Leuchteffekt/etc. (ohne 3D)
+1618	Schließen
+1619	Schließt alle QuickEdit Panels für alle PowerPoint-Fenster.
+1620	Schließt das QuickEdit Panel für das aktuelle PowerPoint-Fenster.
+1621	Schmales geschütztes Leerzeichen
+1622	Schnellwahl:
+1623	Schnittmenge aus aktueller Selektion und gewähltem Bereich.
+1624	Schnittmenge bilden…
+1625	Schrift
+1626	Schrift und Text
+1627	Schrift-Format (Schriftart, -farbe, etc.)
+1628	Schriftart
+1629	Schriftart (PPT-Standard)
+1630	Schriftart kompakt (BKT)
+1631	Schriftart zum Rendern der Unicode Symbols auswählen. Standard ist Segoe Emoji.
+1632	Schriftfarbe
+1633	Schriftgröße
+1634	Schriftgrößenoptionen für Sticker einstellen
+1635	Schritt 1: Textbox mit Agenda füllen und "Agenda neu erstellen"
+1636	Schritt 2: Nach jeder weiteren Änderung "Agenda aktualisieren"
+1637	Schwarz-Weiß-Modus
+1638	Schwarz-Weiß-Modus angleichen
+1639	Schwarz-Weiß-Modus für alle verknüpften Shapes angleichen
+1640	Schwarz/weiß
+1641	Schwellwert für Kanten-Autofixer anpassen.
+1642	Screentip Title
+1643	Segmente
+1644	Segoe UI Emoji ({})
+1645	Segoe UI Symbol ({})
+1646	Seite 1
+1647	Seite 1 ({})
+1648	Seite 2
+1649	Seite 2 ({})
+1650	Seite 3 ({})
+1651	Seite 4 ({})
+1652	Seite {} ({}..-{}..)
+1653	Seitenv.
+1654	Seitenverhält.
+1655	Seitenverhältnis gesperrt
+1656	Seitenverhältnis gesperrt angleichen
+1657	Seitenverhältnis sperren
+1658	Seitenverhältnis sperren an/aus
+1659	Seitenverhältnis sperren an/aus für alle verknüpften Shapes angleichen
+1660	Seitenverhältnis tauschen
+1661	Seitenverhältnis zurücksetzen
+1662	Selbst definierten Sticker bearbeiten
+1663	Selbst definierten Sticker einfügen
+1664	Selektiere alle Shapes auf dem aktuellen Slide, die den gleichen Hintergrund (Farbe) haben wie eine der selektierten Shapes
+1665	Selektiere alle Shapes auf dem aktuellen Slide, die den gleichen Rahmen (Farbe, Strichtyp) haben wie eine der selektierten Shapes
+1666	Selektiere alle Shapes auf dem aktuellen Slide, die den gleichen Text haben wie eine der selektierten Shapes
+1667	Selektiere alle Shapes auf dem aktuellen Slide, die die gleiche Form haben wie eine der selektierten Shapes
+1668	Selektiere alle Shapes auf dem aktuellen Slide, die die gleiche Größe haben wie eine der selektierten Shapes
+1669	Selektiere alle Shapes auf dem aktuellen Slide, die die gleiche Schriftfarbe haben wie eine der selektierten Shapes
+1670	Selektiere alle Shapes auf dem aktuellen Slide, die sich mit einem der selektierten Shapes überlappen.
+1671	Selektiere alle Shapes auf dem aktuellen Slide, die sich vollständig innerhalb eines der selektierten Shapes befinden.
+1672	Selektiere alle Shapes auf dem aktuellen Slide, die sich vollständig innerhalb und oberhalb (d.h. Z-Order ist größer) eines der selektierten Shapes befinden.
+1673	Selektiere alle Shapes auf dem aktuellen Slide, die sich vollständig innerhalb und unterhalb (d.h. Z-Order ist kleiner) eines der selektierten Shapes befinden.
+1674	Selektierte Formen teilen oder vervielfachen:
+1675	Selektierte Formen...
+1676	Selektion
+1677	Selektion laden
+1678	Selektion nach links verschieben
+1679	Selektion nach oben verschieben
+1680	Selektion speichern
+1681	Selektion um Reihen erweitern
+1682	Selektion um Spalten erweitern
+1683	Selektor-Hintergrund auf Standard zurücksetzen
+1684	Selektor-Hintergrund auf transparent ändern
+1685	Selektor-Hintergrund zurücksetzen
+1686	Selektor-Höhe 20%
+1687	Selektor-Höhe 40%
+1688	Selektor-Höhe 60%
+1689	Selektor-Höhe 80%
+1690	Selektor-Rahmen auf Standard zurücksetzen
+1691	Selektor-Rahmen auf transparent ändern
+1692	Selektor-Rahmen zurücksetzen
+1693	Selektor-Text auf Standard zurücksetzen
+1694	Selektor-Text fett
+1695	Selektor-Text fett darstellen ein/aus
+1696	Selektor-Text kursiv
+1697	Selektor-Text kursiv darstellen ein/aus
+1698	Selektor-Text unterstrichen
+1699	Selektor-Text unterstrichen darstellen ein/aus
+1700	Selektor-Text zurücksetzen
+1701	Selektor-Überhang entspricht 20% der Schriftgröße
+1702	Selektor-Überhang entspricht 40% der Schriftgröße
+1703	Selektor-Überhang entspricht 60% der Schriftgröße
+1704	Selektor-Überhang entspricht 80% der Schriftgröße
+1705	Senden
+1706	Sendet die ausgewählten Folien als E-Mail Anhang.
+1707	Sendet die ausgewählten Folien als Email-Anhang, wahlweise auch als PDF-Datei.
+1708	Separator
+1709	Set Initial Value
+1710	Settings
+1711	Setze Sprache für ausgewählten Text bzw. alle ausgewählten Shapes.\\nWenn mehrere Folien ausgewählt sind, werden alle Shapes der gewählten Folien geändert.\\nWenn nichts ausgewählt ist, werden alle Shapes in der Präsentation sowie die Standardsprache geändert.
+1712	Setzen auf {}:{} ({:.4n})
+1713	Setzt Toleranz vom Kanten-Autofixer auf groß = 1cm
+1714	Setzt Toleranz vom Kanten-Autofixer auf klein = 0,1cm
+1715	Setzt Toleranz vom Kanten-Autofixer auf mittel = 0,3cm
+1716	Setzt alle Wechsel-Shapes auf den ersten Status, d.h. das erste Shape der Gruppe zurück.
+1717	Setzt alle gewählten Harvey-Balls auf 0%
+1718	Setzt alle gewählten Harvey-Balls auf 100%
+1719	Setzt alle gewählten Harvey-Balls auf 25%
+1720	Setzt alle gewählten Harvey-Balls auf 33%
+1721	Setzt alle gewählten Harvey-Balls auf 50%
+1722	Setzt alle gewählten Harvey-Balls auf 66%
+1723	Setzt alle gewählten Harvey-Balls auf 75%
+1724	Setzt das Seitenverhältnis auf den Ursprungszustand zurück.
+1725	Setzt das zuletzt markierte Shape in den gewichteten Mittelpunkt aller anderen markierten Shapes.
+1726	Setzt die Breite gleich der Höhe unter Berücksichtigung des Fixpunkts. Ist das Seitenverhältnis gesperrt, wird dies temporär aufgehoben.
+1727	Setzt die Größe der Shapes auf die Größe der Tabellenzellen
+1728	Setzt die Größe der Shapes auf die Größe der Tabellenzellen und behält dabei die aktuelle Tabellengröße
+1729	Setzt die Größe der Shapes auf die Größe der Tabellenzellen und verändert dabei die aktuelle Tabellengröße
+1730	Setzt die Größe der Shapes auf die Größe der Tabellenzellen.
+1731	Setzt die Hintergrund-Transparenz auf den gewählten Wert.
+1732	Setzt die Höhe gleich der Breite unter Berücksichtigung des Fixpunkts. Ist das Seitenverhältnis gesperrt, wird dies temporär aufgehoben.
+1733	Setzt die Linien-Transparenz auf den gewählten Wert.
+1734	Setzt die Position beim Einfügen der Sticker auf links.
+1735	Setzt die Position beim Einfügen der Sticker auf mittig.
+1736	Setzt die Position beim Einfügen der Sticker auf rechts.
+1737	Setzt die Schriftgröße beim Einfügen der Sticker auf 10
+1738	Setzt die Schriftgröße beim Einfügen der Sticker auf 11
+1739	Setzt die Schriftgröße beim Einfügen der Sticker auf 12
+1740	Setzt die Schriftgröße beim Einfügen der Sticker auf 14
+1741	Setzt die Shape-Größe auf die Größe der Tabellenzelle. Dabei werden die Shapes vergrößert bzw. verkleinert, um die aktuelle Tabellengröße nicht zu verändern.
+1742	Setzt die Shape-Größe auf die Größe der Tabellenzelle. Dabei werden die Shapes verschoben und die aktuelle Tabellegröße damit verändert.
+1743	Setzt die Shape-Größe auf die Größe der Tabellenzelle. Je nach gewähltem Modus werden die Shapes dabei verschoben oder vergrößert bzw. verkleinert.
+1744	Setzt die ShapeSheet-Eigenschaten GlueType, ObjType und IsSnapTarget (nur Gruppen) auf Standard zurück.
+1745	Setzt die linke Kante gleich der oberen Kante unter Berücksichtigung des Fixpunkts
+1746	Setzt die obere Kante gleich der linken Kante unter Berücksichtigung des Fixpunkts
+1747	Setzt oder selektiert Shapes ohne Fülling bei Hintergrund, Linie oder Text, abhängig von gedrückter STRG, SHIFT und ALT-Taste.\\n\\nIst der Button markiert, wird die Farbe in der aktuellen Auswahl als Hintergrund und/oder Linie verwendet.
+1748	Setzt oder selektiert die ausgewählte Farbe für Hintergrund, Linie oder Text, abhängig von gedrückter STRG, SHIFT und ALT-Taste.\\n\\nIst der Button markiert, wird die Farbe in der aktuellen Auswahl als Hintergrund und/oder Linie verwendet.
+1749	Shape
+1750	Shape Adjustments
+1751	Shape DB
+1752	Shape Nodes
+1753	Shape Points
+1754	Shape als Thumbnail kopieren
+1755	Shape auf Folgefolien duplizieren
+1756	Shape auf Folgefolien kopieren und verknüpfen…
+1757	Shape auf Folgefolien suchen
+1758	Shape auf Folgefolien suchen und verknüpfen…
+1759	Shape aus Shape-Library einfügen
+1760	Shape horizontal/vertikal in mehrere Shapes teilen oder verfielfachen.
+1761	Shape im Zentrum auswählen
+1762	Shape in Mitte positionieren
+1763	Shape ist horizontal gespiegelt
+1764	Shape ist vertikal gespiegelt
+1765	Shape klebend
+1766	Shape klebend machen
+1767	Shape mit Linie versehen
+1768	Shape nicht klebend
+1769	Shape nicht klebend machen
+1770	Shape verändern
+1771	Shape zurücksetzen
+1772	Shape-Abstand (Standard)
+1773	Shape-Anfasser-Werte für alle ausgewählten Shapes auf die Originalwerte zurücksetzen
+1774	Shape-Anfasser-Werte für alle ausgewählten Shapes entsprechend des zuerst gewählten Shapes angleichen
+1775	Shape-Ausrichtung
+1776	Shape-Daten
+1777	Shape-Design
+1778	Shape-Details anzeigen
+1779	Shape-Formatierung tauschen
+1780	Shape-Größe auf ganze Zahlen runden
+1781	Shape-Größe inkl. aller Elemente/Eigenschaften (Schriftgröße, Konturen, etc.) gleichmäßig ändern.
+1782	Shape-Koordinaten auf ganze Zahlen runden
+1783	Shape-Name
+1784	Shape-Objekte in Tabellen/Absätzen/Shapes anordnen
+1785	Shape-Objekte in Tabellenzellen anordnen
+1786	Shape-Objekte in Tabellenzellen/Absätzen/Shapes anordnen
+1787	Shape-Objekte in Textabsätzen anordnen
+1788	Shape-Objekte in untergeordneten Shapes anordnen
+1789	Shape-Objekte innerhalb der gewählten Shapes markieren
+1790	Shape-Objekte innerhalb und oberhalb der gewählten Shapes markieren
+1791	Shape-Objekte innerhalb und unterhalb der gewählten Shapes markieren
+1792	Shape-Objekte mit gleichem Hintergrund markieren
+1793	Shape-Objekte mit gleichem Rahmen markieren
+1794	Shape-Objekte mit gleichem Text markieren
+1795	Shape-Objekte mit gleicher Form markieren
+1796	Shape-Objekte mit gleicher Größe markieren
+1797	Shape-Objekte mit gleicher Schritfarbe markieren
+1798	Shape-Objekte nach Benutzerdefinierter Auswahl markieren
+1799	Shape-Objekte überlappend mit gewählten Shapes markieren
+1800	Shape-Position
+1801	Shape-Position automatisch
+1802	Shape-Position beim Anordnen festlegen.
+1803	Shape-Position nicht ändern
+1804	Shape-Position tauschen
+1805	Shape-Position und -größe tauschen
+1806	Shape-Rotation aller gewählten Shapes auf 0 Grad setzen
+1807	Shape-Rotation aller gewählten Shapes auf 180 Grad setzen
+1808	Shape-Rotation an Winkel angeichen an/aus
+1809	Shape-Rotation an/aus
+1810	Shape-Rotation angleichen
+1811	Shape-Rotation auf 0 Grad setzen
+1812	Shape-Rotation auf 180 Grad setzen
+1813	Shape-Schachbrett einfügen
+1814	Shape-Style anpassen
+1815	Shape-Tabelle
+1816	Shape-Tabelle auf Größe des gewählten Bereichs anpassen
+1817	Shape-Tabelle auf verschiedene Weise anpassen oder transponieren
+1818	Shape-Tabelle einfügen
+1819	Shape-Tabelle mit verschiedenen Abstandsoptionen ausrichten
+1820	Shape-Tabelle transonieren (d.h. spiegeln)
+1821	Shape-Tabelle transponieren und dabei Tabellengröße nicht verändern
+1822	Shape-Tabelle transponieren und dabei Zellengrößen nicht verändern
+1823	Shape-Tags
+1824	Shape-Text kopieren
+1825	Shape-Text zerlegen
+1826	Shape-Text zusammenführen
+1827	Shape-Texte ersetzen Menü
+1828	Shape-Texte ersetzen…
+1829	Shape-Texte löschen
+1830	Shape-Typ und -Größe
+1831	Shapeanimationen entfernen
+1832	Shapes
+1833	Shapes als Tabelle mit Abstand 0,35cm ausrichten
+1834	Shapes als Tabelle mit Median-Abstand ausrichten
+1835	Shapes als Tabelle ohne Abstand ausrichten.
+1836	Shapes anordnen
+1837	Shapes auf Folgefolien kopieren
+1838	Shapes aus Gruppe herauslösen
+1839	Shapes erhalten die gleiche Größe wie das Referenzshape.
+1840	Shapes erhalten die gleiche Position wie das Referenzshape.
+1841	Shapes horizontal an Shape-Mittelpunkt verteilen
+1842	Shapes horizontal an linker Kante verteilen
+1843	Shapes horizontal an rechter Kante verteilen
+1844	Shapes horizontal verteilen
+1845	Shapes in Gruppe einfügen
+1846	Shapes in Zellen einpassen
+1847	Shapes links anordnen
+1848	Shapes links ausrichten
+1849	Shapes mit Tags
+1850	Shapes mittig anordnen
+1851	Shapes mittig ausrichten
+1852	Shapes mittig von erster Zeile anordnen
+1853	Shapes oben anordnen
+1854	Shapes oben ausrichten
+1855	Shapes positionieren
+1856	Shapes rechts anordnen
+1857	Shapes rechts ausrichten
+1858	Shapes rotieren und Spiegelung anzeigen
+1859	Shapes selektieren
+1860	Shapes skalieren
+1861	Shapes skalieren…
+1862	Shapes teilen oder vervielfachen
+1863	Shapes teilen/vervielfachen…
+1864	Shapes unten anordnen
+1865	Shapes unten ausrichten
+1866	Shapes verstecken
+1867	Shapes vertecken/einblenden
+1868	Shapes vertikal an Shape-Mittelpunkt verteilen
+1869	Shapes vertikal an oberer Kante verteilen
+1870	Shapes vertikal an unterer Kante verteilen
+1871	Shapes vertikal verteilen
+1872	Shapes werden am Inhaltsbereich ausgerichtet.\\n\\nDer Inhaltsbereich entspricht der Fläche des Text-Platzhalters auf dem Referenzfolie.\\n\\nMit STRG-Taste wird dieser Master temporär aktiviert.
+1873	Shapes werden am zuerst selektierten Shape in der Selektion ausgerichtet.
+1874	Shapes werden am zuletzt selektierten Shape in der Selektion ausgerichtet.
+1875	Shapes werden am äußersten selektierten Shape in der Selektion ausgerichtet.
+1876	Shapes werden an der Folie ausgerichtet.
+1877	Shapes werden an einem festgelegten Bereich ausgerichtet, der zuvor durch den Benutzer definiert wird.
+1878	Shapes werden an ihren ursprünglichen Koordinatenpositionen eingefügt
+1879	Shapes werden bei Shape-Anordnung in Tabellenzellen/Textabsätzen/Shapes horizontal nicht angeordnet.
+1880	Shapes werden bei Shape-Anordnung in Tabellenzellen/Textabsätzen/Shapes horizontal zentriert angeordnet.
+1881	Shapes werden bei Shape-Anordnung in Tabellenzellen/Textabsätzen/Shapes links angeordnet.
+1882	Shapes werden bei Shape-Anordnung in Tabellenzellen/Textabsätzen/Shapes oben angeordnet.
+1883	Shapes werden bei Shape-Anordnung in Tabellenzellen/Textabsätzen/Shapes rechts angeordnet.
+1884	Shapes werden bei Shape-Anordnung in Tabellenzellen/Textabsätzen/Shapes unten angeordnet.
+1885	Shapes werden bei Shape-Anordnung in Tabellenzellen/Textabsätzen/Shapes vertikal nicht angeordnet.
+1886	Shapes werden bei Shape-Anordnung in Tabellenzellen/Textabsätzen/Shapes vertikal zentriert angeordnet.
+1887	Shapes werden bei Shape-Anordnung in Tabellenzellen/Textabsätzen/Shapes vertikal zentriert von dem Text in der ersten Zeile angeordnet.
+1888	Shapes werden bei Shape-Anordnung in:\\n\\n- Tabellenzellen horizontal zentriert angeordnet,\\n- Shapes horizontal zentriert sofern Shape höher ist als breit,\\n- Textabsätzen nicht angeordnet.
+1889	Shapes werden bei Shape-Anordnung in:\\n\\n- Tabellenzellen vertikal zentriert angeordnet,\\n- Shapes vertikal zentriert sofern Shape breiter ist als hoch,\\n- Textabsätzen vertikal zentriert von erster Zeile angeordnet.
+1890	Shapes werden mit ihren ursprünglichen Koordinatenpositionen kopiert
+1891	Shapes zentriert anordnen
+1892	Shapes zentriert ausrichten
+1893	Shapes zählen
+1894	Shapes:
+1895	Show Clipboard DataFormats
+1896	Show ContextMenu IDs
+1897	Show Ribbon XML
+1898	Show app settings
+1899	Show config
+1900	Show exceptions on/off
+1901	Show sys.modules
+1902	Sich wiederholende Zellenwerte löschen, sodass nur jeweils oberste Zelle gefüllt bleibt.
+1903	Simple Menu
+1904	Size
+1905	Skalieren
+1906	Skaliert alle ausgewählten Blätter so, dass jedes auf genau einer Seite gedruckt wird. Die Seitengröße und -ausrichtung wird nicht geändert.
+1907	Skalierung:
+1908	Slide position bottom-right
+1909	Slide position top-left
+1910	Slide size
+1911	Slide-Tags
+1912	Slidedeck aufräumen
+1913	Slidedeck aufräumen…
+1914	Sofern das zuerst oder zuletzt markierte Shape eine Gruppe ist, werden alle anderen Shapes in diese Gruppe eingefügt. Anderenfalls werden alle Shapes gruppiert.
+1915	Sofort synchronisieren?
+1916	Some element
+1917	Sonder&&zeichen && bla test
+1918	Sonder&amp;&amp;zeichen &amp;&amp; bla test
+1919	Sondereinzug
+1920	Sonderzeichen
+1921	Sonst.
+1922	Sonstige Gruppen
+1923	Sortieren
+1924	Sortiert die Z-Order von links nach rechts, sodass das rechte Shape das vorderste wird
+1925	Sortiert die Z-Order von oben nach unten, sodass das unterste Shape das vorderste wird
+1926	Sortiert die Z-Order von rechts nach links, sodass das linke Shape das vorderste wird
+1927	Sortiert die Z-Order von unten nach oben, sodass das oberste Shape das vorderste wird
+1928	Spalten
+1929	Spalten ein/ausblenden
+1930	Spalten links der Selektion
+1931	Spaltenabstand
+1932	Spaltenbreite verteilen
+1933	Spaltenweise zusammenführen mit Komma
+1934	Speichern
+1935	Speichert die ausgewählten Folien in einer neuen Präsentation, als PDF-Datei oder in PNG-Bilder.
+1936	Speichert die ausgewählten Folien in einer neuen Präsentation.
+1937	Sperren
+1938	Spezialformen
+1939	Spezielle und Interaktive Formen 
+1940	Spezifizierte Form
+1941	Spieglung
+1942	Spinner
+1943	Spinner-Control
+1944	Split
+1945	Split Button
+1946	Sprache
+1947	Sprache auf 
+1948	Sprache der Rechtschreibkorrektur für ausgewählte(s)/n Shape(s)/Text anpassen
+1949	Sprache der Rechtschreibkorrektur für mehrere Shapes, Folien oder die ganze Präsentation anpassen
+1950	Sprache von Shapes oder Folien ändern
+1951	Sprache ändern
+1952	Sprache ändern…
+1953	Sprache:
+1954	Springe zu nächsten Seite für die Anfasser-Werte.
+1955	Springe zu vorheriger Seite für die Anfasser-Werte.
+1956	Standard (3-seitig)
+1957	Standard Agenda-Textbox einfügen, um daraus eine aktualisierbare Agenda zu generieren.
+1958	Standard Colors
+1959	Standard-Gruppen
+1960	Standardfarbe
+1961	Standardmäßig anzuwendende Angaben:
+1962	Standardmäßig werden Nummerierungs-Shapes genau am Rand des zugehörigen Shapes ausgerichtet.\\n\\nIst 'Versetzt positionieren' aktiviert, werden die Nummerierungs-Shapes etwas weiter außerhalb des zugehörigen Shapes plaziert, so dass der Mittelpunkt des Nummerierungs-Shapes auf der Ecke liegt.
+1963	Standardobjekte (Bilder, Smart-Art, etc.) einfügen, Shapes verstecken und wieder anzeigen, Kopf- und Fußzeile anpassen
+1964	Standardpositionen
+1965	Startet eine Bilschirmpräsentation im Fenster beginnend mit der aktuellen Folie und aktiviertem Laserpointer.
+1966	Startet eine Bilschirmpräsentation im Vollbild beginnend mit der aktuellen Folie und aktiviertem Laserpointer.
+1967	Statistik
+1968	Statistik laden
+1969	Statistiken
+1970	Status wechseln   «
+1971	Status-Ampel einfach erstellen
+1972	Status-Ampel erstellen
+1973	Status-Ampel horizontal erstellen
+1974	Status-Ampel vertikal erstellen
+1975	Status-Overlays erstellen
+1976	Sticker Menü
+1977	Sticker einfügen, Bullet Points angleichen, sowie weitere Text-bezogene Funktionen
+1978	Sticker-Ausrichtung Links
+1979	Sticker-Ausrichtung Mitte
+1980	Sticker-Ausrichtung Rechts
+1981	Sticker-Schriftgröße 10
+1982	Sticker-Schriftgröße 11
+1983	Sticker-Schriftgröße 12
+1984	Sticker-Schriftgröße 14
+1985	Sticker-Text ändern
+1986	Stil
+1987	Stile
+1988	Style Diagramm
+1989	Style klassisch
+1990	Style modern
+1991	Style übertragen
+1992	Style-Katalog laden oder neuen Katalog anlegen.
+1993	Style-Kataloge verwalten
+1994	Styles
+1995	Styles anzeigen
+1996	Styles konfiguration
+1997	Suche auf
+1998	Suchergebnisse
+1999	Sucht automatisch ein mal pro Monat beim PowerPoint-Start nach einer neuen BKT-Version
+2000	Sucht automatisch ein mal pro Woche beim PowerPoint-Start nach einer neuen BKT-Version
+2001	Sucht automatisch jeden Freitag, spätestens aber nach 31 Tagen, beim PowerPoint-Start nach einer neuen BKT-Version
+2002	Sucht das aktuelle Shape auf allen Folien hinter der aktuellen Folie anhand Position und Größe und verknüpft diese miteinander.
+2003	Sucht nach dem ersten verknüpften Shape.
+2004	Sucht nach dem letzten verknüpften Shape.
+2005	Sucht nach dem nächste verknüpften Shape. Sollte auf den Folgefolien kein Shape mehr kommen, wird das erste verknüpfte Shape der Präsentation gesucht.
+2006	Sucht nach dem vorherigen verknüpften Shape. Sollte auf den vorherigen Folien kein Shape mehr kommen, wird das letzte verknüpfte Shape der Präsentation gesucht.
+2007	Sucht zusammengehörige Shapes/Shape-Gruppen und gruppiert diese automatisch.
+2008	Suchwort
+2009	Suchwort eingeben und ENTER klicken
+2010	Suchwort:
+2011	Summe:
+2012	Summiert alle erkennbaren Zahlen in der aktuellen Auswahl. Je nach Sprache der Rechtschreibkorrektur wird Punkt oder Komma als Dezimaltrenner genommen. Negative Zahlen werden abgezogen.
+2013	Symbol
+2014	Symbol ändern
+2015	Symbol-Menü
+2016	Symbole
+2017	Symmetrische Differenz (Vereinigungsmenge abzüglich Schnittmenge) aus aktueller Selektion und gewähltem Bereich.
+2018	Symmetrische Differenz bilden…
+2019	Synchronisiere Formatierung
+2020	Synchronisiere Position und Größe
+2021	Synchronisiere Text
+2022	Synchronisieren
+2023	Säubern/Bereinigen (Clean)
+2024	TESTGRUPPE
+2025	Tabelle anpassen
+2026	Tabelle aus Shapes
+2027	Tabelle ausrichten (Auto)
+2028	Tabelle einfügen
+2029	Tabelle formatieren
+2030	Tabelle in Bereich einpassen
+2031	Tabelle in Inhaltsbereich einpassen
+2032	Tabelle mit angepasster Tabellengröße transponieren
+2033	Tabelle mit gleicher Tabellengröße transponieren
+2034	Tabelle transponieren
+2035	Tabellengrößen einfügen
+2036	Tabellengrößen kopieren
+2037	Tabelleninfo. zeigen
+2038	Tabelleninformation
+2039	Table Operations
+2040	Tabs und Gruppen der PowerPoint-Toolbox auf individuelle Bedürfnisse anpassen
+2041	Tags
+2042	Task 1
+2043	Task 2
+2044	Task 3
+2045	Task 4
+2046	Task Form Group Label
+2047	Task Pane
+2048	Tastatur-/Maus-Events für aktuelle Sitzung ein- oder ausschalten
+2049	Tausche Formatierung
+2050	Tausche Position
+2051	Tausche Position und Größe
+2052	Tausche Position und Größe [Shift]
+2053	Tausche Z-Order
+2054	Tausche Z-Order-Position
+2055	Tausche die Formatierung (Farbe, Rahmen, Schrift, ...) der markierten Shapes.
+2056	Tausche die Position (left/top) der markierten Shapes.
+2057	Tausche die Position (left/top) und Größe der markierten Shapes.
+2058	Tausche die Z-Order-Position der markierten Shapes.
+2059	Tausche die x-Position (Abstand vom linken Folienrand) der markierten Shapes.
+2060	Tausche die y-Position (Abstand vom oberen Folienrand) der markierten Shapes.
+2061	Tausche x-Position
+2062	Tausche y-Position
+2063	Tauschen
+2064	Tauschen Menü
+2065	Tauscht die Breite mit der Höhe unter Berücksichtigung des Fixpunkts
+2066	Tauscht die Höhe mit der Breite unter Berücksichtigung des Fixpunkts
+2067	Tauscht die linke Kante mit der oberen Kante unter Berücksichtigung des Fixpunkts
+2068	Tauscht die obere Kante mit der linken Kante unter Berücksichtigung des Fixpunkts
+2069	Tausender zu 0,0 k
+2070	Tausenderbeträge übersichtlich darstellen
+2071	Teilen
+2072	Template-Shapes ein-/ausblenden
+2073	Templatefolie einfügen
+2074	Test
+2075	Test Fluent Button:
+2076	Test Gallery
+2077	Test Group 1
+2078	Test Group 2
+2079	Test Group 3
+2080	Test Group 3 in second column
+2081	Test Group 4
+2082	Test Image-Binding:
+2083	Test TEXT bla bla
+2084	Test dynamic
+2085	Test dynamic Rectangle:
+2086	Test1
+2087	Test1 Close
+2088	Test2
+2089	Test3
+2090	Test4
+2091	Test5
+2092	Test6
+2093	Test7
+2094	Test8
+2095	Testgallery
+2096	Testgruppe
+2097	Testgruppe 1
+2098	Testgruppe 2
+2099	Text
+2100	Text & Beschriftungen
+2101	Text (ohne Formatierung)
+2102	Text (ohne Formatierung) angleichen
+2103	Text aller gewählten Shapes durch Nummerierung ersetzen.
+2104	Text aller gewählten Shapes löschen.
+2105	Text aller gewählten Shapes mit 'tbd' ersetzen.
+2106	Text aller gewählten Shapes mit im Dialogfeld eingegebenen Text ersetzen.
+2107	Text aller gewählten Shapes mit langem 'Lorem ipsum'-Platzhaltertext ersetzen.
+2108	Text aller verknüpften Shapes großschreiben
+2109	Text aller verknüpften Shapes kleinschreiben
+2110	Text aller verknüpfter Shapes auf Größe wie ausgewähltes Shape setzen.
+2111	Text angleichen
+2112	Text anhand Position schneiden…
+2113	Text anhand Zeichen schneiden…
+2114	Text anhängen…
+2115	Text auf Auswahl verteilen
+2116	Text auf Shape
+2117	Text auf Shape zerlegen
+2118	Text hinzufügen oder schneiden.
+2119	Text in Form umbrechen
+2120	Text in Shape
+2121	Text in Shape kombinieren
+2122	Text mit Lorem ipsum ersetzen
+2123	Text mit Nummerierung ersetzen
+2124	Text mit eigener Eingabe ersetzen
+2125	Text mit vordefinierten Standard-Platzhaltern ersetzen
+2126	Text mit »tbd« ersetzen
+2127	Text ohne Formatierungen für alle verknüpften Shapes angleichen
+2128	Text verknüpfter Shapes angleichen
+2129	Text voranstellen…
+2130	Text zu Datum/Zeit
+2131	Text zu Formeln
+2132	Text zu Zahlen
+2133	Text ändern
+2134	Text/Paragraph-Gruppen
+2135	Text/Symbol zu Shapes umwandeln
+2136	Textbox-Format (Innenabstand, Spalten, etc.)
+2137	Textboxen in Zellen
+2138	Texte bzw. Symbole werden in Standardshapes umgewandelt
+2139	Textfarbe für Selektor
+2140	Textfeld Innenabstand
+2141	Textfeld zeichnen
+2142	Textfeld zeichnen Menü
+2143	Textformen einfügen
+2144	Textoperationen
+2145	Textwerkzeuge
+2146	Theme & Color Scheme
+2147	Theme Colors
+2148	Theme aus Datei anwenden
+2149	Theme-Einstellungen anpassen
+2150	Theme-Schriftart (Standard)
+2151	Theme: 
+2152	This is a ScreenTip.
+2153	This is another ScreenTip.
+2154	Three
+2155	Thumbnail aktualisieren
+2156	Thumbnail-Einstellungen
+2157	Thumbnails auf Folie/n aktualisieren
+2158	Thumbnails in Präsentation aktualisieren
+2159	Thumbnails in Präsentation umwandeln
+2160	Toggle #1
+2161	Toggle me
+2162	Toleranz
+2163	Toleranz groß 1 cm
+2164	Toleranz klein 0,1cm
+2165	Toleranz mittel 0,3cm
+2166	Toleranz ändern
+2167	Toolbox
+2168	Toolbox 1/2
+2169	Toolbox 1/3
+2170	Toolbox 2/2
+2171	Toolbox 2/3 BETA
+2172	Toolbox 3/3
+2173	Toolbox 3/3 BETA
+2174	Toolbox CS
+2175	Toolbox CS Test
+2176	Toolbox RD2
+2177	Toolbox TEST
+2178	Toolbox UI
+2179	Toolbox-Tabs anpassen
+2180	Toolbox: Agenda
+2181	Tools
+2182	Top item button
+2183	Tracker auf Folien verteilen
+2184	Tracker aus Auswahl erstellen
+2185	Tracker erstellen oder ausrichten
+2186	Transparenz
+2187	Transparenz Hintergrund
+2188	Transparenz Linie/Rahmen
+2189	Transparenz ermöglichen
+2190	Transponiert (d.h. spiegelt) die Tabelle.
+2191	Transponiert die Tabelle, d.h. spiegelt die Zellen an der Hauptdiagonalen.
+2192	Transponiert die Tabelle, d.h. spiegelt die Zellen an der Hauptdiagonalen. Dabei wir auch die Größe der Zellen verändert, um die Tabellengröße nicht zu ändern.
+2193	Transponiert die Tabelle, d.h. spiegelt die Zellen an der Hauptdiagonalen. Dabei wird die Größe der Zellen nicht verändert, sondern nur die Tabellengröße.
+2194	Tutorial Tab
+2195	Typ/Form
+2196	Typografiesymbole
+2197	UNKNOWN
+2198	Um die bestehende Shape-Verknüpfung zu erweitern, wird die interne ID zwischengespeichert. Über 'Ausgewählte Shapes zur Verknüpfung hinzufügen' können dann weitere Shapes zur Verknüpfung hinzugefügt werden.
+2199	Umbenennen/ Sortieren
+2200	Umrechnung an/aus
+2201	Umschalten auf verschiedene Farbmodi
+2202	Umschalten auf verschiedene Master-Ansichten
+2203	Undo another thing
+2204	Undo something
+2205	Unfreeze App
+2206	Unfreeze Excel after exception
+2207	Ungenutzte Folienmaster entfernen
+2208	Ungenutzten Bereich ausblenden
+2209	Ungenutzten Bereich markieren
+2210	Unicode-Schrift entspricht Theme-Schriftart
+2211	Unicode-Schriftart 
+2212	Unicode-Schriftart wählen
+2213	Unicode-Zeichen können entweder mit der Standard-Schriftart oder einer speziellen Unicode-Schriftart eingefügt werden. Diese kann hier ausgewählt werden.
+2214	Unten
+2215	Unten an Mitte
+2216	Unten an Oben
+2217	Unten an Unten
+2218	Unten andocken
+2219	Unten ausrichten
+2220	Unten nach oben
+2221	Untere Lücke füllen
+2222	Untere Seite
+2223	Untere Seite angleichen
+2224	Untere Seite für alle verknüpften Shapes angleichen
+2225	Untere kante
+2226	Unteren Absatzabstand
+2227	Unterpunkte eines Agendapunkts (Indent-Level>1) werden in den anderen Abschnitten ausgeblendet
+2228	Unterstreichen
+2229	Unterstrichen
+2230	Unterstrichene Textbox
+2231	Unterstrichene Textbox einfügen
+2232	Update
+2233	Vektor (EMF)
+2234	Verbietet Duplikate innerhalb der jeweils selektierten Bereiche über eine Datenüberprüfung. Bestehende Datenüberprüfungen werden dabei überschrieben.
+2235	Verbindungen neu erstellen
+2236	Verbindungsfläche neu verbinden
+2237	Verbindungsflächen
+2238	Verbindungspunkte
+2239	Verbindungstyp für alle ausgewählten Verbinder ändern
+2240	Verbindungstypen
+2241	Verbundene Zellen aufheben und Inhalte verteilen
+2242	Verbundene Zellen ersetzen durch Über Auswahl zentrieren
+2243	Verbundene Zellen ersetzen und ungewöhnliche Textausrichtungen nutzen
+2244	Vereinigung bilden…
+2245	Vereinigungsmenge aus aktueller Selektion und gewähltem Bereich.
+2246	Verhalten bei Auswahl von mehr als 2 Shapes
+2247	Verhalten für >2 Shapes
+2248	Verknüpfen
+2249	Verknüpfte Shapes
+2250	Verknüpfte Shapes aktualisierbare Foliennummer anstellen
+2251	Verknüpfte Shapes angleichen
+2252	Verknüpfte Shapes ersetzen
+2253	Verknüpfte Shapes finden
+2254	Verknüpfte Shapes horizontal spiegeln
+2255	Verknüpfte Shapes in den Hintergrund
+2256	Verknüpfte Shapes in den Vordergrund
+2257	Verknüpfte Shapes löschen
+2258	Verknüpfte Shapes vertikal spiegeln
+2259	Verknüpfte Shapes zählen
+2260	Verknüpfung aufheben
+2261	Verknüpfung des ausgewählten Shapes entfernen
+2262	Verschieben der Selektion verändert auch die Größe
+2263	Verschieben ändert Größe
+2264	Verschiedene Agenda-Optionen ändern
+2265	Verschiedene BKT-Funktionen, die dynamisch für die gewählten Shapes geladen werden.
+2266	Verschiedene Listen erstellen
+2267	Verschiedene Listensymbole einfügen
+2268	Verschiedene Mathesymbole einfügen
+2269	Verschiedene Pfeile einfügen
+2270	Verschiedene Sticker einfügen
+2271	Verschiedene Text-Manipulationen
+2272	Verschiedene Typografiesymbole einfügen
+2273	Versetzt positionieren
+2274	Version aktualisieren
+2275	Versionsänderungen anzeigen
+2276	Verstecke alle markierten Shapes (visible=False).
+2277	Verstecken (xlVeryHidden)
+2278	Versteckte Folien löschen
+2279	Vertauscht Breite und Größe und dreht damit das Seitenverhältnis um.
+2280	Verteilen der ausgewählten Tracker auf die Folgefolien und ausrichten.
+2281	Vertikal an Mittelpunkt verteilen
+2282	Vertikal an oberer Kante verteilen
+2283	Vertikal an unterer Kante verteilen
+2284	Vertikal gespiegelt an/aus
+2285	Vertikal mittig ausrichten
+2286	Vertikal spiegeln
+2287	Vertikal verteilen
+2288	Vertikale Anordnung
+2289	Vertikale Verbindungsfläche
+2290	Vertikalen Objektabstand
+2291	Vertikaler Abstand
+2292	Vervielfachen
+2293	Visuelle Größe
+2294	Visuelle Größe unter Berücksichtigung der Rotation verwenden
+2295	Visuelle Position
+2296	Visuelle Position unter Berücksichtigung der Rotation verwenden
+2297	Visueller Abstand (bei Rotation)
+2298	Vordere nach hinten
+2299	Vordergrund-Menü
+2300	Vordergrundfarbe eines Wechsel-Shapes ändern
+2301	Vorgefertigte Standard-Auswahl an Verbindungspunkten anlegen 
+2302	Vorherige Anfasser-Werte anzeigen
+2303	Vorheriges
+2304	Vorheriges Shape
+2305	Vorheriges verknüpfte Shape finden
+2306	Vorschau
+2307	WARNING
+2308	WPF FluentRibbon-dialog
+2309	WPF Window
+2310	WPF dialog
+2311	Wandelt alle markierten Text-Platzhalter in echte Textboxen um, die u.A. eine Gruppierung erlauben.
+2312	Webdings ({})
+2313	Website: bkt-toolbox.de
+2314	Wechsel Ganze Folie/Nur Inhalt
+2315	Wechsel-Shape Hintergrundfarbe auf transparent setzen
+2316	Wechsel-Shape Linie auf transparent setzen
+2317	Wechsel-Shapes
+2318	Wechsel: 
+2319	Wechselshapes
+2320	Wechselshapes-Menü
+2321	Wechselt zum nächsten Status (d.h. Shape in der Gruppe) des Wechsel-Shapes.
+2322	Wechselt zum vorherigen Status (d.h. Shape in der Gruppe) des Wechsel-Shapes.
+2323	Weitere Funktionen
+2324	Weitere Shapes suchen
+2325	Weitere Slide-Funktionen
+2326	Weitere Tabellenfeatures
+2327	Weißer Schatten
+2328	Welche Eigenschaften vergleichen?
+2329	Wendet Gruppe aufheben solange an, bis alle verschachtelten Gruppen aufgelöst sind.
+2330	Wenn Shapes ausgewählt sind, verstecke alle markierten Shapes (visible=False), anderen falls mache Shapes wieder sichtbar (visible=True). Gibt es keine unsichtbaren Shapes, werden die zuletzt versteckten Shapes erneut versteckt.
+2331	Wenn das Kontrollkästchen Seitenverhältnis sperren aktiviert ist, ändern sich die Einstellungen von Höhe und Breite im Verhältnis zueinander.
+2332	Wenn die exakte Suche deaktiviert ist, wird bei 'person' auch 'personality', 'impersonal', usw. gefunden.
+2333	Wenn kein Text ausgewählt und diese Option aktiviert ist, wird das Symbol als Raster-Grafik eingefügt. Dies geht auch bei Klick auf ein Symbol mit gedrückter Strg-Taste.
+2334	Wenn kein Text ausgewählt und diese Option aktiviert ist, wird das Symbol als Unicode-Zeichen eingefügt. Dies ist der Standard wenn keine Taste gedrückt wird.
+2335	Wenn kein Text ausgewählt und diese Option aktiviert ist, wird das Symbol in ein Shape konvertiert. Dies geht auch bei Klick auf ein Symbol mit gedrückter Shift-Taste.
+2336	Werden mind. zwei Shapes ausgewählt wird ein kleiner Indikator mit dem Text 'Referenz' an der unteren linken Ecke des Referenzshape (erstes bzw. letztes) angezeigt.
+2337	Werte 1 und 2
+2338	Werte 3 und 4
+2339	Werte 5 und 6
+2340	Werte 7 und 8
+2341	Werte einfügen auf sichtbare Zellen
+2342	Werte in allen ausgewählten Zellen durch den tatsächlich angezeigten Text ersetzen. Dabei wird das Zellenformat auf 'Text' geändert.
+2343	Werte selektieren
+2344	Werte/Text
+2345	Widescreen (2-seitig)
+2346	Windows Farbdialog
+2347	Wingdings ({})
+2348	Wingdings 2 ({})
+2349	Wingdings 3 ({})
+2350	Winkel
+2351	Winkel der Shapes zueinander
+2352	Winkel des ersten Shapes gibt die Drehung der Kreisanornung an.
+2353	WordWrap
+2354	Write log file on/off
+2355	Wählbare Sprachen editieren…
+2356	Wähle Ordner und erstelle Liste aller Dateien in diesem Ordner in neuem Blatt.
+2357	Wähle Ordner und erstelle Liste aller Dateien in diesem Ordner und allen Unterordnern in neuem Blatt.
+2358	Wähle Ordner und erstelle Liste aller Ordner in diesem Ordner und allen Unterordnern in neuem Blatt.
+2359	Wöchentlich
+2360	Wöchentlich, nur freitags
+2361	Wörter:
+2362	XAML
+2363	XAML Window
+2364	Z-Order
+2365	Zahlen/Daten
+2366	Zahlen:
+2367	Zahlenwerte zu Text
+2368	Zeichen:
+2369	Zeichnen Sie ein Textfeld an einer beliebigen Stelle.\\n\\nMit gedrückter Umschalt-Taste wird eine unterstrichene Textbox eingefügt.\\n\\nMit gedrückter Strg-Taste wird ein Sticker eingefügt.
+2370	Zeigt Dialog zur Auswahl der anzuwendenden Funktionen.
+2371	Zeigt Dialog zur Auswahl der anzuwendenden Sprache auf die Präsentation oder die ausgewählten Folien.
+2372	Zeigt Fenster zum Eingeben der Selektionsadresse mit der Adresse der aktuellen Selektion als Standardwert.
+2373	Zeigt Icons für verfügbare Icon-Fonts an, die als Textsymbol oder Grafik eingefügt werden können.\\n\\nHinweis: Die Icon-Fonts müssen auf dem Rechner installiert sein.
+2374	Zeigt Informationen über die Tabelle an. Nützlich um vorab herauszufinden, ob eine Tabelle korrekt erkannt wird.
+2375	Zeigt alle Foliennummern die zugehörige verknüpfte Shapes enthalten.
+2376	Zeigt die Suchergebnisse der Icon-Suche nach dem gewünschten Suchwort an
+2377	Zeigt ein Fenster mit ausführlichen Informationen über das gewählte Shape an
+2378	Zeigt eine Auswahl aller ausgeblendeten und versteckten Blätter, die zum Anzeigen ausgewählt werden können.
+2379	Zeigt einen kleines Tool zum Auswerten von Formeln und Berechnungen an an
+2380	Zeigt Übersicht über alle Custom-Styles im aktuellen Katalog.
+2381	Zeilen ein/ausblenden
+2382	Zeilen unterhalb Prozess
+2383	Zeilen:
+2384	Zeilenabstand
+2385	Zeilenabstand = Spaltenabstand
+2386	Zeilenhöhe verteilen
+2387	Zeilenumbrüche in Zeilen trennen
+2388	Zeilenweise zusammenführen mit Umbruch
+2389	Zellen u. Ausrichtung
+2390	Zellen-Formate
+2391	Zellen-Inhalte
+2392	Zellengrößen angleichen
+2393	Zelleninhalte in Spalten für jedes Komma trennen
+2394	Zelleninhalte in Zeilen für jeden Zeilenumbruch trennen
+2395	Zentriert
+2396	Zentrum-Shape auswählen
+2397	Zentrum-Shape festlegen
+2398	Zerlege die markierten Shapes anhand der Text-Absätze in mehrere Shapes. Pro Absatz wird ein Shape mit dem entsprechenden Text angelegt.
+2399	Zielgröße:
+2400	Zu angezeigtem Text
+2401	Zuerst gewähltes Shape ersetzt alle anderen gewählten Shapes, wobei jeweils die Position und Größe der ersetzten Shapes erhalten bleibt.
+2402	Zuerst selektiertes Shape (Standard)
+2403	Zuletzt selektiertes Shape
+2404	Zuletzt verwendet
+2405	Zuletzt verwendete Farben anzeigen
+2406	Zum ersten verknüpften Shape gehen
+2407	Zum letzten verknüpften Shape gehen
+2408	Zum nächsten verknüpften Shape gehen
+2409	Zum vorherigen verknüpften Shape gehen
+2410	Zurücksetzen
+2411	Zusammengehörige Shapes in gruppieren
+2412	Zusatzformen
+2413	Zwei Tabs für die Toolbox mit allen erweiterten Features gemeinsam auf Seite 2.
+2414	Zwischenablage als verknüpftes Element (bspw. Bild, OLE-Objekt) einfügen.
+2415	Zwischenablage auf allen ausgewählten Folien einfügen
+2416	Zwischenablage auf allen ausgewählten Folien gleichzeitig einfügen.
+2417	Zwischengespeicherte Selektion auf aktuellem Blatt wiederherstellen.
+2418	Zählt die Anzahl aller Absätze (bspw. Bullet Points) aller markierten Shapes.
+2419	Zählt die Anzahl aller Wörter aller markierten Shapes.
+2420	Zählt die Anzahl aller Zeichen aller markierten Shapes (inkl. Leerzeichen).
+2421	Zählt die Anzahl aller Zeilen aller markierten Shapes.
+2422	Zählt die Anzahl der ausgewählten Shapes.
+2423	Zählt die Anzahl der erkennbaren Zahlen in der aktuellen Auswahl, die im Feld Summe aufsummiert angezeigt werden.
+2424	Zählt die Anzahl der markierten Shapes bzw. deren Kinder-Shapes (d.h. Shapes innerhalb von Gruppen bzw. Zellen innerhalb von Tabellen).
+2425	Zählt die Anzahl der markierten Shapes bzw. deren Kinder-Shapes, die Text enthalten.
+2426	Zählt die Anzahl der verknüpften Shapes auf allen Folien.
+2427	[Alt]: Text
+2428	[BKT] Agenda
+2429	[BKT] Harvey Balls
+2430	[BKT] Verknüpfte Shapes
+2431	[SHIFT]+Klick für Anlage neues Shape
+2432	[SHIFT]: Auswahl
+2433	[STRG]+Klick für Bearbeiten und Löschen
+2434	[Shift: Auswahl | Strg: Linie | Alt: Text]
+2435	[Shift]: Auswahl
+2436	[Strg]: Linie
+2437	\\u200b
+2438	a button
+2439	a group with subcontrols
+2440	another button
+2441	bla bla
+2442	box w connectors
+2443	button
+2444	button 1
+2445	button 2
+2446	button 3 (second button group)
+2447	button 4
+2448	button 5 (third button group)
+2449	button 6
+2450	button group 1
+2451	button w keytip
+2452	button w/o label:
+2453	buttons
+2454	chartlib
+2455	check box
+2456	check me
+2457	circ w connectors
+2458	clear
+2459	copy
+2460	copy image settings: Zuschneideposition, ...
+2461	dynamic
+2462	dynamic menu
+2463	edit box
+2464	equal height
+2465	first group
+2466	gROẞ-/kLEINSCHREIBUNG umkehren
+2467	gallery
+2468	group
+2469	groß
+2470	item 1
+2471	item 2
+2472	item 3
+2473	item 4
+2474	item 5
+2475	klein
+2476	kleinbuchstaben
+2477	large button
+2478	large buttons
+2479	mal bis zur Folie Nr.
+2480	menu
+2481	my first button
+2482	my first editbox
+2483	normal button
+2484	ohne
+2485	paste
+2486	paste image settings: Zuschneideposition, ...
+2487	pause pointer on this button
+2488	press alt to access commands via keystrokes. on this tab, this button can be accessed with 'K'
+2489	rounding spinner for width
+2490	rounding with cm-conversion
+2491	second group
+2492	separator as menu title
+2493	seperator with title
+2494	seperators
+2495	set background- and border-color
+2496	simple spinner for shape width
+2497	sjdfs &&sdf && sdfsdf
+2498	sjdfs &amp;&amp;sdf &amp;&amp; sdfsdf
+2499	sjdfs &amp;sdf &amp; sdfsdf
+2500	sjdfs &sdf & sdfsdf
+2501	slide %s
+2502	split-button
+2503	sync
+2504	test 1
+2505	test 2
+2506	testgruppe
+2507	the button's screentip
+2508	the button's supertip
+2509	the rounding-spinner converts to cm and rounds to multiples of .1\\nUse Ctrl-key to increment in steps by 10
+2510	the rounding-spinner rounds to multiples of 10\\nUse Ctrl-key to increment in steps by 10
+2511	this label is only visible in tooltip
+2512	this toggle button will always be pressed
+2513	toggle button
+2514	toggle in large split-button
+2515	toggles
+2516	tutorial-1
+2517	tutorial-2
+2518	{Binding CurrentPage}
+2519	{Binding Path=Color}
+2520	{Binding Path=Label}
+2521	{Binding adjustments_group_header[0]}
+2522	{Binding adjustments_group_header[1]}
+2523	{Binding adjustments_group_header[2]}
+2524	{Binding arrange_adv_easy_group_header[0]}
+2525	{Binding arrange_adv_easy_group_header[1]}
+2526	{Binding arrange_adv_easy_group_header[2]}
+2527	{Binding arrange_adv_group_header[0]}
+2528	{Binding arrange_adv_group_header[1]}
+2529	{Binding arrange_adv_group_header[2]}
+2530	{Binding arrange_dist_rota_group_header[0]}
+2531	{Binding arrange_dist_rota_group_header[1]}
+2532	{Binding arrange_dist_rota_group_header[2]}
+2533	{Binding arrange_euclid_group_header[0]}
+2534	{Binding arrange_euclid_group_header[1]}
+2535	{Binding arrange_euclid_group_header[2]}
+2536	{Binding arrange_group_header[0]}
+2537	{Binding arrange_group_header[1]}
+2538	{Binding arrange_group_header[2]}
+2539	{Binding arrange_mini_group_header[0]}
+2540	{Binding arrange_mini_group_header[1]}
+2541	{Binding arrange_mini_group_header[2]}
+2542	{Binding avg_numbers, Mode=OneWay}
+2543	{Binding blue, UpdateSourceTrigger=PropertyChanged}
+2544	{Binding clipboard_group_header[0]}
+2545	{Binding clipboard_group_header[1]}
+2546	{Binding clipboard_group_header[2]}
+2547	{Binding compact_font_group_header[0]}
+2548	{Binding compact_font_group_header[1]}
+2549	{Binding compact_font_group_header[2]}
+2550	{Binding compact_paragraph_group_header[0]}
+2551	{Binding compact_paragraph_group_header[1]}
+2552	{Binding compact_paragraph_group_header[2]}
+2553	{Binding copy_description}
+2554	{Binding current_orientation}
+2555	{Binding default_group_font_header[0]}
+2556	{Binding default_group_font_header[1]}
+2557	{Binding default_group_font_header[2]}
+2558	{Binding default_group_paragraph_header[0]}
+2559	{Binding default_group_paragraph_header[1]}
+2560	{Binding default_group_paragraph_header[2]}
+2561	{Binding filename, UpdateSourceTrigger=PropertyChanged}
+2562	{Binding fill_color, UpdateSourceTrigger=PropertyChanged}
+2563	{Binding format_group_header[0]}
+2564	{Binding format_group_header[1]}
+2565	{Binding format_group_header[2]}
+2566	{Binding green, UpdateSourceTrigger=PropertyChanged}
+2567	{Binding iconsearch_group_header[0]}
+2568	{Binding iconsearch_group_header[1]}
+2569	{Binding iconsearch_group_header[2]}
+2570	{Binding language_group_header[0]}
+2571	{Binding language_group_header[1]}
+2572	{Binding language_group_header[2]}
+2573	{Binding num_all_slides}
+2574	{Binding num_chars, Mode=OneWay}
+2575	{Binding num_lines, Mode=OneWay}
+2576	{Binding num_numbers, Mode=OneWay}
+2577	{Binding num_numbers_tooltip, Mode=OneWay}
+2578	{Binding num_pars, Mode=OneWay}
+2579	{Binding num_selected_slides}
+2580	{Binding num_shapes, Mode=OneWay}
+2581	{Binding num_shapes_tooltip, Mode=OneWay}
+2582	{Binding num_subshapes, Mode=OneWay}
+2583	{Binding num_subshapes_tooltip, Mode=OneWay}
+2584	{Binding num_txtshapes, Mode=OneWay}
+2585	{Binding num_txtshapes_tooltip, Mode=OneWay}
+2586	{Binding num_words, Mode=OneWay}
+2587	{Binding pos_size_group_header[0]}
+2588	{Binding pos_size_group_header[1]}
+2589	{Binding pos_size_group_header[2]}
+2590	{Binding red, UpdateSourceTrigger=PropertyChanged}
+2591	{Binding search_description}
+2592	{Binding shapes_group_header[0]}
+2593	{Binding shapes_group_header[1]}
+2594	{Binding shapes_group_header[2]}
+2595	{Binding size, UpdateSourceTrigger=PropertyChanged}
+2596	{Binding size_group_header[0]}
+2597	{Binding size_group_header[1]}
+2598	{Binding size_group_header[2]}
+2599	{Binding size}
+2600	{Binding slides_group_header[0]}
+2601	{Binding slides_group_header[1]}
+2602	{Binding slides_group_header[2]}
+2603	{Binding stateshape_group_header[0]}
+2604	{Binding stateshape_group_header[1]}
+2605	{Binding stateshape_group_header[2]}
+2606	{Binding styles_group_header[0]}
+2607	{Binding styles_group_header[1]}
+2608	{Binding styles_group_header[2]}
+2609	{Binding sum_numbers, Mode=OneWay}
+2610	{Binding text_padding_group_header[0]}
+2611	{Binding text_padding_group_header[1]}
+2612	{Binding text_padding_group_header[2]}
+2613	{Binding text_par_group_header[0]}
+2614	{Binding text_par_group_header[1]}
+2615	{Binding text_par_group_header[2]}
+2616	{Binding text_parindent_group_header[0]}
+2617	{Binding text_parindent_group_header[1]}
+2618	{Binding text_parindent_group_header[2]}
+2619	{Binding title_text}
+2620	{Binding}
+2621	{TemplateBinding Content}
+2622	{} (999 of {})
+2623	{} > {}\\n{}
+2624	{} Ergebnisse für »{}«
+2625	Ähnliche Shapes suchen…
+2626	Ändere den Absatzabstand hinter dem Absatz auf das angegebene Maß (entweder in Abstand Zeilen oder in pt).
+2627	Ändere den Absatzabstand hinter dem Absatz auf das angegebene Maß (in pt).
+2628	Ändere den Absatzabstand vor dem Absatz auf das angegebene Maß (entweder in Abstand Zeilen oder in pt).
+2629	Ändere den Absatzabstand vor dem Absatz auf das angegebene Maß (in pt).
+2630	Ändere den Absatzeinzug auf das angegebene Maß (in cm).
+2631	Ändere den Sondereinzug (1. Zeile, hängend) auf das angegebene Maß (in cm).
+2632	Ändere den Text des selbst definierten Stickers und füge diesen sofort ein.
+2633	Ändere den Zeilenabstand (entweder in Abstand Zeilen oder in pt).
+2634	Ändere den horizontalen Objektabstand auf das angegebene Maß (in cm).\\n\\nIcon-Klick für 0 Abstand.\\nShift-Klick für 0,2cm Abstand.\\nStrg-Klick für Abstand angleichen.
+2635	Ändere den linken Absatzeinzug auf das angegebene Maß (in cm).
+2636	Ändere den linken Innenabstand des Textfelds auf das angegebene Maß (in cm).
+2637	Ändere den linken Innenabstand des Textfelds auf das angegebene Maß.
+2638	Ändere den oberen Innenabstand des Textfelds auf das angegebene Maß (in cm).
+2639	Ändere den oberen Innenabstand des Textfelds auf das angegebene Maß.
+2640	Ändere den rechten Absatzeinzug auf das angegebene Maß (in cm).
+2641	Ändere den rechten Innenabstand des Textfelds auf das angegebene Maß (in cm).
+2642	Ändere den rechten Innenabstand des Textfelds auf das angegebene Maß.
+2643	Ändere den unteren Innenabstand des Textfelds auf das angegebene Maß (in cm).
+2644	Ändere den unteren Innenabstand des Textfelds auf das angegebene Maß.
+2645	Ändere den vertikalen Objektabstand auf das angegebene Maß (in cm).\\n\\nIcon-Klick für 0 Abstand.\\nShift-Klick für 0,2cm Abstand.\\nStrg-Klick für Abstand angleichen.
+2646	Ändere die Breite von Rundungen (bspw. abgerundetes Rechteck), Pfeilspitzen (bspw. Richtungspfeil) oder Ecken (bspw. abgeschnittenes Rechteck) auf das angegebene Maß (je nach Shape-Typ in cm oder %).
+2647	Ändere die Dicke vom Rahmen bzw. der Linie
+2648	Ändere die Rotation des Shapes auf das angegebene Maß (in Grad).\\n\\nIcon-Klick für Rotation=0.\\nShift-Klick für Rotation=180.\\nStrg-Klick für Rotation angleichen.
+2649	Ändere die Transparenz vom Hintergrund
+2650	Ändere die Transparenz vom Rahmen bzw. der Linie
+2651	Ändere in Innenabstand des Textfelds an allen Seiten auf Null.
+2652	Ändern
+2653	Ändert das Symbol der gewählten Bullet Points.
+2654	Ändert den Abstand der Shapes. Je nach gewähltem Modus werden die Shapes dabei verschoben oder vergrößert bzw. verkleinert.
+2655	Ändert den Spaltenabstand der Shapes. [ALT] wechselt zwischen Bewegen und Dehen/Stauchen.
+2656	Ändert den Winkel der Shapes zur X-Achse (in Grad). Gemessen wird jeweils vom definierten Referenzpunkt der beiden zuerst selektierten Shapes.\\n\\nMit ALT-Taste wird jedes Shapes um den gleichen Delta-Winkel zum ersten Shape verschoben.
+2657	Ändert den Zeilenabstand der Shapes. [ALT] wechselt zwischen Bewegen und Dehen/Stauchen.
+2658	Ändert den euklidischen Objektabstand auf das angegebene Maß (in cm). Gemessen wird jeweils vom definierten Referenzpunkt der beiden zuerst selektierten Shapes.\\n\\nMit ALT-Taste wird jedes Shapes im gleichen Delta-Abstand zum ersten Shape ausgerichtet.
+2659	Ändert die Distanz ausgehend vom linken Shape und schiebt alle anderen nach rechts. Temporärer Wechsel auf 'Nach links' durch [ALT].
+2660	Ändert die Distanz ausgehend vom obersten Shape und schiebt alle anderen nach unten. Temporärer Wechsel auf 'Nach oben' durch [ALT].
+2661	Ändert die Distanz ausgehend vom rechten Shape und schiebt alle anderen nach links. Temporärer Wechsel auf 'Nach rechts' durch [ALT].
+2662	Ändert die Distanz ausgehend vom untersten Shape und schiebt alle anderen nach oben. Temporärer Wechsel auf 'Nach unten' durch [ALT].
+2663	Ändert die Farbe der gewählten Bullet Points.
+2664	Änderung der Breite.\\n\\nBei gedrückter STRG-Taste Veränderung um 0,1 cm statt 0,2 cm.\\n\\nBei gedrückter ALT-Taste Veränderung relativ je Shape (wenn mehrere Shapes ausgewählt sind).
+2665	Änderung der Höhe.\\n\\nBei gedrückter STRG-Taste Veränderung um 0,1 cm statt 0,2 cm.\\n\\nBei gedrückter ALT-Taste Veränderung relativ je Shape (wenn mehrere Shapes ausgewählt sind).
+2666	Änderung der Position von links.\\n\\nBei gedrückter STRG-Taste Veränderung um 0,1 cm statt 0,2 cm.\\n\\nBei gedrückter ALT-Taste Veränderung relativ je Shape (wenn mehrere Shapes ausgewählt sind).
+2667	Änderung der Position von oben.\\n\\nBei gedrückter STRG-Taste Veränderung um 0,1 cm statt 0,2 cm.\\n\\nBei gedrückter ALT-Taste Veränderung relativ je Shape (wenn mehrere Shapes ausgewählt sind).
+2668	Änderung der Position von unten.\\n\\nBei gedrückter STRG-Taste Veränderung um 0,1 cm statt 0,2 cm.\\n\\nBei gedrückter ALT-Taste Veränderung relativ je Shape (wenn mehrere Shapes ausgewählt sind).
+2669	Änderung der Z-Order, also der Reihenfolge der Shapes auf der Folie.
+2670	Öffne BKT-Ordner
+2671	Öffne Konfigurationsdatei im Standardeditor
+2672	Öffne Ordner mit BKT-Framework und Konfigurationsdatei
+2673	Öffne config.txt
+2674	Öffne einen Dialog zur Auswahl der Shape-Eigenschaften, nach welcher die Shapes auf der aktuellen Folie markiert werden sollen.
+2675	Öffnen
+2676	Öffnet Datei-Auswahldialog um referenzierte Datei zu ersetzen. Die Datei muss die gleiche Folien-ID enthalten.
+2677	Öffnet Dialog um wählbare Sprachen zu ändern.
+2678	Öffnet den Dialog zum Einfügen von Symbolen.\\n\\nMit gedrückter Umschalt-Taste wird direkt ein geschützter Trennstrich eingefügt.\\n\\nMit gedrückter Strg-Taste wird in geschütztes Leerzeichen eingefügt.
+2679	Öffnet die Hilfedatei.
+2680	Öffnet ein Menü mit verschiedenen Gallerien zum schnellen Einfügen von Symbolen und speziellen Zeichen.
+2681	Öffnet einen Dialog zur Anzeige der Anzahl der markierten Shapes, Zahlen, Summe der Zahlen, Anzahl Zeichen, Wörter, Zeilen und Absätze.
+2682	Über Auswahl zentrieren
+2683	Über Feature-Folders
+2684	Über {} v{}
+2685	Überführe jeweils den Textinhalt der markierten Shapes in ein separates Text-Shape.
+2686	Überlappend
+2687	Überprüfen, ob neue BKT-Version verfügbar ist
+2688	Überschreiben
+2689	Überschrift anordnen
+2690	Überträgt die kopierte Größe und Position des Bilde-Ausschnitts auf das ausgewählte Bild.
+2691	Überträgt die kopierte Größe und Position des Diagramms bzw. der Zeichnungsfläche auf das ausgewählte Diagramm.
+2692	Überträgt die kopierten Tabellen-Dimensionen auf die ausgewählte Tabelle.
+2693	… mit Lorem ipsum
+2694	… mit Nummerierung
+2695	… mit benutzerdefiniertem Text
+2696	… mit »tbd«
+2697	…an erstem Shape
+2698	…an letztem Shape
+2699	…an äußerstem Shape (PPT-Standard)
+2700	…mit gleichem Hintergrund
+2701	…mit gleichem Rahmen
+2702	…mit gleichem Text
+2703	…mit gleicher Form
+2704	…mit gleicher Größe
+2705	…mit gleicher Schriftfarbe

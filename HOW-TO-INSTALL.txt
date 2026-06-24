@@ -1,0 +1,62 @@
+============================================================
+ BKT Toolbox (English) — Installation Guide
+============================================================
+
+What this is
+------------
+A free toolbox of extra tools for Microsoft PowerPoint (and
+optionally Excel and Visio). It adds "Toolbox" tabs to the
+ribbon with lots of time-saving features for aligning shapes,
+formatting, agendas, tables, and much more.
+
+This is the English-language build. (The original tool is in
+German — see credits in the README.)
+
+
+What you need
+-------------
+- Windows with Microsoft Office 2013 or newer (PowerPoint).
+- .NET Framework 4.5 or newer (already on virtually all modern
+  Windows PCs — the installer will warn you if it's missing).
+- No administrator rights required. It installs only for your
+  user account.
+
+
+How to install (about 1 minute)
+-------------------------------
+1. Double-click:  bkt_install_english_v3.1.0.exe
+2. If Windows shows a blue "Windows protected your PC" box
+   (SmartScreen), click "More info" then "Run anyway".
+   (This appears because the file isn't code-signed by a big
+   vendor — it is safe.)
+3. Follow the wizard. The default options are fine. Click Next /
+   Install through to the end.
+4. Close PowerPoint completely if it is open, then start it again.
+
+That's it. You will now see new tabs on the PowerPoint ribbon:
+"Toolbox 1/3", "Toolbox 2/3", "Toolbox 3/3".
+
+
+First launch note
+-----------------
+The very first time you start PowerPoint after installing, give
+it a few extra seconds on the loading screen — the toolbox starts
+a small built-in engine in the background. The tabs appear once
+it finishes. This only feels slow the first time.
+
+
+How to uninstall
+----------------
+Settings > Apps > Installed apps > "BKT-Toolbox" > Uninstall.
+(Or use the "Uninstall BKT" shortcut in the Start menu.)
+
+
+Troubleshooting
+---------------
+- Don't see the tabs? Fully close PowerPoint (check the Task
+  Manager for any leftover POWERPNT.exe) and reopen it.
+- Still nothing? Open PowerPoint > File > Options > Add-ins >
+  "Manage: COM Add-ins" > Go..., and make sure "BKT" is ticked.
+
+Questions about the tools themselves: see the project wiki linked
+in the README.

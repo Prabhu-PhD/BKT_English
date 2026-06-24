@@ -1,0 +1,233 @@
+# -*- coding: utf-8 -*-
+'''
+Created on 06.02.2018
+
+@author: rdebeerst
+'''
+
+
+
+import sys
+
+import bkt
+
+# reuse settings-menu from bkt-framework
+import modules.settings as settings
+
+version_short = bkt.__version__
+version_long  = 'Powerpoint Toolbox v{}'.format(bkt.__version__)
+
+
+# Workaround to activate Tab when new shape is added instead of auto switching to "Format" contextual tab
+class TabActivator(object):
+    activated = False
+    context = None
+    tab_id = "bkt_powerpoint_toolbox"
+    shapes_on_slide = 0
+
+    @classmethod
+    def activate_tab_on_new_shape(cls, selection):
+        #FIXME: fires also when shape is copy-pasted, but should only fire for real new shapes
+        try:
+            count_shapes = selection.SlideRange[1].Shapes.Count
+            if selection.type == 2 and count_shapes > cls.shapes_on_slide and selection.ShapeRange[1].Type != 6: #ppSelectionShape, shapes increased, no group
+                #bkt.message("shape added")
+                cls.context.ribbon.ActivateTab(cls.tab_id)
+                # print("tab activator: default tab activated")
+            cls.shapes_on_slide = count_shapes
+        except:
+            pass
+            # print("tab activator: failed activating tab")
+
+    @classmethod
+    def enable(cls, context):
+        if not cls.activated and bkt.config.ppt_activate_tab_on_new_shape:
+            cls.context = context
+            #FIXME: event is not unassigned on reload/unload of addin
+            # context.app.WindowSelectionChange += cls.activate_tab_on_new_shape
+            bkt.AppEvents.selection_changed += bkt.Callback(cls.activate_tab_on_new_shape, selection=True)
+            # print("tab activator: workaround enabled")
+        cls.activated = True
+        return True
+
+
+class ProtectedView(object):
+    @staticmethod
+    def get_visible(application):
+        return application.ProtectedViewWindows.Count > 0
+    
+    @staticmethod
+    def show_warning():
+        message = '''At least one open presentation in protected view detected. Even if the protected view window is in the background, PowerPoint might show unexpected behavior such as keyboard input lags or shapes are glued to the cursor on selection.
+
+If you continue editing in PowerPoint it is highly recommended to open all presentations in editing mode or close all protected view windows. This is not a BKT bug but a PowerPoint bug.'''
+        bkt.message.warning(message, "BKT: Protected view window detected!")
+
+
+
+class FormatTab(object):
+    ppt_hide_format_tab = bkt.config.ppt_hide_format_tab is True
+
+    @classmethod
+    def get_visible(cls):
+        return not cls.ppt_hide_format_tab
+    
+    @classmethod
+    def get_config(cls):
+        return cls.ppt_hide_format_tab
+
+    @classmethod
+    def set_config(cls, context, pressed):
+        cls.ppt_hide_format_tab = pressed
+        bkt.config.set_smart("ppt_hide_format_tab", cls.ppt_hide_format_tab)
+        # context.ribbon.InvalidateControlMso("TabDrawingToolsFormat")
+        # context.ribbon.InvalidateControlMso("TabSetDrawingTools")
+
+
+class PopupConfig(object):
+    @staticmethod
+    def get_config(context):
+        return context.app_ui.use_contextdialogs is False
+
+    @staticmethod
+    def set_config(context, pressed):
+        context.app_ui.use_contextdialogs = not pressed
+        bkt.config.set_smart("ppt_use_contextdialogs", not pressed)
+
+
+class ComreleaseConfig(object):
+    disable_comrelease = bkt.config.disable_comrelease is True
+
+    @classmethod
+    def get_config(cls):
+        return cls.disable_comrelease
+
+    @classmethod
+    def set_config(cls, pressed):
+        cls.disable_comrelease = pressed
+        bkt.config.set_smart("disable_comrelease", pressed)
+        bkt.message("Änderung wird nach einem Neustart wirksam!")
+
+
+
+class ToolbarVariations(object):
+    #FIXME: very hard-coded, should be more flexible and allow multiple variations
+
+    @classmethod
+    def get_pressed_default(cls):
+        return "toolbox_widescreen" not in sys.modules
+    
+    @classmethod
+    def get_pressed_wide(cls):
+        return "toolbox_widescreen" in sys.modules
+        
+    @classmethod
+    def change_to_default(cls, context, pressed):
+        cls.change_variation(context, "toolbox")
+        
+    @classmethod
+    def change_to_wide(cls, context, pressed):
+        cls.change_variation(context, "toolbox_widescreen")
+
+    @classmethod
+    def change_variation(cls, context, variation):
+        from os.path import join
+        folders = context.config.feature_folders or []
+        folder = bkt.helpers.file_base_path_join(__file__, "..")
+        # print(join(folder,"toolbox"))
+        # remove both folders just in case
+        try:
+            folders.remove(join(folder,"toolbox"))
+        except ValueError:
+            pass
+        try:
+            folders.remove(join(folder,"toolbox_widescreen"))
+        except ValueError:
+            pass
+        folders.insert(0, join(folder, variation))
+        context.config.set_smart("feature_folders", folders)
+
+        #reload bkt using settings module
+        if bkt.message.confirmation("Soll die BKT nun neu geladen werden?"):
+            settings.BKTReload.reload_bkt(context)
+    
+    @classmethod
+    def show_uisettings(cls, context):
+        from .toolboxui import ToolboxUi
+        ToolboxUi.get_instance().show_settings_editor(context)
+
+
+settings.settings_menu.additional_children.extend([
+    bkt.ribbon.ToggleButton(
+        label="Hide format tab",
+        get_pressed=bkt.Callback(FormatTab.get_config),
+        on_toggle_action=bkt.Callback(FormatTab.set_config, context=True),
+        supertip="The format tab is hidden to prevent automatic switching to the tab when creating shapes."
+    ),
+    bkt.ribbon.ToggleButton(
+        label="Disable popup dialog",
+        get_pressed=bkt.Callback(PopupConfig.get_config),
+        on_toggle_action=bkt.Callback(PopupConfig.set_config, context=True),
+        supertip="Disables the popup dialogs of BKT shapes such as Harvey balls, linked shapes, etc.",
+    ),
+    bkt.ribbon.ToggleButton(
+        label="Disable COM release",
+        get_pressed=bkt.Callback(ComreleaseConfig.get_config),
+        on_toggle_action=bkt.Callback(ComreleaseConfig.set_config),
+        supertip="Disables the auto COM release mechanism that is meant to prevent PowerPoint from slowing down during prolonged use.",
+    ),
+    bkt.ribbon.Menu(
+        label="Customize toolbox tabs",
+        image_mso="PageSettings",
+        supertip="Adjust tabs and groups of the PowerPoint toolbox to individual needs",
+        children=[
+            bkt.ribbon.ToggleButton(
+                label="Standard (3-sided)",
+                supertip="Three tabs for the toolbox with all advanced features on a separate page 3",
+                get_pressed=bkt.Callback(ToolbarVariations.get_pressed_default),
+                on_toggle_action=bkt.Callback(ToolbarVariations.change_to_default, context=True, transactional=False)
+            ),
+            bkt.ribbon.ToggleButton(
+                label="Widescreen (2-sided)",
+                supertip="Two tabs for the toolbox with all advanced features together on page 2.",
+                get_pressed=bkt.Callback(ToolbarVariations.get_pressed_wide),
+                on_toggle_action=bkt.Callback(ToolbarVariations.change_to_wide, context=True, transactional=False)
+            ),
+            bkt.ribbon.MenuSeparator(),
+            bkt.ribbon.Button(
+                label="Adjust theme settings",
+                supertip="Set the page per group and hide groups.",
+                on_action=bkt.Callback(ToolbarVariations.show_uisettings, transactional=False),
+            ),
+        ]
+    ),
+])
+
+
+# Workaround is enabled via "get_visible" of info group:
+info_group = bkt.ribbon.Group(
+    id="bkt_settings_group",
+    label="Settings",
+    image_mso="AddInManager",
+    get_visible=bkt.Callback(TabActivator.enable, context=True),
+    children=[
+        settings.settings_menu,
+        bkt.ribbon.Button(label="BKT", screentip="Business Kasper Toolbox", on_action=bkt.Callback(settings.BKTInfos.show_version_dialog)),
+        bkt.ribbon.Button(label=version_short, screentip="BKT version", supertip=version_long + "\n" + bkt.__release__, on_action=bkt.Callback(settings.BKTInfos.show_version_dialog)),
+        bkt.ribbon.Button(
+            label="BKT Warning",
+            size="large",
+            image_mso="CancelRequest",
+            screentip="Protected window warning",
+            supertip="At least one open presentation in protected view detected. Unexpected PowerPoint behavior may occur.",
+            get_visible=bkt.Callback(ProtectedView.get_visible, application=True),
+            on_action=bkt.Callback(ProtectedView.show_warning)
+        ),
+    ]
+)
+
+# Workaround to maintain focus on BKT tab
+context_format_tab = bkt.ribbon.Tab(
+    idMso = "TabDrawingToolsFormat",
+    get_visible=bkt.Callback(FormatTab.get_visible),
+)

@@ -1,0 +1,128 @@
+2300	Change the foreground color of a toggle shape
+2301	Create a prefabricated standard selection of connection points
+2302	Show previous handle values
+2303	Previous
+2304	Previous shape
+2305	Find previous linked shape
+2306	Preview
+2311	Converts all selected text placeholders into real text boxes that allow grouping, among other things.
+2314	Switch whole slide/content only
+2315	Set toggle shape background color to transparent
+2316	Set toggle shape line to transparent
+2317	Toggle shapes
+2318	Toggle:
+2319	Toggle shapes
+2320	Toggle shapes menu
+2321	Switches to the next state (i.e. shape in the group) of the toggle shape.
+2322	Switches to the previous state (i.e. shape in the group) of the toggle shape.
+2323	More functions
+2324	Search for more shapes
+2325	More slide functions
+2326	More table features
+2327	White shadow
+2328	Which properties to compare?
+2329	Applies ungroup until all nested groups are dissolved.
+2330	If shapes are selected, hide all selected shapes (visible=False); otherwise make shapes visible again (visible=True). If there are no invisible shapes, the last hidden shapes are hidden again.
+2331	When the Lock aspect ratio checkbox is enabled, the height and width settings change in proportion to each other.
+2332	When exact search is disabled, 'person' also finds 'personality', 'impersonal', etc.
+2333	If no text is selected and this option is enabled, the symbol is inserted as a raster graphic. This also works when clicking a symbol while holding the Ctrl key.
+2334	If no text is selected and this option is enabled, the symbol is inserted as a Unicode character. This is the default when no key is pressed.
+2335	If no text is selected and this option is enabled, the symbol is converted into a shape. This also works when clicking a symbol while holding the Shift key.
+2336	When at least two shapes are selected, a small indicator with the text 'Reference' is shown at the lower-left corner of the reference shape (first or last).
+2337	Values 1 and 2
+2338	Values 3 and 4
+2339	Values 5 and 6
+2340	Values 7 and 8
+2341	Insert values into visible cells
+2342	Replace values in all selected cells with the actually displayed text. The cell format is changed to 'Text'.
+2343	Select values
+2344	Values/text
+2345	Widescreen (2-sided)
+2346	Windows color dialog
+2350	Angle
+2351	Angle of the shapes to each other
+2352	The angle of the first shape specifies the rotation of the circular arrangement.
+2355	Edit selectable languages…
+2356	Choose a folder and create a list of all files in this folder in a new sheet.
+2357	Choose a folder and create a list of all files in this folder and all subfolders in a new sheet.
+2358	Choose a folder and create a list of all folders in this folder and all subfolders in a new sheet.
+2359	Weekly
+2360	Weekly, Fridays only
+2361	Words:
+2365	Numbers/dates
+2366	Numbers:
+2367	Numeric values to text
+2368	Characters:
+2369	Draw a text field at any position.\n\nWith the Shift key held, an underlined text box is inserted.\n\nWith the Ctrl key held, a sticker is inserted.
+2370	Shows a dialog to select the functions to apply.
+2371	Shows a dialog to select the language to apply to the presentation or the selected slides.
+2372	Shows a window for entering the selection address with the address of the current selection as the default value.
+2373	Shows icons for available icon fonts that can be inserted as a text symbol or graphic.\n\nNote: The icon fonts must be installed on the computer.
+2374	Shows information about the table. Useful for finding out beforehand whether a table is correctly detected.
+2375	Shows all slide numbers that contain associated linked shapes.
+2376	Shows the search results of the icon search for the desired search term
+2377	Shows a window with detailed information about the selected shape
+2378	Shows a selection of all hidden and very hidden sheets that can be selected for display.
+2379	Shows a small tool for evaluating formulas and calculations
+2380	Shows an overview of all custom styles in the current gallery.
+2381	Show/hide rows
+2382	Rows below process
+2383	Rows:
+2384	Row spacing
+2385	Row spacing = column spacing
+2386	Distribute row height
+2387	Split line breaks into rows
+2388	Merge row-wise with line break
+2389	Cells & alignment
+2390	Cell formats
+2391	Cell contents
+2392	Match cell sizes
+2393	Split cell contents into columns at each comma
+2394	Split cell contents into rows at each line break
+2395	Centered
+2396	Select center shape
+2397	Set center shape
+2398	Split the selected shapes into several shapes based on the text paragraphs. One shape with the corresponding text is created per paragraph.
+2399	Target size:
+2400	To displayed text
+2401	The first selected shape replaces all other selected shapes, keeping the position and size of the replaced shapes.
+2402	First selected shape (default)
+2403	Last selected shape
+2404	Recently used
+2405	Show recently used colors
+2406	Go to the first linked shape
+2407	Go to the last linked shape
+2408	Go to the next linked shape
+2409	Go to the previous linked shape
+2410	Reset
+2411	Group related shapes
+2412	Additional shapes
+2413	Two tabs for the toolbox with all advanced features together on page 2.
+2414	Insert the clipboard as a linked element (e.g. image, OLE object).
+2415	Insert clipboard on all selected slides
+2416	Insert the clipboard on all selected slides simultaneously.
+2417	Restore the stored selection on the current sheet.
+2418	Counts the number of all paragraphs (e.g. bullet points) of all selected shapes.
+2419	Counts the number of all words of all selected shapes.
+2420	Counts the number of all characters of all selected shapes (incl. spaces).
+2421	Counts the number of all rows of all selected shapes.
+2422	Counts the number of selected shapes.
+2423	Counts the number of recognizable numbers in the current selection, which are shown summed up in the Sum field.
+2424	Counts the number of selected shapes or their child shapes (i.e. shapes within groups or cells within tables).
+2425	Counts the number of selected shapes or their child shapes that contain text.
+2426	Counts the number of linked shapes on all slides.
+2430	[BKT] Linked shapes
+2431	[SHIFT]+click to create new shape
+2432	[SHIFT]: selection
+2433	[CTRL]+click to edit and delete
+2434	[Shift: selection | Ctrl: line | Alt: text]
+2435	[Shift]: selection
+2436	[Ctrl]: line
+2460	copy image settings: crop position, ...
+2466	Invert case
+2469	large
+2475	small
+2476	lowercase
+2479	times up to slide no.
+2486	paste image settings: crop position, ...
+2506	test group

@@ -1,0 +1,210 @@
+920	The desired shape arrangement is achieved by shrinking/enlarging (instead of positioning) shapes
+921	The desired shape arrangement is achieved by shrinking/enlarging shapes
+922	The desired shape spacing is achieved by positioning shapes
+923	The desired shape spacing is achieved by shrinking/enlarging shapes
+924	Consolidate open workbooks
+925	Consolidate open workbooks…
+926	Specifies whether elements of a group are considered individually or the entire group as a whole.
+927	Equal spacing
+928	Equal width
+929	Equal width menu
+930	Equal width as the median of the shape widths
+931	Equal width as the average of the shape widths
+932	Equal width as reference shape
+933	Equal width as reference shape [Ctrl]
+934	Equal width as widest shape
+935	Equal width as narrowest shape
+936	Equal width as narrowest shape [Shift]
+937	Same color
+938	Same size as reference
+939	Equal height
+940	Equal height menu
+941	Equal height as the median of the shape heights
+942	Equal height as the average of the shape heights
+943	Equal height as reference shape
+944	Equal height as reference shape [Ctrl]
+945	Equal height as tallest shape
+946	Equal height as shortest shape
+947	Equal height as shortest shape [Shift]
+948	Same position as reference
+949	Search for the same shape on following slides and link it
+950	Evenly distributed
+951	Matches all shapes on the slides to the first selected slide based on the shape name. This function is useful when you create a template, duplicate it multiple times and want to synchronize changes afterwards
+952	Compensates for minimal edge shifts of the selected shapes by enlarging onto shapes to the left of the shapes to be adjusted.
+953	Compensates for minimal edge shifts of the selected shapes by enlarging onto shapes to the upper-left of the shapes to be adjusted.
+954	Compensates for minimal edge shifts of the selected shapes by enlarging onto shapes above the shapes to be adjusted.
+955	Compensates for minimal edge shifts of the selected shapes.
+956	Outline
+957	Trim
+958	Trim/shorten (trim)
+959	Graphic tracker
+965	Large 1 cm
+966	Invert the case of all linked shapes
+967	Adjust the case for all linked shapes
+968	Change case
+969	Large spacing
+970	Group
+971	Ungroup recursively
+972	Adjust group elements individually
+973	Group
+974	Convert grouped shapes into a toggle shape
+975	Grouping
+976	Size
+977	Size (PPT default)
+978	Set the size of all linked shapes to the size of the selected shape.
+979	Match size
+980	Adj. size
+981	Adjust the size of the shape
+982	Round size
+983	Size and position (BKT version)
+984	Insert size and position of the image crop
+985	Copy size and position of the image crop
+986	Insert size and position of the chart area
+987	Copy size and position of the chart area
+988	Match size of linked shapes
+989	Size groups
+991	Duplicate Harvey ball
+992	Create Harvey ball
+994	Set Harvey ball background to transparent
+995	Hide Harvey ball line
+996	The Harvey ball line is shown either around the whole pie or only around the outer circle
+997	Harvey ball to 0%
+998	Harvey ball to 100%
+999	Harvey ball to 25%
+1000	Harvey ball to 33%
+1001	Harvey ball to 50%
+1002	Harvey ball to 66%
+1003	Harvey ball to 75%
+1004	Update Harvey ball to the latest version
+1005	Harvey ball in chart style with highlighted fill level.
+1006	Display the Harvey ball in the classic style without an additional border.
+1007	Display the Harvey ball in the modern style with a white border.
+1008	Mirror the Harvey ball to show the fill level clockwise or counterclockwise.
+1009	The Harvey ball is updated to the latest version, which makes it look a bit better and allows the line color to be adjusted. However, it is then no longer compatible with older versions.
+1010	Removes the link of linked objects (e.g. images and OLE objects).
+1011	Unmerges merged cells within the current selection and inserts the original cell content into all cells.
+1014	Help
+1015	Show help
+1016	Open help
+1017	Back to front
+1018	Background
+1019	Background off
+1020	Change the background of a Harvey ball
+1021	Change background
+1022	Background menu
+1023	Background/fill
+1024	Add the background color of the selected shape to the custom colors.
+1025	Add the background color of the selected shape to the recently used colors.
+1026	Change the background color of a toggle shape
+1027	Reset the background color for editing notes to default.
+1028	Background color for selector
+1029	Change the background color for new editing notes.
+1030	Note: the agenda main slide should not be deleted!
+1031	Add
+1032	Distribute horizontally at center
+1033	Distribute horizontally at left edge
+1034	Distribute horizontally at right edge
+1035	Toggle flipped horizontally
+1036	Flip horizontally
+1037	Distribute horizontally
+1038	Align horizontally centered
+1039	Horizontal arrangement
+1040	Horizontal connection area
+1041	Horizontal object distance
+1042	Horizontal spacing
+1043	Create hyperlinks for agenda items
+1044	Height
+1045	Height = Width
+1046	Set height = width
+1047	Height of the ellipse (diagonal) for the circular arrangement
+1048	Uniform shape height (aligned to reference shape)
+1049	Uniform shape height (aligned to tallest shape)
+1050	Uniform shape height (aligned to shortest shape)
+1051	Height for selector
+1052	Match height for all linked shapes
+1053	Swap height and width
+1054	Change height
+1055	Height ⇄ Width
+1056	ILLUSTRATIVE sticker
+1057	Insert ILLUSTRATIVE sticker
+1059	Icon fonts
+1060	Icon search
+1061	Exclude icon fonts
+1062	Open in Explorer
+1063	Start in window
+1064	Start in full screen
+1067	Import color scheme from an XML file into the workbook.
+1068	Import font scheme from an XML file into the workbook.
+1069	Insert into group
+1070	Convert to process
+1071	Convert to toggle shape
+1072	Convert to toggle shapes or make all shapes visible again
+1073	In the 4 corners
+1074	Send to back
+1075	Bring to front
+1077	Indicator on reference shape
+1078	Show indicator on the reference shape within the selection
+1079	Indexed icons: {}
+1080	Indexed keywords: {}
+1081	Information
+1082	Show information about the detected table
+1083	Content
+1084	Contents
+1085	Content area [CTRL]
+1086	Define content area
+1087	Reset content area
+1088	Incl. sub-shapes:
+1089	Inner margin to zero
+1090	Inner margin left
+1091	Inner margin top
+1092	Inner margin right
+1093	Inner margin bottom
+1094	Inside & above
+1095	Inside & below
+1096	Inside
+1097	Inside center shape
+1098	Inside other shapes
+1101	Insert interactive BKT shapes and special composite shapes that are otherwise cumbersome to create.
+1102	Interactive shapes
+1103	Inverts the current selection. All shapes (including placeholders) that were not previously selected are selected.
+1109	Save each slide as an individual file in the selected folder. The files are numbered with the slide number and named after the slide title.
+1110	Save each slide individually. The files are numbered with the slide number and named after the slide title.
+1111	Indent each hierarchy level (recursive only)
+1112	Group each hierarchy level (recursive only)
+1113	Save each section as an individual file in the selected folder. The files are numbered and named after the section title.
+1114	Save each section individually. The files are numbered and named after the section title.
+1115	Link each agenda item to its corresponding agenda slide.
+1116	Distribute each paragraph (or cell) from the clipboard individually onto the selected shapes (from left to right, and from top to bottom). Superfluous paragraphs are discarded.
+1117	Add 3 additional points for connectors to each rectangle side
+1118	Check for new version now
+1119	Edge auto-fixer
+1120	Edge auto-fixer menu
+1121	Edge auto-fixer tolerance
+1122	Edge auto-fixer diagonally from top-left
+1123	Edge auto-fixer from left to right
+1124	Edge auto-fixer from top to bottom
+1125	Gallery for custom colors
+1126	No background
+1127	No border
+1128	No results for »{}«
+1129	No color / transparency
+1130	No fill
+1131	No line
+1132	No change
+1133	Toggle key/mouse hooks
+1134	Snap/align
+1135	Small 0.1 cm
+1136	Small spacing
+1137	Split comma-separated into columns
+1138	Comments
+1139	Remove comments
+1140	Config
+1141	Configure the text option to 'Resize shape to fit text' or 'Do not autofit'.
+1142	Configure the text option to 'Wrap text in shape'.
+1143	Consol./split
+1144	Consolidate & split
+1145	Consolidates all selected sheets of this workbook into a new sheet.
+1146	Consolidates the sheets of the selected files into a new workbook. The current workbook is not changed.
+1147	Consolidates the selected open workbooks into a new workbook, i.e. copies all sheets into one workbook. The current workbook is not changed.
+1148	Outline weight
+1149	Convert

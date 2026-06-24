@@ -1,0 +1,216 @@
+1	       Distance
+3	   with ALT: delta per Harvey Ball
+4	   with SHIFT: step size +/-25
+6	 [CTRL]: line
+10	* Theme default value
+11	... split
+12	... multiply
+13	Show/hide 0
+14	Hide 0 values
+15	1x per page
+16	2nd process step with header
+17	20% (default)
+18	2x per page
+19	3 additional points per rectangle side
+20	3x per page
+21	80% (very large)
+23	Cancel
+24	Storage
+25	Storage and selection
+26	Paragraph
+27	Paragraph (PPT default)
+28	Paragraph compact (BKT)
+29	Paragraph format (alignment, indent, lists, etc.)
+30	Paragraph spacing above
+31	Paragraph spacing below
+32	Paragraph indent
+33	Paragraph indent left
+34	Paragraph indent right
+35	Paragraph format
+36	Save sections individually
+37	Create sections for agenda items
+38	Distance
+39	Spacing when aligning
+40	Set shape-table spacing to large
+41	Set shape-table spacing to small
+42	Disable shape-table spacing
+43	Set spacing by:
+44	Equalize spacing:
+45	Distance and rotation
+46	Show distance from the respective center points.
+47	Show distance from left edge to left edge.
+48	Show distance from top edge to top edge.
+49	Show distance from right edge to left edge.
+50	Show distance from right edge to right edge.
+51	Show distance from bottom edge to top edge.
+52	Show distance from bottom edge to bottom edge.
+53	Distance from visual right edge to visual left edge. Helpful for rotated shapes.
+54	Show distance from visual bottom edge to visual top edge. Helpful for rotated shapes.
+55	Distance to center points
+56	Distance to left edges
+57	Distance to top edges
+58	Distance to right edges
+59	Distance to bottom edges
+60	Distance/rotation
+61	Distance/angle individually from center to shapes (default)
+62	Distribute distances/angles evenly between shapes
+63	Always change distances/angles by an equal difference [ALT]
+64	Paragraphs:
+65	Reload add-in
+66	Select address…
+69	Agenda selector
+70	Update agenda
+71	Update agenda and replace with the agenda on the agenda main slide; slides are recreated in the process.
+72	Recreate agenda
+73	Agenda, slide numbering, slide-deck cleanup, and many more slide-related functions
+74	Agenda settings
+75	Remove agenda slide
+76	Remove agenda slides
+77	Agenda options
+78	Agenda slides for sub-items
+79	Insert agenda text box
+80	Execute action
+81	Activate linking of the input fields. Horizontal and vertical spacing between rows and columns stays the same.
+82	Activates a small floating mini toolbar with an interactive color picker. The `ppt_quickedit` feature must be installed.
+83	Activated when the first selected shape is flipped horizontally
+84	Activated when the first selected shape is flipped vertically
+85	Update the connection area after the connected shapes have changed.
+86	Update menu
+87	Update of slide thumbnails on this slide or in the entire presentation
+88	Add current selection to the favorites library
+89	Copy current slide to create an updatable slide thumbnail.
+90	Replace current slide reference with the copied slide from the clipboard.
+91	Interpolate current parameters
+92	Reduce current selection by the selected range (complement).
+93	Temporarily store the current selection to restore it later.
+94	Hide the current sheet or the selected sheets.
+95	Make the current sheet or the selected sheets very hidden (xlVeryHidden) so they can only be made visible again via the toolbox or a macro.
+101	Remove all sections
+102	Remove all agendas from the presentation
+103	Close all others
+104	Close all workbooks except the current one. If there are unsaved changes, a prompt appears first.
+105	Select all image files to insert individually.
+106	Show all sheets (incl. xlVeryHidden)
+107	Sort all sheets according to the selection. The selection must consist of exactly one column with the sheet names in the desired order.
+108	Rename all sheets according to the selection. The selection must consist of exactly 2 columns, where the first column contains the old name and the second column the new name. Empty names are skipped.
+109	All caches are reset. Library folders and files are each re-indexed the next time they are opened.\n\nOnly thumbnails of already-opened libraries are updated. Thumbnails can also be regenerated separately for each shape-library file (in the respective menu).
+110	Set all properties of all linked shapes like the selected shape.
+111	Match all properties of linked shapes
+112	Delete all settings and reload BKT
+113	Select all elements of the group
+114	Split all results/groups of a regular expression for the selected cells into columns.
+115	Reload all colors
+116	Append all slides from multiple PowerPoint files to this presentation
+117	Append all slides from multiple PowerPoint files to this presentation.
+118	Save all slides as individual PowerPoint files in the selected folder
+119	Save all slides as individual PowerPoint files in the selected folder.
+120	Update all slide thumbnails on the selected slides. The thumbnail must have been inserted beforehand with this function. If the slide comes from another file, it is automatically opened briefly.
+121	Update all slide thumbnails in the presentation. The thumbnail must have been inserted beforehand with this function. If the slide comes from another file, it is automatically opened briefly.
+122	Convert all slide thumbnails in the presentation into normal images that can no longer be updated.
+123	Show all slide numbers with linked shapes
+124	All icons
+125	Remove all notes on all slides.
+126	Temporarily hide and show all notes on all slides.
+127	Remove all notes on the current slide.
+128	Temporarily hide and show all notes on the current slide.
+129	Show/hide all notes
+130	Delete all notes
+131	Remove all shape links
+132	Match all shapes
+133	Show and hide all shapes in the slide master to work on slides undisturbed and confidentially.
+134	Make all shapes visible
+135	Format all shapes like the shape under the cursor when the context menu is opened
+136	Format all shapes like the first selected shape
+137	Show all shapes again
+138	Reset all shapes
+139	Select all columns of the currently selected cells.
+140	Hide all columns and rows of the unused range.
+141	Show all columns and rows
+142	Show all languages…
+143	Update all thumbnails
+144	Update all thumbnails on the current or selected slide(s)
+145	Update all thumbnails in the entire presentation
+146	Align all trackers
+147	Delete all trackers
+148	Distribute all trackers
+149	Remove all connection points of the selected shapes
+150	Copy all connection points of the master shape (thick border) to other shapes
+151	Copy all connection points of the selected shape
+152	All values
+153	Select all rows of the currently selected cells.
+154	Merge all cell contents
+155	Select all cells with the same background color as the selected cells.
+156	All on/off
+157	Show all hidden sheets
+158	Show all hidden sheets again.
+159	Toggle all hidden sheets between shown and hidden.\n\nIf no sheets are hidden, the selected sheets or the current sheet are hidden.
+160	Delete all hidden columns.
+161	Show all hidden columns and rows again.
+162	Toggle all hidden columns between hidden and shown.\n\nIf no hidden columns are stored or present in the sheet, and columns are selected, these are hidden.
+163	Delete all hidden rows.
+164	Toggle all hidden rows between hidden and shown.\n\nIf no hidden rows are stored or present in the sheet, and rows are selected, these are hidden.
+165	Show all hidden or very hidden (xlVeryHidden) sheets again.
+166	Link all selected shapes individually
+167	Link all selected shapes together
+168	Recreate all selected connectors
+169	Select all empty columns within the used cells (UsedRange).
+170	Select all empty rows within the used cells (UsedRange).
+171	Delete all
+172	Close all
+173	Delete all linked shapes on all slides.
+174	Replace all linked shapes on all slides with the reference shape (by default the selected shape).
+175	Replace all linked shapes on all slides with the selected shape.
+176	Flip all linked shapes horizontally
+177	Send all linked shapes to back
+178	Bring all linked shapes to front
+179	Delete or align all linked shapes. Options are also available in the context menu of linked shapes.
+180	Flip all linked shapes vertically
+181	Count all linked shapes
+182	Toggle all very hidden (xlVeryHidden) sheets between shown and hidden.\n\nIf no sheets are hidden, the selected sheets or the current sheet are hidden.
+183	Show all very hidden sheets (xlVeryHidden only)
+184	Show all hidden shapes
+185	Remove all associated agenda slides
+186	Match everything
+187	Insert as image [Ctrl]
+188	Toggle insert as image
+189	Insert as bitmap
+190	Insert as slide thumbnail
+191	Insert as slide thumbnail menu
+192	Copy as slide thumbnail
+193	Insert as PNG (default)
+194	Toggle insert as shape
+195	Insert as shapes [Shift]
+196	Align as table
+197	Align as table (median spacing)
+198	Align as table (standard spacing)
+199	Align as table without spacing [Shift]
+200	Insert as text (default)
+201	Toggle insert as text
+202	Insert as vector (EMF)
+203	Insert as link
+204	Insert as an updatable slide thumbnail in PNG format
+205	Delete old shapes
+206	Traffic light
+207	Traffic-light dot
+208	Traffic light horizontal
+209	Traffic light vertical
+210	Dock to slide
+211	On/off
+212	Hide other agenda sub-items
+213	Delete other shapes
+214	Delete others
+215	Replace others with this one
+216	Start (arrow type)
+217	Handle 1
+218	Handle 2
+219	Handles affect the shape form, e.g. the rounding at corners or the tip of arrows. Depending on the shape type, there can be up to 8 handle values that can be set manually. Here you can toggle between the values in pairs.
+220	Adjust handle values no. 1 and 2 in spinner boxes
+221	Adjust handle values no. 3 and 4 in spinner boxes
+222	Adjust handle values no. 5 and 6 in spinner boxes
+223	Adjust handle values no. 7 and 8 in spinner boxes
+224	Switch handle values
+225	Animations
+226	Anchor point when rotating
+227	Set anchor point when rotating
+228	Anchor point when swapping
+229	Set anchor point when swapping

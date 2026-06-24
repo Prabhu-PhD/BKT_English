@@ -1,0 +1,132 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:fr="clr-namespace:Fluent;assembly=Fluent"
+    ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen"
+    Title="Search for shape on following slides"
+    ShowInTaskbar="False" MinWidth="300">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Fluent;Component/Themes/Generic.xaml" />
+           </ResourceDictionary.MergedDictionaries>
+            <Style x:Key="selectAllBtn" TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Static ToolBar.ButtonStyleKey}}">
+                <Setter Property="FontFamily" Value="Segoe MDL2 Assets" />
+                <Setter Property="Content" Value="&#xE73A;" />
+            </Style>
+            <Style x:Key="selectNoneBtn" TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Static ToolBar.ButtonStyleKey}}">
+                <Setter Property="FontFamily" Value="Segoe MDL2 Assets" />
+                <Setter Property="Content" Value="&#xE739;" />
+            </Style>
+       </ResourceDictionary>
+   </Window.Resources>
+
+    <StackPanel x:Name="DataPanel" Orientation="Vertical" Margin="5">
+
+        <GroupBox Margin="5" Header="Which slides to search?">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <RadioButton VerticalContentAlignment="Center" GroupName="findmode" Content="Search on all following slides" IsChecked="{Binding findmode_all, UpdateSourceTrigger=PropertyChanged}" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <RadioButton VerticalContentAlignment="Center" GroupName="findmode" Content="Search on" IsChecked="{Binding findmode_num, UpdateSourceTrigger=PropertyChanged}" />
+                    <fr:Spinner InputWidth="40" Value="{Binding num_slides, Mode=TwoWay}" Format="0" Minimum="0" Maximum="{Binding max_slides}" SelectAllTextOnFocus="True" />
+                    <Label Content="Slides up to slide no." />
+                    <fr:Spinner InputWidth="40" Value="{Binding slide_no, Mode=TwoWay}" Format="0" Minimum="{Binding cur_slideno}" Maximum="{Binding max_slideno}" SelectAllTextOnFocus="True" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <Label FontStyle="Italic" Content="{Binding search_description}" />
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Margin="5">
+            <GroupBox.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Which properties to compare?" />
+                    <Button Style="{StaticResource selectAllBtn}" Click="select_all" />
+                    <Button Style="{StaticResource selectNoneBtn}" Click="select_none" />
+                </StackPanel>
+            </GroupBox.Header>
+            <StackPanel>
+                <Grid Margin="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <CheckBox Grid.Row="0" Grid.Column="1" Content="Top edge" IsChecked="{Binding attr_top, Mode=TwoWay}" Margin="5" />
+                    <CheckBox Grid.Row="1" Grid.Column="0" Content="Left edge" IsChecked="{Binding attr_left, Mode=TwoWay}" Margin="5" />
+                    <CheckBox Grid.Row="1" Grid.Column="1" Content="Center point" IsChecked="{Binding attr_center, Mode=TwoWay}" Margin="5" />
+                    <CheckBox Grid.Row="1" Grid.Column="2" Content="Right edge" IsChecked="{Binding attr_right, Mode=TwoWay}" Margin="5" />
+                    <CheckBox Grid.Row="2" Grid.Column="1" Content="Bottom edge" IsChecked="{Binding attr_bottom, Mode=TwoWay}" Margin="5" />
+
+                    <Separator Grid.Row="3" Grid.ColumnSpan="3" Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" />
+
+                    <CheckBox Grid.Row="4" Grid.Column="0" Content="Width" IsChecked="{Binding attr_width, Mode=TwoWay}" Margin="5" />
+                    <CheckBox Grid.Row="4" Grid.Column="1" Content="Height" IsChecked="{Binding attr_height, Mode=TwoWay}" Margin="5" />
+                    <CheckBox Grid.Row="4" Grid.Column="2" Content="Rotation" IsChecked="{Binding attr_rotation, Mode=TwoWay}" Margin="5" />
+
+                    <CheckBox Grid.Row="5" Grid.Column="0" Content="Type/shape" IsChecked="{Binding attr_type, Mode=TwoWay}" Margin="5" />
+                    <CheckBox Grid.Row="5" Grid.Column="1" Content="Shape name" IsChecked="{Binding attr_name, Mode=TwoWay}" Margin="5" />
+                </Grid>
+                <!-- <StackPanel Orientation="Horizontal" Margin="5">
+                    <fr:CheckBox Header="Width" IsChecked="{Binding attr_width, Mode=TwoWay}" Margin="5,0" />
+                    <fr:CheckBox Header="Height" IsChecked="{Binding attr_height, Mode=TwoWay}" Margin="5,0" />
+                    <fr:CheckBox Header="Rotation" IsChecked="{Binding attr_rotation, Mode=TwoWay}" Margin="5,0" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <fr:CheckBox Header="Type/shape" IsChecked="{Binding attr_type, Mode=TwoWay}" Margin="5,0" />
+                    <fr:CheckBox Header="Shape name" IsChecked="{Binding attr_name, Mode=TwoWay}" Margin="5,0" />
+                </StackPanel> -->
+                <fr:Spinner HorizontalAlignment="Left" Margin="5" Header="Tolerance" InputWidth="60" Value="{Binding threshold, Mode=TwoWay}" Format="0 '%'" Minimum="0" Maximum="100" Increment="5" SelectAllTextOnFocus="True" />
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Margin="5">
+            <GroupBox.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Synchronize immediately?" />
+                    <Button Style="{StaticResource selectAllBtn}" Click="sync_all" />
+                    <Button Style="{StaticResource selectNoneBtn}" Click="sync_none" />
+                </StackPanel>
+            </GroupBox.Header>
+            <StackPanel>
+                <Grid Margin="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <CheckBox Grid.Row="0" Grid.Column="0" Content="Position" IsChecked="{Binding attr_sync_pos, Mode=TwoWay}" Margin="5" />
+                    <CheckBox Grid.Row="0" Grid.Column="1" Content="Size" IsChecked="{Binding attr_sync_size, Mode=TwoWay}" Margin="5" />
+                    <CheckBox Grid.Row="1" Grid.Column="0" Content="Formatting" IsChecked="{Binding attr_sync_format, Mode=TwoWay}" Margin="5" />
+                    <CheckBox Grid.Row="1" Grid.Column="1" Content="Text" IsChecked="{Binding attr_sync_text, Mode=TwoWay}" Margin="5" />
+                </Grid>
+            </StackPanel>
+        </GroupBox>
+
+        <Grid Margin="0">
+          <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*" />
+              <ColumnDefinition Width="Auto" />
+          </Grid.ColumnDefinitions>
+          <StackPanel Orientation="Horizontal" Grid.Column="1">
+              <Button Margin="5" MinWidth="80" Padding="5,4" Content="Preview"                    Click="linkshapes_dryrun" IsEnabled="{Binding okay_enabled, UpdateSourceTrigger=PropertyChanged}"/>
+              <Button Margin="5" MinWidth="80" Padding="5,4" Content="Link" IsDefault="True" Click="linkshapes_find" IsEnabled="{Binding okay_enabled, UpdateSourceTrigger=PropertyChanged}"/>
+              <Button Margin="5" MinWidth="80" Padding="5,4" Content="Cancel"  IsCancel="True"  Click="cancel"/>
+          </StackPanel>
+        </Grid>
+    </StackPanel>
+</Window>

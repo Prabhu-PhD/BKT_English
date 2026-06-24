@@ -1,0 +1,200 @@
+1150	Converts formulas into formulas stored as text. The cell format is changed to 'Text'. Cells without formulas remain unchanged.
+1151	Converts formulas into English formulas stored as text. The cell format is changed to 'Text'. Cells without formulas remain unchanged.
+1152	Converts references in formulas to absolute references.
+1153	Converts references in formulas to relative references.
+1154	Converts date and time values stored as text into a real date, with time if applicable. The cell format is changed to 'General'.
+1155	Converts formulas stored as text into real formulas. The cell format is changed to 'General'.
+1156	Converts numbers stored as text into real numbers. The cell format is changed to 'General'.
+1157	Converts English formulas stored as text into real formulas. The cell format is changed to 'General'.
+1158	Converts numeric values (numbers, date, time) into numbers stored as text. The cell format is changed to 'Text'.
+1159	Insert headers/footers
+1160	Reposition the header (heading) correctly on the process-step shape
+1161	Copy
+1162	Copy maximum of selected cells
+1163	Copy minimum of selected cells
+1164	Copy average of selected cells
+1165	Copy sum of selected cells
+1166	Copy the maximum over the selected visible cells to the clipboard.
+1167	Copy the minimum over the selected visible cells to the clipboard.
+1168	Copy the average over the selected visible cells to the clipboard.
+1169	Copies the text of a text shape into the second selected shape and deletes the text shape.
+1170	Copy the sum over the selected visible cells to the clipboard.
+1171	Copy
+1172	Copy with coordinates
+1173	Copy menu
+1174	Copies the height and width of the table rows or table columns to match them with another table.
+1175	Copies the height and width of the crop of a cropped image to match the crop with another image.
+1176	Copies the height and width of the chart as well as the size and position of the plot area to match another chart.
+1177	Copies all visible sheets each into a new workbook and saves them in the same directory as the current workbook. The current workbook is not changed.
+1178	Copies the text of all selected shapes to the clipboard.
+1179	Copies the current slide to the clipboard in high quality.
+1180	Copies the selected worksheets into a new workbook. This also works when several sheets contain lists and tables. The current workbook is not changed.
+1181	Insert the copied slide as an updatable thumbnail in bitmap format with a reference to the original slide.
+1182	Insert the copied slide as an updatable thumbnail in PNG format with a reference to the original slide.
+1183	Insert the copied slide as an updatable thumbnail in vector format (Enhanced Metafile) with a reference to the original slide.
+1184	Insert the copied slide as an updatable thumbnail with a reference to the original slide.\n\nIf the original slide is from another file in the same directory, only the file name is stored, otherwise the absolute path is stored and the original file must not be moved.
+1185	Insert copied connection points into selected shapes
+1186	Toggle circle (width = height)
+1187	Circular arrangement
+1188	Circular arrangement options
+1189	Arrange in a circle
+1190	Edit circle segments
+1191	Insert circle segments
+1192	Create circle segments
+1193	Circle segments…
+1194	Intersection
+1195	Italic
+1200	Loading
+1201	Load custom styles from this gallery file.
+1203	Switch layout
+1204	Remove empty sections
+1205	Remove empty placeholders
+1206	Empty columns
+1207	Select empty columns
+1208	Empty rows
+1209	Select empty rows
+1210	Fill empty cells in the selected range each with the filled cell above.
+1211	Fill empty cells downward
+1212	Sets the alignment of the shapes within the table cells.
+1213	Sets the point that should be fixed when rotating the shapes.
+1214	Sets the point that should be fixed when swapping the shapes.
+1215	Sets the point within all other shapes from which the distance or angle of the shapes is measured.
+1216	Sets the point within the center shape from which the distance or angle of the shapes is measured.
+1217	Determines which shape within the selection should be in the center.
+1218	Specifies that distance or angle is calculated for each shape individually from the center to the respective shape.\n\nThis function is useful to change the angle of a diagonal of shapes or to achieve a star-shaped arrangement of shapes.
+1219	Specifies that distance or angle is distributed evenly from the center and between each shape.\n\nThis function is useful to distribute several shapes along a diagonal or around a center.
+1220	Specifies that distance or angle is always changed by the same difference from the center to the respective shape.\n\nTemporary toggle possible with the ALT key.
+1221	Specifies that the first selected shape within the selection should be in the center.
+1222	Specifies that the last selected shape within the selection should be in the center.
+1223	Places a traffic-light status overlay on the selected shape that indicates whether the operation was successful and shapes were updated. Works for matching size, position, formatting and text.
+1224	Last shape in the slide deck
+1225	Position last shape at the center
+1226	Find last linked shape
+1228	Re-index library
+1229	Manage library
+1230	Select library files and add them permanently to the configuration.
+1231	Add or remove library files or folders.
+1232	Select a library folder and add it permanently to the configuration.
+1234	Insert Likert scale as toggle shape
+1235	Line off
+1236	Change the line of a toggle shape
+1237	Toggle line outside only
+1238	Change line
+1239	Line/border
+1240	Change the line color of a Harvey ball
+1241	Line color for selector
+1242	Change line color
+1243	Left edge
+1244	Fill left gap
+1245	Left side
+1246	Match left side
+1247	Match left side for all linked shapes
+1248	Left
+1249	Left = Top
+1250	Set left = top
+1251	Left to left
+1252	Left to center
+1253	Left to right
+1254	Dock left
+1255	Align left
+1256	Left to right
+1257	Swap left and top
+1258	Left ⇄ Top
+1259	List of all worksheets
+1260	List of all sheets, workbooks, file list, ...
+1261	List of all data validations
+1262	List of all document properties
+1263	List of all comments
+1264	List of all names
+1265	List of all conditional formats
+1266	List of all open workbooks
+1267	Show list of functional limitations due to internal PowerPoint bugs
+1268	Create lists
+1269	Lists for the sheet
+1270	Lists for the workbook
+1271	List symbols
+1276	Delete all comments in the entire slide deck.
+1277	Delete all notes in the entire slide deck.
+1278	Delete all shape animations in the entire slide deck.
+1279	Delete all hidden slides in the entire slide deck.
+1280	Delete all double spaces in the entire slide deck.
+1281	Delete all unused slide masters (designs).
+1282	Delete all unused slide-master layouts as well as empty slide masters (designs).
+1283	Delete all transitions between slides.
+1284	Delete empty placeholder text boxes in the entire slide deck.
+1285	Delete
+1286	Delete all trackers (on all slides) based on the selected tracker.
+1287	Deletes the defined content area, i.e. the slide's default content area is used again.
+1290	Make all hidden shapes (visible=False) visible again.
+1291	Makes the first selected shape the reference shape. If no shape is selected, the content area is used as reference.
+1292	Makes a shape sticky for connectors via the ShapeSheet properties GlueType, ObjType and IsSnapTarget (groups only).
+1293	Makes a shape non-sticky for connectors and other shapes via the ShapeSheet properties GlueType, ObjType and IsSnapTarget (groups only).
+1296	Manual selection
+1297	Select
+1298	Selects all elements within the group.
+1299	Marks all shapes on the slide with tags (metadata) that are used among other things for various BKT functions.
+1300	Selects the used range (UsedRange).
+1301	Selects the unselected range within the chosen range.
+1302	Selects the unused range.
+1303	Copy selected sheets into a new workbook
+1304	Send selected slides by e-mail
+1305	Replace selected shapes with the clipboard content while keeping size and position.
+1306	Add selected shapes to file
+1307	Selected shapes to favorites
+1308	Replace selected shape with the clipboard content while keeping size and position.
+1309	Invert selection…
+1311	Copy master connection points to all
+1312	Master views
+1313	Math symbols
+1314	Max. {} icons per page
+1315	More
+1316	Rename multiple worksheets according to a selection or create from a template
+1317	Insert multiple image files (jpg, png, emf) each onto its own slide
+1318	Insert multiple image files (jpg, png, emf) each onto its own slide.
+1319	Rename, sort or recreate multiple sheets
+1320	Consolidate multiple files
+1321	Set multiple shapes to the same width in various ways
+1322	Set multiple shapes to the same height in various ways
+1331	Menu with various insert operations
+1332	Menu with various copy operations
+1333	Menu for aligning as a table
+1335	Display million amounts clearly
+1336	Mini calculator
+1337	Million values to 0.0 M
+1339	Replace with reference
+1340	Split into columns with regex
+1341	Search and replace with regex
+1342	Count/filter with regex
+1343	With text:
+1344	Replace with clipboard
+1345	With this button, the shapes within the toggle-shape group can be shown.
+1346	Search and replace in selected cells with a regular expression.
+1347	Center
+1348	Center to left
+1349	Center to center
+1350	Center to top
+1351	Center to right
+1352	Center to bottom
+1353	Center of 1st row
+1354	Medium 0.3 cm
+1355	Center point
+1356	Center point left
+1357	Match center point left
+1358	Match center point left for all linked shapes
+1359	Center point top
+1360	Match center point top
+1361	Match center point top for all linked shapes
+1362	Average:
+1363	Mode:
+1364	Monthly
+1368	To the left
+1369	Stretch to the left
+1370	Up
+1371	Stretch up
+1372	To the right
+1373	Stretch to the right
+1374	Down
+1375	Empty cells filled downward again
+1376	Stretch down
+1378	Create a new agenda based on the current slide. The current slide becomes the agenda main slide.
+1379	Create a new agenda based on the current slide. The current slide becomes the agenda main slide.

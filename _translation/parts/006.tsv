@@ -1,0 +1,186 @@
+1380	Create new sheets according to the current selection. The selection must consist of exactly one column with the sheet names to be created.
+1381	Create new library file
+1382	Create new presentation with design
+1383	Create new points
+1384	Add new shapes
+1385	Create a new empty presentation based on the slide master.
+1386	Create a new gallery with a definable name.
+1387	Pick up new style
+1388	Create new style gallery
+1389	New Harvey ball
+1390	New mini calculator
+1392	Remove unused slide layouts
+1393	Remove unused slide masters
+1394	Adds the format of the selected shape anew to the gallery.
+1396	Normalizes the width of all columns without changing the table size.
+1397	Normalizes the width or height of the cells.
+1398	Normalizes the height of all rows without changing the table size.
+1399	Normalize the width of the selected shapes to match the width of the reference shape (i.e. the last or first selected shape).
+1400	Normalize the width of the selected shapes to match the width of the widest shape.
+1401	Normalize the width of the selected shapes to match the width of the widest shape.\nWith the Shift key held, to the narrowest shape.\nWith the Ctrl key held, to the last selected shape.
+1402	Normalize the width of the selected shapes to match the width of the narrowest shape.
+1403	Normalize the width of the selected shapes to match the median of the widths of the shapes.
+1404	Normalize the width of the selected shapes to match the average of the widths of the shapes.
+1405	Normalize the height of the selected shapes to match the height of the reference shape (i.e. the last or first selected shape).
+1406	Normalize the height of the selected shapes to match the height of the tallest shape.
+1407	Normalize the height of the selected shapes to match the height of the tallest shape.\nWith the Shift key held, to the shortest shape.\nWith the Ctrl key held, to the last selected shape.
+1408	Normalize the height of the selected shapes to match the height of the shortest shape.
+1409	Normalize the height of the selected shapes to match the median of the heights of the shapes.
+1410	Normalize the height of the selected shapes to match the average of the heights of the shapes.
+1411	Add note
+1412	Show/hide notes on slide
+1413	Delete notes on slide
+1414	Remove notes
+1415	Change note color
+1416	Hide zero values
+1417	Numbering
+1418	Insert numbering shapes
+1419	Place numbering shapes at the top left of the associated shape
+1420	Numbering shapes top-left
+1421	Place numbering shapes at the top right of the associated shape
+1422	Numbering shapes top-right
+1423	Position numbering shapes offset
+1424	Slide content only
+1425	PDF only
+1426	PowerPoint only
+1427	Show next handle values
+1428	Next
+1429	Next shape
+1430	Find next linked shape
+1431	Top
+1432	Top = Left
+1433	Set top = left
+1434	Top to center
+1435	Top to top
+1436	Top to bottom
+1437	Top to top
+1438	Dock top
+1439	Align top
+1440	Top to bottom
+1441	Swap top and left
+1442	Top ⇄ Left
+1443	Top edge
+1444	Fill top gap
+1445	Top side
+1446	Match top side
+1447	Match top side for all linked shapes
+1448	Top paragraph spacing
+1449	Refresh the interface and reload all values (so-called Invalidate)
+1450	Object distance Euclidean
+1451	Object distance horizontal
+1452	Object distance horizontal menu
+1453	Object distance vertical
+1454	Object distance vertical menu
+1455	Rotate objects in the circular arrangement according to their position in the circle
+1456	Open
+1457	Without spacing
+1466	Operations
+1467	Operations on linked shapes
+1468	Options
+1469	Options for calculating the horizontal distance between shapes
+1470	Options for calculating the vertical distance between shapes
+1471	Options:
+1472	Open the folder of the current presentation in Explorer.
+1473	Select folder for file list
+1474	Select a folder with image files to insert.
+1475	Select folder with images
+1476	Add folder to library
+1477	Select folder for saving
+1478	Folder libraries
+1479	Create folder list (recursive)…
+1480	Folder rows
+1482	PNG (default)
+1483	Adjust the fill level of a Harvey ball according to the selection.\n\nA Harvey ball shape is a group of a circle and a pie shape.
+1484	Adjust the color of a Harvey ball according to the selection.\n\nA Harvey ball shape is a group of a circle and a pie shape.
+1485	Adjust the background color of a Harvey ball according to the selection.\n\nA Harvey ball shape is a group of a circle and a pie shape.
+1486	Adjust the background color for the selector that highlights the active agenda item.
+1487	Adjust the line color of a Harvey ball according to the selection.\n\nA Harvey ball shape is a group of a circle and a pie shape.
+1488	Adjust the line color for the selector that highlights the active agenda item.
+1489	Adjust the text color for the selector that highlights the active agenda item.
+1490	Adjusts the background color of all shapes in the toggle shape. The background color is the color of the first found shape.
+1491	Adjusts the height of the selector relative to the font size.
+1492	Adjusts the line color of all shapes in the toggle shape that match the first found line color.
+1493	Adjusts the shape rotation to the distance vector or the angle.
+1494	Adjusts the foreground color of all shapes in the toggle shape. The foreground color is any color other than the background color.
+1495	Fits the selected shapes as a table into the dimensions of the content area. The content area can be defined beforehand, otherwise the slide's default content area is used.
+1497	Hide 0 values via cell format ('0;;;@'). The existing cell format is overwritten.
+1498	Hide and show 0 values via cell format. An attempt is made to detect the existing cell format and adjust it accordingly.
+1499	Display million amounts as x.x million via cell format. The existing cell format is overwritten.
+1500	Display thousand amounts as x.x k via cell format. The existing cell format is overwritten.
+1502	Arrows
+1503	Reverse the arrow direction of the connector
+1504	Reverse arrow direction
+1505	Convert placeholder into text box
+1506	Skip placeholders
+1507	Disable popup dialog
+1508	Round pos.
+1510	Match position
+1511	Position top left
+1512	Position top right
+1513	Set the position and rotation of all linked shapes to the position of the selected shape.
+1514	Match position of linked shapes
+1515	Position from left
+1516	Position from top
+1517	Position from bottom
+1518	Position/size
+1519	Position/rotation
+1520	Position the selected shapes at a default position.
+1521	Position
+1523	Select PowerPoint files
+1524	PowerPoint table
+1530	Percent
+1531	Edit process
+1532	Insert process
+1533	Re-align process
+1534	Process and circle segments
+1535	Insert process arrows
+1536	Create process-step shape with header
+1537	Process arrows…
+1538	Add process step
+1539	Delete process step
+1540	Process step with header
+1541	Presentation
+1542	Show presentation with the version changes
+1543	Insert points
+1544	Copy points
+1545	Delete points
+1546	Quality
+1553	QuickEdit panel menu
+1561	Border
+1562	Change border
+1563	Border/line
+1565	Right edge
+1566	Fill right gap
+1567	Right side
+1568	Match right side
+1569	Match right side for all linked shapes
+1570	Right
+1571	Right to left
+1572	Right to center
+1573	Right to right
+1574	Dock right
+1575	Align right
+1576	Right to left
+1577	Ref. point
+1578	Reference
+1579	Open or change the reference of the selected slide thumbnail
+1580	The reference for all linked shapes is the currently selected shape
+1581	Choose reference
+1582	Reference or anchor point for distance and angle
+1583	Set reference or anchor points for distance and angle for the first shape and the other shapes
+1584	Reference menu
+1585	Open the referenced file and select the thumbnail slide.
+1586	Set reference points
+1587	Select reference shape
+1588	Apply regex…
+1590	Rows
+1591	Rows above the selection
+1592	Order
+1593	Recursive ungroup
+1594	Convert relative shape handle values into absolute values, or show original values.
+1603	Refresh ribbon
+1604	Aligns the selected shapes as a table with the median spacing of the shapes.
+1605	Aligns the selected shapes as a table with a standard spacing of 0.35 cm (10 pt)
+1606	Aligns the selected shapes as a table with calculated row and column spacing. With the SHIFT key, spacing is set to 0.
+1607	Aligns the selected shapes as a table without spacing.
+1609	Match rotation
