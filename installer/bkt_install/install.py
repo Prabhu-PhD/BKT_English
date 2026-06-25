@@ -29,11 +29,17 @@ class AppInfo(object):
 class PowerPoint(AppInfo):
     name = 'PowerPoint'
     addins_regpath = reg.office_default_path('PowerPoint')
-    register_addins = {'bkt', 'bkt_dev'}
-    # load_behavior = {
-    #     'bkt' : 3,
-    #     'bkt_dev': 3,
-    #     }
+    # Register only the production add-in. The development add-in (bkt_dev /
+    # BKT.Dev.dll) must NOT load on end-user machines: two add-ins bootstrapping
+    # IronPython from the same install causes flaky/failed startup loading.
+    register_addins = {'bkt'}
+    # LoadBehavior 3 = connected + load at startup (the canonical autostart
+    # value). This also makes the add-in eligible for the resiliency
+    # do-not-disable list (iter_active_application_addin_infos requires == 3).
+    load_behavior = {
+        'bkt' : 3,
+        'bkt_dev': 0,
+        }
 
 
 class Word(AppInfo):
@@ -388,15 +394,15 @@ def install(args):
 
     #app load behaviour
     if "powerpoint" in args.apps:
-        PowerPoint.load_behavior = { 'bkt' : 3, 'bkt_dev': 3 }
+        PowerPoint.load_behavior = { 'bkt' : 3, 'bkt_dev': 0 }
     if "excel" in args.apps:
-        Excel.load_behavior = { 'bkt' : 3, 'bkt_dev': 3 }
+        Excel.load_behavior = { 'bkt' : 3, 'bkt_dev': 0 }
     if "word" in args.apps:
-        Word.load_behavior = { 'bkt' : 3, 'bkt_dev': 3 }
+        Word.load_behavior = { 'bkt' : 3, 'bkt_dev': 0 }
     if "visio" in args.apps:
-        Visio.load_behavior = { 'bkt' : 3, 'bkt_dev': 3 }
+        Visio.load_behavior = { 'bkt' : 3, 'bkt_dev': 0 }
     if "outlook" in args.apps:
-        Outlook.load_behavior = { 'bkt' : 3, 'bkt_dev': 3 }
+        Outlook.load_behavior = { 'bkt' : 3, 'bkt_dev': 0 }
 
     wow6432 = None
     if args.force_office_bitness:

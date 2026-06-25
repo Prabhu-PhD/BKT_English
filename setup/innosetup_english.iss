@@ -92,10 +92,12 @@ Name: "{group}\Open BKT folder"; Filename: "{app}\"
 [Run]
 Filename: "{app}\bin\ipy.exe"; Parameters: "-m bkt_install cleanup --clear_cache --clear_config --clear_settings --clear_xml --clear_resiliency --silent"; WorkingDir: "{app}\installer"; StatusMsg: "Full cleanup..."; Flags: runasoriginaluser runhidden; Tasks: cleanup
 
-Filename: "{app}\bin\ipy.exe"; Parameters: "-m bkt_install install -s"; WorkingDir: "{app}\installer"; StatusMsg: "Setting up Office add-in for PowerPoint..."; Flags: runasoriginaluser runhidden; Components: not (excel or visio)
-Filename: "{app}\bin\ipy.exe"; Parameters: "-m bkt_install install -s --apps powerpoint excel"; WorkingDir: "{app}\installer"; StatusMsg: "Setting up Office add-in for PowerPoint and Excel..."; Flags: runasoriginaluser runhidden; Components: excel and not visio
-Filename: "{app}\bin\ipy.exe"; Parameters: "-m bkt_install install -s --apps powerpoint visio"; WorkingDir: "{app}\installer"; StatusMsg: "Setting up Office add-in for PowerPoint and Visio..."; Flags: runasoriginaluser runhidden; Components: visio and not excel
-Filename: "{app}\bin\ipy.exe"; Parameters: "-m bkt_install install -s --apps powerpoint excel visio"; WorkingDir: "{app}\installer"; StatusMsg: "Setting up Office add-in for PowerPoint, Excel and Visio..."; Flags: runasoriginaluser runhidden; Components: excel and visio
+; --add_to_dndlist: add BKT.AddIn to Office's resiliency "DoNotDisableAddinList"
+; so PowerPoint never auto-disables it (or prompts to) after an abnormal close.
+Filename: "{app}\bin\ipy.exe"; Parameters: "-m bkt_install install -s --add_to_dndlist"; WorkingDir: "{app}\installer"; StatusMsg: "Setting up Office add-in for PowerPoint..."; Flags: runasoriginaluser runhidden; Components: not (excel or visio)
+Filename: "{app}\bin\ipy.exe"; Parameters: "-m bkt_install install -s --add_to_dndlist --apps powerpoint excel"; WorkingDir: "{app}\installer"; StatusMsg: "Setting up Office add-in for PowerPoint and Excel..."; Flags: runasoriginaluser runhidden; Components: excel and not visio
+Filename: "{app}\bin\ipy.exe"; Parameters: "-m bkt_install install -s --add_to_dndlist --apps powerpoint visio"; WorkingDir: "{app}\installer"; StatusMsg: "Setting up Office add-in for PowerPoint and Visio..."; Flags: runasoriginaluser runhidden; Components: visio and not excel
+Filename: "{app}\bin\ipy.exe"; Parameters: "-m bkt_install install -s --add_to_dndlist --apps powerpoint excel visio"; WorkingDir: "{app}\installer"; StatusMsg: "Setting up Office add-in for PowerPoint, Excel and Visio..."; Flags: runasoriginaluser runhidden; Components: excel and visio
 
 Filename: "{app}\bin\ipy.exe"; Parameters: "-m bkt_install configure --add_folders features\ppt_customformats"; WorkingDir: "{app}\installer"; StatusMsg: "Enabling PowerPoint custom formats..."; Flags: runasoriginaluser runhidden; Components: powerpoint\customformats
 Filename: "{app}\bin\ipy.exe"; Parameters: "-m bkt_install configure --add_folders features\ppt_consolidation_split"; WorkingDir: "{app}\installer"; StatusMsg: "Enabling PowerPoint consolidation tool..."; Flags: runasoriginaluser runhidden; Components: powerpoint\consol
