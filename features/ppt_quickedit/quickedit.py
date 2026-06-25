@@ -89,7 +89,7 @@ class QuickEditPanelManager(object):
             if bkt.config.show_exception:
                 bkt.helpers.exception_as_message()
             else:
-                bkt.message("Unbekannter Fehler beim Anzeigen des QuickEdit-Panels!")
+                bkt.message("Unknown error displaying the QuickEdit panel!")
 
     @classmethod
     def _close_panel(cls, windowid):

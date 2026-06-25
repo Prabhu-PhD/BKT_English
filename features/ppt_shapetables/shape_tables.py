@@ -49,7 +49,7 @@ class ShapeTables(object):
             item_height="32",
             item_width="32",
             locpin=self.alignment_locpin,
-            item_supertip="Shapes werden bei Shape-Anordnung in Tabellenzellen {} angeordnet.",
+            item_supertip="Shapes are arranged {} in table cells when arranging shapes.",
         )
     
     @property
@@ -60,7 +60,7 @@ class ShapeTables(object):
         return ["top", "middle", "bottom"][self.alignment_locpin.fixation[0]-1]
 
     def get_item_supertip(self, index):
-        return 'Die ausgewählten Shapes werden als Tabelle in den Bereich eingepasst.'
+        return 'The selected shapes are fitted into the area as a table.'
 
     def clear_cache(self):
         self.tr_cache = None
@@ -211,7 +211,7 @@ class ShapeTables(object):
     def table_info(self,shapes):
         tr = self._prepare_table(shapes, force=True)
         msg = ""
-        msg += "Tabellengröße: Zeilen=%d, Spalten=%d\r\n" % tr.dimension
+        msg += "Table size: rows=%d, columns=%d" % tr.dimension
         msg += "Median-Abstand: %s cm" % round(pt_to_cm(tr.median_spacing()),2)
         bkt.message(msg)
 

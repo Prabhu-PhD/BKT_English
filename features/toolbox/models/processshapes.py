@@ -520,7 +520,7 @@ class Pentagon(object):
             shapes = list(iter(context.slide.shapes))
         body = cls.find_corresponding_body_shape(shapes, header)
         if not body:
-            bkt.message.error("Fehler: Zugehöriges Prozess-Shape nicht gefunden!")
+            bkt.message.error("Error: associated process shape not found!")
         else:
             cls.update_header(body, header)
         

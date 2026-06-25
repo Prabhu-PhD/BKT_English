@@ -23,7 +23,7 @@ class BooksOps(object):
     @staticmethod
     def reset_workbook(workbook, application):
         # Show warning regardless of setting "ignore warnings"
-        if not bkt.message.confirmation("Dies löscht alles Änderungen seit dem letzten Speichern und kann nicht rückgängig gemacht werden. Ausführen?"): return
+        if not bkt.message.confirmation("This discards all changes since the last save and cannot be undone. Proceed?"): return
         wb_path = workbook.FullName
         wb_updatelinks = workbook.UpdateLinks
         wb_readonly = workbook.ReadOnly
@@ -39,7 +39,7 @@ class BooksOps(object):
     def theme_apply(workbook):
         fileDialog = Forms.OpenFileDialog()
         fileDialog.Filter = "Excel (*.xlsx;*.xls;*.xltx;*.xlt)|*.xlsx;*.xls;*.xltx;*.xlt|Alle Dateien (*.*)|*.*"
-        fileDialog.Title = "Excel-Datei auswählen"
+        fileDialog.Title = "Select Excel file"
 
         if workbook.Path:
             fileDialog.InitialDirectory = workbook.Path + '\\'
@@ -52,7 +52,7 @@ class BooksOps(object):
             workbook.ApplyTheme(schemePath)
             bkt.message("Theme erfolgreich angewendet!")
         except:
-            bkt.message("Fehler beim Anwenden des Themes! Eventuell ist die Arbeitsmappe oder einzelne Blätter geschützt.")
+            bkt.message("Error applying the theme! The workbook or individual sheets may be protected.")
 
     @classmethod
     def theme_color_export(cls, workbook):
@@ -79,7 +79,7 @@ class BooksOps(object):
             fileDialog.FileName = 'colorscheme.xml'
         else:
             fileDialog.FileName = 'fontscheme.xml'
-        fileDialog.Title = "Speicherort auswählen"
+        fileDialog.Title = "Select save location"
         fileDialog.RestoreDirectory = True
 
         if not fileDialog.ShowDialog() == Forms.DialogResult.OK:
@@ -91,13 +91,13 @@ class BooksOps(object):
         else:
             workbook.Theme.ThemeFontScheme.Save(schemePath)
 
-        bkt.message("Scheme-Datei erfolgreich exportiert!")
+        bkt.message("Scheme file exported successfully!")
 
     @staticmethod
     def _theme_import(workbook, theme_type):
         fileDialog = Forms.OpenFileDialog()
         fileDialog.Filter = "XML (*.xml)|*.xml|Alle Dateien (*.*)|*.*"
-        fileDialog.Title = "XML Scheme-Datei auswählen"
+        fileDialog.Title = "Select XML scheme file"
 
         if workbook.Path:
             fileDialog.InitialDirectory = workbook.Path + '\\'
@@ -111,9 +111,9 @@ class BooksOps(object):
                 workbook.Theme.ThemeColorScheme.Load(schemePath)
             else:
                 workbook.Theme.ThemeFontScheme.Load(schemePath)
-            bkt.message("Scheme-Datei erfolgreich importiert!")
+            bkt.message("Scheme file imported successfully!")
         except:
-            bkt.message("Fehler beim Import!")
+            bkt.message("Error during import!")
 
     @staticmethod
     def copy_selected_sheets(workbook, application):
@@ -160,17 +160,17 @@ class BooksOps(object):
     @classmethod
     def copy_sheets_and_save(cls, sheets, selected_sheets, workbook, application):
         if not workbook.Path:
-            bkt.message("Bitte erst die Arbeitsmappe speichern!")
+            bkt.message("Please save the workbook first!")
             return
 
         #generate list for checked listbox, if multiple sheets are selected mark them as checked, otherwise all are checked
         sel_worksheets = cls._get_worksheet_list(sheets, selected_sheets)
 
-        user_form = bkt.ui.UserInputBox("Diese Funktion kopiert jedes Blatt in eine einzelne Datei. Bitte die Arbeitsblätter zum Speichern auswählen:", "Arbeitsblätter getrennt speichern")
+        user_form = bkt.ui.UserInputBox("This function copies each sheet into a separate file. Please select the worksheets to save:", "Save worksheets separately")
         user_form._add_checked_listbox("sel_worksheets", sel_worksheets)
-        user_form._add_label("Bitte den Dateinamen eingeben. Erlaube Platzhalter: [counter], [workbook], [sheet]")
+        user_form._add_label("Please enter the file name. Allowed placeholders: [counter], [workbook], [sheet]")
         user_form._add_combobox("filename", "[counter]_[sheet].xlsx", ["[counter]_[sheet].xlsx", "[workbook]_[sheet].xlsx", "[sheet].xlsx"])
-        user_form._add_checkbox("do_not_close", "Arbeitsmappen geöffnet lassen")
+        user_form._add_checkbox("do_not_close", "Keep workbooks open")
         form_return = user_form.show()
         if len(form_return) == 0:
             return
@@ -178,7 +178,7 @@ class BooksOps(object):
         #worksheets to be consolidated
         sel_worksheets = form_return["sel_worksheets"]
         if len(sel_worksheets) == 0:
-            bkt.message("Keine Blätter ausgewählt.")
+            bkt.message("No sheets selected.")
             return
 
         err_counter = 0
@@ -199,7 +199,7 @@ class BooksOps(object):
                 err_counter += 1
 
         if err_counter > 0:
-            bkt.message("Fehler! " + str(err_counter) + " Blatt/Blätter konnte(n) nicht kopiert werden.")
+            bkt.message("Error! " + str(err_counter) + " Sheet(s) could not be copied.")
 
     @classmethod
     def consolidate_file_workbooks(cls, workbook, sheets, application):
@@ -214,14 +214,14 @@ class BooksOps(object):
         if fileDialog.Show() == 0: #msoFalse
             return
 
-        application.StatusBar = "Einstellungen für Konsolidierung"
+        application.StatusBar = "Settings for consolidation"
         workbooks = [(wb, True) for wb in list(iter(fileDialog.SelectedItems))]
         cls._consolidate_workbooks(workbooks, [sheet.Name for sheet in sheets], application)
         application.StatusBar = False
 
     @classmethod
     def consolidate_open_workbooks(cls, workbook, sheets, application):
-        application.StatusBar = "Einstellungen für Konsolidierung"
+        application.StatusBar = "Settings for consolidation"
         workbooks = [(wb.Name, True) for wb in list(iter(application.Workbooks))]
         cls._consolidate_workbooks(workbooks, [sheet.Name for sheet in sheets], application)
         application.StatusBar = False
@@ -229,16 +229,16 @@ class BooksOps(object):
 
     @staticmethod
     def _consolidate_workbooks(workbooks, sheets, application):
-        user_form = bkt.ui.UserInputBox("Diese Funktion kopiert die Blätter mehrerer Arbeitsmappen in eine Mappe. Bitte die Arbeitsmappen zur Konsolidierung auswählen:", "Arbeitsmappen konsolidieren")
+        user_form = bkt.ui.UserInputBox("This function copies the sheets of several workbooks into one workbook. Please select the workbooks to consolidate:", "Arbeitsmappen konsolidieren")
         user_form._add_checked_listbox("sel_workbooks", workbooks)
-        user_form._add_label("Komma-getrennte Liste von Blattnamen, die ausschließlich konsolidiert werden:")
+        user_form._add_label("Comma-separated list of sheet names that are consolidated exclusively:")
         user_form._add_combobox("include_sheets", dropdown=sheets)
-        user_form._add_label("Komma-getrennte Liste von Blattnamen, die nicht konsolidiert werden:")
+        user_form._add_label("Comma-separated list of sheet names that are not consolidated:")
         user_form._add_combobox("exclude_sheets", dropdown=sheets)
-        user_form._add_checkbox("deduplicate", "Doppelte Blätter bzw. Blattnamen nur einmal kopieren")
-        user_form._add_checkbox("include_hidden", "Versteckte Blätter kopieren", True)
-        user_form._add_checkbox("add_wb_name", "Name der Arbeitsmappe vor Blattnamen schreiben")
-        user_form._add_checkbox("add_report", "Neues Blatt mit Zusammenfassung der Konsolidierung einfügen", True)
+        user_form._add_checkbox("deduplicate", "Copy duplicate sheets / sheet names only once")
+        user_form._add_checkbox("include_hidden", "Copy hidden sheets", True)
+        user_form._add_checkbox("add_wb_name", "Write the workbook name before the sheet name")
+        user_form._add_checkbox("add_report", "Insert a new sheet with a summary of the consolidation", True)
         form_return = user_form.show()
         if len(form_return) == 0:
             return
@@ -246,7 +246,7 @@ class BooksOps(object):
         #sel_workbooks = list(form_return["sel_workbooks"].Item)
         sel_workbooks = form_return["sel_workbooks"]
         if len(sel_workbooks) == 0:
-            bkt.message("Keine Arbeitsmappen ausgewählt.")
+            bkt.message("No workbooks selected.")
             return
 
         if form_return["exclude_sheets"] == '':
@@ -287,7 +287,7 @@ class BooksOps(object):
                     close = True
                 except:
                     err_counter +=1
-                    report.append((wb_name, "", "", "FEHLER BEIM ÖFFNEN"))
+                    report.append((wb_name, "", "", "ERROR OPENING"))
                     #bkt.helpers.exception_as_message()
                     logging.exception("error opening workbook")
                     continue
@@ -303,7 +303,7 @@ class BooksOps(object):
                     continue
 
                 if form_return["deduplicate"] and cur_sh.Name in all_sheets:
-                    report.append((cur_wb.Name, cur_sh.Name, "", "DUPLIKAT ÜBERSPRUNGEN"))
+                    report.append((cur_wb.Name, cur_sh.Name, "", "DUPLICATE SKIPPED"))
                     continue
                 
                 all_sheets.add(cur_sh.Name)
@@ -384,7 +384,7 @@ class BooksOps(object):
         xllib.unfreeze_app()
 
         if err_counter > 0:
-            bkt.message("Fehler! " + str(err_counter) + " Arbeitemappe(n) konnte(n) nicht oder nur teilweise konsolidiert werden.")
+            bkt.message("Error! " + str(err_counter) + " Workbook(s) could not be consolidated, or only partially.")
 
     @classmethod
     def consolidate_worksheets(cls, workbook, sheet, sheets, selected_sheets, application):
@@ -412,7 +412,7 @@ class BooksOps(object):
                 pass
 
         consol_mode_list = ["Untereinander (Zeilen)", "Nebeneinander (Spalten)"]
-        pastemode_list = ["Alles einfügen", "Werte", "Werte und Zahlenformate", "Werte und Quellformatierung", "Formeln", "Formeln und Zahlenformate", "Formeln und Quellformatierung", "Referenzen", "Referenzen und Quellformatierung"]
+        pastemode_list = ["Insert all", "Werte", "Values and number formats", "Values and source formatting", "Formeln", "Formulas and number formats", "Formulas and source formatting", "Referenzen", "References and source formatting"]
         pastemode_values = [
             [xlcon.XlPasteType["xlPasteAll"]], 
             [xlcon.XlPasteType["xlPasteValues"]], 
@@ -429,18 +429,18 @@ class BooksOps(object):
         sel_worksheets = cls._get_worksheet_list(sheets, selected_sheets)
         #TODO: allow re-ordering ot sheets
 
-        user_form = bkt.ui.UserInputBox("Diese Funktion kopiert die Zellen mehrerer Arbeitsblätter in ein Blatt. Bitte die Arbeitsblätter zur Konsolidierung auswählen:", "Arbeitsblätter konsolidieren")
+        user_form = bkt.ui.UserInputBox("This function copies the cells of several worksheets into one sheet. Please select the worksheets to consolidate:", "Consolidate worksheets")
         user_form._add_checked_listbox("sel_worksheets", sel_worksheets)
         user_form._add_radio_buttons("consolidate_columns", "Konsolidierungs-Modus", consol_mode_list)
-        user_form._add_label("Bereich zum Konsolidieren eingeben, d.h. eine benannter Bereich oder eine Adresse wie A1:D5. [UsedRange] ermittelt automatisch den genutzten Bereich je Arbeitsblatt. [Selection] nimmt den jeweils im Sheet ausgewählten Bereich.")
+        user_form._add_label("Enter the range to consolidate, i.e. a named range or an address like A1:D5. [UsedRange] automatically determines the used range per worksheet. [Selection] takes the range selected in each sheet.")
         user_form._add_combobox("range", default_range, sorted(set(dropdown)))
-        user_form._add_label("Zeilen/Spalten überspringen, z.B. für Titelzeilen:")
+        user_form._add_label("Skip rows/columns, e.g. for title rows:")
         user_form._add_spinner("skip_rows", default_skip, max_value=sheet.Cells.Rows.Count-1)
-        user_form._add_checkbox("insert_skip_rows", "Übersprungene Zeilen/Spalten aus erstem Blatt einfügen (bspw. Überschriften)", True)
-        user_form._add_label("Zeilen/Spalten abtrennen, z.B. für Ergebnis-/Summenzeilen:")
+        user_form._add_checkbox("insert_skip_rows", "Insert skipped rows/columns from the first sheet (e.g. headers)", True)
+        user_form._add_label("Separate rows/columns, e.g. for result/total rows:")
         user_form._add_spinner("cut_rows", 0, max_value=sheet.Cells.Rows.Count-1)
-        user_form._add_checkbox("insert_sheet_names", "Jeweiligen Blattnamen als erste Spalte/Zeile einfügen")
-        user_form._add_label("Einfügemodus:")
+        user_form._add_checkbox("insert_sheet_names", "Insert the respective sheet name as the first column/row")
+        user_form._add_label("Insert mode:")
         user_form._add_combobox("pastemode", dropdown=pastemode_list, selected_index=0, editable=False, return_value="SelectedIndex")
         form_return = user_form.show()
         if len(form_return) == 0:
@@ -449,7 +449,7 @@ class BooksOps(object):
         #worksheets to be consolidated
         sel_worksheets = form_return["sel_worksheets"]
         if len(sel_worksheets) == 0:
-            bkt.message("Keine Blätter ausgewählt.")
+            bkt.message("No sheets selected.")
             return
 
         #Number of skipped rows
@@ -459,7 +459,7 @@ class BooksOps(object):
             cut_rows = form_return["cut_rows"]
             cut_rows = 0 if cut_rows == '' else int(cut_rows)
         except:
-            bkt.message("Fehler, Eingabe ist keine Zahl!")
+            bkt.message("Error: input is not a number!")
             return
         err_counter = 0
 
@@ -468,7 +468,7 @@ class BooksOps(object):
         insert_row = 1 if insert_skip_rows else skip_rows+1
 
         xllib.freeze_app(disable_display_alerts=True, disable_events=True)
-        application.StatusBar = "Konsolidiere Blätter"
+        application.StatusBar = "Consolidating sheets"
 
         consolidate_columns = form_return["consolidate_columns"] == consol_mode_list[1]
         paste_types =  pastemode_values[form_return["pastemode"]]
@@ -571,7 +571,7 @@ class BooksOps(object):
         xllib.unfreeze_app()
 
         if err_counter > 0:
-            bkt.message("Fehler! " + str(err_counter) + " Blatt/Blätter konnte(n) nicht konsolidiert werden.")
+            bkt.message("Error! " + str(err_counter) + " Sheet(s) could not be consolidated.")
 
 
 mappen_gruppe = bkt.ribbon.Group(

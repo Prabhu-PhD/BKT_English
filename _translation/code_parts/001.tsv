@@ -1,0 +1,161 @@
+74	The changes become visible after a PowerPoint restart.
+75	This cannot be undone. Proceed?
+76	This discards all changes since the last save and cannot be undone. Proceed?
+77	This permanently deletes the slide reference, and with it the ability to update all thumbnails in the presentation.
+78	This permanently deletes the slide reference, and with it the ability to update the thumbnail.
+79	This appears to be your first start of QuickEdit. Open the guide (PDF)?
+80	This overwrites existing data validations and cannot be undone. Proceed?
+81	This BKT version is modified for {}. The download URL has been overwritten. Open the download page {} now?
+82	This BKT version has been modified for {}.
+83	This function copies the sheets of several workbooks into one workbook. Please select the workbooks to consolidate:
+84	This function copies the cells of several worksheets into one sheet. Please select the worksheets to consolidate:
+85	This function copies each sheet into a separate file. Please select the worksheets to save:
+86	This function is only available for rectangles.
+87	Apply this style to the current selection.{}\n\nWith the SHIFT key: create a new shape in the chosen format.
+88	With many libraries this operation can take several minutes and cannot be canceled. Continue anyway?
+89	Docking only works with a maximized window and in normal slide view!
+90	Copy duplicate sheets / sheet names only once
+91	Danish
+92	Insert a bullet point (hyphen).
+93	Insert a bullet point (black dot).
+94	Insert a bullet point (black triangle).
+95	Insert a bullet point (black square).
+96	Insert a delta sign.
+97	Insert a diameter / average sign.
+98	An en dash (Halbgeviertstrich) as Office sometimes inserts automatically. Used as a range or distance dash.
+99	Insert a check-mark symbol.
+100	Insert a plus-minus sign.
+101	Insert a plus sign.
+102	Insert a summation sign.
+103	Insert an infinity sign (sideways eight).
+104	Insert an approximately-equal sign.
+105	Insert a not-equal sign.
+106	Insert a square-root sign.
+107	Insert a true cross multiplication sign.
+108	Insert a true minus sign (not a hyphen).
+109	Insert a true dot multiplication sign.
+110	Insert a bold check-mark symbol.
+111	Insert a bold curved cross (matching the check mark).
+112	Insert a bold symmetrical cross (similar to a multiplication sign).
+113	Insert a curved cross (matching the check mark).
+114	Insert a greater-than-or-equal sign.
+115	Insert a less-than-or-equal sign.
+116	Select one or more sheets:
+117	Insert a symmetrical cross (similar to a multiplication sign).
+118	Insert a true fraction slash (similar to a slash).
+119	Insert mode:
+120	Insert the entered formula into the active cell.
+121	Some files are already in the library and will not be added!
+122	A one-time migration of the gallery format is required. It will now start.
+123	Settings for consolidation
+124	Result
+125	Copy result to clipboard
+126	Recalculate result
+127	Creating file list for folder
+128	Exactly 1 column (with sheet names in the desired order) must be selected
+129	Exactly 1 column (with the sheet names to create) must be selected
+130	Exactly 2 columns (Old name, New name) must be selected
+131	At least 2 slides must be selected!
+132	No shapes are selected to hide, no previously hidden shapes were found, and there are no hidden shapes!
+133	%r slide thumbnail(s) were updated, but %r slide thumbnail(s) could not be updated due to an error. The failed thumbnails were marked with the text 'BKT THUMB UPDATE FAILED'.
+134	%r slide thumbnail(s) were updated.
+135	Found
+136	Found %s shapes to link.
+137	%s columns deleted
+138	%s rows deleted
+139	Found %s linked shapes.
+140	{} slide layouts were deleted and {} slide masters are now without a layout. Should these be deleted?
+141	{} slide layouts were deleted!
+142	{} slide masters were deleted!
+143	Select Excel file
+144	Export canceled by user
+145	Export completed with errors
+146	ERROR OPENING
+147	Error updating the agenda
+148	Error updating the agenda sections
+149	Error updating the agenda hyperlinks
+150	Error creating the agenda text box
+151	Error applying the theme! The workbook or individual sheets may be protected.
+152	Error hiding. The workbook must not be protected and there must be at least one visible sheet.
+153	Error binding the application callbacks
+154	Error creating the e-mail in Outlook!
+155	Error adding to the library
+156	Error during import!
+157	Error copying!
+158	Error deleting the agenda
+159	Error deleting the agenda sections
+160	Error changing the thumbnail content.
+161	Error resetting the aspect ratio.
+162	Error opening the slide reference.
+163	Error opening the PDF help file. Please open the file manually: {}
+164	Error calling the update URL: {}
+165	Error!
+166	Error! The slide has no content.
+167	Error! Slide not found in the referenced presentation.
+168	Error! Slide reference not found.
+169	Error! Formula was set on
+170	Error! Presentation from slide reference not found. Select a new file?
+171	Error! Reference not found.\n\n{}
+172	Error! Referenced presentation '%s' not found. Select a new file?
+173	Error! Regex cannot be compiled:
+174	Error! Regex was set on
+175	Error! Shape not found in the referenced presentation.
+176	Error! Thumbnail could not be updated.\n\n{}
+177	Error! Thumbnail could not be inserted in the chosen format.\n\n{}
+178	Error! Unknown checkbox font.
+179	Error: input is not a number!
+180	Error: linked shape not found!
+181	Error: associated process shape not found!
+182	Find: split per regex match
+183	The following slides contain linked shapes: %s
+184	Slide »
+185	Slides without a title cannot be added!
+186	High-quality slide export failed!
+187	Match formatting is not available for the selected shape.
+188	Formulas and source formatting
+189	Formulas and number formats
+190	French
+191	Function failed for unknown reasons.
+192	Function not available for the selected shape!
+193	Insert a %sx%s table of standard shapes (%s columns, %s rows)
+194	Inserts the symbol into the current text or a new shape.
+195	Inserts a numbering shape for each selected shape. Numbering and styling according to the selection. Selected shapes are numbered according to the selection order.
+196	Change the fill level of a Harvey ball to %s
+197	Select entire range:
+198	Protected
+199	Angled connectors unfortunately do not work with custom shape points.
+200	Changed
+201	Returns the cell content from the start up to the entered text. If the text is not found, the cell content remains unchanged.
+202	Ignore case
+203	Capital eszett (ẞ)
+204	Size
+205	Greater-or-equal
+206	Validation warning
+207	Here you can apply a regular expression to all selected cells. The selection box contains examples of possible inputs.
+208	Here you can search for a regular expression in all selected cells and count the number of matches. The selection box contains examples of possible inputs.
+209	Here you can search and replace a regular expression in all selected cells. The selection box contains examples of possible inputs.
+210	Here you can apply a formula to all selected cells. If the cell content should not be at the beginning, you can use the placeholders $cell and $cellvalue. By default the resulting value is inserted (if the formula is not faulty). If your input begins with '=', a formula is created. The selection box contains examples of possible inputs.
+211	Dutch
+212	Check mark
+213	Check mark bold
+214	Application initialization failed
+215	Insert the respective sheet name as the first column/row
+216	No agenda settings on the current slide. Searching all agenda slides.
+217	No agenda text box present on the slide.
+218	No update available. Current version is v{}.
+219	No workbooks selected.
+220	No sheets selected.
+221	No slide thumbnails found.
+222	No shapes selected!
+223	No hidden or very hidden sheets.
+224	No associated agenda slides found!\nDelete all agenda slides in the presentation instead?
+225	Comma-separated list of sheet names that are consolidated exclusively:
+226	Comma-separated list of sheet names that are not consolidated:
+227	Consolidating sheets
+228	Context menu when a single shape is selected
+229	Context menu when multiple shapes or objects are selected
+230	Context menu for graphics and images
+231	Context menu for the slide preview in the right panel
+232	Context menu for the slide preview in the sorter view
+233	Context menu for a single connector
+234	Context menu for an empty spot on the slide

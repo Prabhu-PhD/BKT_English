@@ -389,7 +389,7 @@ ampersand_gruppe = bkt.ribbon.Group(
 class ShapesMore(object):
     @classmethod
     def convert_to_architecture_shape(cls, shapes):
-        bkt.message("Gewinkelte Konnektoren funktioniert leider nicht mit benutzerdefinierten Shape-Punkten.")
+        bkt.message("Angled connectors unfortunately do not work with custom shape points.")
         for shp in shapes:
             cls._convert_to_architecture_shape(shp)
     
@@ -403,7 +403,7 @@ class ShapesMore(object):
         shape.Nodes.Delete(2)
 
         if shape.nodes.count != 5:
-            return bkt.message.error("Diese Funktion steht nur bei Rechtecken zur Verfügung.")
+            return bkt.message.error("This function is only available for rectangles.")
 
         # set nodes (rectangle has 5 nodes as start and end node are the same)
         num_points = n-1

@@ -1,0 +1,497 @@
+0	concat/call:bkt.message	 Arbeitemappe(n) konnte(n) nicht oder nur teilweise konsolidiert werden.
+1	concat/call:bkt.message	 Blatt/Blätter konnte(n) nicht angelegt werden.
+2	concat/call:bkt.message	 Blatt/Blätter konnte(n) nicht konsolidiert werden.
+3	concat/call:bkt.message	 Blatt/Blätter konnte(n) nicht kopiert werden.
+4	concat/call:bkt.message	 Blatt/Blätter konnte(n) nicht umbenannt werden.
+5	concat/call:bkt.message	 Blatt/Blätter konnte(n) nicht umsortiert werden.
+6	concat/call:bkt.message	 Blätter eingeblendet.
+7	concat/call:bkt.message	 Zelle(n) nicht anwendbar.
+8	concat/kwarg:supertip	 als Unicode-Schriftart verwenden.
+9	concat/assign	 ausgewählte Folien speichern unter
+10	concat/kwarg:screentip	 ändern
+11	concat/return	%se Checkbox mit %s einfügen
+12	concat/return	%sen %ser-Likert-Scale einfügen
+13	call:bkt.taskpane.XmlPart	<StackPanel.Resources>
+    <!-- <BitmapImage x:Key="settings" UriSource="S:\\Tooling\\Toolbox-git\\bkt-framework\\resources\\images\\settings.png"/> // -->
+    <!-- Relativer Pfad z.B. <BitmapImage x:Key="settings" UriSource="pack://siteoforigin:,,,/settings.png"/>
+         zeigt auf C:\\Program Files (x86)\\Microsoft Office\\Office15\\settings.png //-->
+    
+    
+    <SolidColorBrush x:Key="BKTDivider" Color="#1F000000" po:Freeze="True" /> <!-- 12% -->
+    <SolidColorBrush x:Key="GroupLabel" Color="#AA000000" po:Freeze="True" />
+
+    <SolidColorBrush x:Key="Ribbon_MouseOverColor"       Color="#FFFBDDD3" />
+    <SolidColorBrush x:Key="Ribbon_CheckedColor"         Color="#FFFBC2A5" />
+    <SolidColorBrush x:Key="Ribbon_FocusedColor"         Color="#FFFBC2A5" />
+    <SolidColorBrush x:Key="Ribbon_PressedColor"         Color="#FFF3AB89" />
+    <SolidColorBrush x:Key="Ribbon_MouseOverBorderColor" Color="#FFF3AB89" />
+    <SolidColorBrush x:Key="Ribbon_CheckedBorderColor"   Color="#FFF3AB89" />
+    <SolidColorBrush x:Key="Ribbon_FocusedBorderColor"   Color="#FFF3AB89" />
+    <SolidColorBrush x:Key="Ribbon_PressedBorderColor"   Color="#FFF3AB89" />
+    <SolidColorBrush x:Key="Ribbon_BorderColor"          Color="#FFCCCCCC" />
+
+    <Style x:Key="RibbonToolbar">
+      <Style.Resources>
+          <Style TargetType="{x:Type r:RibbonButton}">
+              <Setter Property="Control.Padding" Value="5,4,5,4" />
+              <Setter Property="MouseOverBackground" Value="{StaticResource Ribbon_MouseOverColor}"/>
+              <Setter Property="FocusedBackground" Value="{StaticResource Ribbon_FocusedColor}" />
+              <Setter Property="PressedBackground" Value="{StaticResource Ribbon_PressedBorderColor}" />
+          </Style>
+          <Style TargetType="{x:Type r:RibbonMenuButton}">
+              <Setter Property="Control.Padding" Value="5,4,5,4" />
+              <Setter Property="MouseOverBackground" Value="{StaticResource Ribbon_MouseOverColor}" />
+              <Setter Property="MouseOverBorderBrush" Value="{StaticResource Ribbon_MouseOverColor}" />
+              <Setter Property="FocusedBackground" Value="{StaticResource Ribbon_MouseOverColor}" />
+              <Setter Property="PressedBackground" Value="{StaticResource Ribbon_PressedColor}" />
+          </Style>
+          <Style TargetType="{x:Type r:RibbonSplitButton}">
+              <Setter Property="Control.Padding" Value="5,4,5,4" />
+              <Setter Property="MouseOverBackground" Value="{StaticResource Ribbon_MouseOverColor}" />
+              <Setter Property="MouseOverBorderBrush" Value="{StaticResource Ribbon_MouseOverColor}" />
+              <Setter Property="FocusedBackground" Value="{StaticResource Ribbon_MouseOverColor}" />
+              <Setter Property="PressedBackground" Value="{StaticResource Ribbon_PressedColor}" />
+              <Setter Property="CheckedBackground" Value="{StaticResource Ribbon_CheckedColor}" />
+              <Setter Property="CheckedBorderBrush" Value="{StaticResource Ribbon_CheckedBorderColor}" />
+          </Style>
+          <Style TargetType="{x:Type r:RibbonToggleButton}">
+              <Setter Property="Control.Padding" Value="5,4,5,4" />
+              <Setter Property="MouseOverBackground" Value="{StaticResource Ribbon_MouseOverColor}" />
+              <Setter Property="FocusedBackground" Value="{StaticResource Ribbon_MouseOverColor}" />
+              <Setter Property="PressedBackground" Value="{StaticResource Ribbon_PressedColor}" />
+              <Setter Property="PressedBorderBrush" Value="{StaticResource Ribbon_PressedColor}" />
+              <Setter Property="CheckedBackground" Value="{StaticResource Ribbon_PressedColor}" />
+              <Setter Property="CheckedBorderBrush" Value="{x:Null}" />
+          </Style>
+          <Style TargetType="{x:Type r:RibbonMenuItem}">
+              <Setter Property="MouseOverBackground" Value="{StaticResource Ribbon_MouseOverColor}" />
+              <Setter Property="MouseOverBorderBrush" Value="{StaticResource Ribbon_MouseOverColor}" />
+              <Setter Property="PressedBackground" Value="{StaticResource Ribbon_PressedColor}" />
+          </Style>
+          <Style TargetType="{x:Type r:RibbonGalleryItem}">
+              <Setter Property="MouseOverBackground" Value="{StaticResource Ribbon_MouseOverColor}" />
+              <Setter Property="PressedBackground" Value="{StaticResource Ribbon_PressedColor}" />
+              <Setter Property="CheckedBackground" Value="{StaticResource Ribbon_CheckedColor}" />
+              <Setter Property="CheckedBorderBrush" Value="{StaticResource Ribbon_CheckedBorderColor}" />
+          </Style>
+          <Style TargetType="{x:Type r:RibbonCheckBox}">
+              <Setter Property="MouseOverBorderBrush" Value="{StaticResource Ribbon_CheckedBorderColor}" />
+              <Setter Property="MouseOverBackground" Value="{StaticResource Ribbon_CheckedColor}" />
+              <Setter Property="CheckedBorderBrush" Value="{StaticResource Ribbon_CheckedBorderColor}" />
+              <Setter Property="CheckedBackground" Value="{StaticResource Ribbon_CheckedColor}" />
+              <Setter Property="PressedBorderBrush" Value="{StaticResource Ribbon_PressedBorderColor}" />
+              <Setter Property="PressedBackground" Value="{StaticResource Ribbon_PressedColor}" />
+              <Setter Property="FocusedBorderBrush" Value="{StaticResource Ribbon_FocusedBorderColor}" />
+              <Setter Property="FocusedBackground" Value="{StaticResource Ribbon_FocusedColor}" />
+          </Style>
+          <Style TargetType="{x:Type r:RibbonTextBox}">
+              <Setter Property="Control.BorderBrush" Value="#22000000" />
+              <Setter Property="MouseOverBorderBrush" Value="{StaticResource Ribbon_MouseOverBorderColor}" />
+              <Setter Property="FocusedBorderBrush" Value="{StaticResource Ribbon_FocusedBorderColor}" />
+          </Style>
+          <Style TargetType="{x:Type r:RibbonComboBox}">
+              <Setter Property="Control.Padding" Value="5,4,5,4" />
+              <Setter Property="Control.BorderBrush" Value="#22000000" />
+              <Setter Property="MouseOverBorderBrush" Value="{StaticResource Ribbon_MouseOverBorderColor}" />
+              <Setter Property="FocusedBorderBrush" Value="{StaticResource Ribbon_FocusedBorderColor}" />
+              <Setter Property="PressedBackground" Value="{StaticResource Ribbon_PressedColor}" />
+          </Style>
+          <Style TargetType="{x:Type r:RibbonSeparator}">
+              <Setter Property="Control.BorderBrush" Value="#44000000" />
+              <Setter Property="Control.Background" Value="#44000000" />
+              <Setter Property="Control.BorderThickness" Value="4" />
+          </Style>
+      </Style.Resources>
+    </Style>
+</StackPanel.Resources>
+14	attribute	ABBRUCH der Dateiliste nach {} Dateien erstellt {} für Ordner: {}
+15	assign	Abbrechen
+16	assign	Abbruch nach diesem Ordner...
+17	call:toolTip.SetToolTip	Adresse der aktuellen Selektion in Eingabe einfügen.
+Mit Umschalt-Taste wird der Tabellenname vorangestellt.
+18	call:bkt.message.warning	Agenda nicht gefunden!
+19	call:bkt.message.confirmation	Agenda-Hauptseite nicht gefunden!
+Agenda kann aus der ersten Agendafolie wiederhergestellt werden, aber versteckte Unterpunkte gehen dabei verloren.
+
+Agenda-Aktualisierung forsetzen?
+20	call:bkt.message.error	Agenda-Update aus unbekannten Gründen fehlgeschlagen.
+21	call:bkt.message.error	Aktualisierung aus unbekannten Gründen fehlgeschlagen.
+22	attribute	Aktualisierung verfügbar auf v{}.
+Installierte Version ist v{}.
+
+{}
+23	call:bkt.message.warning	Aktuelle Auswahl enthält keine Platzhalter!
+24	call:bkt.message.warning	Aktuelle Folie ist keine Agenda-Folie!
+25	call:toolTip.SetToolTip	Aktuelles Ergebnis in aktive Zelle einfügen.
+26	return	Aktuelles Seiteverhältnis: -
+27	attribute	Aktuelles Seiteverhältnis: {:.4n}
+28	list	Alles einfügen
+29	list	Anz. Blätter
+30	list	Anz. Ordner
+31	call:bkt.ui.UserInputBox	Arbeitsblätter getrennt speichern
+32	call:bkt.ui.UserInputBox	Arbeitsblätter konsolidieren
+33	call:user_form._add_checkbox	Arbeitsmappen geöffnet lassen
+34	call:bkt.message	Arbeitsmappen-Struktur ist geschützt.
+35	return	Auf neue Version prüfen
+36	call:bkt.message	Aufgrund von PowerPoint-Bugs gibt es folgende Einschränkungen:
+- Textkontur kann gesetzt, aber nicht wieder entfernt werden
+- Farb-Verläufe werden nur für Hintergrund (nicht Linien) unterstützt
+- Farb-Verläufe (insb. Winkel) werden nicht immer richtig übertragen
+- Schatten werden nicht auf Gruppen angewendet
+- Abschluss-/Anschlusstyp bei Linien werden nicht gesetzt
+37	tuple	Aufzählungszeichen (Dreieck)
+38	tuple	Aufzählungszeichen (Kreis)
+39	tuple	Aufzählungszeichen (Quadrat)
+40	tuple	Aufzählungszeichen (Strich)
+41	assign	Ausgewählte Folie speichern unter
+42	tuple	Auslassungspunkte sind drei kurz aufeinanderfolgende Punkte. Meistens zeigen diese eine Ellipse (Auslassung eines Textteils) an.
+43	call:xllib.rename_sheet	BKT LISTE BLÄTTER
+44	call:xllib.rename_sheet	BKT LISTE DATENÜBERPRÜF.
+45	call:bkt.message,call:bkt.message.warning	BKT: Verknüpfte Shapes
+46	call:application.InputBox	Bereich auswählen
+47	call:application.InputBox	Bereich auswählen:
+48	call:application.InputBox	Bereich zum Deselektieren auswählen:
+49	call:user_form._add_label	Bereich zum Konsolidieren eingeben, d.h. eine benannter Bereich oder eine Adresse wie A1:D5. [UsedRange] ermittelt automatisch den genutzten Bereich je Arbeitsblatt. [Selection] nimmt den jeweils im Sheet ausgewählten Bereich.
+50	call:application.InputBox	Bereich zum Selektieren auswählen:
+51	call:user_form._add_checkbox	Bestehende Formeln überspringen und nicht verändern
+52	assign	Bild-Dateien auswählen
+53	call:bkt.ui.show_user_input	Bitte Dateiname für neuen Style-Katalog eingeben
+54	call:bkt.ui.show_user_input	Bitte Name der Library eingeben:
+55	call:user_form._add_label	Bitte den Dateinamen eingeben. Erlaube Platzhalter: [counter], [workbook], [sheet]
+56	assign	Bitte einen BKT Feature-Ordner auswählen
+57	assign	Bitte einen Ordner mit PowerPoint-Dateien auswählen
+58	call:bkt.message	Bitte erst die Arbeitsmappe speichern!
+59	call:bkt.ui.UserInputBox	Blätter anzeigen
+60	tuple	Box Häkchen
+61	call:worker.ReportProgress	Cache löschen
+62	tuple	DUPLIKAT ÜBERSPRUNGEN
+63	call:bkt.message.non_modal	Das Binden der Anwendungs-Callbacks ist fehlgeschlagen. Bitte alle Dialoge schließen.
+
+Erneut versuchen?
+64	call:bkt.message.error	Das Element in der Zwischenablage unterstützt diesen Einfügetyp nicht.
+65	concat/call:bkt.message	Das Shape wurde mit %s Shapes verknüpft.
+66	call:bkt.message.confirmation	Das bestehende Bild wird dabei ersetzt. Fortfahren?
+67	attribute	Dateiliste mit {} Dateien erstellt {} für Ordner: {}
+68	call:bkt.message.warning	Der Favoriten-Ordner selbst kann nicht gelöscht werden, aber einzelne Dateien können manuell gelöscht werden. Der Ordner wird nun im Explorer geöffnet.
+69	call:bkt.message.warning	Der Ordner (oder ein Überordner) ist bereits in der Library und wird nicht hinzugefügt!
+70	dict,tuple	Deutsch (Österreich)
+71	attribute	Die BKT ist Open Source lizensiert unter der {}-Lizenz.
+72	call:bkt.message	Die Link-ID wurde zwischengespeichert. Als nächstes können weitere Shapes ausgewählt und über "Ausgewählte Shapes zur Verknüpfung hinzufügen" mit diesem Shape verknüpft werden.
+73	return	Die ausgewählten Shapes werden als Tabelle in den Bereich eingepasst.
+74	call:bkt.message	Die Änderungen werden nach einem PowerPoint-Neustart sichtbar.
+75	arguments	Dies kann nicht rückgängig gemacht werden. Ausführen?
+76	call:bkt.message.confirmation	Dies löscht alles Änderungen seit dem letzten Speichern und kann nicht rückgängig gemacht werden. Ausführen?
+77	call:bkt.message.confirmation	Dies löscht dauerhaft die Folien-Referenz und damit die Möglichkeit der Aktualisierung aller Thumbnails in der Präsentation.
+78	call:bkt.message.confirmation	Dies löscht dauerhaft die Folien-Referenz und damit die Möglichkeit der Aktualisierung des Thumbnails.
+79	call:bkt.message.confirmation	Dies scheint dein erster Start von QuickEdit zu sein. Soll die Anleitung (PDF) geöffnet werden?
+80	call:xllib.confirm_no_undo	Dies überschreibt bestehende Datenüberprüfungen und kann nicht rückgängig gemacht werden. Ausführen?
+81	attribute	Diese BKT-Version ist modifiziert für {}. Die Download-URL wurde überschrieben. Download-Seite {} jetzt aufrufen?
+82	attribute	Diese BKT-Version wurde modifiziert für {}.
+83	call:bkt.ui.UserInputBox	Diese Funktion kopiert die Blätter mehrerer Arbeitsmappen in eine Mappe. Bitte die Arbeitsmappen zur Konsolidierung auswählen:
+84	call:bkt.ui.UserInputBox	Diese Funktion kopiert die Zellen mehrerer Arbeitsblätter in ein Blatt. Bitte die Arbeitsblätter zur Konsolidierung auswählen:
+85	call:bkt.ui.UserInputBox	Diese Funktion kopiert jedes Blatt in eine einzelne Datei. Bitte die Arbeitsblätter zum Speichern auswählen:
+86	call:bkt.message.error	Diese Funktion steht nur bei Rechtecken zur Verfügung.
+87	assign	Diesen Style auf aktuelle Auswahl anwenden.{}
+
+Mit SHIFT-Taste: Neues Shape im gewählten Format anlegen.
+88	call:bkt.message.confirmation	Dieser Vorgang kann bei vielen Libraries einige Minuten dauern und nicht abgebrochen werden. Trotzdem fortsetzen?
+89	call:bkt.message	Docking funktioniert nur bei maximiertem Fenster und bei normaler Folienansicht!
+90	call:user_form._add_checkbox	Doppelte Blätter bzw. Blattnamen nur einmal kopieren
+91	dict,tuple	Dänisch
+92	tuple	Ein Aufzählungszeichen (Bindestrich) einfügen.
+93	tuple	Ein Aufzählungszeichen (schwarzer Punkt) einfügen.
+94	tuple	Ein Aufzählungszeichen (schwarzes Dreieck) einfügen.
+95	tuple	Ein Aufzählungszeichen (schwarzes Quadrat) einfügen.
+96	tuple	Ein Deltazeichen einfügen.
+97	tuple	Ein Durchmesserzeichen bzw. Durchschnittszeichen einfügen.
+98	tuple	Ein Gedankenstrich (sog. Halbgeviertstrich) wie er von Office teilweise automatisch gesetzt wird. Verwendet als Bis-Strich oder Streckenstrich.
+99	tuple	Ein Häkchen-Symbol einfügen.
+100	tuple	Ein Plus-Minus-Zeichen einfügen.
+101	tuple	Ein Pluszeichen einfügen.
+102	tuple	Ein Summenzeichen einfügen.
+103	tuple	Ein Unendlich-Zeichen (liegende Acht) einfügen.
+104	tuple	Ein Ungefähr Gleich Zeichen einfügen.
+105	tuple	Ein Ungleich-Zeichen einfügen.
+106	tuple	Ein Wurzelzeichen einfügen.
+107	tuple	Ein echtes Kreuz-Multiplikatorzeichen einfügen.
+108	tuple	Ein echtes Minuszeichen (kein Bindestrich) einfügen.
+109	tuple	Ein echtes Punkt-Multiplikatorzeichen einfügen.
+110	tuple	Ein fettes Häkchen-Symbol einfügen.
+111	tuple	Ein fettes geschwungenes Kreuzchen (passend zu Häkchen) einfügen.
+112	tuple	Ein fettes symmetrisches Kreuzchen (ähnlich Malzeichen) einfügen.
+113	tuple	Ein geschwungenes Kreuzchen (passend zu Häkchen) einfügen.
+114	tuple	Ein größer oder gleich Zeichen einfügen.
+115	tuple	Ein kleiner oder gleich Zeichen einfügen.
+116	call:bkt.ui.UserInputBox	Ein oder mehrere Blätter auswählen:
+117	tuple	Ein symmetrisches Kreuzchen (ähnlich Malzeichen) einfügen.
+118	tuple	Einen echten Bruchstrich (ähnlich Schrägstrich) einfügen.
+119	call:user_form._add_label	Einfügemodus:
+120	call:toolTip.SetToolTip	Eingegebene Formel in aktive Zelle einfügen.
+121	call:bkt.message.warning	Einige Dateien sind bereits in der Library und werden nicht hinzugefügt!
+122	call:bkt.message	Einmalige Migration des Katalogformats erforderlich. Diese wird nun gestartet.
+123	assign	Einstellungen für Konsolidierung
+124	call:listView.Columns.Add,return	Ergebnis
+125	call:toolTip.SetToolTip	Ergebnis in Zwischenablage kopieren
+126	call:toolTip.SetToolTip	Ergebnis neu berechnen
+127	concat/assign	Erstelle Dateiliste für Ordner 
+128	call:bkt.message	Es muss genau 1 Spalte (mit Blattnamen in gewünschter Reihenfolge) ausgewählt werden
+129	call:bkt.message	Es muss genau 1 Spalte (mit anzulegenden Blattnamen) ausgewählt werden
+130	call:bkt.message	Es müssen genau 2 Spalten (Alter Name, Neuer Name) ausgewählt werden
+131	call:bkt.message.error	Es müssen mind. 2 Folien ausgewählt sein!
+132	call:bkt.message.warning	Es sind keine Shapes zum Verstecken ausgewählt, es wurden keine vormals versteckten Shapes gefunden, und es gibt keine versteckten Shapes!
+133	concat/call:bkt.message.warning	Es wurde/n %r Folien-Thumbnail/s aktualisiert, aber %r Folien-Thumbnail/s konnten wegen eines Fehlers nicht aktualisiert werden. Die fehlerhaften Thumbnails wurden mit dem Text 'BKT THUMB UPDATE FAILED' markiert.
+134	concat/call:bkt.message	Es wurde/n %r Folien-Thumbnail/s aktualisiert.
+135	concat/concat/nonetype	Es wurden 
+136	concat/call:bkt.message	Es wurden %s Shapes zum verknüpfen gefunden.
+137	concat/call:bkt.message	Es wurden %s Spalten gelöscht
+138	concat/call:bkt.message	Es wurden %s Zeilen gelöscht
+139	concat/call:bkt.message	Es wurden %s verknüpfte Shapes gefunden.
+140	attribute	Es wurden {} Folienlayouts gelöscht und {} Folienmaster sind nun ohne Layout. Sollen diese gelöscht werden?
+141	attribute	Es wurden {} Folienlayouts gelöscht!
+142	attribute	Es wurden {} Folienmaster gelöscht!
+143	assign	Excel-Datei auswählen
+144	call:bkt.message.warning	Export durch Nutzer abgebrochen
+145	call:bkt.message.warning	Export mit Fehlern abgeschlossen
+146	tuple	FEHLER BEIM ÖFFNEN
+147	call:bkt.message.error	Fehler beim Aktualisieren der Agenda
+148	call:bkt.message.error	Fehler beim Aktualisieren der Agenda-Abschnitte
+149	call:bkt.message.error	Fehler beim Aktualisieren der Agenda-Hyperlinks
+150	call:bkt.message.error	Fehler beim Anlegen der Agenda-Textbox
+151	call:bkt.message	Fehler beim Anwenden des Themes! Eventuell ist die Arbeitsmappe oder einzelne Blätter geschützt.
+152	call:bkt.message	Fehler beim Ausblenden. Die Arbeitsmappe darf nicht geschützt sein und es muss mind. ein sichtbares Blatt geben.
+153	call:bkt.message.error	Fehler beim Binden der Anwendungs-Callbacks
+154	call:bkt.message.error	Fehler beim Erstellen der E-Mail in Outlook!
+155	call:bkt.message.error	Fehler beim Hinzufügen zur Library
+156	call:bkt.message	Fehler beim Import!
+157	call:bkt.message,call:bkt.message.error	Fehler beim Kopieren!
+158	call:bkt.message.error	Fehler beim Löschen der Agenda
+159	call:bkt.message.error	Fehler beim Löschen der Agenda-Abschnitte
+160	call:bkt.message.error	Fehler beim Wechsel des Thumbnail-Inhalts.
+161	call:bkt.message.error	Fehler beim Zurücksetzen des Seitenverhältnisses.
+162	call:bkt.message.error	Fehler beim Öffnen der Folienreferenz.
+163	attribute	Fehler beim Öffnen der PDF-Hilfedatei. Bitte Datei manuell öffnen: {}
+164	attribute	Fehler im Aufruf der Aktualisierungs-URL: {}
+165	concat/concat/nonetype	Fehler! 
+166	call:bkt.message.error	Fehler! Folie hat keinen Inhalt.
+167	call:bkt.message.error	Fehler! Folie in der referenzierten Präsentation nicht gefunden.
+168	call:bkt.message.error	Fehler! Folien-Referenz nicht gefunden.
+169	concat/concat/nonetype	Fehler! Formel war auf 
+170	call:bkt.message.confirmation	Fehler! Präsentation aus Folien-Referenz nicht gefunden. Neue Datei auswählen?
+171	attribute	Fehler! Referenz nicht gefunden.
+
+{}
+172	concat/call:bkt.message.confirmation	Fehler! Referenzierte Präsentation '%s' nicht gefunden. Neue Datei auswählen?
+173	concat/call:bkt.message	Fehler! RegEx kann nicht kompiliert werden: 
+174	concat/concat/nonetype	Fehler! RegEx war auf 
+175	call:bkt.message.error	Fehler! Shape in der referenzierten Präsentation nicht gefunden.
+176	attribute	Fehler! Thumbnail konnte nicht aktualisiert werden.
+
+{}
+177	attribute	Fehler! Thumbnail konnte nicht im gewählten Format eingefügt werden.
+
+{}
+178	call:bkt.message.error	Fehler! Unbekannter Checkbox-Font.
+179	call:bkt.message	Fehler, Eingabe ist keine Zahl!
+180	call:bkt.message.error	Fehler: Verbundenes Shape nicht gefunden!
+181	call:bkt.message.error	Fehler: Zugehöriges Prozess-Shape nicht gefunden!
+182	list	Find: Aufteilung je RegEx Übereinstimmung
+183	concat/call:bkt.message	Folgende Folie enthalten verknüpfte Shapes: %s
+184	concat/concat/nonetype	Folie »
+185	call:bkt.message.warning	Folien ohne Titel können nicht hinzugefügt werden!
+186	call:bkt.message.error	Folien-Export in hoher Qualität ist fehlgeschlagen!
+187	call:bkt.message.warning	Formatierung angleichen für gewähltes Shape nicht verfügbar.
+188	list	Formeln und Quellformatierung
+189	list	Formeln und Zahlenformate
+190	dict,tuple	Französisch
+191	call:bkt.message.error	Funktion aus unbekannten Gründen fehlgeschlagen.
+192	call:bkt.message.error	Funktion für ausgewähltes Shape nicht verfügar!
+193	concat/return	Füge eine %sx%s-Tabelle aus Standard-Shapes ein (%s Spalten, %s Zeilen)
+194	return	Fügt das Symbol in aktuellen Text oder neues Shape ein.
+195	return	Fügt für jedes markierte Shape ein Nummerierungs-Shape ein. Nummerierung und Styling entsprechend der Auswahl. Markierte Shapes werden entsprechend der Selektions-Reihenfolge durchnummeriert.
+196	concat/ifexp	Füllstand eines Harvey-Balls ändern auf %s
+197	call:application.InputBox	Gesamtbereich auswählen:
+198	list	Geschützt
+199	call:bkt.message	Gewinkelte Konnektoren funktioniert leider nicht mit benutzerdefinierten Shape-Punkten.
+200	list	Geändert
+201	call:bkt.ui.UserInputBox	Gibt Zelleninhalt von Beginn bis zum eingegebenen Text zurück. Wird der Text nicht gefunden, bleibt der Zelleninhalt unverändert.
+202	call:user_form._add_checkbox	Groß-/Kleinschreibung ignorieren
+203	tuple	Großes Eszett
+204	list	Größe
+205	tuple	Größer-Gleich
+206	list	Gültigkeitswarnung
+207	call:bkt.ui.UserInputBox	Hier kann ein regulärer Ausdruck auf alle markierten Zellen angewendet werden. In der Auswahlbox finden Sie Beispiele für mögliche Eingaben.
+208	call:bkt.ui.UserInputBox	Hier kann ein regulärer Ausdruck in allen markierten Zellen gesucht und die Anzahl der Funde gezählt werden. In der Auswahlbox finden Sie Beispiele für mögliche Eingaben.
+209	call:bkt.ui.UserInputBox	Hier kann ein regulärer Ausdruck in allen markierten Zellen gesucht und ersetzt werden. In der Auswahlbox finden Sie Beispiele für mögliche Eingaben.
+210	call:bkt.ui.UserInputBox	Hier kann eine Formel auf alle markierten Zellen angewendet werden. Soll der Zelleninhalt nicht am Anfang stehen, können Sie mit dem Platzhalter $cell und $cellvalue arbeiten. Standardmäßig wird der resultierende Wert eingefügt (sofern die Formel nicht fehlerhaft ist). Wenn Ihre Eingabe mit '=' beginnt, wird eine Formel erstellt. In der Auswahlbox finden Sie Beispiele für mögliche Eingaben.
+211	dict,tuple	Holländisch
+212	tuple	Häkchen
+213	tuple	Häkchen fett
+214	call:bkt.message.error	Initialisierung der Applikation fehlgeschlagen
+215	call:user_form._add_checkbox	Jeweiligen Blattnamen als erste Spalte/Zeile einfügen
+216	call:bkt.message.warning	Keine Agenda-Einstellungen auf aktueller Folie. Durchsuche alle Agenda-Folien.
+217	call:bkt.message.warning	Keine Agenda-Textbox auf der Folie vorhanden.
+218	attribute	Keine Aktualisierung verfügbar. Aktuelle Version ist v{}.
+219	call:bkt.message	Keine Arbeitsmappen ausgewählt.
+220	call:bkt.message	Keine Blätter ausgewählt.
+221	call:bkt.message.warning	Keine Folien-Thumbnails gefunden.
+222	call:bkt.message	Keine Shapes ausgewählt!
+223	call:bkt.message	Keine ausgeblendeten und versteckten Blätter.
+224	call:bkt.message.confirmation	Keine zugehörigen Agenda-Folien gefunden!
+Stattdessen alle Agenda-Folie der Präsentation löschen?
+225	call:user_form._add_label	Komma-getrennte Liste von Blattnamen, die ausschließlich konsolidiert werden:
+226	call:user_form._add_label	Komma-getrennte Liste von Blattnamen, die nicht konsolidiert werden:
+227	assign	Konsolidiere Blätter
+228	dict	Kontextmenü bei Auswahl eines einzelnen Shapes
+229	dict	Kontextmenü bei Auswahl mehrerer Shapes oder Objekte
+230	dict	Kontextmenü für Grafiken und Bilder
+231	dict	Kontextmenü für die Folien-Vorschau im rechten Panel
+232	dict	Kontextmenü für die Folien-Vorschau in der Sortier-Ansicht
+233	dict	Kontextmenü für einen einzelnen Verbinder
+234	dict	Kontextmenü für leere Stelle auf der Folie
+235	dict	Kontextmenü für rot unterstrichene Wörter
+236	dict	Kontextmenü für sog. Freeform-Shapes, also Shape mit beliebiger selbst erstellter Form
+237	dict	Kontextmenü innerhalb eines Textfelds oder bei selektiertem Text
+238	assign	Kontextmenüs
+239	attribute	Kopiere {} mal von Foliennummer {} bis {}.
+240	concat/call:bkt.message.error	Kopierfehler bei %s Shape(s).
+241	dict	Kreisförmig
+242	tuple	Kreispfeil gegen den Uhrzeigersinn
+243	list	KÜRZEN($cell)
+244	call:worker.ReportProgress	Lade Ordner und Dateien
+245	call:bkt.message	Leere Folienmaster wurden gelöscht!
+246	call:bkt.message	Leerer Bereich, keine Zellen zum Markieren!
+247	concat/return	Letzte Prüfung: 
+248	return	Letzte Prüfung: noch nie
+249	call:bkt.message.error	Library existiert schon!
+250	call:bkt.message.error	Library nicht gefunden!
+251	list	Liste Blätter
+252	attribute	Liste möglicher Sprachen bearbeiten.
+Verfügbar sind: {}.
+253	ifexp	Markierte Folien zu Datei hinzufügen
+254	ifexp	Markierte Folien zu Favoriten
+255	call:bkt.message	Migration erfolgreich. Katalog wird nun geladen.
+256	call:user_form._add_checkbox	Name der Arbeitsmappe vor Blattnamen schreiben
+257	assign	Neue PowerPoint-Datei auswählen
+258	return	Neue Version verfügbar!
+259	call:user_form._add_checkbox	Neues Blatt mit Zusammenfassung der Konsolidierung einfügen
+260	return	Noch nicht definiert
+261	return	Nummerierungs-Shapes einfügen
+262	list	Ordner
+263	assign	Ordner mit Bildern auswählen
+264	assign	Ordner zum Speichern auswählen
+265	lambda	Passe den Füllstand eines Harvey-Balls entsprechend der Auswahl an.
+266	tuple	Pfeil links und rechts
+267	tuple	Pfeil oben und unten
+268	return	Positioniere die ausgewählten Shapes an der angezeigten Position/Größe.
+Nur Position ändern [STRG],
+Nur Größe ändern [SHIFT]
+269	dictkey	Power | Pferdestärke
+270	call:bkt.message.error	PowerPoint unterstützt diese Funktion leider nicht für Gruppen.
+271	assign	PowerPoint-Datei auswählen
+272	assign	PowerPoint-Dateien auswählen
+273	list	Priorität
+274	call:bkt.message.warning	Präsentation hat weniger als 2 Abschnitte!
+275	call:bkt.message.error	Präsentation ist nicht gespeichert!
+276	call:worker.ReportProgress	Prüfe auf Aktualisierungen...
+277	call:user_form._add_checkbox	Rechten Teil zurückgeben (ab eingegebenem Text bis Ende)
+278	list	Referenzen und Quellformatierung
+279	call:bkt.message	Scheme-Datei erfolgreich exportiert!
+280	call:bkt.message	Scheme-Datei erfolgreich importiert!
+281	assign	Schließen
+282	arguments	Shape-Fixpunkt bzw. Fixierung bei Änderung {}
+283	call:bkt.message.warning	Shape-Skalierung wird nicht unterstützt für Diagramme, Tabellen und Smart-Arts!
+284	return	Shape-Tabelle einfügen
+285	call:bkt.message	Shape-Typ wird nicht unterstützt!
+286	kwarg:item_supertip	Shapes werden bei Shape-Anordnung in Tabellenzellen {} angeordnet.
+287	tuple	Shapes werden bei Shape-Anordnung in:
+
+- Tabellenzellen horizontal und vertikal zentriert angeordnet,
+- Shapes horizontal zentriert sofern Shape höher ist als breit und vertikal zentriert sofern Shape breiter ist als hoch,
+- Textabsätzen vertikal zentriert von der ersten Zeile und horizontal nicht verändert.
+288	tuple	Shapes werden links angeordnet und vertikal nicht verändert.
+289	tuple	Shapes werden mittig links angeordnet.
+290	tuple	Shapes werden mittig rechts angeordnet.
+291	tuple	Shapes werden mittig zentriert angeordnet.
+292	tuple	Shapes werden oben angeordnet und horizontal nicht verändert.
+293	tuple	Shapes werden oben links angeordnet.
+294	tuple	Shapes werden oben rechts angeordnet.
+295	tuple	Shapes werden oben zentriert angeordnet.
+296	tuple	Shapes werden rechts angeordnet und vertikal nicht verändert.
+297	tuple	Shapes werden unten angeordnet und horizontal nicht verändert.
+298	tuple	Shapes werden unten links angeordnet.
+299	tuple	Shapes werden unten rechts angeordnet.
+300	tuple	Shapes werden unten zentriert angeordnet.
+301	tuple	Shapes werden vertikal zentriert angeordnet und horizontal nicht verändert.
+302	tuple	Shapes werden vertikal zentriert von dem Text in der ersten Zeile angeordnet und horizontal nicht verändert.
+303	tuple	Shapes werden vertikal zentriert von dem Text in der ersten Zeile und horizontal links angeordnet.
+304	tuple	Shapes werden vertikal zentriert von dem Text in der ersten Zeile und horizontal rechts angeordnet.
+305	tuple	Shapes werden vertikal zentriert von dem Text in der ersten Zeile und horizontal zentriert angeordnet.
+306	tuple	Shapes werden zentriert angeordnet und vertikal nicht verändert.
+307	call:bkt.message.confirmation	Soll der Feature-Folder aus der Library entfernt werden?
+
+Achtung: Feature-Folder können gleichzeitig ChartLibs, ShapeLibs und Funktionen enthalten, die dann nicht mehr verfügbar sind!
+308	call:bkt.message.confirmation	Soll die BKT nun neu geladen werden?
+309	call:bkt.message	Sorry, aber Microsoft hat die Funktion zur Deaktivierung der Textkontur nicht in die Schnittstelle implementiert.
+310	assign	Speicherort auswählen
+311	call:bkt.message.confirmation	Sprache aller Shapes auf allen Folien (inkl. Standardsprache der Präsentation) ändern?
+312	call:bkt.message.confirmation	Sprache aller Shapes auf ausgewählten Folien ändern?
+313	assign	Start- und Stopp-Position zum Schneiden getrennt mit ":" eingeben. Ist keine Start-Position gegeben, wird diese auf 0 gesetzt. Ist keine Stopp-Position gegeben, wird diese bis Textende gesetzt. Eine negative Position bedeutet, dass diese vom Textende berechnet wird.
+
+  Beispiel für "ABCDEF":
+  [2:]   = CDEF  Entferne die beiden ersten Zeichen
+  [:2]   = AB    Entferne alles nach dem zweiten Zeichen
+  [-2:]  = EF    Entferne alles bis zum vorletzten Zeichen
+  [2:-2] = CD    Entferne 2 Zeichen an Anfang und Ende
+314	tuple	Stern weiß
+315	dict	Sternförmig
+316	attribute	Suche auf {} Folien von Foliennummer {} bis {}.
+317	return	Symbol einfügen
+318	call:bkt.message.error	Tab-Wechsel aus unbekannten Gründen fehlgeschlagen.
+319	concat/augassign	Tabellengröße: Zeilen=%d, Spalten=%d
+
+320	call:bkt.message.warning	Text angleichen für gewähltes Shape nicht verfügbar.
+321	call:bkt.ui.show_user_input	Text anhängen
+322	call:bkt.ui.show_user_input	Text eingeben, der auf alle Shapes angewendet werden soll. Es stehen folgende Platzhalter zur Verfügung:
+
+${text}:		Setzt bestehenden Shape-Text ein
+$text_len:	Anzahl Zeichen im bestehenden Text
+$counter:	Nummerierung (Fortsetzung wenn erstes Shape eine Zahl enthält)
+$counter_a/A:	Nummerierung mit Klein- bzw. Großbuchstaben
+$counter_i/I:	Nummerierung mit römischen Ziffern (bspw. xi bzw. XI)
+323	call:bkt.ui.show_user_input	Text eingeben, der hinter alle Zellen geschrieben werden soll. Existierende Formeln werden überschrieben und durch Werte ersetzt.
+
+Mögliche Platzhalter: [counter], [row], [column].
+324	call:bkt.ui.show_user_input	Text eingeben, der vor alle Zellen geschrieben werden soll. Existierende Formeln werden überschrieben und durch Werte ersetzt.
+
+Mögliche Platzhalter: [counter], [row], [column].
+325	call:bkt.message.error	Thumbnail-Aktualisierung aus unbekannten Gründen fehlgeschlagen.
+326	call:bkt.message.confirmation	Tracker auf Folgefolien verteilen?
+327	dict,tuple	Türkisch
+328	assign	UNGÜLTIGE EINGABE
+329	call:bkt.message	Unbekannter Fehler beim Anzeigen des QuickEdit-Panels!
+330	tuple	Ungefähr Gleich
+331	call:bkt.message	Ungültige Eingabe!
+332	call:user_form._add_checkbox	Versteckte Blätter kopieren
+333	return	Verwende angezeigten Position/Größe als Master.
+334	return	Verwende angezeigten Position/Größe.
+335	list	Volle Fläche
+336	call:user_form._add_label	Vorschau für aktive Zelle (Gruppen mit Tabs getrennt):
+337	call:user_form._add_label	Vorschau für aktive Zelle:
+338	tuple	Weißer Pfeil links
+339	tuple	Weißer Pfeil oben
+340	tuple	Weißer Pfeil rechts
+341	tuple	Weißer Pfeil unten
+342	tuple	Weißes Quadrat
+343	call:toolTip.SetToolTip	Wert der aktiven Zelle in Eingabe einfügen.
+344	list	Werte und Quellformatierung
+345	list	Werte und Zahlenformate
+346	tuple	Wingdings Häckchen
+347	assign	XML Scheme-Datei auswählen
+348	tuple	Zeigefinger weiß
+349	call:user_form._add_label	Zeilen/Spalten abtrennen, z.B. für Ergebnis-/Summenzeilen:
+350	call:user_form._add_label	Zeilen/Spalten überspringen, z.B. für Titelzeilen:
+351	concat/return	« aus Chart-Library einfügen
+352	concat/return	« aus Shape-Library einfügen
+353	call:bkt.message	Änderung wird nach einem Neustart wirksam!
+354	list	Übergeordneter Ordner
+355	call:user_form._add_checkbox	Übersprungene Zeilen/Spalten aus erstem Blatt einfügen (bspw. Überschriften)

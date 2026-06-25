@@ -29,21 +29,21 @@ class AgendaPopup(bkt.ui.WpfWindowAbstract):
         try:
             self._context.ribbon.ActivateTab('bkt_context_tab_agenda')
         except:
-            bkt.message.error("Tab-Wechsel aus unbekannten Gründen fehlgeschlagen.")
+            bkt.message.error("Tab switch failed for unknown reasons.")
 
     @WpfActionCallback
     def btnupdate(self, sender, event):
         try:
             ToolboxAgenda.update_or_create_agenda_from_slide(self._context.slide, self._context)
         except:
-            bkt.message.error("Agenda-Update aus unbekannten Gründen fehlgeschlagen.")
+            bkt.message.error("Agenda update failed for unknown reasons.")
 
     @staticmethod
     def double_click(shape, context):
         try:
             context.ribbon.ActivateTab('bkt_context_tab_agenda')
         except:
-            bkt.message.error("Tab-Wechsel aus unbekannten Gründen fehlgeschlagen.")
+            bkt.message.error("Tab switch failed for unknown reasons.")
 
 
 #initialization function called by contextdialogs.py

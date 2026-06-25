@@ -217,7 +217,7 @@ class Thumbnailer(object):
 
             except Exception as e:
                 # bkt.helpers.exception_as_message()
-                bkt.message.error("Fehler! Referenz nicht gefunden.\n\n{}".format(e), "BKT: Thumbnails")
+                bkt.message.error("Error! Reference not found.\n\n{}".format(e), "BKT: Thumbnails")
                 logging.exception("Thumbnails: Error finding slide reference!")
                 continue
 
@@ -235,7 +235,7 @@ class Thumbnailer(object):
                 cls._update_hyperlink(shape, application)
             except Exception as e:
                 #bkt.helpers.exception_as_message()
-                bkt.message.error("Fehler! Thumbnail konnte nicht im gewählten Format eingefügt werden.\n\n{}".format(e), "BKT: Thumbnails")
+                bkt.message.error("Error! Thumbnail could not be inserted in the chosen format.\n\n{}".format(e), "BKT: Thumbnails")
                 logging.exception("Thumbnails: Error pasting slide!")
         
         # select pasted shapes
@@ -279,7 +279,7 @@ class Thumbnailer(object):
         fileDialog.Filter = "PowerPoint (*.pptx;*.pptm;*.ppt)|*.pptx;*.pptm;*.ppt|Alle Dateien (*.*)|*.*"
         if application.ActiveWindow.Presentation.Path:
             fileDialog.InitialDirectory = application.ActiveWindow.Presentation.Path + '\\'
-        fileDialog.Title = "Neue PowerPoint-Datei auswählen"
+        fileDialog.Title = "Select new PowerPoint file"
 
         # fileDialog = application.FileDialog(1) #msoFileDialogOpen
         # fileDialog.InitialFileName = application.ActiveWindow.Presentation.Path
@@ -315,7 +315,7 @@ class Thumbnailer(object):
                 pres.NewWindow()
         except EnvironmentError:
             logging.exception("Thumbnails: Error finding presentation")
-            if bkt.message.confirmation("Fehler! Referenzierte Präsentation '%s' nicht gefunden. Neue Datei auswählen?" % slide_path, "BKT: Thumbnails", icon=bkt.MessageBox.WARNING):
+            if bkt.message.confirmation("Error! Referenced presentation '%s' not found. Select a new file?" % slide_path, "BKT: Thumbnails", icon=bkt.MessageBox.WARNING):
                 cls.replace_file_ref(shape, application)
             return
 
@@ -323,7 +323,7 @@ class Thumbnailer(object):
             slide = pres.Slides.FindBySlideId(slide_id)
             slide.Select()
         except SystemError:
-            bkt.message.error("Fehler! Folie in der referenzierten Präsentation nicht gefunden.", "BKT: Thumbnails")
+            bkt.message.error("Error! Slide not found in the referenced presentation.", "BKT: Thumbnails")
             return
 
         if shape_id is not None:
@@ -331,11 +331,11 @@ class Thumbnailer(object):
                 shp = cls._find_by_shape_id(slide, shape_id)
                 shp.Select()
             except IndexError:
-                bkt.message.error("Fehler! Shape in der referenzierten Präsentation nicht gefunden.", "BKT: Thumbnails")
+                bkt.message.error("Error! Shape not found in the referenced presentation.", "BKT: Thumbnails")
     
     @classmethod
     def presentation_unset(cls, presentation):
-        if bkt.message.confirmation("Dies löscht dauerhaft die Folien-Referenz und damit die Möglichkeit der Aktualisierung aller Thumbnails in der Präsentation.", "BKT: Thumbnails"):
+        if bkt.message.confirmation("This permanently deletes the slide reference, and with it the ability to update all thumbnails in the presentation.", "BKT: Thumbnails"):
             total = 0
             for sld in presentation.slides:
                 for shp in pplib.iterate_shape_subshapes( sld.shapes ):
@@ -374,11 +374,11 @@ class Thumbnailer(object):
                     err_counter += 1
 
         if total == 0:
-            bkt.message.warning("Keine Folien-Thumbnails gefunden.", "BKT: Thumbnails")
+            bkt.message.warning("No slide thumbnails found.", "BKT: Thumbnails")
         elif err_counter > 0:
-            bkt.message.warning("Es wurde/n %r Folien-Thumbnail/s aktualisiert, aber %r Folien-Thumbnail/s konnten wegen eines Fehlers nicht aktualisiert werden. Die fehlerhaften Thumbnails wurden mit dem Text 'BKT THUMB UPDATE FAILED' markiert." % (total-err_counter, err_counter), "BKT: Thumbnails")
+            bkt.message.warning("%r slide thumbnail(s) were updated, but %r slide thumbnail(s) could not be updated due to an error. The failed thumbnails were marked with the text 'BKT THUMB UPDATE FAILED'." % (total-err_counter, err_counter), "BKT: Thumbnails")
         else:
-            bkt.message("Es wurde/n %r Folien-Thumbnail/s aktualisiert." % total, "BKT: Thumbnails")
+            bkt.message("%r slide thumbnail(s) were updated." % total, "BKT: Thumbnails")
 
 
     @classmethod
@@ -395,7 +395,7 @@ class Thumbnailer(object):
         pplib.shapes_to_range(new_shapes).select()
 
         if err_counter > 0:
-            bkt.message.warning("Es wurde/n %r Folien-Thumbnail/s aktualisiert, aber %r Folien-Thumbnail/s konnten wegen eines Fehlers nicht aktualisiert werden. Die fehlerhaften Thumbnails wurden mit dem Text 'BKT THUMB UPDATE FAILED' markiert." % (len(shapes)-err_counter, err_counter), "BKT: Thumbnails")
+            bkt.message.warning("%r slide thumbnail(s) were updated, but %r slide thumbnail(s) could not be updated due to an error. The failed thumbnails were marked with the text 'BKT THUMB UPDATE FAILED'." % (len(shapes)-err_counter, err_counter), "BKT: Thumbnails")
         # else:
         #     bkt.message("Es wurde/n %r Folien-Thumbnail/s aktualisiert." % len(shapes), "BKT: Thumbnails")
 
@@ -406,14 +406,14 @@ class Thumbnailer(object):
             shp.select()
             return shp
         except IndexError:
-            bkt.message.error("Fehler! Folien-Referenz nicht gefunden.")
+            bkt.message.error("Error! Slide reference not found.")
         except ValueError:
-            bkt.message.error("Fehler! Folie hat keinen Inhalt.")
+            bkt.message.error("Error! The slide has no content.")
         except IOError:
-            if bkt.message.confirmation("Fehler! Präsentation aus Folien-Referenz nicht gefunden. Neue Datei auswählen?", "BKT: Thumbnails", icon=bkt.MessageBox.WARNING):
+            if bkt.message.confirmation("Error! Presentation from slide reference not found. Select a new file?", "BKT: Thumbnails", icon=bkt.MessageBox.WARNING):
                 cls.replace_file_ref(shape, application)
         except Exception as e:
-            bkt.message.error("Fehler! Thumbnail konnte nicht aktualisiert werden.\n\n{}".format(e), "BKT: Thumbnails")
+            bkt.message.error("Error! Thumbnail could not be updated.\n\n{}".format(e), "BKT: Thumbnails")
             logging.exception("Thumbnails: Error updating thumbnail!")
 
     @classmethod
@@ -584,7 +584,7 @@ class Thumbnailer(object):
 
     @classmethod
     def unset_thumbnail(cls, shape):
-        if bkt.message.confirmation("Dies löscht dauerhaft die Folien-Referenz und damit die Möglichkeit der Aktualisierung des Thumbnails.", "BKT: Thumbnails"):
+        if bkt.message.confirmation("This permanently deletes the slide reference, and with it the ability to update the thumbnail.", "BKT: Thumbnails"):
             shape.Tags.Delete(BKT_THUMBNAIL)
             shape.Tags.Delete(bkt.contextdialogs.BKT_CONTEXTDIALOG_TAGKEY)
 

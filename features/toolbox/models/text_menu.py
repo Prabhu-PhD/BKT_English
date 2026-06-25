@@ -72,13 +72,7 @@ class TextPlaceholder(object):
         from string import Template
         from formatter import AbstractFormatter, DumbWriter
 
-        input_text = bkt.ui.show_user_input('''Text eingeben, der auf alle Shapes angewendet werden soll. Es stehen folgende Platzhalter zur Verfügung:
-
-${text}:\t\tSetzt bestehenden Shape-Text ein
-$text_len:\tAnzahl Zeichen im bestehenden Text
-$counter:\tNummerierung (Fortsetzung wenn erstes Shape eine Zahl enthält)
-$counter_a/A:\tNummerierung mit Klein- bzw. Großbuchstaben
-$counter_i/I:\tNummerierung mit römischen Ziffern (bspw. xi bzw. XI)''', "Text ersetzen", cls.recent_placeholder, True)
+        input_text = bkt.ui.show_user_input('''Enter the text to apply to all shapes. The following placeholders are available:\n\n${text}:\t\tInserts the existing shape text\n$text_len:\tNumber of characters in the existing text\n$counter:\tNumbering (continues if the first shape contains a number)\n$counter_a/A:\tNumbering with lower- or uppercase letters\n$counter_i/I:\tNumbering with Roman numerals (e.g. xi or XI)''', "Text ersetzen", cls.recent_placeholder, True)
 
         if input_text is None:
             return
@@ -432,7 +426,7 @@ class TextOnShape(object):
                 except EnvironmentError:
                     errors += 1
             if errors > 0:
-                bkt.message.error("Kopierfehler bei %s Shape(s)." % errors)
+                bkt.message.error("Copy error on %s shape(s)." % errors)
 
         # IMPORTANT: many copy-paste operations lead to EnvironmentError. Putting all in a thread solves this issue.
         t = Thread(target=loop)
@@ -731,7 +725,7 @@ class TextShapes(object):
         if cls.sticker_custom:
             return cls.sticker_custom + "-Sticker"
         else:
-            return "Noch nicht definiert"
+            return "Not yet defined"
     
     @classmethod
     def own_sticker_insert(cls, slides, presentation):

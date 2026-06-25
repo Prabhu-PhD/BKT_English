@@ -138,16 +138,16 @@ class AllControls(object):
     types_haslabel    = [bkt.ribbon.Menu, bkt.ribbon.Gallery, bkt.ribbon.DynamicMenu]
 
     cm_descriptions = {
-        'ContextMenuSpell': 'Kontextmenü für rot unterstrichene Wörter',
-        'ContextMenuShape': 'Kontextmenü bei Auswahl eines einzelnen Shapes',
-        'ContextMenuTextEdit': 'Kontextmenü innerhalb eines Textfelds oder bei selektiertem Text',
-        'ContextMenuFrame': 'Kontextmenü für leere Stelle auf der Folie',
-        'ContextMenuPicture': 'Kontextmenü für Grafiken und Bilder',
-        'ContextMenuObjectsGroup': 'Kontextmenü bei Auswahl mehrerer Shapes oder Objekte',
-        'ContextMenuThumbnail': 'Kontextmenü für die Folien-Vorschau im rechten Panel',
-        'ContextMenuSlideSorter': 'Kontextmenü für die Folien-Vorschau in der Sortier-Ansicht',
-        'ContextMenuShapeConnector': 'Kontextmenü für einen einzelnen Verbinder',
-        'ContextMenuShapeFreeform': 'Kontextmenü für sog. Freeform-Shapes, also Shape mit beliebiger selbst erstellter Form'
+        'ContextMenuSpell': 'Context menu for red-underlined words',
+        'ContextMenuShape': 'Context menu when a single shape is selected',
+        'ContextMenuTextEdit': 'Context menu inside a text field or with selected text',
+        'ContextMenuFrame': 'Context menu for an empty spot on the slide',
+        'ContextMenuPicture': 'Context menu for graphics and images',
+        'ContextMenuObjectsGroup': 'Context menu when multiple shapes or objects are selected',
+        'ContextMenuThumbnail': 'Context menu for the slide preview in the right panel',
+        'ContextMenuSlideSorter': 'Context menu for the slide preview in the sorter view',
+        'ContextMenuShapeConnector': 'Context menu for a single connector',
+        'ContextMenuShapeFreeform': 'Context menu for so-called freeform shapes, i.e. a shape with an arbitrary custom form'
     }
 
     def __init__(self, context):
@@ -303,7 +303,7 @@ class AllControls(object):
         context_menus = OrderedDict()
         context_menus["id"]       = "ContextMenu"
         context_menus["type"]     = "context_menu"
-        context_menus["name"]     = "Kontextmenüs"
+        context_menus["name"]     = "Context menus"
         context_menus["children"] = []
         #context menu controls
         for _, contextmenu in self.python_addin.app_ui.context_menus.items():
@@ -651,7 +651,7 @@ class ImageMso(object):
         if cls.search_results is not None:
             return "{} Icons".format(len(cls.search_results))
         else:
-            return "Ergebnis"
+            return "Result"
 
     @classmethod
     def copy_to_clipboard(cls, current_control):

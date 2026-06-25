@@ -106,7 +106,7 @@ class ComreleaseConfig(object):
     def set_config(cls, pressed):
         cls.disable_comrelease = pressed
         bkt.config.set_smart("disable_comrelease", pressed)
-        bkt.message("Änderung wird nach einem Neustart wirksam!")
+        bkt.message("The change takes effect after a restart!")
 
 
 
@@ -148,7 +148,7 @@ class ToolbarVariations(object):
         context.config.set_smart("feature_folders", folders)
 
         #reload bkt using settings module
-        if bkt.message.confirmation("Soll die BKT nun neu geladen werden?"):
+        if bkt.message.confirmation("Should BKT be reloaded now?"):
             settings.BKTReload.reload_bkt(context)
     
     @classmethod

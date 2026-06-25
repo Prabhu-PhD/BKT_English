@@ -318,7 +318,7 @@ class LikertScaleGallery(bkt.ribbon.Gallery):
     #settings for  gallery
     likert_sizes = [3,4,5]
     likert_columns = len(likert_sizes)
-    likert_shapes = {1: "Quadratisch", 9: "Kreisförmig", 92: "Sternförmig"} #rectangle, oval, star
+    likert_shapes = {1: "Quadratisch", 9: "Circular", 92: "Star-shaped"} #rectangle, oval, star
     likert_buttons = []
     
     def __init__(self, **kwargs):
@@ -346,7 +346,7 @@ class LikertScaleGallery(bkt.ribbon.Gallery):
         return len(self.likert_buttons)
 
     def get_item_screentip(self, index):
-        return "%sen %ser-Likert-Scale einfügen" % (self.likert_shapes[self.likert_buttons[index][0]], self.likert_buttons[index][1])
+        return "Insert %s %s-point Likert scale" % (self.likert_shapes[self.likert_buttons[index][0]], self.likert_buttons[index][1])
 
     def get_item_image(self, index):
         return self.get_likert_image( count=self.likert_buttons[index][1], shape=self.likert_buttons[index][0] )
@@ -442,7 +442,7 @@ class CheckBox(AbstractStateShape):
                 chars = d["chars"]
                 break
         else:
-            bkt.message.error("Fehler! Unbekannter Checkbox-Font.")
+            bkt.message.error("Error! Unknown checkbox font.")
             return
         if pos is None:
             try:
@@ -482,7 +482,7 @@ class CheckBoxGallery(bkt.ribbon.Gallery):
     size = 16
 
     #settings for gallery
-    shape_types = {1:"Quadratisch", 9:"Kreisförmig"} #rectangle, oval
+    shape_types = {1:"Quadratisch", 9:"Circular"} #rectangle, oval
     checkmark_columns = 4
     checkmark_maxchars = 3
     item_size = 24
@@ -509,7 +509,7 @@ class CheckBoxGallery(bkt.ribbon.Gallery):
         return len(self.items)
 
     def get_item_screentip(self, index):
-        return "%se Checkbox mit %s einfügen" % (self.shape_types[self.items[index]["shape_type"]], self.items[index]["font_group"]["font"])
+        return "Insert %s checkbox with %s" % (self.shape_types[self.items[index]["shape_type"]], self.items[index]["font_group"]["font"])
 
     def get_item_image(self, index):
         item = self.items[index]

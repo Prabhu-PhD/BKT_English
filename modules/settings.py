@@ -34,7 +34,7 @@ class FolderSetup(object):
         else:
             dialog.SelectedPath = os.path.dirname(os.path.realpath(__file__))
         # dialog.Description = "Please choose an additional folder with BKT-features"
-        dialog.Description = "Bitte einen BKT Feature-Ordner auswählen"
+        dialog.Description = "Please select a BKT feature folder"
         
         if dialog.ShowDialog() == F.DialogResult.OK:
             cls.add_folder(context, dialog.SelectedPath)
@@ -149,14 +149,14 @@ class BKTUpdates(object):
         from bkt import MessageBox
         bkt_branding = BKTInfos.get_branding_info()
         if bkt_branding.is_branded:
-            download_text = "Diese BKT-Version ist modifiziert für {}. Die Download-URL wurde überschrieben. Download-Seite {} jetzt aufrufen?".format(bkt_branding.brand_name, bkt_branding.download_url)
+            download_text = "This BKT version is modified for {}. The download URL has been overwritten. Open the download page {} now?".format(bkt_branding.brand_name, bkt_branding.download_url)
             download_url = bkt_branding.download_url
         else:
             download_text = "Download-Seite {} jetzt aufrufen?".format(latest_version.download_url)
             download_url = latest_version.download_url
         result = MessageBox._show_message_box(
             0 if own_window else MessageBox._get_hwnd(),
-            "Aktualisierung verfügbar auf v{}.\nInstallierte Version ist v{}.\n\n{}".format(latest_version.version_string, bkt.__version__, download_text),
+            "Update available to v{}.\nInstalled version is v{}.\n\n{}".format(latest_version.version_string, bkt.__version__, download_text),
             "BKT: Aktualisierung",
             MessageBox.MB_YESNO | MessageBox.INFO | MessageBox.MB_TASKMODAL | MessageBox.MB_SETFOREGROUND) #YESNO | ICONINFORMATION | TASKMODAL | SETFOREGROUND
         if result == MessageBox.IDYES: #yes
@@ -189,16 +189,16 @@ class BKTUpdates(object):
     def manual_check_for_updates(cls, context):
         def loop(worker):
             try:
-                worker.ReportProgress(1, "Prüfe auf Aktualisierungen...")
+                worker.ReportProgress(1, "Checking for updates...")
                 is_update, latest_version = cls._check_latest_version()
 
                 if is_update:
                     cls._update_notification(latest_version, own_window=False)
                 else:
-                    bkt.message("Keine Aktualisierung verfügbar. Aktuelle Version ist v{}.".format(latest_version.version_string), "BKT: Aktualisierung")
+                    bkt.message("No update available. Current version is v{}.".format(latest_version.version_string), "BKT: Aktualisierung")
             except Exception as e:
                 logging.exception("BKT Update Error")
-                bkt.message.error("Fehler im Aufruf der Aktualisierungs-URL: {}".format(e), "BKT: Aktualisierung")
+                bkt.message.error("Error calling the update URL: {}".format(e), "BKT: Aktualisierung")
         
         bkt.ui.execute_with_progress_bar(loop, context, indeterminate=True)
     
@@ -253,17 +253,17 @@ class BKTUpdates(object):
     @classmethod
     def get_label_update(cls):
         if cls.is_update_available():
-            return "Neue Version verfügbar!"
+            return "New version available!"
         else:
-            return "Auf neue Version prüfen"
+            return "Check for new version"
         
     @classmethod
     def get_last_check(cls):
         last_check = cls.config.last_check
         if last_check == datetime.min:
-            return "Letzte Prüfung: noch nie"
+            return "Last check: never"
         else:
-            return "Letzte Prüfung: " + last_check.strftime("%d.%m.%Y")
+            return "Last check: " + last_check.strftime("%d.%m.%Y")
     
     @classmethod
     def get_check_frequency(cls, current_control):

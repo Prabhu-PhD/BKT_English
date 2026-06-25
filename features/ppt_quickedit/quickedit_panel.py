@@ -288,7 +288,7 @@ class QuickEditPanel(bkt.ui.WpfWindowAbstract):
         # first start detection
         if context.settings.get("quickedit.start_version", None) != "20200819":
             context.settings["quickedit.start_version"] = "20200819"
-            if bkt.message.confirmation("Dies scheint dein erster Start von QuickEdit zu sein. Soll die Anleitung (PDF) geöffnet werden?"):
+            if bkt.message.confirmation("This appears to be your first start of QuickEdit. Open the guide (PDF)?"):
                 QuickEdit.show_help()
 
         self._last_catalog_change = 0
@@ -311,7 +311,7 @@ class QuickEditPanel(bkt.ui.WpfWindowAbstract):
                 self._vm.docking_edge = None
                 self.update_docking(window=window, force=True)
             else:
-                bkt.message("Docking funktioniert nur bei maximiertem Fenster und bei normaler Folienansicht!")
+                bkt.message("Docking only works with a maximized window and in normal slide view!")
         except:
             #EnvironmentError: System.Runtime.InteropServices.COMException (0x80048240): Application.ActiveWindow : Invalid request.  There is no currently active document window.
             logging.exception("QUICKEDIT DOCKINGERROR")

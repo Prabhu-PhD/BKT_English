@@ -43,7 +43,7 @@ class CalcHistoryForm(object):
         listView.DoubleClick += self.item_selected
 
         listView.Columns.Add("Formel", -2, F.HorizontalAlignment.Left)
-        listView.Columns.Add("Ergebnis", -2, F.HorizontalAlignment.Right)
+        listView.Columns.Add("Result", -2, F.HorizontalAlignment.Right)
 
         for calc, result in reversed(calc_history):
             item1 = F.ListViewItem(calc)
@@ -121,13 +121,13 @@ class CalcForm(object):
         btn_take_address.Anchor = F.AnchorStyles.Left | F.AnchorStyles.Right
         btn_take_address.Text = "→□ Adresse"
         btn_take_address.Click += self.take_address
-        toolTip.SetToolTip(btn_take_address, "Adresse der aktuellen Selektion in Eingabe einfügen.\nMit Umschalt-Taste wird der Tabellenname vorangestellt.")
+        toolTip.SetToolTip(btn_take_address, "Insert the address of the current selection into the input.\nWith the Shift key the sheet name is prepended.")
 
         btn_take_value = F.Button()
         btn_take_value.Anchor = F.AnchorStyles.Left | F.AnchorStyles.Right
         btn_take_value.Text = "→□ Wert"
         btn_take_value.Click += self.take_value
-        toolTip.SetToolTip(btn_take_value, "Wert der aktiven Zelle in Eingabe einfügen.")
+        toolTip.SetToolTip(btn_take_value, "Insert the value of the active cell into the input.")
 
         tablePanel.Controls.Add(btn_take_address,0,0) #col, row
         tablePanel.Controls.Add(btn_take_value,1,0) #col, row
@@ -184,7 +184,7 @@ class CalcForm(object):
         confirmation.Text = "A"
         resultPanel.Controls.Add(confirmation)
         confirmation.Click += self.okay_clicked
-        toolTip.SetToolTip(confirmation, "Ergebnis neu berechnen")
+        toolTip.SetToolTip(confirmation, "Recalculate result")
 
         btn_copy = F.Button()
         btn_copy.Left = width-20
@@ -193,7 +193,7 @@ class CalcForm(object):
         btn_copy.Anchor = F.AnchorStyles.Right
         resultPanel.Controls.Add(btn_copy)
         btn_copy.Click += self.copy_result
-        toolTip.SetToolTip(btn_copy, "Ergebnis in Zwischenablage kopieren")
+        toolTip.SetToolTip(btn_copy, "Copy result to clipboard")
 
         tablePanel.SetColumnSpan(resultPanel, 2) #col, row
         tablePanel.Controls.Add(resultPanel,0,2) #col, row
@@ -216,13 +216,13 @@ class CalcForm(object):
         btn_formula_to_cell.Anchor = F.AnchorStyles.Left | F.AnchorStyles.Right
         btn_formula_to_cell.Text = "Formel →□"
         btn_formula_to_cell.Click += self.formula_to_cell
-        toolTip.SetToolTip(btn_formula_to_cell, "Eingegebene Formel in aktive Zelle einfügen.")
+        toolTip.SetToolTip(btn_formula_to_cell, "Insert the entered formula into the active cell.")
 
         btn_value_to_cell = F.Button()
         btn_value_to_cell.Anchor = F.AnchorStyles.Left | F.AnchorStyles.Right
         btn_value_to_cell.Text = "Wert →□"
         btn_value_to_cell.Click += self.value_to_cell
-        toolTip.SetToolTip(btn_value_to_cell, "Aktuelles Ergebnis in aktive Zelle einfügen.")
+        toolTip.SetToolTip(btn_value_to_cell, "Insert the current result into the active cell.")
 
         tablePanel.Controls.Add(btn_formula_to_cell,0,4) #col, row
         tablePanel.Controls.Add(btn_value_to_cell,1,4) #col, row
@@ -235,7 +235,7 @@ class CalcForm(object):
         cancel.Top = prompt.Height + 50 #outside form
         cancel.Left = 10
         # cancel.Visible = False #does not work if invisible
-        cancel.Text = "Schließen"
+        cancel.Text = "Close"
         prompt.Controls.Add(cancel)
         cancel.Click += self.cancel_clicked
 
@@ -287,7 +287,7 @@ class CalcForm(object):
         try:
             self.resultbox.Text = xllib.xls_evaluate(self.inputbox.Text, self.dec_sep, self.numberformat)
         except:
-            self.resultbox.Text = "UNGÜLTIGE EINGABE"
+            self.resultbox.Text = "INVALID INPUT"
 
         if add_to_history:
             self._add_to_history()

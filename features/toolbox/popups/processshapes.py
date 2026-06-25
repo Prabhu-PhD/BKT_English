@@ -32,7 +32,7 @@ class ProcessChevronsPopup(bkt.ui.WpfWindowAbstract):
         try:
             ProcessChevrons.add_chevron(self._context.slide, list(iter(self._context.selection.ShapeRange)))
         except:
-            bkt.message.error("Funktion aus unbekannten Gründen fehlgeschlagen.")
+            bkt.message.error("Function failed for unknown reasons.")
             # bkt.helpers.exception_as_message()
 
     @WpfActionCallback
@@ -40,7 +40,7 @@ class ProcessChevronsPopup(bkt.ui.WpfWindowAbstract):
         try:
             ProcessChevrons.remove_chevron(self._context.slide, list(iter(self._context.selection.ShapeRange)))
         except:
-            bkt.message.error("Funktion aus unbekannten Gründen fehlgeschlagen.")
+            bkt.message.error("Function failed for unknown reasons.")
             # bkt.helpers.exception_as_message()
 
     @WpfActionCallback
@@ -48,7 +48,7 @@ class ProcessChevronsPopup(bkt.ui.WpfWindowAbstract):
         try:
             ProcessChevrons.align_process(self._context.slide, list(iter(self._context.selection.ShapeRange)))
         except:
-            bkt.message.error("Funktion aus unbekannten Gründen fehlgeschlagen.")
+            bkt.message.error("Function failed for unknown reasons.")
             # bkt.helpers.exception_as_message()
 
 #initialization function called by contextdialogs.py

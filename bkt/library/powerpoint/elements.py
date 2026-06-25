@@ -409,7 +409,7 @@ class PPTSymbolsGalleryRecent(PPTSymbolsGallery):
 
 
 class LocpinGallery(bkt.ribbon.Gallery):
-    def __init__(self, locpin=None, item_supertip="Shape-Fixpunkt bzw. Fixierung bei Änderung {}", **kwargs):
+    def __init__(self, locpin=None, item_supertip="Shape fixed point / anchor when changing {}", **kwargs):
         self.locpin = locpin or pplib.GlobalLocPin
         self.items = [
             ("fix_locpin_tl", "Oben-links",   item_supertip.format("oben-links")),
@@ -464,7 +464,7 @@ class PositionGallery(bkt.ribbon.Gallery):
     #   reference: CONTENTE / SLIDE / ABS 
     #       values are converted according to reference
     items = [
-        ["Volle Fläche",  [ 0, 0, 1, 1],       'CONTENT'],
+        ["Full area",  [ 0, 0, 1, 1],       'CONTENT'],
         ["2/3 Links",     [   0,  0, 2./3, 1], 'CONTENT'],
         ["2/3 Rechts",    [1./3,  0, 2./3, 1], 'CONTENT'],
         
@@ -545,7 +545,7 @@ class PositionGallery(bkt.ribbon.Gallery):
         return 'Positionierung: ' + item[0]
 
     def get_item_supertip(self, index):
-        return 'Verwende angezeigten Position/Größe.'
+        return 'Use the displayed position/size.'
     
     
     def create_image(self, position, reference, presentation):

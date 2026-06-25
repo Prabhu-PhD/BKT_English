@@ -761,7 +761,7 @@ class QuickEdit(object):
                             textframe.TextRange.Font.Line.Visible = 0
                         except:
                             continue
-                bkt.message("Sorry, aber Microsoft hat die Funktion zur Deaktivierung der Textkontur nicht in die Schnittstelle implementiert.")
+                bkt.message("Sorry, but Microsoft did not implement the function to disable the text outline in the interface.")
             elif alt:
                 try:
                     if selection.TextRange2.Count == 0:
@@ -821,7 +821,7 @@ class QuickEdit(object):
             startfile(helpfile)
         except:
             logging.exception("QuickEdit: Error opening the help file.")
-            bkt.message("Fehler beim Öffnen der PDF-Hilfedatei. Bitte Datei manuell öffnen: {}".format(helpfile))
+            bkt.message("Error opening the PDF help file. Please open the file manually: {}".format(helpfile))
 
 #         help_msg = '''
 # 1. Reihe: Farben des Design-Farbschemas der aktuellen Folie.

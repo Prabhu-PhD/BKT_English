@@ -25,18 +25,18 @@ notify_property = bkt.ui.notify_property
 class Statistics(object):
     comma_langs = {
         1031: "Deutsch",
-        3079: "Deutsch (Österreich)",
+        3079: "German (Austria)",
         1040: "Italienisch",
-        1036: "Französisch",
+        1036: "French",
         3082: "Spanisch",
         1049: "Russisch",
         1029: "Tschechisch",
-        1030: "Dänisch",
-        1043: "Holländisch",
+        1030: "Danish",
+        1043: "Dutch",
         1045: "Polnisch",
         2070: "Portugisisch",
         1053: "Schwedisch",
-        1055: "Türkisch",
+        1055: "Turkish",
     }
     dot_langs = {
         1033: "US English",
@@ -290,4 +290,4 @@ class StatisticsWindow(bkt.ui.WpfWindowAbstract):
             bkt.message("In Zwischenablage kopiert!")
         except:
             logging.exception("error copying data")
-            bkt.message.error("Fehler beim Kopieren!")
+            bkt.message.error("Error copying!")

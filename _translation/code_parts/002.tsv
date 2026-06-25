@@ -1,0 +1,120 @@
+235	Context menu for red-underlined words
+236	Context menu for so-called freeform shapes, i.e. a shape with an arbitrary custom form
+237	Context menu inside a text field or with selected text
+238	Context menus
+239	Copy {} times from slide number {} to {}.
+240	Copy error on %s shape(s).
+241	Circular
+242	Circular arrow counterclockwise
+243	TRUNC($cell)
+244	Loading folders and files
+245	Empty slide masters were deleted!
+246	Empty range, no cells to select!
+247	Last check:
+248	Last check: never
+249	Library already exists!
+250	Library not found!
+251	List sheets
+252	Edit the list of available languages.\nAvailable: {}.
+253	Add selected slides to file
+254	Selected slides to favorites
+255	Migration successful. The gallery will now load.
+256	Write the workbook name before the sheet name
+257	Select new PowerPoint file
+258	New version available!
+259	Insert a new sheet with a summary of the consolidation
+260	Not yet defined
+261	Insert numbering shapes
+262	Folder
+263	Select folder with images
+264	Select folder for saving
+265	Adjust the fill level of a Harvey ball according to the selection.
+266	Arrow left and right
+267	Arrow up and down
+268	Position the selected shapes at the displayed position/size.\nChange position only [CTRL],\nChange size only [SHIFT]
+270	PowerPoint unfortunately does not support this function for groups.
+271	Select PowerPoint file
+272	Select PowerPoint files
+273	Priority
+274	The presentation has fewer than 2 sections!
+275	The presentation is not saved!
+276	Checking for updates...
+277	Return the right part (from the entered text to the end)
+278	References and source formatting
+279	Scheme file exported successfully!
+280	Scheme file imported successfully!
+281	Close
+282	Shape fixed point / anchor when changing {}
+283	Shape scaling is not supported for charts, tables and SmartArt!
+284	Insert shape table
+285	Shape type is not supported!
+286	Shapes are arranged {} in table cells when arranging shapes.
+287	When arranging shapes, shapes are:\n\n- arranged horizontally and vertically centered in table cells,\n- centered horizontally in shapes if the shape is taller than wide, and centered vertically if the shape is wider than tall,\n- in text paragraphs centered vertically on the first line and not changed horizontally.
+288	Shapes are arranged left and not changed vertically.
+289	Shapes are arranged center-left.
+290	Shapes are arranged center-right.
+291	Shapes are arranged centered.
+292	Shapes are arranged at the top and not changed horizontally.
+293	Shapes are arranged top-left.
+294	Shapes are arranged top-right.
+295	Shapes are arranged top-center.
+296	Shapes are arranged right and not changed vertically.
+297	Shapes are arranged at the bottom and not changed horizontally.
+298	Shapes are arranged bottom-left.
+299	Shapes are arranged bottom-right.
+300	Shapes are arranged bottom-center.
+301	Shapes are arranged vertically centered and not changed horizontally.
+302	Shapes are arranged vertically centered on the text in the first line and not changed horizontally.
+303	Shapes are arranged vertically centered on the text in the first line and horizontally left.
+304	Shapes are arranged vertically centered on the text in the first line and horizontally right.
+305	Shapes are arranged vertically centered on the text in the first line and horizontally centered.
+306	Shapes are arranged centered and not changed vertically.
+307	Should the feature folder be removed from the library?\n\nWarning: feature folders can contain ChartLibs, ShapeLibs and functions at the same time, which will then no longer be available!
+308	Should BKT be reloaded now?
+309	Sorry, but Microsoft did not implement the function to disable the text outline in the interface.
+310	Select save location
+311	Change the language of all shapes on all slides (incl. the presentation's default language)?
+312	Change the language of all shapes on the selected slides?
+313	Enter the start and stop position for cutting, separated by ":". If no start position is given, it is set to 0. If no stop position is given, it is set to the end of the text. A negative position means it is calculated from the end of the text.\n\n  Example for "ABCDEF":\n  [2:]   = CDEF  Remove the first two characters\n  [:2]   = AB    Remove everything after the second character\n  [-2:]  = EF    Remove everything up to the second-to-last character\n  [2:-2] = CD    Remove 2 characters at the start and end
+314	Star white
+315	Star-shaped
+316	Search on {} slides from slide number {} to {}.
+317	Insert symbol
+318	Tab switch failed for unknown reasons.
+319	Table size: rows=%d, columns=%d
+320	Match text is not available for the selected shape.
+321	Append text
+322	Enter the text to apply to all shapes. The following placeholders are available:\n\n${text}:\t\tInserts the existing shape text\n$text_len:\tNumber of characters in the existing text\n$counter:\tNumbering (continues if the first shape contains a number)\n$counter_a/A:\tNumbering with lower- or uppercase letters\n$counter_i/I:\tNumbering with Roman numerals (e.g. xi or XI)
+323	Enter the text to append to all cells. Existing formulas are overwritten and replaced with values.\n\nPossible placeholders: [counter], [row], [column].
+324	Enter the text to prepend to all cells. Existing formulas are overwritten and replaced with values.\n\nPossible placeholders: [counter], [row], [column].
+325	Thumbnail update failed for unknown reasons.
+326	Distribute tracker over following slides?
+327	Turkish
+328	INVALID INPUT
+329	Unknown error displaying the QuickEdit panel!
+330	Approximately equal
+331	Invalid input!
+332	Copy hidden sheets
+333	Use the displayed position/size as master.
+334	Use the displayed position/size.
+335	Full area
+336	Preview for the active cell (groups separated by tabs):
+337	Preview for the active cell:
+338	White arrow left
+339	White arrow up
+340	White arrow right
+341	White arrow down
+342	White square
+343	Insert the value of the active cell into the input.
+344	Values and source formatting
+345	Values and number formats
+346	Wingdings check mark
+347	Select XML scheme file
+348	Pointing finger white
+349	Separate rows/columns, e.g. for result/total rows:
+350	Skip rows/columns, e.g. for title rows:
+351	« insert from chart library
+352	« insert from shape library
+353	The change takes effect after a restart!
+354	Parent folder
+355	Insert skipped rows/columns from the first sheet (e.g. headers)

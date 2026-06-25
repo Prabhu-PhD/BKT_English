@@ -131,7 +131,7 @@ def harvey_size_gallery(**kwargs):
         get_item_count    = bkt.CallbackLazy("toolbox.models.harvey", "harvey_balls", "get_item_count"),
         get_item_label    = bkt.CallbackLazy("toolbox.models.harvey", "harvey_balls", "get_item_label"),
         get_item_screentip = bkt.CallbackLazy("toolbox.models.harvey", "harvey_balls", "get_item_screentip"),
-        get_item_supertip = bkt.Callback(lambda index: "Passe den Füllstand eines Harvey-Balls entsprechend der Auswahl an."),
+        get_item_supertip = bkt.Callback(lambda index: "Adjust the fill level of a Harvey ball according to the selection."),
         get_enabled       = bkt.Callback(harveyui.change_harvey_enabled, shapes=True),
         get_item_image    = bkt.CallbackLazy("toolbox.models.harvey", "harvey_balls", "get_harvey_item_image"),
         item_width=16, item_height=16,

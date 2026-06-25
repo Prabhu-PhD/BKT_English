@@ -93,7 +93,7 @@ class ViewModel(bkt.ui.ViewModelAsbtract):
     @notify_property
     def copy_description(self):
         num_copies = self.num_copies
-        return "Kopiere {} mal von Foliennummer {} bis {}.".format(num_copies, self.cur_slideno, self.cur_slideno+num_copies)
+        return "Copy {} times from slide number {} to {}.".format(num_copies, self.cur_slideno, self.cur_slideno+num_copies)
     
     @notify_property
     def okay_enabled(self):

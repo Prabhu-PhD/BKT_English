@@ -29,7 +29,7 @@ class ViewModel(bkt.ui.ViewModelSingleton):
         self.bkt_update_available = settings.BKTUpdates.is_update_available()
         self.bkt_update_label = settings.BKTUpdates.get_label_update()
         
-        self.bkt_license_text = "Die BKT ist Open Source lizensiert unter der {}-Lizenz.".format(bkt.__license__)
+        self.bkt_license_text = "BKT is open-source licensed under the {} license.".format(bkt.__license__)
         self.bkt_copyright_text = "{}.".format(bkt.__copyright__)
 
         self.bkt_branded_visible = Visibility.Collapsed
@@ -38,7 +38,7 @@ class ViewModel(bkt.ui.ViewModelSingleton):
         branding = settings.BKTInfos.get_branding_info()
         if branding.is_branded:
             self.bkt_branded_visible = Visibility.Visible
-            self.bkt_branding_text = "Diese BKT-Version wurde modifiziert für {}.".format(branding.brand_name)
+            self.bkt_branding_text = "This BKT version has been modified for {}.".format(branding.brand_name)
 
 class VersionDialog(bkt.ui.WpfWindowAbstract):
     _xamlname = 'version_dialog'

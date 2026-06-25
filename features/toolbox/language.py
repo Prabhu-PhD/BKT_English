@@ -20,18 +20,18 @@ class LangSetter(object):
         'de': ('de', 1031, "Deutsch",               "flag_de"),
         'us': ('us', 1033, "US English",            "flag_us"),
         'gb': ('uk', 2057, "UK English",            "flag_gb"), #keep uk as id for button for backwards compatibility
-        'at': ('at', 3079, "Deutsch (Österreich)",  "flag_at"),
+        'at': ('at', 3079, "German (Austria)",  "flag_at"),
         'it': ('it', 1040, "Italienisch",           "flag_it"),
-        'fr': ('fr', 1036, "Französisch",           "flag_fr"),
+        'fr': ('fr', 1036, "French",           "flag_fr"),
         'es': ('es', 3082, "Spanisch",              "flag_es"),
         'ru': ('ru', 1049, "Russisch",              "flag_ru"),
         'cz': ('cz', 1029, "Tschechisch",           "flag_cz"),
-        'dk': ('dk', 1030, "Dänisch",               "flag_dk"),
-        'nl': ('nl', 1043, "Holländisch",           "flag_nl"),
+        'dk': ('dk', 1030, "Danish",               "flag_dk"),
+        'nl': ('nl', 1043, "Dutch",           "flag_nl"),
         'pl': ('pl', 1045, "Polnisch",              "flag_pl"),
         'pt': ('pt', 2070, "Portugisisch",          "flag_pt"),
         'se': ('se', 1053, "Schwedisch",            "flag_se"),
-        'tr': ('tr', 1055, "Türkisch",              "flag_tr"),
+        'tr': ('tr', 1055, "Turkish",              "flag_tr"),
     }
 
     @classmethod
@@ -46,7 +46,7 @@ class LangSetter(object):
     
     @classmethod
     def edit_active_language(cls):
-        lang_list = bkt.ui.show_user_input("Liste möglicher Sprachen bearbeiten.\nVerfügbar sind: {}.".format(",".join(sorted(cls.langs.keys()))), "Sprachen-Liste", ",".join(cls.active_langs))
+        lang_list = bkt.ui.show_user_input("Edit the list of available languages.\nAvailable: {}.".format(",".join(sorted(cls.langs.keys()))), "Sprachen-Liste", ",".join(cls.active_langs))
         if lang_list is None:
             return
         
@@ -55,7 +55,7 @@ class LangSetter(object):
             cls.active_langs = ['de', 'us', 'gb']
         bkt.settings["toolbox.languages_checked"] = cls.active_langs
 
-        bkt.message("Die Änderungen werden nach einem PowerPoint-Neustart sichtbar.")
+        bkt.message("The changes become visible after a PowerPoint restart.")
 
     @classmethod
     def get_button(cls, language, idtag=""):
@@ -63,7 +63,7 @@ class LangSetter(object):
                 id = 'lang_'+language[0]+idtag,
                 label=language[2],
                 image=language[3],
-                screentip="Language to" + language[2] + " ändern",
+                screentip="Language to" + language[2] + " — change",
                 supertip="Set the language for the selected text or all selected shapes.\nIf multiple slides are selected, all shapes of the selected slides are changed.\nIf nothing is selected, all shapes in the presentation as well as the default language are changed.",
                 on_action=bkt.Callback(lambda context, selection, presentation: cls.set_language(context, selection, presentation, language[1]), context=True, selection=True, presentation=True)
             )
@@ -99,12 +99,12 @@ class LangSetter(object):
             cls.set_language_for_shapes(shapes, lang_code)
         elif len(slides) != presentation.slides.count and (len(slides) > 1 or context.app.ActiveWindow.ActivePane.ViewType in [7, 11]): #7=ppViewSlideSorter, 11=ppViewThumbnails
             #bkt.message("Setze Sprache für Slides: " + str(len(slides)))
-            if len(slides) > 1 and not bkt.message.confirmation("Sprache aller Shapes auf ausgewählten Folien ändern?"):
+            if len(slides) > 1 and not bkt.message.confirmation("Change the language of all shapes on the selected slides?"):
                 return
             cls.set_language_for_slides(slides, lang_code)
         else:
             #bkt.message("Setze Sprache für Präsentation")
-            if not bkt.message.confirmation("Sprache aller Shapes auf allen Folien (inkl. Standardsprache der Präsentation) ändern?"):
+            if not bkt.message.confirmation("Change the language of all shapes on all slides (incl. the presentation's default language)?"):
                 return
             cls.set_language_for_presentation(presentation, lang_code)
 

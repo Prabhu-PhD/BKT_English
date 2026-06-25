@@ -62,7 +62,7 @@ class CtxVerbinder(object):
 class PictureFormat(object):
     @staticmethod
     def make_img_transparent(slide, shapes, transparency=0.5):
-        if not bkt.message.confirmation("Das bestehende Bild wird dabei ersetzt. Fortfahren?"):
+        if not bkt.message.confirmation("The existing image will be replaced. Continue?"):
             return
 
         import tempfile, os

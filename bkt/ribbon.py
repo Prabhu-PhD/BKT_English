@@ -1109,7 +1109,7 @@ class SymbolsGallery(Gallery):
         try:
             return item[2]
         except:
-            return "Symbol einfügen"
+            return "Insert symbol"
 
     def get_item_supertip(self, index):
         ''' creates an item image with numberd shape according to settings in the specified item '''
@@ -1118,7 +1118,7 @@ class SymbolsGallery(Gallery):
         try:
             return item[3]
         except:
-            return "Fügt das Symbol in aktuellen Text oder neues Shape ein."
+            return "Inserts the symbol into the current text or a new shape."
     
     def cb_get_selected_item_index(self, context, **kwargs):
         if not 'get_selected_symbol' in self._callbacks:

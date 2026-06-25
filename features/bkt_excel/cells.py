@@ -69,7 +69,7 @@ class CellsOps(object):
 
     @classmethod
     def prepend_text(cls, cells, application):
-        input_text = bkt.ui.show_user_input("Text eingeben, der vor alle Zellen geschrieben werden soll. Existierende Formeln werden überschrieben und durch Werte ersetzt.\n\nMögliche Platzhalter: [counter], [row], [column].", "Text voranstellen", cls.last_prepend)
+        input_text = bkt.ui.show_user_input("Enter the text to prepend to all cells. Existing formulas are overwritten and replaced with values.\n\nPossible placeholders: [counter], [row], [column].", "Text voranstellen", cls.last_prepend)
         if not input_text:
             return
 
@@ -87,7 +87,7 @@ class CellsOps(object):
 
     @classmethod
     def append_text(cls, cells, application):
-        input_text = bkt.ui.show_user_input("Text eingeben, der hinter alle Zellen geschrieben werden soll. Existierende Formeln werden überschrieben und durch Werte ersetzt.\n\nMögliche Platzhalter: [counter], [row], [column].", "Text anhängen", cls.last_append)
+        input_text = bkt.ui.show_user_input("Enter the text to append to all cells. Existing formulas are overwritten and replaced with values.\n\nPossible placeholders: [counter], [row], [column].", "Append text", cls.last_append)
         if not input_text:
             return
 
@@ -137,19 +137,13 @@ class CellsOps(object):
             except:
                 txt_preview.Text = "FEHLER"
 
-        explanation = '''Start- und Stopp-Position zum Schneiden getrennt mit ":" eingeben. Ist keine Start-Position gegeben, wird diese auf 0 gesetzt. Ist keine Stopp-Position gegeben, wird diese bis Textende gesetzt. Eine negative Position bedeutet, dass diese vom Textende berechnet wird.
-
-  Beispiel für "ABCDEF":
-  [2:]   = CDEF  Entferne die beiden ersten Zeichen
-  [:2]   = AB    Entferne alles nach dem zweiten Zeichen
-  [-2:]  = EF    Entferne alles bis zum vorletzten Zeichen
-  [2:-2] = CD    Entferne 2 Zeichen an Anfang und Ende'''
+        explanation = '''Enter the start and stop position for cutting, separated by ":". If no start position is given, it is set to 0. If no stop position is given, it is set to the end of the text. A negative position means it is calculated from the end of the text.\n\n  Example for "ABCDEF":\n  [2:]   = CDEF  Remove the first two characters\n  [:2]   = AB    Remove everything after the second character\n  [-2:]  = EF    Remove everything up to the second-to-last character\n  [2:-2] = CD    Remove 2 characters at the start and end'''
 
         user_form = bkt.ui.UserInputBox(explanation, "Text anhand Position schneiden")
         text = user_form._add_textbox("text", cls.last_slice_pos)
         text.TextChanged += _preview
         
-        user_form._add_label("Vorschau für aktive Zelle:")
+        user_form._add_label("Preview for the active cell:")
         txt_preview = user_form._add_textbox("preview")
         txt_preview.ReadOnly = True
         _preview(None, None)
@@ -166,7 +160,7 @@ class CellsOps(object):
         try:
             s = _get_slicer(form_return["text"])
         except:
-            bkt.message("Ungültige Eingabe!")
+            bkt.message("Invalid input!")
             return
 
         for cell in cells:
@@ -192,15 +186,15 @@ class CellsOps(object):
             except:
                 txt_preview.Text = "FEHLER"
 
-        user_form = bkt.ui.UserInputBox("Gibt Zelleninhalt von Beginn bis zum eingegebenen Text zurück. Wird der Text nicht gefunden, bleibt der Zelleninhalt unverändert.", "Text anhand Zeichen schneiden")
+        user_form = bkt.ui.UserInputBox("Returns the cell content from the start up to the entered text. If the text is not found, the cell content remains unchanged.", "Text anhand Zeichen schneiden")
         text = user_form._add_textbox("text", cls.last_slice_text)
         text.TextChanged += _preview
-        cb_rslice = user_form._add_checkbox("rslice", "Rechten Teil zurückgeben (ab eingegebenem Text bis Ende)")
+        cb_rslice = user_form._add_checkbox("rslice", "Return the right part (from the entered text to the end)")
         cb_rslice.CheckedChanged += _preview
         cb_rfind = user_form._add_checkbox("rfind", "Von rechts anfangen zu suchen")
         cb_rfind.CheckedChanged += _preview
         
-        user_form._add_label("Vorschau für aktive Zelle:")
+        user_form._add_label("Preview for the active cell:")
         txt_preview = user_form._add_textbox("preview")
         txt_preview.ReadOnly = True
         _preview(None, None)
@@ -262,12 +256,12 @@ class CellsOps(object):
                 txt_preview.Text = "FEHLER"
                 txt_preview2.Text = "FEHLER"
 
-        user_form = bkt.ui.UserInputBox("Hier kann eine Formel auf alle markierten Zellen angewendet werden. Soll der Zelleninhalt nicht am Anfang stehen, können Sie mit dem Platzhalter $cell und $cellvalue arbeiten. Standardmäßig wird der resultierende Wert eingefügt (sofern die Formel nicht fehlerhaft ist). Wenn Ihre Eingabe mit '=' beginnt, wird eine Formel erstellt. In der Auswahlbox finden Sie Beispiele für mögliche Eingaben.", "Formel anwenden")
-        text = user_form._add_combobox("formula", cls.last_formula, ["*100", "/100", "*(-1)", "+A1", "/SUMME(A1:A3)", "ABS($cell)", "RUNDEN($cell;2)", "ABRUNDEN($cell;2)", "AUFRUNDEN($cell;2)", "KÜRZEN($cell)", "1/$cell", "=($cell)*100", "GROSS(\"$cellvalue\")"])
+        user_form = bkt.ui.UserInputBox("Here you can apply a formula to all selected cells. If the cell content should not be at the beginning, you can use the placeholders $cell and $cellvalue. By default the resulting value is inserted (if the formula is not faulty). If your input begins with '=', a formula is created. The selection box contains examples of possible inputs.", "Formel anwenden")
+        text = user_form._add_combobox("formula", cls.last_formula, ["*100", "/100", "*(-1)", "+A1", "/SUMME(A1:A3)", "ABS($cell)", "RUNDEN($cell;2)", "ABRUNDEN($cell;2)", "AUFRUNDEN($cell;2)", "TRUNC($cell)", "1/$cell", "=($cell)*100", "GROSS(\"$cellvalue\")"])
         text.TextChanged += _preview
-        user_form._add_checkbox("skip_existing_formulas", "Bestehende Formeln überspringen und nicht verändern")
+        user_form._add_checkbox("skip_existing_formulas", "Skip existing formulas and do not change them")
         
-        user_form._add_label("Vorschau für aktive Zelle:")
+        user_form._add_label("Preview for the active cell:")
         txt_preview = user_form._add_textbox("preview")
         txt_preview.ReadOnly = True
 
@@ -323,7 +317,7 @@ class CellsOps(object):
                 #bkt.helpers.exception_as_message(str(cell.AddressLocal()))
 
         if err_counter > 0:
-            bkt.message("Fehler! Formel war auf " + str(err_counter) + " Zelle(n) nicht anwendbar.")
+            bkt.message("Error! Formula was set on " + str(err_counter) + " cell(s) not applicable.")
 
 
     @classmethod
@@ -353,14 +347,14 @@ class CellsOps(object):
             except Exception as e:
                 txt_preview.Text = "FEHLER: " + str(e)
 
-        user_form = bkt.ui.UserInputBox("Hier kann ein regulärer Ausdruck in allen markierten Zellen gesucht und die Anzahl der Funde gezählt werden. In der Auswahlbox finden Sie Beispiele für mögliche Eingaben.", "RegEx anwenden")
+        user_form = bkt.ui.UserInputBox("Here you can search for a regular expression in all selected cells and count the number of matches. The selection box contains examples of possible inputs.", "RegEx anwenden")
         text = user_form._add_combobox("regex", cls.last_regex_match_pattern, [r"[;,\. ]+", r"([A-Z])\w+", r"([+-]?[\d\.]+,*[0-9]*)", r"[\w\.-]+@[\w\.-]+\.\w{2,4}"])
         text.TextChanged += _preview
 
-        ignorecase = user_form._add_checkbox("ignorecase", "Groß-/Kleinschreibung ignorieren")
+        ignorecase = user_form._add_checkbox("ignorecase", "Ignore case")
         ignorecase.CheckedChanged += _preview
         
-        user_form._add_label("Vorschau für aktive Zelle:")
+        user_form._add_label("Preview for the active cell:")
         txt_preview = user_form._add_textbox("preview")
         txt_preview.ReadOnly = True
         _preview(None, None)
@@ -372,7 +366,7 @@ class CellsOps(object):
         try:
             regex = re.compile(form_return["regex"], _get_flags())
         except Exception as e:
-            bkt.message("Fehler! RegEx kann nicht kompiliert werden: "+str(e))
+            bkt.message("Error! Regex cannot be compiled: "+str(e))
             return
 
         if not xllib.confirm_no_undo(): return
@@ -391,7 +385,7 @@ class CellsOps(object):
                 #bkt.helpers.exception_as_message(str(cell.AddressLocal()))
 
         if err_counter > 0:
-            bkt.message("Fehler! RegEx war auf " + str(err_counter) + " Zelle(n) nicht anwendbar.")
+            bkt.message("Error! Regex was set on " + str(err_counter) + " cell(s) not applicable.")
 
     @classmethod
     def regex_split_to_columns(cls, cells, application):
@@ -433,19 +427,19 @@ class CellsOps(object):
             except Exception as e:
                 txt_preview.Text = "FEHLER: " + str(e)
 
-        user_form = bkt.ui.UserInputBox("Hier kann ein regulärer Ausdruck auf alle markierten Zellen angewendet werden. In der Auswahlbox finden Sie Beispiele für mögliche Eingaben.", "RegEx anwenden")
+        user_form = bkt.ui.UserInputBox("Here you can apply a regular expression to all selected cells. The selection box contains examples of possible inputs.", "RegEx anwenden")
         text = user_form._add_combobox("regex", cls.last_regex_split_pattern, [r"[;,\. ]+", r"([A-Z])\w+", r"([+-]?[\d\.]+,*[0-9]*)", r"[\w\.-]+@[\w\.-]+\.\w{2,4}"])
         text.TextChanged += _preview
 
-        ignorecase = user_form._add_checkbox("ignorecase", "Groß-/Kleinschreibung ignorieren")
+        ignorecase = user_form._add_checkbox("ignorecase", "Ignore case")
         ignorecase.CheckedChanged += _preview
 
-        radio_mode_values = ["Find: Aufteilung je RegEx Übereinstimmung", "Split: RegEx definiert Trennzeichen"]
+        radio_mode_values = ["Find: split per regex match", "Split: RegEx definiert Trennzeichen"]
         _, mode_radios = user_form._add_radio_buttons("mode", "Modus", radio_mode_values, cls.last_regex_split_mode)
         for radio in mode_radios:
             radio.CheckedChanged += _preview
         
-        user_form._add_label("Vorschau für aktive Zelle (Gruppen mit Tabs getrennt):")
+        user_form._add_label("Preview for the active cell (groups separated by tabs):")
         txt_preview = user_form._add_textbox("preview")
         txt_preview.ReadOnly = True
         _preview(None, None)
@@ -457,7 +451,7 @@ class CellsOps(object):
         try:
             regex = re.compile(form_return["regex"], _get_flags())
         except Exception as e:
-            bkt.message("Fehler! RegEx kann nicht kompiliert werden: "+str(e))
+            bkt.message("Error! Regex cannot be compiled: "+str(e))
             return
 
         if not xllib.confirm_no_undo(): return
@@ -482,7 +476,7 @@ class CellsOps(object):
                 # bkt.helpers.exception_as_message(str(cell.AddressLocal()))
 
         if err_counter > 0:
-            bkt.message("Fehler! RegEx war auf " + str(err_counter) + " Zelle(n) nicht anwendbar.")
+            bkt.message("Error! Regex was set on " + str(err_counter) + " cell(s) not applicable.")
 
     @classmethod
     def regex_replace(cls, cells, application):
@@ -502,17 +496,17 @@ class CellsOps(object):
             except Exception as e:
                 txt_preview.Text = "FEHLER: " + str(e)
 
-        user_form = bkt.ui.UserInputBox("Hier kann ein regulärer Ausdruck in allen markierten Zellen gesucht und ersetzt werden. In der Auswahlbox finden Sie Beispiele für mögliche Eingaben.", "RegEx anwenden")
+        user_form = bkt.ui.UserInputBox("Here you can search and replace a regular expression in all selected cells. The selection box contains examples of possible inputs.", "RegEx anwenden")
         pattern = user_form._add_combobox("pattern", cls.last_regex_sub_pattern, [r"\sand\s", r" {2,}", r"([A-Z]+)/([a-z]+)"])
         pattern.TextChanged += _preview
 
         repl = user_form._add_combobox("repl", cls.last_regex_sub_repl, [r" & ", r" ", r"\2/\1"])
         repl.TextChanged += _preview
 
-        ignorecase = user_form._add_checkbox("ignorecase", "Groß-/Kleinschreibung ignorieren")
+        ignorecase = user_form._add_checkbox("ignorecase", "Ignore case")
         ignorecase.CheckedChanged += _preview
         
-        user_form._add_label("Vorschau für aktive Zelle:")
+        user_form._add_label("Preview for the active cell:")
         txt_preview = user_form._add_textbox("preview")
         txt_preview.ReadOnly = True
         _preview(None, None)
@@ -524,7 +518,7 @@ class CellsOps(object):
         try:
             regex_pattern = re.compile(form_return["pattern"], _get_flags())
         except Exception as e:
-            bkt.message("Fehler! RegEx kann nicht kompiliert werden: "+str(e))
+            bkt.message("Error! Regex cannot be compiled: "+str(e))
             return
 
         if not xllib.confirm_no_undo(): return
@@ -544,7 +538,7 @@ class CellsOps(object):
                 #bkt.helpers.exception_as_message(str(cell.AddressLocal()))
 
         if err_counter > 0:
-            bkt.message("Fehler! RegEx war auf " + str(err_counter) + " Zelle(n) nicht anwendbar.")
+            bkt.message("Error! Regex was set on " + str(err_counter) + " cell(s) not applicable.")
 
 
     @staticmethod
@@ -722,7 +716,7 @@ class CellsOps(object):
 
     @staticmethod
     def prohibit_duplicates(areas, application):
-        if not xllib.confirm_no_undo("Dies überschreibt bestehende Datenüberprüfungen und kann nicht rückgängig gemacht werden. Ausführen?"): return
+        if not xllib.confirm_no_undo("This overwrites existing data validations and cannot be undone. Proceed?"): return
         for area in areas:
             vali_form = "=COUNTIF(" + area.Address(True, True, 1) + "," + area.Cells(1).Address(False, False, 1) + ")=1" #xlA1
             vali_form = xllib.formula_int2local(vali_form)
@@ -742,7 +736,7 @@ class CellsOps(object):
             value = value.replace('.', application.International(xlcon.XlApplicationInternational["xlDecimalSeparator"]))
             Forms.Clipboard.SetText(value)
         except:
-            bkt.message('Fehler beim Kopieren!')
+            bkt.message('Error copying!')
         #bkt.message('Kopiert: ' + value)
 
     @staticmethod
@@ -900,7 +894,7 @@ class CellsOps(object):
         finally:
             xllib.unfreeze_app()
         
-        bkt.message("Es wurden %s Spalten gelöscht" % deleted)
+        bkt.message("%s columns deleted" % deleted)
 
 
 
@@ -912,7 +906,7 @@ class CellsOps(object):
             if area.Rows(i).EntireRow.Hidden:
                 area.Rows(i).EntireRow.Delete()
                 deleted += 1
-        bkt.message("Es wurden %s Zeilen gelöscht" % deleted)
+        bkt.message("%s rows deleted" % deleted)
 
     @staticmethod
     def show_all_cells(sheet):

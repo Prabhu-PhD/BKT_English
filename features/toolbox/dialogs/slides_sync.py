@@ -171,7 +171,7 @@ class SlideSyncWindow(bkt.ui.WpfWindowAbstract):
     
     def show_dialog(self, modal=True):
         if len(self._slides) < 2:
-            return bkt.message.error("Es müssen mind. 2 Folien ausgewählt sein!")
+            return bkt.message.error("At least 2 slides must be selected!")
         return super(SlideSyncWindow, self).show_dialog(modal)
     
     def sync(self, sender, event):

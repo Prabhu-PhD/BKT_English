@@ -26,7 +26,7 @@ class SheetsOps(object):
             for sheet in selected_sheets:
                 sheet.Visible = visibility
         except:
-            bkt.message("Fehler beim Ausblenden. Die Arbeitsmappe darf nicht geschützt sein und es muss mind. ein sichtbares Blatt geben.")
+            bkt.message("Error hiding. The workbook must not be protected and there must be at least one visible sheet.")
 
     @classmethod
     def hide_sheets_veryhidden(cls, selected_sheets):
@@ -39,7 +39,7 @@ class SheetsOps(object):
             if sheet.Visible == xlcon.XlSheetVisibility["xlSheetHidden"]:
                 sheet.Visible = xlcon.XlSheetVisibility["xlSheetVisible"]
                 counter += 1
-        bkt.message("Es wurden " + str(counter) + " Blätter eingeblendet.")
+        bkt.message("Found " + str(counter) + " sheets shown.")
 
     @staticmethod
     def show_veryhidden_sheets(sheets):
@@ -48,7 +48,7 @@ class SheetsOps(object):
             if sheet.Visible == xlcon.XlSheetVisibility["xlSheetVeryHidden"]:
                 sheet.Visible = xlcon.XlSheetVisibility["xlSheetVisible"]
                 counter += 1
-        bkt.message("Es wurden " + str(counter) + " Blätter eingeblendet.")
+        bkt.message("Found " + str(counter) + " sheets shown.")
 
     @classmethod
     def toggle_hidden_sheets(cls, sheets, selected_sheets):
@@ -89,13 +89,13 @@ class SheetsOps(object):
     def show_sheets_dialog(workbook, sheets):
         hidden_sheets = [sheet.Name for sheet in sheets if sheet.Visible != -1]
         if len(hidden_sheets) == 0:
-            bkt.message("Keine ausgeblendeten und versteckten Blätter.")
+            bkt.message("No hidden or very hidden sheets.")
             return
         elif workbook.ProtectStructure:
-            bkt.message("Arbeitsmappen-Struktur ist geschützt.")
+            bkt.message("The workbook structure is protected.")
             return
 
-        user_form = bkt.ui.UserInputBox("Ein oder mehrere Blätter auswählen:", "Blätter anzeigen")
+        user_form = bkt.ui.UserInputBox("Select one or more sheets:", "Show sheets")
         lb = user_form._add_listbox("sel_sheets", hidden_sheets, multiselect=True)
         lb.SetSelected(0,True)
         form_return = user_form.show()
@@ -104,7 +104,7 @@ class SheetsOps(object):
         sel_sheets = form_return["sel_sheets"]
         
         if len(sel_sheets) == 0:
-            bkt.message("Keine Blätter ausgewählt.")
+            bkt.message("No sheets selected.")
             return
 
         for sheet_name in sel_sheets:
@@ -134,7 +134,7 @@ class SheetsOps(object):
     @staticmethod
     def rename_all_sheets(workbook, areas, application):
         if areas[0].Columns.Count != 2:
-            bkt.message("Es müssen genau 2 Spalten (Alter Name, Neuer Name) ausgewählt werden")
+            bkt.message("Exactly 2 columns (Old name, New name) must be selected")
             return
         
         if not xllib.confirm_no_undo(): return
@@ -151,12 +151,12 @@ class SheetsOps(object):
                 err_counter += 1
         
         if err_counter > 0:
-            bkt.message("Fehler! " + str(err_counter) + " Blatt/Blätter konnte(n) nicht umbenannt werden.")
+            bkt.message("Error! " + str(err_counter) + " Sheet(s) could not be renamed.")
 
     @classmethod
     def sort_all_sheets(cls, workbook, areas, application, sheet):
         if areas[0].Columns.Count != 1 or areas[0].Cells.Count == 1:
-            bkt.message("Es muss genau 1 Spalte (mit Blattnamen in gewünschter Reihenfolge) ausgewählt werden")
+            bkt.message("Exactly 1 column (with sheet names in the desired order) must be selected")
             return
 
         if not xllib.confirm_no_undo(): return
@@ -193,12 +193,12 @@ class SheetsOps(object):
         sheet.Activate()
 
         if err_counter > 0:
-            bkt.message("Fehler! " + str(err_counter) + " Blatt/Blätter konnte(n) nicht umsortiert werden.")
+            bkt.message("Error! " + str(err_counter) + " Sheet(s) could not be reordered.")
     
     @staticmethod
     def create_sheets(workbook, areas, application):
         if areas[0].Columns.Count != 1 or areas[0].Cells.Count == 1:
-            bkt.message("Es muss genau 1 Spalte (mit anzulegenden Blattnamen) ausgewählt werden")
+            bkt.message("Exactly 1 column (with the sheet names to create) must be selected")
             return
 
         if not xllib.confirm_no_undo(): return
@@ -215,7 +215,7 @@ class SheetsOps(object):
                 err_counter += 1
         
         if err_counter > 0:
-            bkt.message("Fehler! " + str(err_counter) + " Blatt/Blätter konnte(n) nicht angelegt werden.")
+            bkt.message("Error! " + str(err_counter) + " Sheet(s) could not be created.")
 
     @staticmethod
     def _create_list_header(list_sheet, header, row=1):
@@ -326,7 +326,7 @@ class SheetsOps(object):
 
         list_sheet = workbook.Worksheets.Add()
         xllib.rename_sheet(list_sheet, "BKT LISTE BEN. FORMAT.")
-        cls._create_list_header(list_sheet, ["Priorität", "Typ", "Formel 1", "Formel 2", "Text", "Operator", "Format", "Bereich", "Anhalten"])
+        cls._create_list_header(list_sheet, ["Priority", "Typ", "Formel 1", "Formel 2", "Text", "Operator", "Format", "Bereich", "Anhalten"])
         cur_row = 2
 
         # IMPORTANT LINE! For some reason excel crashs when accessing border/font color if sheet is not active
@@ -366,8 +366,8 @@ class SheetsOps(object):
                 return default
 
         list_sheet = workbook.Worksheets.Add()
-        xllib.rename_sheet(list_sheet, "BKT LISTE DATENÜBERPRÜF.")
-        cls._create_list_header(list_sheet, ["Typ", "Formel 1", "Formel 2", "Operator", "Gültigkeitswarnung", "Leere Zellen ignorieren", "Zellendropdown", "Bereich"])
+        xllib.rename_sheet(list_sheet, "BKT LIST DATA VALIDATION")
+        cls._create_list_header(list_sheet, ["Typ", "Formel 1", "Formel 2", "Operator", "Validation warning", "Leere Zellen ignorieren", "Zellendropdown", "Bereich"])
         cur_row = 2
 
         try:
@@ -422,9 +422,9 @@ class SheetsOps(object):
     def list_sheets(cls, workbook, sheets):
         list_sheet = workbook.Worksheets.Add()
         #list_sheet.Name = "BKT LISTE BLÄTTER"
-        xllib.rename_sheet(list_sheet, "BKT LISTE BLÄTTER")
+        xllib.rename_sheet(list_sheet, "BKT LIST SHEETS")
         visibilities = {-1: "eingeblendet", 0: "ausgeblendet", 2: "versteckt"}
-        cls._create_list_header(list_sheet, ["Name", "Genutzter Bereich", "Zeilen", "Spalten", "Tabellen", "Tab-Farbe", "Sichtbar", "Geschützt"])
+        cls._create_list_header(list_sheet, ["Name", "Genutzter Bereich", "Zeilen", "Spalten", "Tabellen", "Tab-Farbe", "Sichtbar", "Protected"])
         cur_row = 2
         for sheet in sheets:
             # if sheet.Visible == xlcon.XlSheetVisibility["xlSheetVeryHidden"]:
@@ -456,7 +456,7 @@ class SheetsOps(object):
         list_sheet = workbook.Worksheets.Add()
         #list_sheet.Name = "BKT LISTE ARBEITSMAPPEN"
         xllib.rename_sheet(list_sheet, "BKT LISTE ARBEITSMAPPEN")
-        cls._create_list_header(list_sheet, ["Name", "Ordner", "Pfad", "Anz. Blätter", "Liste Blätter"])
+        cls._create_list_header(list_sheet, ["Name", "Folder", "Pfad", "No. of sheets", "List sheets"])
         cur_row = 2
         for wb in list(iter(application.Workbooks)):
             list_sheet.Cells(cur_row,1).Value = wb.Name
@@ -509,9 +509,9 @@ class FileListOps(object):
             sheet = workbook.Worksheets.Add()
             xllib.rename_sheet(sheet, "BKT DATEILISTE")
             if folders_only:
-                cls._create_list_header(sheet, ["Name", "Anz. Ordner", "Anz. Dateien", "Erstellt", "Geändert", "Tiefe", "Übergeordneter Ordner", "Relativer Pfad", "Voller Pfad"], 2)
+                cls._create_list_header(sheet, ["Name", "No. of folders", "Anz. Dateien", "Erstellt", "Changed", "Tiefe", "Parent folder", "Relativer Pfad", "Voller Pfad"], 2)
             else:
-                cls._create_list_header(sheet, ["Name", "Typ", "Größe", "Erstellt", "Geändert", "Tiefe", "Übergeordneter Ordner", "Relativer Pfad", "Voller Pfad"], 2)
+                cls._create_list_header(sheet, ["Name", "Typ", "Size", "Erstellt", "Changed", "Tiefe", "Parent folder", "Relativer Pfad", "Voller Pfad"], 2)
 
             total = cls._create_file_list(worker, application, folder, sheet, 3, recursive, folders_only)
             total -= 3
@@ -528,9 +528,9 @@ class FileListOps(object):
             sheet.UsedRange.AutoFilter()
 
             if worker.CancellationPending:
-                sheet.Cells(1,1).Value = "ABBRUCH der Dateiliste nach {} Dateien erstellt {} für Ordner: {}".format(total, datetime.now().strftime('%Y-%m-%d %H:%M:%S'), os.path.normpath(folder))
+                sheet.Cells(1,1).Value = "ABORTED: file list of {} files created {} for folder: {}".format(total, datetime.now().strftime('%Y-%m-%d %H:%M:%S'), os.path.normpath(folder))
             else:
-                sheet.Cells(1,1).Value = "Dateiliste mit {} Dateien erstellt {} für Ordner: {}".format(total, datetime.now().strftime('%Y-%m-%d %H:%M:%S'), os.path.normpath(folder))
+                sheet.Cells(1,1).Value = "File list with {} files created {} for folder: {}".format(total, datetime.now().strftime('%Y-%m-%d %H:%M:%S'), os.path.normpath(folder))
         
         bkt.ui.execute_with_progress_bar(loop, context, indeterminate=True)
 
@@ -544,7 +544,7 @@ class FileListOps(object):
             return 0
         # subfolders = []
 
-        application.StatusBar = "Erstelle Dateiliste für Ordner " + base_folder
+        application.StatusBar = "Creating file list for folder " + base_folder
         worker.ReportProgress(42, "{} - {}".format(cur_row-3, base_folder))
         # bkt.message("Liste für Ordner: " + folder)
 
@@ -583,7 +583,7 @@ class FileListOps(object):
                     cls._create_file_row(sheet, cur_row, base_folder, full_path, file)
                     cur_row += 1
                     if worker.CancellationPending:
-                        worker_message = "Abbruch nach diesem Ordner..."
+                        worker_message = "Cancel after this folder..."
                     worker.ReportProgress(42, "{} - {}".format(cur_row-3, worker_message))
                 
                 # application.ActiveWindow.ScrollRow = max(1,cur_row-10) #scroll to last 10 rows

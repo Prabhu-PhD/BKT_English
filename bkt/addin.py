@@ -785,7 +785,7 @@ class AddIn(object):
             
         except:
             logging.exception("initialize app-classes failed")
-            bkt.message.error("Initialisierung der Applikation fehlgeschlagen", title="BKT: Critical startup error")
+            bkt.message.error("Application initialization failed", title="BKT: Critical startup error")
         
         
             
@@ -801,11 +801,11 @@ class AddIn(object):
                 logging.exception("binding of callbacks to application events failed")
                 # Ask user in German if they want to retry
                 retry = bkt.message.non_modal(
-                    "Das Binden der Anwendungs-Callbacks ist fehlgeschlagen. Bitte alle Dialoge schließen.\n\nErneut versuchen?",
+                    "Binding the application callbacks failed. Please close all dialogs.\n\nTry again?",
                     title="Error binding the callbacks"
                 )
                 if not retry:
-                    bkt.message.error("Fehler beim Binden der Anwendungs-Callbacks", title="BKT: Critical startup error")
+                    bkt.message.error("Error binding the application callbacks", title="BKT: Critical startup error")
                     break
         
         

@@ -39,7 +39,7 @@ class ThumbnailPopup(bkt.ui.WpfWindowAbstract):
             else:
                 Thumbnailer.shapes_refresh(shapes, self._context.app)
         except:
-            bkt.message.error("Thumbnail-Aktualisierung aus unbekannten Gründen fehlgeschlagen.", "BKT: Thumbnails")
+            bkt.message.error("Thumbnail update failed for unknown reasons.", "BKT: Thumbnails")
             logging.exception("Thumbnails: Error in popup!")
 
     @WpfActionCallback
@@ -47,7 +47,7 @@ class ThumbnailPopup(bkt.ui.WpfWindowAbstract):
         try:
             Thumbnailer.goto_ref(self._context.shape, self._context.app)
         except:
-            bkt.message.error("Fehler beim Öffnen der Folienreferenz.", "BKT: Thumbnails")
+            bkt.message.error("Error opening the slide reference.", "BKT: Thumbnails")
             logging.exception("Thumbnails: Error in popup!")
 
     @WpfActionCallback
@@ -56,7 +56,7 @@ class ThumbnailPopup(bkt.ui.WpfWindowAbstract):
             for shape in self._context.shapes:
                 Thumbnailer.toggle_content_only(shape, self._context.app)
         except:
-            bkt.message.error("Fehler beim Wechsel des Thumbnail-Inhalts.", "BKT: Thumbnails")
+            bkt.message.error("Error changing the thumbnail content.", "BKT: Thumbnails")
             logging.exception("Thumbnails: Error in popup!")
 
     @WpfActionCallback
@@ -65,7 +65,7 @@ class ThumbnailPopup(bkt.ui.WpfWindowAbstract):
             for shape in self._context.shapes:
                 Thumbnailer.reset_aspect_ratio(shape)
         except:
-            bkt.message.error("Fehler beim Zurücksetzen des Seitenverhältnisses.", "BKT: Thumbnails")
+            bkt.message.error("Error resetting the aspect ratio.", "BKT: Thumbnails")
             logging.exception("Thumbnails: Error in popup!")
 
 

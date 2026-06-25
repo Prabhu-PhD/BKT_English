@@ -24,7 +24,7 @@ def set_application(app):
     application = app
 
 
-def confirm_no_undo(text="Dies kann nicht rückgängig gemacht werden. Ausführen?"):
+def confirm_no_undo(text="This cannot be undone. Proceed?"):
 	if config.excel_ignore_warnings:
 		return True
 	else:

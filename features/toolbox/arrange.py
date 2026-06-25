@@ -871,7 +871,7 @@ class ArrangeAdvanced(object):
         return GlobalMasterShape
     
     def get_item_supertip(self, index):
-        return 'Verwende angezeigten Position/Größe als Master.'
+        return 'Use the displayed position/size as master.'
     
 
     ### arrange at master's left side ###
@@ -1665,30 +1665,30 @@ class TAGallery(bkt.ribbon.Gallery):
     def __init__(self, **kwargs):
         self._locpin = None
         self.items = [
-            ("fix_locpin_auto", "Auto", "Shapes werden bei Shape-Anordnung in:\n\n- Tabellenzellen horizontal und vertikal zentriert angeordnet,\n- Shapes horizontal zentriert sofern Shape höher ist als breit und vertikal zentriert sofern Shape breiter ist als hoch,\n- Textabsätzen vertikal zentriert von der ersten Zeile und horizontal nicht verändert."),
-            ("fix_locpin_l", "Links", "Shapes werden links angeordnet und vertikal nicht verändert."),
-            ("fix_locpin_c", "Zentriert", "Shapes werden zentriert angeordnet und vertikal nicht verändert."),
-            ("fix_locpin_r", "Rechts", "Shapes werden rechts angeordnet und vertikal nicht verändert."),
+            ("fix_locpin_auto", "Auto", "When arranging shapes, shapes are:\n\n- arranged horizontally and vertically centered in table cells,\n- centered horizontally in shapes if the shape is taller than wide, and centered vertically if the shape is wider than tall,\n- in text paragraphs centered vertically on the first line and not changed horizontally."),
+            ("fix_locpin_l", "Links", "Shapes are arranged left and not changed vertically."),
+            ("fix_locpin_c", "Zentriert", "Shapes are arranged centered and not changed vertically."),
+            ("fix_locpin_r", "Rechts", "Shapes are arranged right and not changed vertically."),
 
-            ("fix_locpin_t", "Oben", "Shapes werden oben angeordnet und horizontal nicht verändert."),
-            ("fix_locpin_tl", "Oben-links", "Shapes werden oben links angeordnet."),
-            ("fix_locpin_tm", "Oben-mitte", "Shapes werden oben zentriert angeordnet."),
-            ("fix_locpin_tr", "Oben-rechts", "Shapes werden oben rechts angeordnet."),
+            ("fix_locpin_t", "Oben", "Shapes are arranged at the top and not changed horizontally."),
+            ("fix_locpin_tl", "Oben-links", "Shapes are arranged top-left."),
+            ("fix_locpin_tm", "Oben-mitte", "Shapes are arranged top-center."),
+            ("fix_locpin_tr", "Oben-rechts", "Shapes are arranged top-right."),
 
-            ("fix_locpin_m_line", "Mitte 1. Zeile", "Shapes werden vertikal zentriert von dem Text in der ersten Zeile angeordnet und horizontal nicht verändert."),
-            ("fix_locpin_ml_line", "Mitte 1. Zeile-links", "Shapes werden vertikal zentriert von dem Text in der ersten Zeile und horizontal links angeordnet."),
-            ("fix_locpin_mm_line", "Mitte 1. Zeile-mitte", "Shapes werden vertikal zentriert von dem Text in der ersten Zeile und horizontal zentriert angeordnet."),
-            ("fix_locpin_mr_line", "Mitte 1. Zeile-rechts", "Shapes werden vertikal zentriert von dem Text in der ersten Zeile und horizontal rechts angeordnet."),
+            ("fix_locpin_m_line", "Mitte 1. Zeile", "Shapes are arranged vertically centered on the text in the first line and not changed horizontally."),
+            ("fix_locpin_ml_line", "Mitte 1. Zeile-links", "Shapes are arranged vertically centered on the text in the first line and horizontally left."),
+            ("fix_locpin_mm_line", "Mitte 1. Zeile-mitte", "Shapes are arranged vertically centered on the text in the first line and horizontally centered."),
+            ("fix_locpin_mr_line", "Mitte 1. Zeile-rechts", "Shapes are arranged vertically centered on the text in the first line and horizontally right."),
 
-            ("fix_locpin_m", "Mitte", "Shapes werden vertikal zentriert angeordnet und horizontal nicht verändert."),
-            ("fix_locpin_ml", "Mitte-links", "Shapes werden mittig links angeordnet."),
-            ("fix_locpin_mm", "Mitte-mitte", "Shapes werden mittig zentriert angeordnet."),
-            ("fix_locpin_mr", "Mitte-rechts", "Shapes werden mittig rechts angeordnet."),
+            ("fix_locpin_m", "Mitte", "Shapes are arranged vertically centered and not changed horizontally."),
+            ("fix_locpin_ml", "Mitte-links", "Shapes are arranged center-left."),
+            ("fix_locpin_mm", "Mitte-mitte", "Shapes are arranged centered."),
+            ("fix_locpin_mr", "Mitte-rechts", "Shapes are arranged center-right."),
 
-            ("fix_locpin_b", "Unten", "Shapes werden unten angeordnet und horizontal nicht verändert."),
-            ("fix_locpin_bl", "Unten-links", "Shapes werden unten links angeordnet."),
-            ("fix_locpin_bm", "Unten-mitte", "Shapes werden unten zentriert angeordnet."),
-            ("fix_locpin_br", "Unten-rechts", "Shapes werden unten rechts angeordnet."), 
+            ("fix_locpin_b", "Unten", "Shapes are arranged at the bottom and not changed horizontally."),
+            ("fix_locpin_bl", "Unten-links", "Shapes are arranged bottom-left."),
+            ("fix_locpin_bm", "Unten-mitte", "Shapes are arranged bottom-center."),
+            ("fix_locpin_br", "Unten-rechts", "Shapes are arranged bottom-right."), 
         ]
         
         my_kwargs = dict(

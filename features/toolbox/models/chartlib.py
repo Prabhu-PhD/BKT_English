@@ -353,7 +353,7 @@ class ChartLib(object):
         # buttons
         menu.children += [
             bkt.ribbon.MenuSeparator(title="Settings"),
-            bkt.ribbon.Button(label="Selected shapes to favorites" if self.copy_shapes_setting else "Markierte Folien zu Favoriten",
+            bkt.ribbon.Button(label="Selected shapes to favorites" if self.copy_shapes_setting else "Selected slides to favorites",
                 screentip="Add current selection to the favorites library",
                 supertip="Add selected slides/shapes to the default favorites library. If this library does not yet exist, it is created.",
                 image_mso='AddToFavorites',
@@ -506,12 +506,12 @@ class ChartLib(object):
         )
     
     def update_thumbnails_and_reset_cashes(self, context):
-        if not bkt.message.confirmation("Dieser Vorgang kann bei vielen Libraries einige Minuten dauern und nicht abgebrochen werden. Trotzdem fortsetzen?", "BKT: ChartLib"):
+        if not bkt.message.confirmation("With many libraries this operation can take several minutes and cannot be canceled. Continue anyway?", "BKT: ChartLib"):
             return
 
         def loop(worker):
             try:
-                worker.ReportProgress(1, "Lade Ordner und Dateien")
+                worker.ReportProgress(1, "Loading folders and files")
                 #get all galleries
                 galleries = []
                 for file in self.library_files:
@@ -545,7 +545,7 @@ class ChartLib(object):
                     
                     gal.reset_gallery_items(context)
                     current += 1.0
-                worker.ReportProgress(100, "Cache löschen")
+                worker.ReportProgress(100, "Clearing cache")
             except:
                 logging.exception("Error on refreshing chartlib libraries")
             finally:
@@ -658,10 +658,10 @@ class ChartLib(object):
     def delete_library(self, current_control):
         lib = current_control["tag"]
         if lib.startswith("fav|"):
-            bkt.message.warning("Der Favoriten-Ordner selbst kann nicht gelöscht werden, aber einzelne Dateien können manuell gelöscht werden. Der Ordner wird nun im Explorer geöffnet.")
+            bkt.message.warning("The favorites folder itself cannot be deleted, but individual files can be deleted manually. The folder will now open in Explorer.")
             return self._open_in_explorer(lib[4:])
         elif lib.startswith("ff|"):
-            if not bkt.message.confirmation("Soll der Feature-Folder aus der Library entfernt werden?\n\nAchtung: Feature-Folder können gleichzeitig ChartLibs, ShapeLibs und Funktionen enthalten, die dann nicht mehr verfügbar sind!"):
+            if not bkt.message.confirmation("Should the feature folder be removed from the library?\n\nWarning: feature folders can contain ChartLibs, ShapeLibs and functions at the same time, which will then no longer be available!"):
                 return
             lib = lib[3:]
             conf = "feature_folders"
@@ -676,7 +676,7 @@ class ChartLib(object):
             else:
                 conf = "chart_library_folders"
         else:
-            bkt.message.error("Library nicht gefunden!")
+            bkt.message.error("Library not found!")
         
         logging.info("Deleting library %s from config", lib)
 
@@ -692,7 +692,7 @@ class ChartLib(object):
     def add_files_to_config(self):
         fileDialog = Forms.OpenFileDialog()
         fileDialog.Filter = "PowerPoint (*.pptx;*.ppt;*.pot;*.potx)|*.pptx;*.ppt;*.pot;*.potx|Alle Dateien (*.*)|*.*"
-        fileDialog.Title = "PowerPoint-Dateien auswählen"
+        fileDialog.Title = "Select PowerPoint files"
         fileDialog.Multiselect = True
 
         if not fileDialog.ShowDialog() == Forms.DialogResult.OK:
@@ -709,24 +709,24 @@ class ChartLib(object):
                 to_add.append(file)
 
         if skipped:
-            bkt.message.warning("Einige Dateien sind bereits in der Library und werden nicht hinzugefügt!")
+            bkt.message.warning("Some files are already in the library and will not be added!")
 
         self._add_files_to_config(to_add)
 
     def add_folders_to_config(self):
         dialog = Forms.FolderBrowserDialog()
-        dialog.Description = "Bitte einen Ordner mit PowerPoint-Dateien auswählen"
+        dialog.Description = "Please select a folder with PowerPoint files"
         
         if dialog.ShowDialog() == Forms.DialogResult.OK:
             folder = dialog.SelectedPath
             if os.path.isdir(folder):
                 if self._check_folder_in_lib(folder):
-                    return bkt.message.warning("Der Ordner (oder ein Überordner) ist bereits in der Library und wird nicht hinzugefügt!")
+                    return bkt.message.warning("The folder (or a parent folder) is already in the library and will not be added!")
 
                 self._add_folder_to_config(folder)
     
     def create_new_library(self, context):
-        name = bkt.ui.show_user_input("Bitte Name der Library eingeben:", "Name", "BKT Lib")
+        name = bkt.ui.show_user_input("Please enter the library name:", "Name", "BKT Lib")
         if not name:
             return
         
@@ -735,7 +735,7 @@ class ChartLib(object):
         
         file = os.path.join(self.fav_folder, name)
         if os.path.isfile(file):
-            return bkt.message.error("Library existiert schon!")
+            return bkt.message.error("Library already exists!")
         
         # self._add_files_to_config([file])
 
@@ -765,7 +765,7 @@ class ChartLib(object):
     def add_slides_to_lib(cls, context, presentation):
         for slide in context.slides:
             if not slide.shapes.hastitle:
-                bkt.message.warning("Folien ohne Titel können nicht hinzugefügt werden!", "BKT: ChartLib")
+                bkt.message.warning("Slides without a title cannot be added!", "BKT: ChartLib")
                 return
         #Copy slides
         context.selection.SlideRange.Copy()
@@ -823,7 +823,7 @@ class ChartLib(object):
     def add_chart_to_lib(self, context):
         '''Add current shape/slide to favorites library'''
         if self.copy_shapes_setting and len(context.shapes) == 0:
-            return bkt.message("Keine Shapes ausgewählt!")
+            return bkt.message("No shapes selected!")
 
         #Open default file
         #FIXME: read list of files in fav folder and ask user to select file
@@ -840,7 +840,7 @@ class ChartLib(object):
             pres.Save()
         except:
             logging.exception("error adding chart to library")
-            bkt.message.error("Fehler beim Hinzufügen zur Library", "BKT: ChartLib")
+            bkt.message.error("Error adding to the library", "BKT: ChartLib")
             # bkt.helpers.exception_as_message()
         finally:
             pres.Saved = True
@@ -1211,10 +1211,10 @@ class ChartLibGallery(bkt.ribbon.Gallery):
         #return "Shape aus Shape-library einfügen"
         if self.copy_shapes:
             # copy shapes / shape library
-            return "Shape »" + self.labels[index]  + "« aus Shape-Library einfügen"
+            return "Shape »" + self.labels[index]  + "« insert from shape library"
         else:
             # copy slide / slide library
-            return "Folie »" + self.labels[index]  + "« aus Chart-Library einfügen"
+            return "Slide »" + self.labels[index]  + "« insert from chart library"
         
     # def get_item_supertip(self, index):
     #     return "tbd"
@@ -1238,7 +1238,7 @@ class ChartLibGallery(bkt.ribbon.Gallery):
                 tag=self.filename,
                 on_action=bkt.Callback(ChartLib.open_file, context=True, current_control=True)
             ),
-            bkt.ribbon.Button(label="Add selected shapes to file" if self.copy_shapes else "Markierte Folien zu Datei hinzufügen",
+            bkt.ribbon.Button(label="Add selected shapes to file" if self.copy_shapes else "Add selected slides to file",
                 image_mso='AddToFavorites',
                 on_action=bkt.Callback(self.add_charts, context=True)
             ),
@@ -1251,7 +1251,7 @@ class ChartLibGallery(bkt.ribbon.Gallery):
     def add_charts(self, context):
         '''Add selected slides/shapes to this gallery'''
         if self.copy_shapes and len(context.shapes) == 0:
-            return bkt.message("Keine Shapes ausgewählt!")
+            return bkt.message("No shapes selected!")
 
         with open_presentation_without_window(context, self.filename, False) as presentation:
             try:
@@ -1263,7 +1263,7 @@ class ChartLibGallery(bkt.ribbon.Gallery):
                 presentation.Save()
             except:
                 logging.exception("error adding chart to library")
-                bkt.message.error("Fehler beim Hinzufügen zur Library", "BKT: ChartLib")
+                bkt.message.error("Error adding to the library", "BKT: ChartLib")
 
         #Regenerate thumbnails
         self.reset_gallery_items(context)

@@ -220,7 +220,7 @@ class ViewModel(bkt.ui.ViewModelAsbtract):
     @notify_property
     def search_description(self):
         num_searchslides = self.num_searchslides
-        return "Suche auf {} Folien von Foliennummer {} bis {}.".format(num_searchslides, self.cur_slideno, self.cur_slideno+num_searchslides)
+        return "Search on {} slides from slide number {} to {}.".format(num_searchslides, self.cur_slideno, self.cur_slideno+num_searchslides)
     
     @notify_property
     def okay_enabled(self):

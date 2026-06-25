@@ -38,7 +38,7 @@ class ScaleShapes(object):
                 logging.exception("scale shape failed")
         
         if shapes_exluded_message:
-            bkt.message.warning("Shape-Skalierung wird nicht unterstützt für Diagramme, Tabellen und Smart-Arts!")
+            bkt.message.warning("Shape scaling is not supported for charts, tables and SmartArt!")
     
     @classmethod
     def scale_shape(cls, shape, value, scale, settings):

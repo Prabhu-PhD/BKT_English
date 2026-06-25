@@ -22,7 +22,7 @@ class RepositionGallery(pplib.PositionGallery):
         )
     
     def get_item_supertip(self, index):
-        return 'Positioniere die ausgewählten Shapes an der angezeigten Position/Größe.\nNur Position ändern [STRG],\nNur Größe ändern [SHIFT]'
+        return 'Position the selected shapes at the displayed position/size.\nChange position only [CTRL],\nChange size only [SHIFT]'
     
     def on_position_change(self, target_frame, selection, shapes):
         if len(shapes) > 1:

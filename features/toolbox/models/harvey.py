@@ -453,7 +453,7 @@ class HarveyBalls(HarveyBallsUi):
 
     def get_item_screentip(self, index):
         label = self.harvey_labels[index]
-        return "Füllstand eines Harvey-Balls ändern auf %s" % label if label else ""
+        return "Change the fill level of a Harvey ball to %s" % label if label else ""
     
     def get_harvey_item_image(self, index):
         return self.get_harvey_image(self.harvey_buttons[index][0]*1. / self.harvey_buttons[index][1] )

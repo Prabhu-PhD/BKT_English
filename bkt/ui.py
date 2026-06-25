@@ -188,7 +188,7 @@ class UserInputBox(object):
         confirmation.Click += self.confirmation
 
         cancel = F.Button()
-        cancel.Text = "Abbrechen"
+        cancel.Text = "Cancel"
         cancel.Width = confirmation.Width
         cancel.Height = confirmation.Height
         cancel.Click += self.cancel

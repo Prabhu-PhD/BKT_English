@@ -131,7 +131,7 @@ class TrackerShape(object):
         LinkedShapes.link_shapes(all_trackers_list)
 
         #ask to distribute trackers
-        if bkt.message.confirmation("Tracker auf Folgefolien verteilen?"):
+        if bkt.message.confirmation("Distribute tracker over following slides?"):
             cls.distributeTracker(all_trackers_list, context)
             all_trackers_list[0].select()
 
@@ -354,10 +354,10 @@ class NumberShapesGallery(bkt.ribbon.Gallery):
     #     return "%s" % getattr(NumberedShapes, 'label_' + item['label'])[index%self.columns]
     
     def get_item_screentip(self, index):
-        return "Nummerierungs-Shapes einfügen"
+        return "Insert numbering shapes"
         
     def get_item_supertip(self, index):
-        return "Fügt für jedes markierte Shape ein Nummerierungs-Shape ein. Nummerierung und Styling entsprechend der Auswahl. Markierte Shapes werden entsprechend der Selektions-Reihenfolge durchnummeriert."
+        return "Inserts a numbering shape for each selected shape. Numbering and styling according to the selection. Selected shapes are numbered according to the selection order."
     
     def get_item_image(self, index):
         ''' creates an item image with numberd shape according to settings in the specified item '''
@@ -533,7 +533,7 @@ class ShapeConnectors(object):
                 shape1 = cls._find_shape_by_id(slide, tags["shape1_id"])
                 shape2 = cls._find_shape_by_id(slide, tags["shape2_id"])
             except IndexError:
-                bkt.message.error("Fehler: Verbundenes Shape nicht gefunden!")
+                bkt.message.error("Error: linked shape not found!")
             else:
                 cls._set_connector_shape_nodes(shape, shape1, shape2, tags["shape1_side"], tags["shape2_side"])
 
@@ -836,11 +836,11 @@ class ShapeTableGallery(bkt.ribbon.Gallery):
         return "%sx%s" % (n_cols, n_rows)
     
     def get_item_screentip(self, index):
-        return "Shape-Tabelle einfügen"
+        return "Insert shape table"
         
     def get_item_supertip(self, index):
         n_rows, n_cols = self.get_rows_cols_from_index(index)
-        return "Füge eine %sx%s-Tabelle aus Standard-Shapes ein (%s Spalten, %s Zeilen)" % (n_cols, n_rows, n_cols, n_rows)
+        return "Insert a %sx%s table of standard shapes (%s columns, %s rows)" % (n_cols, n_rows, n_cols, n_rows)
     
     def get_item_image(self, index):
         ''' creates an item image with numberd shape according to settings in the specified item '''
@@ -1006,7 +1006,7 @@ class ShapesMore(object):
                         cls._hide_saved_shapes(context, shape_ids)
                         del tags["shape_ids"]
                     except KeyError:
-                        bkt.message.warning("Es sind keine Shapes zum Verstecken ausgewählt, es wurden keine vormals versteckten Shapes gefunden, und es gibt keine versteckten Shapes!")
+                        bkt.message.warning("No shapes are selected to hide, no previously hidden shapes were found, and there are no hidden shapes!")
             
             else:
                 cls._hide_selected_shapes(context, sel_shapes)
@@ -1039,7 +1039,7 @@ class ShapesMore(object):
     @classmethod
     def texts_to_shapes(cls, shapes):
         if pplib.shape_is_group_child(shapes[0]) or any(shape.type == pplib.MsoShapeType["msoGroup"] for shape in shapes):
-            bkt.message.error("PowerPoint unterstützt diese Funktion leider nicht für Gruppen.")
+            bkt.message.error("PowerPoint unfortunately does not support this function for groups.")
             return
         all_shapes = []
         for shape in shapes:
@@ -1074,7 +1074,7 @@ class PlaceholderConverter(object):
                     logging.exception("placeholder conversion failed")
 
         if not success:
-            bkt.message.warning("Aktuelle Auswahl enthält keine Platzhalter!")
+            bkt.message.warning("The current selection contains no placeholders!")
 
 
 

@@ -165,51 +165,51 @@ class SelectionOps(object):
 
     @staticmethod
     def invert_selection(application, sheet, selection):
-        rng_input = application.InputBox("Gesamtbereich auswählen:", "Bereich auswählen", sheet.UsedRange.AddressLocal(), type=8) #text, title, default, type=8 (cell range)
+        rng_input = application.InputBox("Select entire range:", "Select range", sheet.UsedRange.AddressLocal(), type=8) #text, title, default, type=8 (cell range)
         if not rng_input:
             return
         cells_selected = xllib.range_substract(rng_input, selection)
         if not cells_selected:
-            bkt.message("Leerer Bereich, keine Zellen zum Markieren!")
+            bkt.message("Empty range, no cells to select!")
         else:
             cells_selected.Select()
 
     @staticmethod
     def deselect(application, selection):
-        rng_input = application.InputBox("Bereich zum Deselektieren auswählen:", "Bereich auswählen", type=8) #text, title, default, type=8 (cell range)
+        rng_input = application.InputBox("Select range to deselect:", "Select range", type=8) #text, title, default, type=8 (cell range)
         if not rng_input:
             return
         cells_selected = xllib.range_substract(selection, rng_input)
         if not cells_selected:
-            bkt.message("Leerer Bereich, keine Zellen zum Markieren!")
+            bkt.message("Empty range, no cells to select!")
         else:
             cells_selected.Select()
 
     @staticmethod
     def select_intersection(application, selection):
-        rng_input = application.InputBox("Bereich auswählen:", "Bereich auswählen", type=8) #text, title, default, type=8 (cell range)
+        rng_input = application.InputBox("Select range:", "Select range", type=8) #text, title, default, type=8 (cell range)
         if not rng_input:
             return
         cells_selected = application.Intersect(selection, rng_input)
         if not cells_selected:
-            bkt.message("Leerer Bereich, keine Zellen zum Markieren!")
+            bkt.message("Empty range, no cells to select!")
         else:
             cells_selected.Select()
 
     @staticmethod
     def select_union(application, selection):
-        rng_input = application.InputBox("Bereich auswählen:", "Bereich auswählen", type=8) #text, title, default, type=8 (cell range)
+        rng_input = application.InputBox("Select range:", "Select range", type=8) #text, title, default, type=8 (cell range)
         if not rng_input:
             return
         cells_selected = application.Union(selection, rng_input)
         if not cells_selected:
-            bkt.message("Leerer Bereich, keine Zellen zum Markieren!")
+            bkt.message("Empty range, no cells to select!")
         else:
             cells_selected.Select()
 
     @staticmethod
     def select_symdiff(application, selection):
-        rng_input = application.InputBox("Bereich auswählen:", "Bereich auswählen", type=8) #text, title, default, type=8 (cell range)
+        rng_input = application.InputBox("Select range:", "Select range", type=8) #text, title, default, type=8 (cell range)
         if not rng_input:
             return
         cells_selected = application.Union(selection, rng_input)
@@ -217,7 +217,7 @@ class SelectionOps(object):
         if intersection:
             cells_selected = xllib.range_substract(cells_selected, intersection)
         if not cells_selected:
-            bkt.message("Leerer Bereich, keine Zellen zum Markieren!")
+            bkt.message("Empty range, no cells to select!")
         else:
             cells_selected.Select()
 
@@ -242,7 +242,7 @@ class SelectionOps(object):
 
     @staticmethod
     def selection_address(application, selection):
-        rng_input = application.InputBox("Bereich zum Selektieren auswählen:", "Selektierte Adresse", default=selection.AddressLocal(False, False), type=8) #text, title, default, type=8 (cell range)
+        rng_input = application.InputBox("Select range to select:", "Selektierte Adresse", default=selection.AddressLocal(False, False), type=8) #text, title, default, type=8 (cell range)
         if not rng_input:
             return
         rng_input.Select()

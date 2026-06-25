@@ -1,0 +1,73 @@
+0	 Workbook(s) could not be consolidated, or only partially.
+1	 Sheet(s) could not be created.
+2	 Sheet(s) could not be consolidated.
+3	 Sheet(s) could not be copied.
+4	 Sheet(s) could not be renamed.
+5	 Sheet(s) could not be reordered.
+6	 sheets shown.
+7	 cell(s) not applicable.
+8	 — use as the Unicode font.
+9	 selected slides — save as
+10	 — change
+11	Insert %s checkbox with %s
+12	Insert %s %s-point Likert scale
+14	ABORTED: file list of {} files created {} for folder: {}
+15	Cancel
+16	Cancel after this folder...
+17	Insert the address of the current selection into the input.\nWith the Shift key the sheet name is prepended.
+18	Agenda not found!
+19	Agenda main slide not found!\nThe agenda can be restored from the first agenda slide, but hidden sub-items will be lost.\n\nContinue updating the agenda?
+20	Agenda update failed for unknown reasons.
+21	Update failed for unknown reasons.
+22	Update available to v{}.\nInstalled version is v{}.\n\n{}
+23	The current selection contains no placeholders!
+24	The current slide is not an agenda slide!
+25	Insert the current result into the active cell.
+26	Current aspect ratio: -
+27	Current aspect ratio: {:.4n}
+28	Insert all
+29	No. of sheets
+30	No. of folders
+31	Save worksheets separately
+32	Consolidate worksheets
+33	Keep workbooks open
+34	The workbook structure is protected.
+35	Check for new version
+36	Due to PowerPoint bugs, there are the following limitations:\n- Text outline can be set but not removed again\n- Color gradients are only supported for the background (not lines)\n- Color gradients (esp. angle) are not always transferred correctly\n- Shadows are not applied to groups\n- Cap/join type of lines are not set
+37	Bullet point (triangle)
+38	Bullet point (circle)
+39	Bullet point (square)
+40	Bullet point (dash)
+41	Save selected slide as
+42	An ellipsis is three closely-spaced dots. It usually indicates an omission of part of the text.
+43	BKT LIST SHEETS
+44	BKT LIST DATA VALIDATION
+45	BKT: Linked shapes
+46	Select range
+47	Select range:
+48	Select range to deselect:
+49	Enter the range to consolidate, i.e. a named range or an address like A1:D5. [UsedRange] automatically determines the used range per worksheet. [Selection] takes the range selected in each sheet.
+50	Select range to select:
+51	Skip existing formulas and do not change them
+52	Select image files
+53	Please enter a file name for the new style gallery
+54	Please enter the library name:
+55	Please enter the file name. Allowed placeholders: [counter], [workbook], [sheet]
+56	Please select a BKT feature folder
+57	Please select a folder with PowerPoint files
+58	Please save the workbook first!
+59	Show sheets
+60	Box check mark
+61	Clearing cache
+62	DUPLICATE SKIPPED
+63	Binding the application callbacks failed. Please close all dialogs.\n\nTry again?
+64	The item in the clipboard does not support this paste type.
+65	The shape was linked with %s shapes.
+66	The existing image will be replaced. Continue?
+67	File list with {} files created {} for folder: {}
+68	The favorites folder itself cannot be deleted, but individual files can be deleted manually. The folder will now open in Explorer.
+69	The folder (or a parent folder) is already in the library and will not be added!
+70	German (Austria)
+71	BKT is open-source licensed under the {} license.
+72	The link ID has been stored. Next, you can select more shapes and link them to this shape via "Add selected shapes to the link".
+73	The selected shapes are fitted into the area as a table.

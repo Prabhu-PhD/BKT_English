@@ -113,7 +113,7 @@ class CustomFormat(object):
     @staticmethod
     def from_shape(shape, style_setting=None):
         if shape.type not in CF_TYPES:
-            bkt.message("Shape-Typ wird nicht unterstützt!", "BKT: Custom Styles")
+            bkt.message("Shape type is not supported!", "BKT: Custom Styles")
             return
 
         ### BUTTON SETTINGS
@@ -291,7 +291,7 @@ class CustomFormatCatalog(object):
             
             if not isinstance(catalog, OrderedDict) or catalog.get("version", 0) != CF_VERSION:
                 #pre-migration TODO: create backup-file
-                bkt.message("Einmalige Migration des Katalogformats erforderlich. Diese wird nun gestartet.", "BKT: Custom Styles")
+                bkt.message("A one-time migration of the gallery format is required. It will now start.", "BKT: Custom Styles")
 
                 try:
                     #migration from old list-format
@@ -308,7 +308,7 @@ class CustomFormatCatalog(object):
                     
                     #migration successful, save file to config later
                     catalog_migration = True
-                    bkt.message("Migration erfolgreich. Katalog wird nun geladen.", "BKT: Custom Styles")
+                    bkt.message("Migration successful. The gallery will now load.", "BKT: Custom Styles")
                 except:
                     bkt.message.error("Migration fehlgeschlagen!", "BKT: Custom Styles")
                     logging.exception("Customformats: Migration failed")
@@ -502,7 +502,7 @@ class CustomFormatCatalog(object):
 
     @classmethod
     def get_supertip(cls, index):
-        default = "Diesen Style auf aktuelle Auswahl anwenden.{}\n\nMit SHIFT-Taste: Neues Shape im gewählten Format anlegen."
+        default = "Apply this style to the current selection.{}\n\nWith the SHIFT key: create a new shape in the chosen format."
         styles = "\n" + "\n".join( ["{}: {}".format(k, "ja" if v else "nein") for k,v in cls.custom_styles[index].style_setting.items()] )
         return default.format(styles)
 
@@ -569,7 +569,7 @@ class CustomQuickEdit(object):
     def create_new_style(filename=None):
         import time
         if not filename:
-            filename = bkt.ui.show_user_input("Bitte Dateiname für neuen Style-Katalog eingeben", "Dateiname eingeben", "styles_"+time.strftime("%Y%m%d%H%M"))
+            filename = bkt.ui.show_user_input("Please enter a file name for the new style gallery", "Dateiname eingeben", "styles_"+time.strftime("%Y%m%d%H%M"))
             if filename is None:
                 return
         if not filename.endswith(".json"):
@@ -709,4 +709,4 @@ class CustomQuickEdit(object):
 
     @staticmethod
     def show_caveats():
-        bkt.message("Aufgrund von PowerPoint-Bugs gibt es folgende Einschränkungen:\r\n- Textkontur kann gesetzt, aber nicht wieder entfernt werden\r\n- Farb-Verläufe werden nur für Hintergrund (nicht Linien) unterstützt\r\n- Farb-Verläufe (insb. Winkel) werden nicht immer richtig übertragen\r\n- Schatten werden nicht auf Gruppen angewendet\r\n- Abschluss-/Anschlusstyp bei Linien werden nicht gesetzt", "BKT: Custom Styles")
+        bkt.message("Due to PowerPoint bugs, there are the following limitations:\n- Text outline can be set but not removed again\n- Color gradients are only supported for the background (not lines)\n- Color gradients (esp. angle) are not always transferred correctly\n- Shadows are not applied to groups\n- Cap/join type of lines are not set", "BKT: Custom Styles")

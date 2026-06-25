@@ -282,9 +282,9 @@ class AspectRatio(object):
     @classmethod
     def get_aspect_ratio_label(cls, context):
         try:
-            return "Aktuelles Seiteverhältnis: {:.4n}".format(cls.get_aspect_ratio(context.shape))
+            return "Current aspect ratio: {:.4n}".format(cls.get_aspect_ratio(context.shape))
         except:
-            return "Aktuelles Seiteverhältnis: -"
+            return "Current aspect ratio: -"
 
     @staticmethod
     def lock_aspect_ratio(shapes, pressed):

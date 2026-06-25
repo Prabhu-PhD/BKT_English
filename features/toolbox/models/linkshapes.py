@@ -153,12 +153,12 @@ class LinkedShapes(object):
                 break
 
         if shapes_found == 0:
-            bkt.message("Keine vergleichbaren Shapes gefunden.", "BKT: Verknüpfte Shapes")
+            bkt.message("Keine vergleichbaren Shapes gefunden.", "BKT: Linked shapes")
         elif dry_run:
-            bkt.message("Es wurden %s Shapes zum verknüpfen gefunden." % shapes_found, "BKT: Verknüpfte Shapes")
+            bkt.message("Found %s shapes to link." % shapes_found, "BKT: Linked shapes")
         else:
             cls._add_tags(shape, link_guid)
-            bkt.message("Das Shape wurde mit %s Shapes verknüpft." % shapes_found, "BKT: Verknüpfte Shapes")
+            bkt.message("The shape was linked with %s shapes." % shapes_found, "BKT: Linked shapes")
             context.ribbon.ActivateTab('bkt_context_tab_linkshapes')
 
     @classmethod
@@ -234,7 +234,7 @@ class LinkedShapes(object):
     @classmethod
     def extend_link_shapes(cls, shape):
         cls.current_link_guid = shape.Tags.Item(BKT_LINK_UUID)
-        bkt.message('Die Link-ID wurde zwischengespeichert. Als nächstes können weitere Shapes ausgewählt und über "Ausgewählte Shapes zur Verknüpfung hinzufügen" mit diesem Shape verknüpft werden.', "BKT: Verknüpfte Shapes")
+        bkt.message('The link ID has been stored. Next, you can select more shapes and link them to this shape via "Add selected shapes to the link".', "BKT: Linked shapes")
 
     @classmethod
     def add_to_link_shapes(cls, shapes):
@@ -246,7 +246,7 @@ class LinkedShapes(object):
     @classmethod
     def count_link_shapes(cls, shape, context):
         count_shapes = sum(1 for _ in cls._iterate_linked_shapes(shape, context))
-        bkt.message("Es wurden %s verknüpfte Shapes gefunden." % count_shapes, "BKT: Verknüpfte Shapes")
+        bkt.message("Found %s linked shapes." % count_shapes, "BKT: Linked shapes")
     
     @classmethod
     def select_link_shapes_slides(cls, shape, context):
@@ -257,7 +257,7 @@ class LinkedShapes(object):
         # context.presentation.Slides.Range(Array[int](slides)).Select()
         slides = set(s.Parent.SlideNumber for s in cls._iterate_linked_shapes(shape, context))
         slides.add(shape.Parent.SlideNumber)
-        bkt.message('Folgende Folie enthalten verknüpfte Shapes: %s' % ", ".join(str(i) for i in sorted(slides)), "BKT: Verknüpfte Shapes")
+        bkt.message('The following slides contain linked shapes: %s' % ", ".join(str(i) for i in sorted(slides)), "BKT: Linked shapes")
 
     @classmethod
     def get_linked_shape(cls, shape, context, goto=1, delta=True): #goto=1 -> next linked shape, delta=False -> goto interpreted as absolute index
@@ -392,7 +392,7 @@ class LinkedShapes(object):
             if master_shape.Type == pplib.MsoShapeType["msoGroup"]:
                 mode = "group"
             else:
-                bkt.message.warning("Formatierung angleichen für gewähltes Shape nicht verfügbar.", "BKT: Verknüpfte Shapes")
+                bkt.message.warning("Match formatting is not available for the selected shape.", "BKT: Linked shapes")
                 return
 
         run_once = False
@@ -456,7 +456,7 @@ class LinkedShapes(object):
         elif master_shape.Type == pplib.MsoShapeType["msoGroup"]:
             mode = "group"
         else:
-            bkt.message.warning("Text angleichen für gewähltes Shape nicht verfügbar.", "BKT: Verknüpfte Shapes")
+            bkt.message.warning("Match text is not available for the selected shape.", "BKT: Linked shapes")
             return
 
         run_once = False

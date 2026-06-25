@@ -233,7 +233,7 @@ class ToolboxAgenda(object):
         
         except:
             logging.exception("Agenda: agenda textbox creation failed")
-            bkt.message.error("Fehler beim Anlegen der Agenda-Textbox", title="Toolbox: Agenda")
+            bkt.message.error("Error creating the agenda text box", title="Toolbox: Agenda")
             # bkt.helpers.exception_as_message()
     
     
@@ -293,7 +293,7 @@ class ToolboxAgenda(object):
         
         master_textbox = cls.get_agenda_textbox_on_slide(slide)
         if master_textbox is None:
-            bkt.message.warning("Keine Agenda-Textbox auf der Folie vorhanden.", title="Toolbox: Agenda")
+            bkt.message.warning("No agenda text box present on the slide.", title="Toolbox: Agenda")
             return
         
         cls.create_agenda_from_textbox(master_textbox, context)
@@ -336,7 +336,7 @@ class ToolboxAgenda(object):
         elif cls.can_create_agenda_from_slide(slide):
             cls.create_agenda_from_slide(slide, context)
         else:
-            bkt.message.warning("Agenda nicht gefunden!", title="Toolbox: Agenda")
+            bkt.message.warning("Agenda not found!", title="Toolbox: Agenda")
 
 
     
@@ -359,11 +359,11 @@ class ToolboxAgenda(object):
             if cls.is_agenda_slide(slide):
                 # find all agenda-slides in presentation
                 # bkt.message(slide.Tags.Item(TOOLBOX_AGENDA))
-                bkt.message.warning("Keine Agenda-Einstellungen auf aktueller Folie. Durchsuche alle Agenda-Folien.", title="Toolbox: Agenda")
+                bkt.message.warning("No agenda settings on the current slide. Searching all agenda slides.", title="Toolbox: Agenda")
                 return cls.find_all_agenda_slides(slide.parent)
             else:
                 # slide is not an agenda slide
-                bkt.message.warning("Aktuelle Folie ist keine Agenda-Folie!", title="Toolbox: Agenda")
+                bkt.message.warning("The current slide is not an agenda slide!", title="Toolbox: Agenda")
                 return []
         
         return cls.find_agenda_items_by_id(slide.parent, settings[SETTING_AGENDA_ID])
@@ -540,7 +540,7 @@ class ToolboxAgenda(object):
         settings = cls.get_agenda_settings(agenda_slide)
         if settings.get(SETTING_HIDE_SUBITEMS, False) == True:
             return_value = bkt.message.confirmation(
-                "Agenda-Hauptseite nicht gefunden!\nAgenda kann aus der ersten Agendafolie wiederhergestellt werden, aber versteckte Unterpunkte gehen dabei verloren.\n\nAgenda-Aktualisierung forsetzen?",
+                "Agenda main slide not found!\nThe agenda can be restored from the first agenda slide, but hidden sub-items will be lost.\n\nContinue updating the agenda?",
                 "Toolbox: Agenda", 
                 bkt.MessageBox.MB_YESNO,
                 bkt.MessageBox.WARNING)
@@ -793,7 +793,7 @@ class ToolboxAgenda(object):
             
         except:
             logging.exception("Agenda: agenda update failed")
-            bkt.message.error("Fehler beim Aktualisieren der Agenda", title="Toolbox: Agenda")
+            bkt.message.error("Error updating the agenda", title="Toolbox: Agenda")
             # bkt.helpers.exception_as_message()
 
 
@@ -834,7 +834,7 @@ class ToolboxAgenda(object):
                 sections.AddBeforeSlide(slide.SlideIndex, section_title)
         except:
             logging.exception("Agenda: agenda sections update failed")
-            bkt.message.error("Fehler beim Aktualisieren der Agenda-Abschnitte", title="Toolbox: Agenda")
+            bkt.message.error("Error updating the agenda sections", title="Toolbox: Agenda")
             # bkt.helpers.exception_as_message()
 
 
@@ -851,7 +851,7 @@ class ToolboxAgenda(object):
                 sections.Delete(slide.SectionIndex, False)
         except:
             logging.exception("Agenda: agenda sections delete failed")
-            bkt.message.error("Fehler beim Löschen der Agenda-Abschnitte", title="Toolbox: Agenda")
+            bkt.message.error("Error deleting the agenda sections", title="Toolbox: Agenda")
             # bkt.helpers.exception_as_message()
         
     
@@ -887,7 +887,7 @@ class ToolboxAgenda(object):
         
         except:
             logging.exception("Agenda: agenda hyperlink update failed")
-            bkt.message.error("Fehler beim Aktualisieren der Agenda-Hyperlinks", title="Toolbox: Agenda")
+            bkt.message.error("Error updating the agenda hyperlinks", title="Toolbox: Agenda")
             # bkt.helpers.exception_as_message()
 
 
@@ -1109,7 +1109,7 @@ class ToolboxAgenda(object):
         try:
             agenda_slides = cls.find_agenda_items_by_slide(slide)
             if len(agenda_slides) == 0:
-                if bkt.message.confirmation("Keine zugehörigen Agenda-Folien gefunden!\nStattdessen alle Agenda-Folie der Präsentation löschen?", title="Toolbox: Agenda"):
+                if bkt.message.confirmation("No associated agenda slides found!\nDelete all agenda slides in the presentation instead?", title="Toolbox: Agenda"):
                     cls.remove_agendas_from_presentation(presentation, True)
                 return
 
@@ -1124,7 +1124,7 @@ class ToolboxAgenda(object):
                     item.slide.Delete()
         except:
             logging.exception("Agenda: agenda deletion failed")
-            bkt.message.error("Fehler beim Löschen der Agenda", title="Toolbox: Agenda")
+            bkt.message.error("Error deleting the agenda", title="Toolbox: Agenda")
             # bkt.helpers.exception_as_message()
     
     

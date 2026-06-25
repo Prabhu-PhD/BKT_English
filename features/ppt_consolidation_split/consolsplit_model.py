@@ -25,7 +25,7 @@ class ConsolSplit(object):
         fileDialog.Filter = "PowerPoint (*.pptx;*.pptm;*.ppt)|*.pptx;*.pptm;*.ppt|Alle Dateien (*.*)|*.*"
         if presentation.Path:
             fileDialog.InitialDirectory = presentation.Path + '\\'
-        fileDialog.Title = "PowerPoint-Dateien auswählen"
+        fileDialog.Title = "Select PowerPoint files"
         fileDialog.Multiselect = True
 
         # fileDialog = application.FileDialog(3) #msoFileDialogFilePicker
@@ -101,7 +101,7 @@ class ConsolSplit(object):
         fileDialog = Forms.FolderBrowserDialog()
         if presentation.Path:
             fileDialog.SelectedPath = presentation.Path + '\\'
-        fileDialog.Description = "Ordner zum Speichern auswählen"
+        fileDialog.Description = "Select folder for saving"
         
         # fileDialog = application.FileDialog(4) #msoFileDialogFolderPicker
         # if presentation.Path:
@@ -146,9 +146,9 @@ class ConsolSplit(object):
 
             worker.ReportProgress(100)
             if worker.CancellationPending:
-                bkt.message.warning("Export durch Nutzer abgebrochen", "BKT: Export")
+                bkt.message.warning("Export canceled by user", "BKT: Export")
             elif error:
-                bkt.message.warning("Export mit Fehlern abgeschlossen", "BKT: Export")
+                bkt.message.warning("Export completed with errors", "BKT: Export")
             else:
                 bkt.message("Export erfolgreich abgeschlossen", "BKT: Export")
             os.startfile(folder)
@@ -165,7 +165,7 @@ class ConsolSplit(object):
         presentation = context.presentation
 
         if presentation.SectionProperties.count < 2:
-            bkt.message.warning("Präsentation hat weniger als 2 Abschnitte!", "BKT: Export")
+            bkt.message.warning("The presentation has fewer than 2 sections!", "BKT: Export")
             return
 
         # save_pattern = "[sectionnumber]_[sectiontitle]"
@@ -173,7 +173,7 @@ class ConsolSplit(object):
         fileDialog = Forms.FolderBrowserDialog()
         if presentation.Path:
             fileDialog.SelectedPath = presentation.Path + '\\'
-        fileDialog.Description = "Ordner zum Speichern auswählen"
+        fileDialog.Description = "Select folder for saving"
         
         # fileDialog = application.FileDialog(4) #msoFileDialogFolderPicker
         # if presentation.Path:
@@ -225,9 +225,9 @@ class ConsolSplit(object):
 
             worker.ReportProgress(100)
             if worker.CancellationPending:
-                bkt.message.warning("Export durch Nutzer abgebrochen", "BKT: Export")
+                bkt.message.warning("Export canceled by user", "BKT: Export")
             elif error:
-                bkt.message.warning("Export mit Fehlern abgeschlossen", "BKT: Export")
+                bkt.message.warning("Export completed with errors", "BKT: Export")
             else:
                 bkt.message("Export erfolgreich abgeschlossen", "BKT: Export")
             os.startfile(folder)
@@ -277,7 +277,7 @@ class FolderToSlides(object):
         fileDialog = Forms.FolderBrowserDialog()
         if context.presentation.Path:
             fileDialog.SelectedPath = context.presentation.Path + '\\'
-        fileDialog.Description = "Ordner mit Bildern auswählen"
+        fileDialog.Description = "Select folder with images"
 
         # fileDialog = context.app.FileDialog(4) #msoFileDialogFolderPicker
         # if context.presentation.Path:
@@ -307,7 +307,7 @@ class FolderToSlides(object):
         fileDialog.Filter = "Bilder ("+_picfilestypes+")|"+_picfilestypes+"|SVG (*.svg)|*.svg|Alle Dateien (*.*)|*.*"
         if context.presentation.Path:
             fileDialog.InitialDirectory = context.presentation.Path + '\\'
-        fileDialog.Title = "Bild-Dateien auswählen"
+        fileDialog.Title = "Select image files"
         fileDialog.Multiselect = True
 
         # fileDialog = context.app.FileDialog(3) #msoFileDialogFilePicker

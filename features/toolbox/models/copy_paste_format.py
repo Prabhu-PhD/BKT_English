@@ -29,7 +29,7 @@ class SlidesMore(object):
             slide.Shapes.PasteSpecial(Link=True)
         except:
             logging.exception("error pasting as link")
-            bkt.message.error("Das Element in der Zwischenablage unterstützt diesen Einfügetyp nicht.")
+            bkt.message.error("The item in the clipboard does not support this paste type.")
     
     @classmethod
     def paste_and_replace_shapes(cls, slide, shapes, keep_size=True):
@@ -119,7 +119,7 @@ class SlidesMore(object):
         # logging.debug("high quality slide export at: %s"%tmpfile)
 
         if not os.path.exists(tmpfile):
-            bkt.message.error("Folien-Export in hoher Qualität ist fehlgeschlagen!")
+            bkt.message.error("High-quality slide export failed!")
             return
 
         data = Forms.DataObject()
@@ -156,7 +156,7 @@ class FormatPainter(object):
         try:
             master.PickUp()
         except ValueError:
-            return bkt.message.error("Funktion für ausgewähltes Shape nicht verfügar!")
+            return bkt.message.error("Function not available for the selected shape!")
         for shape in shapes:
             try:
                 shape.Apply()

@@ -158,7 +158,7 @@ class SendOrSaveSlides(object):
             oApp = Outlook.ApplicationClass()
             oMail = oApp.CreateItem(Outlook.OlItemType.olMailItem)
         except:
-            bkt.message.error("Fehler beim Erstellen der E-Mail in Outlook!")
+            bkt.message.error("Error creating the e-mail in Outlook!")
             return
 
         # Betreff
@@ -258,9 +258,9 @@ class SlideMenu(object):
             fileDialog.InitialDirectory = presentation.Path + '\\'
         fileDialog.FileName = SendOrSaveSlides.initial_file_name(presentation, slides)
         if len(slides) == 1:
-            fileDialog.Title = "Ausgewählte Folie speichern unter"
+            fileDialog.Title = "Save selected slide as"
         else:
-            fileDialog.Title = str(len(slides)) + " ausgewählte Folien speichern unter"
+            fileDialog.Title = str(len(slides)) + " selected slides — save as"
 
         # Bei Abbruch ist Rückgabewert leer
         if not fileDialog.ShowDialog() == Forms.DialogResult.OK:
@@ -332,7 +332,7 @@ class SlideMenu(object):
         fileDialog.Filter = "PowerPoint (*.pptx;*.ppt;*.pot;*.potx)|*.pptx;*.ppt;*.pot;*.potx|Alle Dateien (*.*)|*.*"
         if context.presentation.Path:
             fileDialog.InitialDirectory = context.presentation.Path + '\\'
-        fileDialog.Title = "PowerPoint-Datei auswählen"
+        fileDialog.Title = "Select PowerPoint file"
 
         if not fileDialog.ShowDialog() == F.DialogResult.OK:
             return
@@ -452,7 +452,7 @@ class SlideMenu(object):
         
         unused_designs_len = len(unused_designs)
         if unused_designs_len > 0:
-            if bkt.message.confirmation("Es wurden {} Folienlayouts gelöscht und {} Folienmaster sind nun ohne Layout. Sollen diese gelöscht werden?".format(deleted_layouts, unused_designs_len)):
+            if bkt.message.confirmation("{} slide layouts were deleted and {} slide masters are now without a layout. Should these be deleted?".format(deleted_layouts, unused_designs_len)):
                 for design in unused_designs:
                     try:
                         name = design.name
@@ -460,9 +460,9 @@ class SlideMenu(object):
                         logging.info("deleted design %s", name)
                     except:
                         logging.exception("error deleting design")
-            bkt.message("Leere Folienmaster wurden gelöscht!")
+            bkt.message("Empty slide masters were deleted!")
         else:
-            bkt.message("Es wurden {} Folienlayouts gelöscht!".format(deleted_layouts))
+            bkt.message("{} slide layouts were deleted!".format(deleted_layouts))
     
     @classmethod
     def remove_unused_designs(cls, context, silent=True):
@@ -488,7 +488,7 @@ class SlideMenu(object):
                 logging.exception("error deleting design")
         
         if not silent:
-            bkt.message("Es wurden {} Folienmaster gelöscht!".format(deleted_designs))
+            bkt.message("{} slide masters were deleted!".format(deleted_designs))
 
     @classmethod
     def break_links(cls, context):
@@ -530,7 +530,7 @@ class SlideMenu(object):
         from os import startfile
         path = context.presentation.path
         if not path:
-            return bkt.message.error("Präsentation ist nicht gespeichert!")
+            return bkt.message.error("The presentation is not saved!")
         if os.path.isdir(path):
             startfile(path)
 
