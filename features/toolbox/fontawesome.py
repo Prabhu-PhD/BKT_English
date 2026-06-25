@@ -109,11 +109,11 @@ class Fontawesome(object):
         # cls.update_search_index(cls.search_engine)
         
         def loop(worker):
-            worker.ReportProgress(1, "Lege Suchindex an...")
+            worker.ReportProgress(1, "Creating search index...")
             try:
                 cls.update_search_index(cls.search_engine)
             except Exception as e:
-                bkt.message.error("Fehler beim erstellen des Suchindex: {}".format(e), "BKT: Font-Icons")
+                bkt.message.error("Error creating the search index: {}".format(e), "BKT: Font-Icons")
 
         bkt.ui.execute_with_progress_bar(loop, context, indeterminate=True)
         return cls.search_engine
@@ -314,15 +314,15 @@ class FontSearch(object):
         if cls.search_results is not None:
             return "{} Icons".format(len(cls.search_results))
         else:
-            return "Ergebnis"
+            return "Result"
     
     @classmethod
     def get_unicode_settings_menu(cls):
         def _unicode_font_button(font):
             return bkt.ribbon.ToggleButton(
                 label=font,
-                screentip="Unicode font"+font,
-                supertip=font+" als Unicode-Schriftart verwenden.",
+                screentip="Unicode font "+font,
+                supertip="Use "+font+" as the Unicode font.",
                 on_toggle_action=bkt.Callback(lambda pressed: cls.set_rendering_font(font)),
                 get_pressed=bkt.Callback(lambda: cls.search_fallback_font == font),
                 get_image=bkt.Callback(lambda:bkt.ribbon.SymbolsGallery.create_symbol_image(font, "\u2194"))

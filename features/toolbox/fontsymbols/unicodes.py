@@ -6,17 +6,29 @@ import logging
 def update_search_index(search_engine):
     search_writer = search_engine.writer()
 
-    # Generate a list of all Unicode character names
+    # Index only the genuinely useful "symbol" code points -- NOT the entire
+    # Unicode plane. The original code iterated range(0x30000) (~196k code
+    # points, incl. all CJK/Hangul/historic scripts), producing a ~150k-entry
+    # search index. That bloat caused the icon search to crash PowerPoint with a
+    # native stack overflow (exception 0xc00000fd). These blocks cover the
+    # symbols people actually want: Latin/Greek/Cyrillic letters, punctuation,
+    # currency, arrows, math, technical, geometric shapes, misc symbols,
+    # dingbats, and emoji/pictographs.
+    symbol_ranges = (
+        (0x0000, 0x3000),    # incl. arrows, math, symbols, dingbats, etc.
+        (0x1F000, 0x1FB00),  # emoji & pictographs
+    )
+
+    # Generate a list of useful Unicode character names
     unicode_characters = []
-    for codepoint in range(0x30000):  # relevant Unicode range
-        try:
-            char_name = unicodedata.name(chr(codepoint))
-            unicode_characters.append((char_name, codepoint))
-        except ValueError:
-            # Skip characters without a name
-            continue
-        # except Exception as e:
-        #     logging.error(f"Error processing codepoint {codepoint}: {e}")
+    for start, end in symbol_ranges:
+        for codepoint in range(start, end):
+            try:
+                char_name = unicodedata.name(chr(codepoint))
+                unicode_characters.append((char_name, codepoint))
+            except ValueError:
+                # Skip characters without a name
+                continue
     
     logging.info(f"Found {len(unicode_characters)} Unicode characters.")
 
